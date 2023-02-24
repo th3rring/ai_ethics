@@ -1,0 +1,250 @@
+[2023-02-23 00:29:58,696] [INFO]: INITIALIZING URS.
+[2023-02-23 00:29:58,696] [INFO]: 
+[2023-02-23 00:29:59,538] [INFO]: RATE LIMIT DISPLAYED.
+[2023-02-23 00:29:59,539] [INFO]: Remaining requests: 592.0
+[2023-02-23 00:29:59,539] [INFO]: Used requests: 8
+[2023-02-23 00:29:59,539] [INFO]: 
+[2023-02-23 00:29:59,540] [INFO]: Successfully logged in as u/mastrwarning.
+[2023-02-23 00:29:59,540] [INFO]: 
+[2023-02-23 00:29:59,540] [INFO]: RUNNING SUBREDDIT SCRAPER.
+[2023-02-23 00:29:59,540] [INFO]: 
+[2023-02-23 00:29:59,541] [INFO]: Validating Subreddit(s)...
+[2023-02-23 00:29:59,541] [INFO]: 
+[2023-02-23 00:30:05,929] [INFO]: Scraping r/MachineLearning for 400 New results...
+[2023-02-23 00:30:05,929] [INFO]: 
+[2023-02-23 00:30:05,929] [INFO]: SUBREDDIT SCRAPER FINISHED IN 6.39 SECONDS.
+[2023-02-23 00:30:05,930] [INFO]: 
+[2023-02-23 00:30:05,930] [INFO]: Exporting to JSON.
+[2023-02-23 00:30:05,930] [INFO]: 
+[2023-02-23 00:30:05,930] [INFO]: URS COMPLETED IN 7.23 SECONDS.
+
+[2023-02-23 17:56:52,707] [INFO]: INITIALIZING URS.
+[2023-02-23 17:56:52,707] [INFO]: 
+[2023-02-23 17:56:53,734] [INFO]: RATE LIMIT DISPLAYED.
+[2023-02-23 17:56:53,735] [INFO]: Remaining requests: 599.0
+[2023-02-23 17:56:53,735] [INFO]: Used requests: 1
+[2023-02-23 17:56:53,735] [INFO]: 
+[2023-02-23 17:56:53,735] [INFO]: Successfully logged in as u/mastrwarning.
+[2023-02-23 17:56:53,735] [INFO]: 
+[2023-02-23 17:56:53,735] [INFO]: RUNNING COMMENTS SCRAPER.
+[2023-02-23 17:56:53,736] [INFO]: 
+[2023-02-23 17:56:53,737] [INFO]: Validating submission(s)...
+[2023-02-23 17:56:53,737] [INFO]: 
+[2023-02-23 17:56:54,406] [INFO]: Exporting 8 comments in structured format.
+[2023-02-23 17:56:54,408] [INFO]: Processing 8 results from Reddit post https://www.reddit.com/r/MachineLearning/comments/11853g5/r_chatgpt_for_robotics_design_principles_and/...
+[2023-02-23 17:56:54,408] [INFO]: 
+[2023-02-23 17:56:54,408] [INFO]: COMMENTS SCRAPER FINISHED IN 0.67 SECONDS.
+[2023-02-23 17:56:54,408] [INFO]: 
+[2023-02-23 17:56:54,408] [INFO]: Exporting to JSON.
+[2023-02-23 17:56:54,408] [INFO]: 
+[2023-02-23 17:56:54,409] [INFO]: URS COMPLETED IN 1.70 SECONDS.
+
+[2023-02-23 17:56:55,234] [INFO]: INITIALIZING URS.
+[2023-02-23 17:56:55,234] [INFO]: 
+[2023-02-23 17:56:56,146] [INFO]: RATE LIMIT DISPLAYED.
+[2023-02-23 17:56:56,146] [INFO]: Remaining requests: 596.0
+[2023-02-23 17:56:56,146] [INFO]: Used requests: 4
+[2023-02-23 17:56:56,147] [INFO]: 
+[2023-02-23 17:56:56,147] [INFO]: Successfully logged in as u/mastrwarning.
+[2023-02-23 17:56:56,147] [INFO]: 
+[2023-02-23 17:56:56,148] [INFO]: RUNNING COMMENTS SCRAPER.
+[2023-02-23 17:56:56,148] [INFO]: 
+[2023-02-23 17:56:56,149] [INFO]: Validating submission(s)...
+[2023-02-23 17:56:56,149] [INFO]: 
+[2023-02-23 17:56:56,810] [INFO]: Exporting all comments in structured format.
+[2023-02-23 17:56:56,811] [INFO]: Processing all comments from Reddit post https://www.reddit.com/r/MachineLearning/comments/1150eof/d_how_likely_is_chatgpt_to_be_weaponized_as_an/...
+[2023-02-23 17:56:56,811] [INFO]: 
+[2023-02-23 17:56:56,812] [INFO]: COMMENTS SCRAPER FINISHED IN 0.66 SECONDS.
+[2023-02-23 17:56:56,812] [INFO]: 
+[2023-02-23 17:56:56,812] [INFO]: Exporting to JSON.
+[2023-02-23 17:56:56,812] [INFO]: 
+[2023-02-23 17:56:56,812] [INFO]: URS COMPLETED IN 1.58 SECONDS.
+
+[2023-02-23 17:56:57,620] [INFO]: INITIALIZING URS.
+[2023-02-23 17:56:57,620] [INFO]: 
+[2023-02-23 17:56:58,637] [INFO]: RATE LIMIT DISPLAYED.
+[2023-02-23 17:56:58,637] [INFO]: Remaining requests: 593.0
+[2023-02-23 17:56:58,637] [INFO]: Used requests: 7
+[2023-02-23 17:56:58,637] [INFO]: 
+[2023-02-23 17:56:58,638] [INFO]: Successfully logged in as u/mastrwarning.
+[2023-02-23 17:56:58,638] [INFO]: 
+[2023-02-23 17:56:58,639] [INFO]: RUNNING COMMENTS SCRAPER.
+[2023-02-23 17:56:58,639] [INFO]: 
+[2023-02-23 17:56:58,640] [INFO]: Validating submission(s)...
+[2023-02-23 17:56:58,641] [INFO]: 
+[2023-02-23 17:56:59,638] [INFO]: Exporting 12 comments in structured format.
+[2023-02-23 17:56:59,642] [INFO]: Processing 12 results from Reddit post https://www.reddit.com/r/MachineLearning/comments/10w9dsz/discussion_is_chatgpt_andor_openai_really_the/...
+[2023-02-23 17:56:59,642] [INFO]: 
+[2023-02-23 17:56:59,642] [INFO]: COMMENTS SCRAPER FINISHED IN 1.00 SECONDS.
+[2023-02-23 17:56:59,642] [INFO]: 
+[2023-02-23 17:56:59,642] [INFO]: Exporting to JSON.
+[2023-02-23 17:56:59,642] [INFO]: 
+[2023-02-23 17:56:59,642] [INFO]: URS COMPLETED IN 2.02 SECONDS.
+
+[2023-02-23 17:57:00,457] [INFO]: INITIALIZING URS.
+[2023-02-23 17:57:00,457] [INFO]: 
+[2023-02-23 17:57:01,547] [INFO]: RATE LIMIT DISPLAYED.
+[2023-02-23 17:57:01,547] [INFO]: Remaining requests: 590.0
+[2023-02-23 17:57:01,547] [INFO]: Used requests: 10
+[2023-02-23 17:57:01,547] [INFO]: 
+[2023-02-23 17:57:01,549] [INFO]: Successfully logged in as u/mastrwarning.
+[2023-02-23 17:57:01,549] [INFO]: 
+[2023-02-23 17:57:01,549] [INFO]: RUNNING COMMENTS SCRAPER.
+[2023-02-23 17:57:01,549] [INFO]: 
+[2023-02-23 17:57:01,550] [INFO]: Validating submission(s)...
+[2023-02-23 17:57:01,550] [INFO]: 
+[2023-02-23 17:57:02,708] [INFO]: Exporting 40 comments in structured format.
+[2023-02-23 17:57:02,716] [INFO]: Processing 40 results from Reddit post https://www.reddit.com/r/MachineLearning/comments/10vnkj8/p_chatgpt_without_size_limits_upload_any_pdf_and/...
+[2023-02-23 17:57:02,716] [INFO]: 
+[2023-02-23 17:57:02,716] [INFO]: COMMENTS SCRAPER FINISHED IN 1.17 SECONDS.
+[2023-02-23 17:57:02,716] [INFO]: 
+[2023-02-23 17:57:02,716] [INFO]: Exporting to JSON.
+[2023-02-23 17:57:02,716] [INFO]: 
+[2023-02-23 17:57:02,716] [INFO]: URS COMPLETED IN 2.26 SECONDS.
+
+[2023-02-23 17:57:03,537] [INFO]: INITIALIZING URS.
+[2023-02-23 17:57:03,538] [INFO]: 
+[2023-02-23 17:57:04,456] [INFO]: RATE LIMIT DISPLAYED.
+[2023-02-23 17:57:04,456] [INFO]: Remaining requests: 587.0
+[2023-02-23 17:57:04,457] [INFO]: Used requests: 13
+[2023-02-23 17:57:04,457] [INFO]: 
+[2023-02-23 17:57:04,458] [INFO]: Successfully logged in as u/mastrwarning.
+[2023-02-23 17:57:04,458] [INFO]: 
+[2023-02-23 17:57:04,458] [INFO]: RUNNING COMMENTS SCRAPER.
+[2023-02-23 17:57:04,458] [INFO]: 
+[2023-02-23 17:57:04,459] [INFO]: Validating submission(s)...
+[2023-02-23 17:57:04,459] [INFO]: 
+[2023-02-23 17:57:06,363] [INFO]: Exporting 67 comments in structured format.
+[2023-02-23 17:57:06,377] [INFO]: Processing 67 results from Reddit post https://www.reddit.com/r/MachineLearning/comments/10uw974/d_yann_lecun_seems_to_be_very_petty_against/...
+[2023-02-23 17:57:06,377] [INFO]: 
+[2023-02-23 17:57:06,377] [INFO]: COMMENTS SCRAPER FINISHED IN 1.92 SECONDS.
+[2023-02-23 17:57:06,377] [INFO]: 
+[2023-02-23 17:57:06,377] [INFO]: Exporting to JSON.
+[2023-02-23 17:57:06,377] [INFO]: 
+[2023-02-23 17:57:06,378] [INFO]: URS COMPLETED IN 2.84 SECONDS.
+
+[2023-02-23 17:57:07,167] [INFO]: INITIALIZING URS.
+[2023-02-23 17:57:07,167] [INFO]: 
+[2023-02-23 17:57:08,095] [INFO]: RATE LIMIT DISPLAYED.
+[2023-02-23 17:57:08,095] [INFO]: Remaining requests: 584.0
+[2023-02-23 17:57:08,095] [INFO]: Used requests: 16
+[2023-02-23 17:57:08,095] [INFO]: 
+[2023-02-23 17:57:08,097] [INFO]: Successfully logged in as u/mastrwarning.
+[2023-02-23 17:57:08,097] [INFO]: 
+[2023-02-23 17:57:08,097] [INFO]: RUNNING COMMENTS SCRAPER.
+[2023-02-23 17:57:08,097] [INFO]: 
+[2023-02-23 17:57:08,098] [INFO]: Validating submission(s)...
+[2023-02-23 17:57:08,098] [INFO]: 
+[2023-02-23 17:57:09,254] [INFO]: Exporting 3 comments in structured format.
+[2023-02-23 17:57:09,257] [INFO]: Processing 3 results from Reddit post https://www.reddit.com/r/MachineLearning/comments/10uw0n9/d_open_source_implementation_of_dialogue_llms/...
+[2023-02-23 17:57:09,257] [INFO]: 
+[2023-02-23 17:57:09,257] [INFO]: COMMENTS SCRAPER FINISHED IN 1.16 SECONDS.
+[2023-02-23 17:57:09,257] [INFO]: 
+[2023-02-23 17:57:09,257] [INFO]: Exporting to JSON.
+[2023-02-23 17:57:09,257] [INFO]: 
+[2023-02-23 17:57:09,257] [INFO]: URS COMPLETED IN 2.09 SECONDS.
+
+[2023-02-23 17:57:10,082] [INFO]: INITIALIZING URS.
+[2023-02-23 17:57:10,082] [INFO]: 
+[2023-02-23 17:57:10,992] [INFO]: RATE LIMIT DISPLAYED.
+[2023-02-23 17:57:10,993] [INFO]: Remaining requests: 581.0
+[2023-02-23 17:57:10,993] [INFO]: Used requests: 19
+[2023-02-23 17:57:10,993] [INFO]: 
+[2023-02-23 17:57:10,994] [INFO]: Successfully logged in as u/mastrwarning.
+[2023-02-23 17:57:10,995] [INFO]: 
+[2023-02-23 17:57:10,995] [INFO]: RUNNING COMMENTS SCRAPER.
+[2023-02-23 17:57:10,995] [INFO]: 
+[2023-02-23 17:57:10,995] [INFO]: Validating submission(s)...
+[2023-02-23 17:57:10,995] [INFO]: 
+[2023-02-23 17:57:11,164] [WARNING]: Failed to validate the following submissions:
+[2023-02-23 17:57:11,164] [WARNING]: ['https://v.redd.it/ipqpfw7vzega1']
+[2023-02-23 17:57:11,164] [WARNING]: Skipping.
+[2023-02-23 17:57:11,164] [INFO]: 
+[2023-02-23 17:57:11,164] [CRITICAL]: ALL SUBMISSIONS FAILED VALIDATION.
+[2023-02-23 17:57:11,164] [CRITICAL]: NO SUBMISSIONS LEFT TO SCRAPE.
+[2023-02-23 17:57:11,164] [CRITICAL]: ABORTING URS.
+
+[2023-02-23 17:57:11,969] [INFO]: INITIALIZING URS.
+[2023-02-23 17:57:11,969] [INFO]: 
+[2023-02-23 17:57:12,810] [INFO]: RATE LIMIT DISPLAYED.
+[2023-02-23 17:57:12,810] [INFO]: Remaining requests: 579.0
+[2023-02-23 17:57:12,810] [INFO]: Used requests: 21
+[2023-02-23 17:57:12,810] [INFO]: 
+[2023-02-23 17:57:12,811] [INFO]: Successfully logged in as u/mastrwarning.
+[2023-02-23 17:57:12,811] [INFO]: 
+[2023-02-23 17:57:12,811] [INFO]: RUNNING COMMENTS SCRAPER.
+[2023-02-23 17:57:12,811] [INFO]: 
+[2023-02-23 17:57:12,812] [INFO]: Validating submission(s)...
+[2023-02-23 17:57:12,812] [INFO]: 
+[2023-02-23 17:57:14,393] [INFO]: Exporting 50 comments in structured format.
+[2023-02-23 17:57:14,403] [INFO]: Processing 50 results from Reddit post https://www.reddit.com/r/MachineLearning/comments/10r7k0h/n_openai_starts_selling_subscriptions_to_its/...
+[2023-02-23 17:57:14,403] [INFO]: 
+[2023-02-23 17:57:14,403] [INFO]: COMMENTS SCRAPER FINISHED IN 1.59 SECONDS.
+[2023-02-23 17:57:14,403] [INFO]: 
+[2023-02-23 17:57:14,403] [INFO]: Exporting to JSON.
+[2023-02-23 17:57:14,403] [INFO]: 
+[2023-02-23 17:57:14,403] [INFO]: URS COMPLETED IN 2.43 SECONDS.
+
+[2023-02-23 17:57:15,265] [INFO]: INITIALIZING URS.
+[2023-02-23 17:57:15,265] [INFO]: 
+[2023-02-23 17:57:16,185] [INFO]: RATE LIMIT DISPLAYED.
+[2023-02-23 17:57:16,185] [INFO]: Remaining requests: 575.0
+[2023-02-23 17:57:16,185] [INFO]: Used requests: 25
+[2023-02-23 17:57:16,185] [INFO]: 
+[2023-02-23 17:57:16,186] [INFO]: Successfully logged in as u/mastrwarning.
+[2023-02-23 17:57:16,186] [INFO]: 
+[2023-02-23 17:57:16,186] [INFO]: RUNNING COMMENTS SCRAPER.
+[2023-02-23 17:57:16,186] [INFO]: 
+[2023-02-23 17:57:16,187] [INFO]: Validating submission(s)...
+[2023-02-23 17:57:16,187] [INFO]: 
+[2023-02-23 17:57:17,353] [INFO]: Exporting 15 comments in structured format.
+[2023-02-23 17:57:17,357] [INFO]: Processing 15 results from Reddit post https://www.reddit.com/r/MachineLearning/comments/10oyllu/discussion_chatgpt_and_language_understanding/...
+[2023-02-23 17:57:17,358] [INFO]: 
+[2023-02-23 17:57:17,358] [INFO]: COMMENTS SCRAPER FINISHED IN 1.17 SECONDS.
+[2023-02-23 17:57:17,358] [INFO]: 
+[2023-02-23 17:57:17,358] [INFO]: Exporting to JSON.
+[2023-02-23 17:57:17,358] [INFO]: 
+[2023-02-23 17:57:17,358] [INFO]: URS COMPLETED IN 2.09 SECONDS.
+
+[2023-02-23 17:57:18,196] [INFO]: INITIALIZING URS.
+[2023-02-23 17:57:18,196] [INFO]: 
+[2023-02-23 17:57:19,029] [INFO]: RATE LIMIT DISPLAYED.
+[2023-02-23 17:57:19,029] [INFO]: Remaining requests: 572.0
+[2023-02-23 17:57:19,030] [INFO]: Used requests: 28
+[2023-02-23 17:57:19,030] [INFO]: 
+[2023-02-23 17:57:19,031] [INFO]: Successfully logged in as u/mastrwarning.
+[2023-02-23 17:57:19,031] [INFO]: 
+[2023-02-23 17:57:19,031] [INFO]: RUNNING COMMENTS SCRAPER.
+[2023-02-23 17:57:19,031] [INFO]: 
+[2023-02-23 17:57:19,032] [INFO]: Validating submission(s)...
+[2023-02-23 17:57:19,032] [INFO]: 
+[2023-02-23 17:57:19,946] [INFO]: Exporting 16 comments in structured format.
+[2023-02-23 17:57:19,950] [INFO]: Processing 16 results from Reddit post https://www.reddit.com/r/MachineLearning/comments/10nfquy/p_launching_my_first_ever_opensource_project_and/...
+[2023-02-23 17:57:19,950] [INFO]: 
+[2023-02-23 17:57:19,950] [INFO]: COMMENTS SCRAPER FINISHED IN 0.92 SECONDS.
+[2023-02-23 17:57:19,950] [INFO]: 
+[2023-02-23 17:57:19,950] [INFO]: Exporting to JSON.
+[2023-02-23 17:57:19,950] [INFO]: 
+[2023-02-23 17:57:19,950] [INFO]: URS COMPLETED IN 1.75 SECONDS.
+
+[2023-02-23 17:57:20,784] [INFO]: INITIALIZING URS.
+[2023-02-23 17:57:20,784] [INFO]: 
+[2023-02-23 17:57:21,786] [INFO]: RATE LIMIT DISPLAYED.
+[2023-02-23 17:57:21,786] [INFO]: Remaining requests: 569.0
+[2023-02-23 17:57:21,786] [INFO]: Used requests: 31
+[2023-02-23 17:57:21,786] [INFO]: 
+[2023-02-23 17:57:21,787] [INFO]: Successfully logged in as u/mastrwarning.
+[2023-02-23 17:57:21,787] [INFO]: 
+[2023-02-23 17:57:21,787] [INFO]: RUNNING COMMENTS SCRAPER.
+[2023-02-23 17:57:21,787] [INFO]: 
+[2023-02-23 17:57:21,788] [INFO]: Validating submission(s)...
+[2023-02-23 17:57:21,788] [INFO]: 
+[2023-02-23 17:57:22,532] [INFO]: Exporting 5 comments in structured format.
+[2023-02-23 17:57:22,539] [INFO]: Processing 5 results from Reddit post https://www.reddit.com/r/MachineLearning/comments/10l9tet/r_blogpost_on_comparing_chatbots_like_chatgpt/...
+[2023-02-23 17:57:22,539] [INFO]: 
+[2023-02-23 17:57:22,539] [INFO]: COMMENTS SCRAPER FINISHED IN 0.75 SECONDS.
+[2023-02-23 17:57:22,539] [INFO]: 
+[2023-02-23 17:57:22,540] [INFO]: Exporting to JSON.
+[2023-02-23 17:57:22,540] [INFO]: 
+[2023-02-23 17:57:22,540] [INFO]: URS COMPLETED IN 1.76 SECONDS.
+

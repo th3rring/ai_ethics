@@ -1,0 +1,30 @@
+{
+    "scrape_settings": {
+        "n_results": "all",
+        "style": "structured",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1150eof/d_how_likely_is_chatgpt_to_be_weaponized_as_an/"
+    },
+    "data": {
+        "submission_metadata": {
+            "author": "u/zcwang0702",
+            "created_utc": "02-17-2023 17:06:30",
+            "distinguished": null,
+            "edited": false,
+            "is_original_content": false,
+            "is_self": true,
+            "link_flair_text": null,
+            "locked": false,
+            "nsfw": false,
+            "num_comments": 0,
+            "permalink": "/r/MachineLearning/comments/1150eof/d_how_likely_is_chatgpt_to_be_weaponized_as_an/",
+            "score": 2,
+            "selftext": "[https://arxiv.org/abs/2301.04246](https://arxiv.org/abs/2301.04246)",
+            "spoiler": false,
+            "stickied": false,
+            "subreddit": "MachineLearning",
+            "title": "[D] How likely is ChatGPT to be weaponized as an information pollution tool? What are the possible implementation paths? How to prevent possible attacks?",
+            "upvote_ratio": 1.0
+        },
+        "comments": []
+    }
+}

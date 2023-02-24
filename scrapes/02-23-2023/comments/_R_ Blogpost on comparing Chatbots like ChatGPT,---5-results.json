@@ -1,0 +1,109 @@
+{
+    "scrape_settings": {
+        "n_results": 5,
+        "style": "structured",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/10l9tet/r_blogpost_on_comparing_chatbots_like_chatgpt/"
+    },
+    "data": {
+        "submission_metadata": {
+            "author": "u/emailnazneen",
+            "created_utc": "01-25-2023 15:10:17",
+            "distinguished": null,
+            "edited": "01-25-2023 15:36:31",
+            "is_original_content": false,
+            "is_self": true,
+            "link_flair_text": "Research",
+            "locked": false,
+            "nsfw": false,
+            "num_comments": 5,
+            "permalink": "/r/MachineLearning/comments/10l9tet/r_blogpost_on_comparing_chatbots_like_chatgpt/",
+            "score": 164,
+            "selftext": "[https://huggingface.co/blog/dialog-agents](https://huggingface.co/blog/dialog-agents) breaks down the techniques behind ChatGPT -- instruction fine-tuning, supervised fine-tuning, chain-of-thought, read teaming, and more.\n\nhttps://preview.redd.it/fv16fsemd9ea1.png?width=889&format=png&auto=webp&v=enabled&s=bc723c4cc71ec0457bb1c2ac07f5fa6e4a3a4ccf",
+            "spoiler": false,
+            "stickied": false,
+            "subreddit": "MachineLearning",
+            "title": "[R] Blogpost on comparing Chatbots like ChatGPT, LaMDA, Sparrow, BlenderBot 3, and Claude",
+            "upvote_ratio": 0.94
+        },
+        "comments": [
+            {
+                "author": "u/Parzival_007",
+                "body": "I have a question - what does internet access mean here ? Would the data be used to retrain ( which would  be really expensive ) or used as a checkup utility ?",
+                "body_html": "<div class=\"md\"><p>I have a question - what does internet access mean here ? Would the data be used to retrain ( which would  be really expensive ) or used as a checkup utility ?</p>\n</div>",
+                "created_utc": "01-25-2023 21:21:18",
+                "distinguished": null,
+                "edited": false,
+                "id": "j5wzj5j",
+                "is_submitter": false,
+                "link_id": "t3_10l9tet",
+                "parent_id": "t3_10l9tet",
+                "score": 12,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/wind_dude",
+                        "body": "I know in terms of blenderbot2 it takes the prompt creates a search query, when it doesn't know the appropriate response, combines the internet responses with the model response before the final output layer. It's opensource, so the documentation is all on the meta sites, https://parl.ai/projects/blenderbot2/. \n\nI would assume blenderbot3 is fairly similar, but I think it focuses more on IR from knowledgebases. But would give more performant responses and more control over what's retrieved.",
+                        "body_html": "<div class=\"md\"><p>I know in terms of blenderbot2 it takes the prompt creates a search query, when it doesn&#39;t know the appropriate response, combines the internet responses with the model response before the final output layer. It&#39;s opensource, so the documentation is all on the meta sites, <a href=\"https://parl.ai/projects/blenderbot2/\">https://parl.ai/projects/blenderbot2/</a>. </p>\n\n<p>I would assume blenderbot3 is fairly similar, but I think it focuses more on IR from knowledgebases. But would give more performant responses and more control over what&#39;s retrieved.</p>\n</div>",
+                        "created_utc": "01-25-2023 22:15:07",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j5x6bgh",
+                        "is_submitter": false,
+                        "link_id": "t3_10l9tet",
+                        "parent_id": "t1_j5wzj5j",
+                        "score": 30,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/Parzival_007",
+                                "body": "Thanks for the link, and your explanation. There remains a question - how to know if the model knows the answer is wrong, which brings us back to fact checking through  internet, Ig. However I think some of my answers lie in the paper linked in the link you provided. So I will give it a read first. \n\n&#x200B;\n\nI am linking the ArXiv link : [https://arxiv.org/abs/2107.07566](https://arxiv.org/abs/2107.07566).",
+                                "body_html": "<div class=\"md\"><p>Thanks for the link, and your explanation. There remains a question - how to know if the model knows the answer is wrong, which brings us back to fact checking through  internet, Ig. However I think some of my answers lie in the paper linked in the link you provided. So I will give it a read first. </p>\n\n<p>&#x200B;</p>\n\n<p>I am linking the ArXiv link : <a href=\"https://arxiv.org/abs/2107.07566\">https://arxiv.org/abs/2107.07566</a>.</p>\n</div>",
+                                "created_utc": "01-26-2023 04:19:44",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j5y1oxh",
+                                "is_submitter": false,
+                                "link_id": "t3_10l9tet",
+                                "parent_id": "t1_j5x6bgh",
+                                "score": 3,
+                                "stickied": false,
+                                "replies": [
+                                    {
+                                        "author": "u/wind_dude",
+                                        "body": "I should do the same, I actually haven't dug into that bit of the model. But if you run blenderbot2 and a search server it's not running a query on every prompt.",
+                                        "body_html": "<div class=\"md\"><p>I should do the same, I actually haven&#39;t dug into that bit of the model. But if you run blenderbot2 and a search server it&#39;s not running a query on every prompt.</p>\n</div>",
+                                        "created_utc": "01-26-2023 12:02:22",
+                                        "distinguished": null,
+                                        "edited": false,
+                                        "id": "j5zntck",
+                                        "is_submitter": false,
+                                        "link_id": "t3_10l9tet",
+                                        "parent_id": "t1_j5y1oxh",
+                                        "score": 2,
+                                        "stickied": false,
+                                        "replies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/MortgageShrubAI",
+                "body": "Thanks this helps i was wondering where to get all of this",
+                "body_html": "<div class=\"md\"><p>Thanks this helps i was wondering where to get all of this</p>\n</div>",
+                "created_utc": "01-25-2023 21:27:15",
+                "distinguished": null,
+                "edited": false,
+                "id": "j5x0bgi",
+                "is_submitter": false,
+                "link_id": "t3_10l9tet",
+                "parent_id": "t3_10l9tet",
+                "score": 1,
+                "stickied": false,
+                "replies": []
+            }
+        ]
+    }
+}

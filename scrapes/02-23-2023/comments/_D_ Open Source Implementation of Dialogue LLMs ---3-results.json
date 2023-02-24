@@ -1,0 +1,61 @@
+{
+    "scrape_settings": {
+        "n_results": 3,
+        "style": "structured",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/10uw0n9/d_open_source_implementation_of_dialogue_llms/"
+    },
+    "data": {
+        "submission_metadata": {
+            "author": "u/itisyeetime",
+            "created_utc": "02-05-2023 21:11:09",
+            "distinguished": null,
+            "edited": false,
+            "is_original_content": false,
+            "is_self": true,
+            "link_flair_text": "Discussion",
+            "locked": false,
+            "nsfw": false,
+            "num_comments": 3,
+            "permalink": "/r/MachineLearning/comments/10uw0n9/d_open_source_implementation_of_dialogue_llms/",
+            "score": 3,
+            "selftext": "Looking at the writeups on ChatGPT seems to indicate that part of improvements is the human feedback through reinforcement learning(a human \"ranks\" multiple generated response, and from the ranking, a reward is calculated). Interestingly enough, this important seems to have originated in InstructGPT. \n\nMy question is do any open source implementation exists of a InstructGPT or ChatGPT-like system where human feedback is used to help \"guide\" the training of a large language model?",
+            "spoiler": false,
+            "stickied": false,
+            "subreddit": "MachineLearning",
+            "title": "[D] Open Source Implementation of Dialogue LLMs like ChatGPT with Reinforcement Learning from Human Feedback?",
+            "upvote_ratio": 0.72
+        },
+        "comments": [
+            {
+                "author": "u/BlazeObsidian",
+                "body": "There is one that is work in progress that I am aware of:\n\n[https://github.com/LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant)",
+                "body_html": "<div class=\"md\"><p>There is one that is work in progress that I am aware of:</p>\n\n<p><a href=\"https://github.com/LAION-AI/Open-Assistant\">https://github.com/LAION-AI/Open-Assistant</a></p>\n</div>",
+                "created_utc": "02-06-2023 01:11:40",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7etjh9",
+                "is_submitter": false,
+                "link_id": "t3_10uw0n9",
+                "parent_id": "t3_10uw0n9",
+                "score": 12,
+                "stickied": false,
+                "replies": []
+            },
+            {
+                "author": "u/Cheap_Meeting",
+                "body": "There isn't much:  \n[https://github.com/CarperAI/trlx/](https://github.com/CarperAI/trlx/)\n\nand AllenAI released some stuff.",
+                "body_html": "<div class=\"md\"><p>There isn&#39;t much:<br/>\n<a href=\"https://github.com/CarperAI/trlx/\">https://github.com/CarperAI/trlx/</a></p>\n\n<p>and AllenAI released some stuff.</p>\n</div>",
+                "created_utc": "02-06-2023 09:17:31",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7g18oe",
+                "is_submitter": false,
+                "link_id": "t3_10uw0n9",
+                "parent_id": "t3_10uw0n9",
+                "score": 1,
+                "stickied": false,
+                "replies": []
+            }
+        ]
+    }
+}

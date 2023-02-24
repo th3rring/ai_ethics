@@ -1,0 +1,1039 @@
+{
+    "scrape_settings": {
+        "n_results": 67,
+        "style": "structured",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/10uw974/d_yann_lecun_seems_to_be_very_petty_against/"
+    },
+    "data": {
+        "submission_metadata": {
+            "author": "u/supersoldierboy94",
+            "created_utc": "02-05-2023 21:22:33",
+            "distinguished": null,
+            "edited": "02-06-2023 03:21:08",
+            "is_original_content": false,
+            "is_self": true,
+            "link_flair_text": "Discussion",
+            "locked": false,
+            "nsfw": false,
+            "num_comments": 67,
+            "permalink": "/r/MachineLearning/comments/10uw974/d_yann_lecun_seems_to_be_very_petty_against/",
+            "score": 19,
+            "selftext": "I get that he is one of the *godfathers* of AI. Mostly on the research side which immediately puts him very *hostile* against engineers. But I guess it is understandable given the fact that he works on Meta and Meta has faced a lot of backlash (for good and bad reasons), most especially with Galactica where their first rollout got so bad they had to close it immediately. It's also particularly funny given his political leaning that he is very spiteful of a company that uses *open-source knowledge* and builds on top of it.\n\nLately, his social media and statements are barrages against ChatGPT and LLM's. Sure, he may have a point here and there but his statements look very petty. Here are some examples\n\n*\"By releasing public demos that, as impressive & useful as they may be, have major flaws, established companies have less to gain & more to lose than cash-hungry startups.  If Google & Meta haven't released chatGPT-like things,* ***it's not because they can't****. It's because they won't.\"*\n\n*>* Except that anyone in the IT industry knows that big tech companies **cant release** something very fast because of politicking and bureaucracy in the system. It takes years to release something into public in big tech compared to startups.\n\n*\"Data on the intellectual contribution to AI from various research organizations. Some of organizations publish knowledge and open-source code for the entire world to use.* ***Others just consume it.\"***\n\n***>*** Then adds a graph where the big tech is obviously at the top of the race for most number of AI-related research papers (*without normalizing it to the number of researchers per org*)\n\n*\"It's nothing revolutionary, although that's the way it's perceived in the public,\" the computer scientist said. \"It's just that, you know, it's well put together, it's nicely done.\"*\n\n\\> Except that it is indeed revolutionary in terms of the ***applied research*** framework -- *adding on top of open-source, state-of-the-art research and quickly putting it into production for people to use.*\n\n*\"my point is that even* ***the engineering work isn't particularly difficult.*** *I bet that there will be half a dozen similar similar systems within 6 months. If that happens, it's because the underlying science has been around for a while, and the engineering is pretty straightforward.\"*\n\n\"*I'm trying to correct a \\*perception\\* by the public & the media who see chatGPT as this incredibly new, innovative, & unique technological breakthrough that is far ahead of everyone else.*  ***It's just not.\"***\n\n\"*One can regurgitate Python code without any understanding of reality.\"*\n\n\"*No one is saying LLMs are not useful. I have forcefully said so myself, following the short-lived release of FAIR's* ***Galactica****. People crucified it because it could generate nonsense.* ***ChatGPT*** *does the same thing. But again, that doesn't mean they are not useful.\"*\n\nHe also seems to undermine the rapid engineering work and MLOps that come with ChatGPT which is funny because Meta hasn't released any substantial product from their research that has seen the light of the day for a week. Also, GPT3 to ChatGPT in itself in a research perspective is a jump. Maybe not as incremental as what Lecun does every paper, but compared to an average paper in the field, it is.\n\nTo say that LLMs are not *intelligent* and it just *regurgitates Python code* probably haven't used CoPilot, for example. \n\nIt's a classic case of a researcher-engineer beef. And that a startup can profit from derivatives of research that big tech has published. OpenAI broke their perspective on the profit from research. Big tech tried to produce revolutionary research papers on a surplus but never puts them into production thinking that they are the only companies that could if they want to. Then once one company created a derivative of a large research work and profited from it, it baffled them. Although people could argue that Stable Diffusion did this first in the Generative Image Space.\n\nIt's one thing to correct misconceptions in the public. It's also one thing not to be petty about the overnight success of a product and an immediate rise of a company that got embraced warmly by tech and non-tech people. It's petty to gatekeep. At the end of the day, ML is not just about research, it's **applied research**. It's useless until it reaches the end of the tunnel. 99% of research papers out there are just tiny updates over the state of the art which has been a pointless race for about  a year or two, with no reproducible code or published data. \n\nInventing combustion engine is just as important as putting it in the car.",
+            "spoiler": false,
+            "stickied": false,
+            "subreddit": "MachineLearning",
+            "title": "[D] Yann Lecun seems to be very petty against ChatGPT",
+            "upvote_ratio": 0.57
+        },
+        "comments": [
+            {
+                "author": "u/rafgro",
+                "body": "Nah, it's not engineering vs science or OS vs closed. It's much simpler:\n\n>FAIR's Galactica. People crucified it because it could generate nonsense. ChatGPT does the same thing.\n\nYLC threw a fit over the whole Galactica debacle. He had lovely aggressive tweets [such as](https://twitter.com/ylecun/status/1593293058174500865) \"Galactica demo is off line for now. It\u2019s no longer possible to have some fun by casually misusing it. Happy?\" or describing people who disliked Galactica [as](https://twitter.com/ylecun/status/1596176052258476032) \"easily scared of new technology\". To see the success of ChatGPT just a few weeks later must have been really painful.",
+                "body_html": "<div class=\"md\"><p>Nah, it&#39;s not engineering vs science or OS vs closed. It&#39;s much simpler:</p>\n\n<blockquote>\n<p>FAIR&#39;s Galactica. People crucified it because it could generate nonsense. ChatGPT does the same thing.</p>\n</blockquote>\n\n<p>YLC threw a fit over the whole Galactica debacle. He had lovely aggressive tweets <a href=\"https://twitter.com/ylecun/status/1593293058174500865\">such as</a> &quot;Galactica demo is off line for now. It\u2019s no longer possible to have some fun by casually misusing it. Happy?&quot; or describing people who disliked Galactica <a href=\"https://twitter.com/ylecun/status/1596176052258476032\">as</a> &quot;easily scared of new technology&quot;. To see the success of ChatGPT just a few weeks later must have been really painful.</p>\n</div>",
+                "created_utc": "02-06-2023 00:31:07",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7eq9ek",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": 39,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/supersoldierboy94",
+                        "body": "Exactly. He was blaming the users for the Galactica debacle and wondering why OpenAI's ChatGPT is getting adoption when \"it spews the same bS\" as per his words. And also proceeds to tell that it is just because people had been drstroying Meta's reputation overall.",
+                        "body_html": "<div class=\"md\"><p>Exactly. He was blaming the users for the Galactica debacle and wondering why OpenAI&#39;s ChatGPT is getting adoption when &quot;it spews the same bS&quot; as per his words. And also proceeds to tell that it is just because people had been drstroying Meta&#39;s reputation overall.</p>\n</div>",
+                        "created_utc": "02-06-2023 00:50:38",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7ervit",
+                        "is_submitter": true,
+                        "link_id": "t3_10uw974",
+                        "parent_id": "t1_j7eq9ek",
+                        "score": 13,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/visarga",
+                                "body": "FB was too scared of the bad PR. OpenAI wasn't. People tried to trash chatGPT millions of times, Galactica just a few times. I think chatGPT handled the adversarial attacks pretty well.\n\nGoogle is another scared company, their models haven't seen any attacks yet, so they are unknown. I don't care how nice their screenshots look, what I want to see is how people hack it. Then I can form an opinion. People are the true test set.",
+                                "body_html": "<div class=\"md\"><p>FB was too scared of the bad PR. OpenAI wasn&#39;t. People tried to trash chatGPT millions of times, Galactica just a few times. I think chatGPT handled the adversarial attacks pretty well.</p>\n\n<p>Google is another scared company, their models haven&#39;t seen any attacks yet, so they are unknown. I don&#39;t care how nice their screenshots look, what I want to see is how people hack it. Then I can form an opinion. People are the true test set.</p>\n</div>",
+                                "created_utc": "02-07-2023 07:26:04",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j7kgxrq",
+                                "is_submitter": false,
+                                "link_id": "t3_10uw974",
+                                "parent_id": "t1_j7ervit",
+                                "score": 3,
+                                "stickied": false,
+                                "replies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/VeritaSimulacra",
+                "body": "I am also very petty, so it\u2019s good to see I have stuff in common with an ML great.",
+                "body_html": "<div class=\"md\"><p>I am also very petty, so it\u2019s good to see I have stuff in common with an ML great.</p>\n</div>",
+                "created_utc": "02-05-2023 23:00:28",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7ehytu",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": 50,
+                "stickied": false,
+                "replies": []
+            },
+            {
+                "author": "u/danjlwex",
+                "body": "My take is that you seem quite intent on painting him as petty. His statements seem quite reasonable and rational, especially in the face of the over exuberant reactions we mostly see about chatGPT.\n\n> Mostly on the research side which immediately puts him very hostile against engineers... It's a classic case of a researcher-engineer beef\n\nSeems like you have had some bad experiences that led to these feelings. There is no built in animosity between these groups. Just different goals.",
+                "body_html": "<div class=\"md\"><p>My take is that you seem quite intent on painting him as petty. His statements seem quite reasonable and rational, especially in the face of the over exuberant reactions we mostly see about chatGPT.</p>\n\n<blockquote>\n<p>Mostly on the research side which immediately puts him very hostile against engineers... It&#39;s a classic case of a researcher-engineer beef</p>\n</blockquote>\n\n<p>Seems like you have had some bad experiences that led to these feelings. There is no built in animosity between these groups. Just different goals.</p>\n</div>",
+                "created_utc": "02-05-2023 22:15:29",
+                "distinguished": null,
+                "edited": "02-05-2023 22:22:15",
+                "id": "j7ed72r",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": 96,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/fallweathercamping",
+                        "body": "This. Majority of reactions are irrationally exuberant and often pablum for the vacuous \u201ccontent\u201d creation cycle. It\u2019s as if, if one _doesn\u2019t_ affirm the super positive, life altering results surely to come, you may get left behind. Let\u2019s see what _actual_ problems ChatGPT solves.",
+                        "body_html": "<div class=\"md\"><p>This. Majority of reactions are irrationally exuberant and often pablum for the vacuous \u201ccontent\u201d creation cycle. It\u2019s as if, if one <em>doesn\u2019t</em> affirm the super positive, life altering results surely to come, you may get left behind. Let\u2019s see what <em>actual</em> problems ChatGPT solves.</p>\n</div>",
+                        "created_utc": "02-05-2023 22:21:45",
+                        "distinguished": null,
+                        "edited": "02-05-2023 22:49:33",
+                        "id": "j7edw3y",
+                        "is_submitter": false,
+                        "link_id": "t3_10uw974",
+                        "parent_id": "t1_j7ed72r",
+                        "score": 26,
+                        "stickied": false,
+                        "replies": []
+                    },
+                    {
+                        "author": "u/supersoldierboy94",
+                        "body": "Fair point. But you can be correct and petty at the same time. Remember that he blamed the people using Galactica casually as the reason it got paused. Then wonders and asks people why ChatGPT hasn't faced the same backlash given that \"it spouts sh-t*. \n\nAlthough one could argue that usable LLMs in production are quite revolutionary. NVIDIA'S GauGan or GAN based txt to image models, the base diffusion models have been there for a year or two but hasn't received the same publicity and profits as Stable Diffusion or Midjorney. It's basically the same line of framework. \n\nIt's narrow-minded thinking to brush the architecture upgrades and the engineering work that made it possible -- which has always been his statements. But that is a fair point considering he is mainly a researcher not an engineer.",
+                        "body_html": "<div class=\"md\"><p>Fair point. But you can be correct and petty at the same time. Remember that he blamed the people using Galactica casually as the reason it got paused. Then wonders and asks people why ChatGPT hasn&#39;t faced the same backlash given that &quot;it spouts sh-t*. </p>\n\n<p>Although one could argue that usable LLMs in production are quite revolutionary. NVIDIA&#39;S GauGan or GAN based txt to image models, the base diffusion models have been there for a year or two but hasn&#39;t received the same publicity and profits as Stable Diffusion or Midjorney. It&#39;s basically the same line of framework. </p>\n\n<p>It&#39;s narrow-minded thinking to brush the architecture upgrades and the engineering work that made it possible -- which has always been his statements. But that is a fair point considering he is mainly a researcher not an engineer.</p>\n</div>",
+                        "created_utc": "02-05-2023 22:21:41",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7edvto",
+                        "is_submitter": true,
+                        "link_id": "t3_10uw974",
+                        "parent_id": "t1_j7ed72r",
+                        "score": -4,
+                        "stickied": false,
+                        "replies": []
+                    },
+                    {
+                        "author": "u/supersoldierboy94",
+                        "body": "> some bad experiences thst led to these feelings\n\nI work as an Applied Researcher so I do both research and engineering. No beef on it. It's bad to say it as beef. It's like \"dev-QA\" relationship. Researchers would want the largest models possible yielding the best metrics, Engineers want the easiest to deploy and monitor. The former also undermines what engineers do as just *packaging it up*. Yann just said it above.",
+                        "body_html": "<div class=\"md\"><blockquote>\n<p>some bad experiences thst led to these feelings</p>\n</blockquote>\n\n<p>I work as an Applied Researcher so I do both research and engineering. No beef on it. It&#39;s bad to say it as beef. It&#39;s like &quot;dev-QA&quot; relationship. Researchers would want the largest models possible yielding the best metrics, Engineers want the easiest to deploy and monitor. The former also undermines what engineers do as just <em>packaging it up</em>. Yann just said it above.</p>\n</div>",
+                        "created_utc": "02-05-2023 22:34:03",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7ef7rn",
+                        "is_submitter": true,
+                        "link_id": "t3_10uw974",
+                        "parent_id": "t1_j7ed72r",
+                        "score": -10,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/danjlwex",
+                                "body": "I have no clue why your are being down voted.",
+                                "body_html": "<div class=\"md\"><p>I have no clue why your are being down voted.</p>\n</div>",
+                                "created_utc": "02-05-2023 23:14:35",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j7ejdhf",
+                                "is_submitter": false,
+                                "link_id": "t3_10uw974",
+                                "parent_id": "t1_j7ef7rn",
+                                "score": -6,
+                                "stickied": false,
+                                "replies": [
+                                    {
+                                        "author": "u/supersoldierboy94",
+                                        "body": "Lecun's fanbois for sure.\n\nOr either side of the research or engineering perspective that has no clue what the other side does.",
+                                        "body_html": "<div class=\"md\"><p>Lecun&#39;s fanbois for sure.</p>\n\n<p>Or either side of the research or engineering perspective that has no clue what the other side does.</p>\n</div>",
+                                        "created_utc": "02-05-2023 23:15:29",
+                                        "distinguished": null,
+                                        "edited": false,
+                                        "id": "j7ejgh8",
+                                        "is_submitter": true,
+                                        "link_id": "t3_10uw974",
+                                        "parent_id": "t1_j7ejdhf",
+                                        "score": -6,
+                                        "stickied": false,
+                                        "replies": [
+                                            {
+                                                "author": "u/danjlwex",
+                                                "body": "You have a lot of angst to work through, my friend. Really, you have built up some divide between research and engineering that simply does not exist.",
+                                                "body_html": "<div class=\"md\"><p>You have a lot of angst to work through, my friend. Really, you have built up some divide between research and engineering that simply does not exist.</p>\n</div>",
+                                                "created_utc": "02-05-2023 23:20:27",
+                                                "distinguished": null,
+                                                "edited": false,
+                                                "id": "j7ejxtd",
+                                                "is_submitter": false,
+                                                "link_id": "t3_10uw974",
+                                                "parent_id": "t1_j7ejgh8",
+                                                "score": 16,
+                                                "stickied": false,
+                                                "replies": [
+                                                    {
+                                                        "author": "u/supersoldierboy94",
+                                                        "body": "The beef does not exist. But the divide between research and engineering exist. It's one of the fundamental reasons why some startups fail -- they dont know how to balance which and do not know how to construct a team.  There's a \"divide\" between data science and data engineering and folks who work on that know that there is.",
+                                                        "body_html": "<div class=\"md\"><p>The beef does not exist. But the divide between research and engineering exist. It&#39;s one of the fundamental reasons why some startups fail -- they dont know how to balance which and do not know how to construct a team.  There&#39;s a &quot;divide&quot; between data science and data engineering and folks who work on that know that there is.</p>\n</div>",
+                                                        "created_utc": "02-05-2023 23:41:04",
+                                                        "distinguished": null,
+                                                        "edited": false,
+                                                        "id": "j7elvss",
+                                                        "is_submitter": true,
+                                                        "link_id": "t3_10uw974",
+                                                        "parent_id": "t1_j7ejxtd",
+                                                        "score": -2,
+                                                        "stickied": false,
+                                                        "replies": [
+                                                            {
+                                                                "author": "u/danjlwex",
+                                                                "body": "In my 35 years of working with both engineers, corporate researchers and academics, I have not experienced this divide you describe. Research isn't something that happens at startups. There is no revenue to support research in a startup. The entire focus is on product.",
+                                                                "body_html": "<div class=\"md\"><p>In my 35 years of working with both engineers, corporate researchers and academics, I have not experienced this divide you describe. Research isn&#39;t something that happens at startups. There is no revenue to support research in a startup. The entire focus is on product.</p>\n</div>",
+                                                                "created_utc": "02-05-2023 23:50:18",
+                                                                "distinguished": null,
+                                                                "edited": false,
+                                                                "id": "j7empve",
+                                                                "is_submitter": false,
+                                                                "link_id": "t3_10uw974",
+                                                                "parent_id": "t1_j7elvss",
+                                                                "score": 16,
+                                                                "stickied": false,
+                                                                "replies": [
+                                                                    {
+                                                                        "author": "u/supersoldierboy94",
+                                                                        "body": "> research isnt something that happens at startups\n\nEntirely depends on the startup and the product. R&D happens on many startups. Unless someone has a limited exposure on AI and ML-oriented startups, this is far from truth. OpenAI is an applied research company. They produce research papers and puts it into production. In the electronics department, OnePlus has risen as a great R&D startup capable of producing rapid R&D-based products. Grammarly puts a ton of money on its R&D to create a more domain-specific GPT model because it is vital to their product.\n\n> The divide you describe\n\nOne does not need to probe deeper into this. Ask an experienced Data Engineer, a Data Scientist, and a DevOps. There is a clear DISTINCTION of what they do and how they balance each other. The divide isnt hostile. It's more of \"*we want this, you cant have all of this* type of relationship, besides the usual difference of *who works with what*.",
+                                                                        "body_html": "<div class=\"md\"><blockquote>\n<p>research isnt something that happens at startups</p>\n</blockquote>\n\n<p>Entirely depends on the startup and the product. R&amp;D happens on many startups. Unless someone has a limited exposure on AI and ML-oriented startups, this is far from truth. OpenAI is an applied research company. They produce research papers and puts it into production. In the electronics department, OnePlus has risen as a great R&amp;D startup capable of producing rapid R&amp;D-based products. Grammarly puts a ton of money on its R&amp;D to create a more domain-specific GPT model because it is vital to their product.</p>\n\n<blockquote>\n<p>The divide you describe</p>\n</blockquote>\n\n<p>One does not need to probe deeper into this. Ask an experienced Data Engineer, a Data Scientist, and a DevOps. There is a clear DISTINCTION of what they do and how they balance each other. The divide isnt hostile. It&#39;s more of &quot;<em>we want this, you cant have all of this</em> type of relationship, besides the usual difference of <em>who works with what</em>.</p>\n</div>",
+                                                                        "created_utc": "02-05-2023 23:56:46",
+                                                                        "distinguished": null,
+                                                                        "edited": false,
+                                                                        "id": "j7enajd",
+                                                                        "is_submitter": true,
+                                                                        "link_id": "t3_10uw974",
+                                                                        "parent_id": "t1_j7empve",
+                                                                        "score": 5,
+                                                                        "stickied": false,
+                                                                        "replies": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "author": "u/etesian_dusk",
+                                                "body": ">Lecun's fanbois for sure.\n\nThe fact that you have an unpopular, and in my opinion shallow, view of current NLP, isn't an argument for calling everyone else 'fanboys'",
+                                                "body_html": "<div class=\"md\"><blockquote>\n<p>Lecun&#39;s fanbois for sure.</p>\n</blockquote>\n\n<p>The fact that you have an unpopular, and in my opinion shallow, view of current NLP, isn&#39;t an argument for calling everyone else &#39;fanboys&#39;</p>\n</div>",
+                                                "created_utc": "02-06-2023 11:54:41",
+                                                "distinguished": null,
+                                                "edited": false,
+                                                "id": "j7gp3f0",
+                                                "is_submitter": false,
+                                                "link_id": "t3_10uw974",
+                                                "parent_id": "t1_j7ejgh8",
+                                                "score": 3,
+                                                "stickied": false,
+                                                "replies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/dataslacker",
+                "body": "There\u2019s probably some resentment that google and meta could have released something similar over a year ago but chose not to because they didn\u2019t think it would be responsible. Now the company that was founded on being \u201cresponsible\u201d released it to the world it a way that hasn\u2019t satisfied a lot of researchers.",
+                "body_html": "<div class=\"md\"><p>There\u2019s probably some resentment that google and meta could have released something similar over a year ago but chose not to because they didn\u2019t think it would be responsible. Now the company that was founded on being \u201cresponsible\u201d released it to the world it a way that hasn\u2019t satisfied a lot of researchers.</p>\n</div>",
+                "created_utc": "02-06-2023 10:52:12",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7gfa6c",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": 4,
+                "stickied": false,
+                "replies": []
+            },
+            {
+                "author": "u/_poisonedrationality",
+                "body": "Doesn't sound petty at all to me. Sounds like he's dispelling misconceptions about the progress ChatGPT represents.",
+                "body_html": "<div class=\"md\"><p>Doesn&#39;t sound petty at all to me. Sounds like he&#39;s dispelling misconceptions about the progress ChatGPT represents.</p>\n</div>",
+                "created_utc": "02-05-2023 21:28:51",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7e7rz6",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": 54,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/yaosio",
+                        "body": "If I listened to critics I would think zero progress has been made at all. Every time new software comes out that does something that couldn't be done before it's handwaved away as easy, or obvious, or something else. If it was so easy then it would have already been done. Well with ChatGPT...it has. https://beta.character.ai/ beat ChatGPT by a few months and has a bit more power because it's easier to make the chat bot answer as you want. I don't think it's as good as ChatGPT though.",
+                        "body_html": "<div class=\"md\"><p>If I listened to critics I would think zero progress has been made at all. Every time new software comes out that does something that couldn&#39;t be done before it&#39;s handwaved away as easy, or obvious, or something else. If it was so easy then it would have already been done. Well with ChatGPT...it has. <a href=\"https://beta.character.ai/\">https://beta.character.ai/</a> beat ChatGPT by a few months and has a bit more power because it&#39;s easier to make the chat bot answer as you want. I don&#39;t think it&#39;s as good as ChatGPT though.</p>\n</div>",
+                        "created_utc": "02-05-2023 21:59:53",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7ebfxa",
+                        "is_submitter": false,
+                        "link_id": "t3_10uw974",
+                        "parent_id": "t1_j7e7rz6",
+                        "score": 2,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/supersoldierboy94",
+                                "body": "You know its just being petty when he isnt even talking about it in the Generative Image space. ChatGPT is very much like Midjourney and Stable Diffusion where these models are small incremental updates over the main papers. But has put the proper applied research and MLOps work to bring these into production and profit from it.",
+                                "body_html": "<div class=\"md\"><p>You know its just being petty when he isnt even talking about it in the Generative Image space. ChatGPT is very much like Midjourney and Stable Diffusion where these models are small incremental updates over the main papers. But has put the proper applied research and MLOps work to bring these into production and profit from it.</p>\n</div>",
+                                "created_utc": "02-05-2023 22:03:26",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j7ebug1",
+                                "is_submitter": true,
+                                "link_id": "t3_10uw974",
+                                "parent_id": "t1_j7ebfxa",
+                                "score": -6,
+                                "stickied": false,
+                                "replies": [
+                                    {
+                                        "author": "u/MrTacobeans",
+                                        "body": "But why is that bad? If the researchers wanted moola they should have made a business or published/ran the models they created from their own research. If you don't want to get stepped on by someone else talented enough to piece it together don't release your ideas.\n\nDon't get butt hurt when a primarily publicity or capitalist based company implements your idea and makes it into a product.",
+                                        "body_html": "<div class=\"md\"><p>But why is that bad? If the researchers wanted moola they should have made a business or published/ran the models they created from their own research. If you don&#39;t want to get stepped on by someone else talented enough to piece it together don&#39;t release your ideas.</p>\n\n<p>Don&#39;t get butt hurt when a primarily publicity or capitalist based company implements your idea and makes it into a product.</p>\n</div>",
+                                        "created_utc": "02-05-2023 23:28:52",
+                                        "distinguished": null,
+                                        "edited": false,
+                                        "id": "j7ekqqr",
+                                        "is_submitter": false,
+                                        "link_id": "t3_10uw974",
+                                        "parent_id": "t1_j7ebug1",
+                                        "score": 0,
+                                        "stickied": false,
+                                        "replies": [
+                                            {
+                                                "author": "u/supersoldierboy94",
+                                                "body": "It's not bad. That's the entire point of the post.",
+                                                "body_html": "<div class=\"md\"><p>It&#39;s not bad. That&#39;s the entire point of the post.</p>\n</div>",
+                                                "created_utc": "02-05-2023 23:38:24",
+                                                "distinguished": null,
+                                                "edited": false,
+                                                "id": "j7elmu3",
+                                                "is_submitter": true,
+                                                "link_id": "t3_10uw974",
+                                                "parent_id": "t1_j7ekqqr",
+                                                "score": 1,
+                                                "stickied": false,
+                                                "replies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "author": "u/supersoldierboy94",
+                        "body": "You can be factually correct and be petty at the same time. You can read more about his conversations with people who argue with him or all the the time he brings up Galactica's failed rollout comparing it to ChatGPT and wondering why it hasn't been paused as well given that, a quote from him, \"that Galactica even produces less BS\".\n\nHe also seems to undermine the rapid engineering work and MLOps that come with ChatGPT which is funny because Meta hasn't released any substantial product from their research that has seen the light of the day for a week. Also, GPT3 to ChatGPT in itself in a research perspective is a jump. Maybe not as incremental as what Lecun does every paper, but compared to an average paper in the field, it is.\n\nYou may have a toxic aunt. But if you always talk about it in the dinner table, that's petty.",
+                        "body_html": "<div class=\"md\"><p>You can be factually correct and be petty at the same time. You can read more about his conversations with people who argue with him or all the the time he brings up Galactica&#39;s failed rollout comparing it to ChatGPT and wondering why it hasn&#39;t been paused as well given that, a quote from him, &quot;that Galactica even produces less BS&quot;.</p>\n\n<p>He also seems to undermine the rapid engineering work and MLOps that come with ChatGPT which is funny because Meta hasn&#39;t released any substantial product from their research that has seen the light of the day for a week. Also, GPT3 to ChatGPT in itself in a research perspective is a jump. Maybe not as incremental as what Lecun does every paper, but compared to an average paper in the field, it is.</p>\n\n<p>You may have a toxic aunt. But if you always talk about it in the dinner table, that&#39;s petty.</p>\n</div>",
+                        "created_utc": "02-05-2023 21:35:13",
+                        "distinguished": null,
+                        "edited": "02-05-2023 21:49:11",
+                        "id": "j7e8jbe",
+                        "is_submitter": true,
+                        "link_id": "t3_10uw974",
+                        "parent_id": "t1_j7e7rz6",
+                        "score": -4,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/etesian_dusk",
+                                "body": "> in the dinner table\n\n\\*at the dinner table",
+                                "body_html": "<div class=\"md\"><blockquote>\n<p>in the dinner table</p>\n</blockquote>\n\n<p>*at the dinner table</p>\n</div>",
+                                "created_utc": "02-06-2023 12:56:54",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j7gz0bl",
+                                "is_submitter": false,
+                                "link_id": "t3_10uw974",
+                                "parent_id": "t1_j7e8jbe",
+                                "score": 1,
+                                "stickied": false,
+                                "replies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/whiskey_bud",
+                "body": ">I get that he is one of the godfathers of AI. Mostly on the research side which immediately puts him very hostile against engineers\n\nI find it odd that you seem to expect / want a serious conversation, but then start with some weird ad-hominem against the man. You talk about \"fanbois\" in your first sentence, but then expose yourself as nothing better, to be honest. The rest of your post isn't much better TBH - trying in infer intentionality and make false equivalencies.",
+                "body_html": "<div class=\"md\"><blockquote>\n<p>I get that he is one of the godfathers of AI. Mostly on the research side which immediately puts him very hostile against engineers</p>\n</blockquote>\n\n<p>I find it odd that you seem to expect / want a serious conversation, but then start with some weird ad-hominem against the man. You talk about &quot;fanbois&quot; in your first sentence, but then expose yourself as nothing better, to be honest. The rest of your post isn&#39;t much better TBH - trying in infer intentionality and make false equivalencies.</p>\n</div>",
+                "created_utc": "02-05-2023 23:08:54",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7eit5o",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": 23,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/supersoldierboy94",
+                        "body": "Please point out the 'ad hominem' against him instead of generalities when I just literally quoted all the things he said and gave my own take on it.\n\n> infer intentionality\n\nPoint it out. You can conclude intentionality based on his line of reasoning, conversation trails, and position.",
+                        "body_html": "<div class=\"md\"><p>Please point out the &#39;ad hominem&#39; against him instead of generalities when I just literally quoted all the things he said and gave my own take on it.</p>\n\n<blockquote>\n<p>infer intentionality</p>\n</blockquote>\n\n<p>Point it out. You can conclude intentionality based on his line of reasoning, conversation trails, and position.</p>\n</div>",
+                        "created_utc": "02-05-2023 23:12:23",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7ej5p9",
+                        "is_submitter": true,
+                        "link_id": "t3_10uw974",
+                        "parent_id": "t1_j7eit5o",
+                        "score": 0,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/whiskey_bud",
+                                "body": ">Please point out the 'ad hominem' against him\n\nI literally quoted it.",
+                                "body_html": "<div class=\"md\"><blockquote>\n<p>Please point out the &#39;ad hominem&#39; against him</p>\n</blockquote>\n\n<p>I literally quoted it.</p>\n</div>",
+                                "created_utc": "02-05-2023 23:25:40",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j7ekfua",
+                                "is_submitter": false,
+                                "link_id": "t3_10uw974",
+                                "parent_id": "t1_j7ej5p9",
+                                "score": 9,
+                                "stickied": false,
+                                "replies": [
+                                    {
+                                        "author": "u/supersoldierboy94",
+                                        "body": "That's not an ad hominem. An ad hominem attacks the subject as basis of its argument. Telling that this person is X based on Y is not ad hominem. It's a conclusion of the quotes I laid down.",
+                                        "body_html": "<div class=\"md\"><p>That&#39;s not an ad hominem. An ad hominem attacks the subject as basis of its argument. Telling that this person is X based on Y is not ad hominem. It&#39;s a conclusion of the quotes I laid down.</p>\n</div>",
+                                        "created_utc": "02-05-2023 23:42:37",
+                                        "distinguished": null,
+                                        "edited": false,
+                                        "id": "j7em0v4",
+                                        "is_submitter": true,
+                                        "link_id": "t3_10uw974",
+                                        "parent_id": "t1_j7ekfua",
+                                        "score": 8,
+                                        "stickied": false,
+                                        "replies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/OneMillionSnakes",
+                "body": "I agree with most of those statements. I don't think he's being petty he's just being honest about what ChatGPT represents to him. \n\nNow I am biased as on a personal level I'm kinda sick of ChatGPT. It's good at carrying on a brief chat and it's very well polished. But it's quite mundane and people are already talking about using it or some variant to make marketing and web pages in a web that's already full of AI generated articles and targeted ads. It should be used perhaps for chats when trained on a corpus including some support docs or something. Not much more than that.\n\nI do think there could be some negative ramifications in the worst case. I have a friend whose a graphic designer at a major company whose been told by her employers this the future of ads. Higher ups say stuff like this all the time and it doesn't wind up coming true so it hopefully won't become a real problem. Still it's a bit concerning that people on the oustside of these fields are perhaps overvaluing ChatGPT so much.",
+                "body_html": "<div class=\"md\"><p>I agree with most of those statements. I don&#39;t think he&#39;s being petty he&#39;s just being honest about what ChatGPT represents to him. </p>\n\n<p>Now I am biased as on a personal level I&#39;m kinda sick of ChatGPT. It&#39;s good at carrying on a brief chat and it&#39;s very well polished. But it&#39;s quite mundane and people are already talking about using it or some variant to make marketing and web pages in a web that&#39;s already full of AI generated articles and targeted ads. It should be used perhaps for chats when trained on a corpus including some support docs or something. Not much more than that.</p>\n\n<p>I do think there could be some negative ramifications in the worst case. I have a friend whose a graphic designer at a major company whose been told by her employers this the future of ads. Higher ups say stuff like this all the time and it doesn&#39;t wind up coming true so it hopefully won&#39;t become a real problem. Still it&#39;s a bit concerning that people on the oustside of these fields are perhaps overvaluing ChatGPT so much.</p>\n</div>",
+                "created_utc": "02-06-2023 02:44:46",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7f0auj",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": 9,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/supersoldierboy94",
+                        "body": "> some variant of it\nJust the other day, some researchers already released BioGPT which is trained on biomedical text. It's particularly good. Sitll needs some time to test its accuracy against real medical professionals\n\nI'd respectfully disagree on the usage. While it has been shown to generate weird sequences, with the right usage, you can guide it to create particularly effective articles and stories. It's summarization tool is also good. Grammar is particularly good as well.\n\n> What chatGPT represents to him\n\nIt can be true and petty at the same time. When asked, he will revert to complaining why Galactica was shut down blaming the people using it and pointing as to why ChatGPT does more mistakes but is still standing. Why would someone also suddenly post a paper contribution chart saying that others just 'consume' the research?",
+                        "body_html": "<div class=\"md\"><blockquote>\n<p>some variant of it\nJust the other day, some researchers already released BioGPT which is trained on biomedical text. It&#39;s particularly good. Sitll needs some time to test its accuracy against real medical professionals</p>\n</blockquote>\n\n<p>I&#39;d respectfully disagree on the usage. While it has been shown to generate weird sequences, with the right usage, you can guide it to create particularly effective articles and stories. It&#39;s summarization tool is also good. Grammar is particularly good as well.</p>\n\n<blockquote>\n<p>What chatGPT represents to him</p>\n</blockquote>\n\n<p>It can be true and petty at the same time. When asked, he will revert to complaining why Galactica was shut down blaming the people using it and pointing as to why ChatGPT does more mistakes but is still standing. Why would someone also suddenly post a paper contribution chart saying that others just &#39;consume&#39; the research?</p>\n</div>",
+                        "created_utc": "02-06-2023 03:00:08",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7f1die",
+                        "is_submitter": true,
+                        "link_id": "t3_10uw974",
+                        "parent_id": "t1_j7f0auj",
+                        "score": -1,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/OneMillionSnakes",
+                                "body": "Yeah I mean these seem grounded and not that petty to me personally but that's fairly subjective. His criticisms seem fairly mild. I don't think they're worth getting worked up over.",
+                                "body_html": "<div class=\"md\"><p>Yeah I mean these seem grounded and not that petty to me personally but that&#39;s fairly subjective. His criticisms seem fairly mild. I don&#39;t think they&#39;re worth getting worked up over.</p>\n</div>",
+                                "created_utc": "02-06-2023 13:17:21",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j7h28eq",
+                                "is_submitter": false,
+                                "link_id": "t3_10uw974",
+                                "parent_id": "t1_j7f1die",
+                                "score": 2,
+                                "stickied": false,
+                                "replies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/beezlebub33",
+                "body": "\"Henry Ford did nothing revolutionary, the engineering work in making a car isn't particularly difficult, it's just perceived that way by the public.  There will be a half dozen other car manufacturers in 6 months.\"\n\nLeCun is going too far the opposite way.  I would not be surprised if he has access to systems at FAIR that could do something similar, so dismisses the whole thing or misses the main point.   But, like Ford, what OpenAI has done with Dalle2 and ChatGPT is make AI useable and available to us benighted common folk.  \n\nIt doesn't matter whether Google and Meta not releasing something like this is due to a *can't* or a *won't*.  It's all the same to the rest of humanity who can't use it in either case.",
+                "body_html": "<div class=\"md\"><p>&quot;Henry Ford did nothing revolutionary, the engineering work in making a car isn&#39;t particularly difficult, it&#39;s just perceived that way by the public.  There will be a half dozen other car manufacturers in 6 months.&quot;</p>\n\n<p>LeCun is going too far the opposite way.  I would not be surprised if he has access to systems at FAIR that could do something similar, so dismisses the whole thing or misses the main point.   But, like Ford, what OpenAI has done with Dalle2 and ChatGPT is make AI useable and available to us benighted common folk.  </p>\n\n<p>It doesn&#39;t matter whether Google and Meta not releasing something like this is due to a <em>can&#39;t</em> or a <em>won&#39;t</em>.  It&#39;s all the same to the rest of humanity who can&#39;t use it in either case.</p>\n</div>",
+                "created_utc": "02-06-2023 05:24:44",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7fbjii",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": 13,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "[deleted]",
+                        "body": "[deleted]",
+                        "body_html": "<div class=\"md\"><p>[deleted]</p>\n</div>",
+                        "created_utc": "02-07-2023 07:39:56",
+                        "distinguished": null,
+                        "edited": "02-07-2023 07:48:48",
+                        "id": "j7kik6w",
+                        "is_submitter": false,
+                        "link_id": "t3_10uw974",
+                        "parent_id": "t1_j7fbjii",
+                        "score": 1,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/Iunaml",
+                                "body": "> What is the world record for crossing the English Channel entirely on foot\n\nhttps://twitter.com/goodside/status/1609972546954317824/photo/1\n\nnot a fair question for google nor chatgpt, is it",
+                                "body_html": "<div class=\"md\"><blockquote>\n<p>What is the world record for crossing the English Channel entirely on foot</p>\n</blockquote>\n\n<p><a href=\"https://twitter.com/goodside/status/1609972546954317824/photo/1\">https://twitter.com/goodside/status/1609972546954317824/photo/1</a></p>\n\n<p>not a fair question for google nor chatgpt, is it</p>\n</div>",
+                                "created_utc": "02-07-2023 09:57:02",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j7l1avl",
+                                "is_submitter": false,
+                                "link_id": "t3_10uw974",
+                                "parent_id": "t1_j7kik6w",
+                                "score": 1,
+                                "stickied": false,
+                                "replies": [
+                                    {
+                                        "author": "u/visarga",
+                                        "body": "I expected it to say \"no results\" at the very least, but it was no better than a LLM.",
+                                        "body_html": "<div class=\"md\"><p>I expected it to say &quot;no results&quot; at the very least, but it was no better than a LLM.</p>\n</div>",
+                                        "created_utc": "02-07-2023 11:03:27",
+                                        "distinguished": null,
+                                        "edited": false,
+                                        "id": "j7lbf3n",
+                                        "is_submitter": false,
+                                        "link_id": "t3_10uw974",
+                                        "parent_id": "t1_j7l1avl",
+                                        "score": 1,
+                                        "stickied": false,
+                                        "replies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/du_dt",
+                "body": "MetaAI released their galactica chatbot a month before chatgpt, but it was heavily criticized for \u201cdangerous AI generated pseudoscience nonsense\u201d and shutdown a few days lter. Now OpenAI does the same and everyone praises them - well, I get why Yann is being saulty about it.",
+                "body_html": "<div class=\"md\"><p>MetaAI released their galactica chatbot a month before chatgpt, but it was heavily criticized for \u201cdangerous AI generated pseudoscience nonsense\u201d and shutdown a few days lter. Now OpenAI does the same and everyone praises them - well, I get why Yann is being saulty about it.</p>\n</div>",
+                "created_utc": "02-06-2023 00:10:28",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7eohva",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": 5,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/ok531441",
+                        "body": "Galactica was doomed to fail because it was specifically marketed as a science tool which puts very high expectations on factual and mathematical correctness. ChatGPT on the other hand is marketed as chat.",
+                        "body_html": "<div class=\"md\"><p>Galactica was doomed to fail because it was specifically marketed as a science tool which puts very high expectations on factual and mathematical correctness. ChatGPT on the other hand is marketed as chat.</p>\n</div>",
+                        "created_utc": "02-06-2023 01:20:38",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7eu88c",
+                        "is_submitter": false,
+                        "link_id": "t3_10uw974",
+                        "parent_id": "t1_j7eohva",
+                        "score": 18,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/visarga",
+                                "body": "Maybe they come to their senses and put it back. I wanted to use it to find references for my random ideas, see what results they have.",
+                                "body_html": "<div class=\"md\"><p>Maybe they come to their senses and put it back. I wanted to use it to find references for my random ideas, see what results they have.</p>\n</div>",
+                                "created_utc": "02-07-2023 07:54:35",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j7kkc5b",
+                                "is_submitter": false,
+                                "link_id": "t3_10uw974",
+                                "parent_id": "t1_j7eu88c",
+                                "score": 1,
+                                "stickied": false,
+                                "replies": []
+                            }
+                        ]
+                    },
+                    {
+                        "author": "u/supersoldierboy94",
+                        "body": "Fair point. But why is he blaming the people instead of his whole company going as far as \"it's just people destroying Meta's reputation\"? \n\nI have high respects for him as a researcher, and in fact I've read his books and papers. He's great when he speaks as a researcher. It's different when he's speaks as a Meta employee vested with the companies interest. That's why I take his Meta-driven statements for/against companies with a grain of salt.\n\nI wont be even surprised if the big tech companies are behind the Stable Diffusion/Midjourney lawsuit since it would do them good. Considering the fact that Meta partnered with Shutterstock to produce their own.",
+                        "body_html": "<div class=\"md\"><p>Fair point. But why is he blaming the people instead of his whole company going as far as &quot;it&#39;s just people destroying Meta&#39;s reputation&quot;? </p>\n\n<p>I have high respects for him as a researcher, and in fact I&#39;ve read his books and papers. He&#39;s great when he speaks as a researcher. It&#39;s different when he&#39;s speaks as a Meta employee vested with the companies interest. That&#39;s why I take his Meta-driven statements for/against companies with a grain of salt.</p>\n\n<p>I wont be even surprised if the big tech companies are behind the Stable Diffusion/Midjourney lawsuit since it would do them good. Considering the fact that Meta partnered with Shutterstock to produce their own.</p>\n</div>",
+                        "created_utc": "02-06-2023 00:56:04",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7esbbj",
+                        "is_submitter": true,
+                        "link_id": "t3_10uw974",
+                        "parent_id": "t1_j7eohva",
+                        "score": 3,
+                        "stickied": false,
+                        "replies": []
+                    }
+                ]
+            },
+            {
+                "author": "u/choHZ",
+                "body": "I get that he is annoyed that people believe ChatGPT is such a milestone breakthrough unique to OpenAI. It is not, since most big players already have or capable of having LLM tuned to similar capabilities. Yet from the InstructGPT paper, the way they label their data is nothing that any big players can't handle.    I also get that he is pissed when people praise OpenAI for its \"openness\" \u2014 OpenAI is absolutely not a fan for the whole open source movement, though maybe reasonably so.\n\nMy question is why don't the big players give their bots similar exposure? I find it hard to believe that ethics and some internet critics to be the only reasons.",
+                "body_html": "<div class=\"md\"><p>I get that he is annoyed that people believe ChatGPT is such a milestone breakthrough unique to OpenAI. It is not, since most big players already have or capable of having LLM tuned to similar capabilities. Yet from the InstructGPT paper, the way they label their data is nothing that any big players can&#39;t handle.    I also get that he is pissed when people praise OpenAI for its &quot;openness&quot; \u2014 OpenAI is absolutely not a fan for the whole open source movement, though maybe reasonably so.</p>\n\n<p>My question is why don&#39;t the big players give their bots similar exposure? I find it hard to believe that ethics and some internet critics to be the only reasons.</p>\n</div>",
+                "created_utc": "02-06-2023 15:33:03",
+                "distinguished": null,
+                "edited": "02-06-2023 15:43:27",
+                "id": "j7hnrtc",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": 2,
+                "stickied": false,
+                "replies": []
+            },
+            {
+                "author": "u/CKtalon",
+                "body": "Whatever Meta has put out in the past year has been fairly disappointing compared to what's already available\u2014OPT, NLLB, Galactica. It probably advanced the field with the knowledge gleaned from producing these models, but for production, they all feel half-baked and lack polish. It was like they were just rushing out something to meet some KPI.\n\nSo yes, I find Lecun being petty that his team can't seem to produce something 'good' to the general public.",
+                "body_html": "<div class=\"md\"><p>Whatever Meta has put out in the past year has been fairly disappointing compared to what&#39;s already available\u2014OPT, NLLB, Galactica. It probably advanced the field with the knowledge gleaned from producing these models, but for production, they all feel half-baked and lack polish. It was like they were just rushing out something to meet some KPI.</p>\n\n<p>So yes, I find Lecun being petty that his team can&#39;t seem to produce something &#39;good&#39; to the general public.</p>\n</div>",
+                "created_utc": "02-05-2023 21:58:31",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7eba6d",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": 9,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/redlow0992",
+                        "body": "Are we only talking in the context of LLMs and language? If not, your statement is simply incorrect. In past two years FAIR published a number of high-quality self-superviser learning frameworks that come with open source implementations. On top of my head, MoCo (and its versions), Barlow Twins, VicReg, Swav all came from FAIR. They are the one that showed that SSL for computer vision does not need to be contrastive only. Some of these papers have some 5K citations in the span of 3 years and are used by many researchers on a daily basis.\n\nBut yeah, tell me how they are chasing corporate KPIs and are publishing junk.",
+                        "body_html": "<div class=\"md\"><p>Are we only talking in the context of LLMs and language? If not, your statement is simply incorrect. In past two years FAIR published a number of high-quality self-superviser learning frameworks that come with open source implementations. On top of my head, MoCo (and its versions), Barlow Twins, VicReg, Swav all came from FAIR. They are the one that showed that SSL for computer vision does not need to be contrastive only. Some of these papers have some 5K citations in the span of 3 years and are used by many researchers on a daily basis.</p>\n\n<p>But yeah, tell me how they are chasing corporate KPIs and are publishing junk.</p>\n</div>",
+                        "created_utc": "02-05-2023 23:42:17",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7elzrw",
+                        "is_submitter": false,
+                        "link_id": "t3_10uw974",
+                        "parent_id": "t1_j7eba6d",
+                        "score": 13,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/red-necked_crake",
+                                "body": "not to mention being a company that is willing to put out huge ass models AND training logs which is infinitely more useful to our community than three vague blogposts and 1000 retweets by ex web3 grifters on twitter claiming GPT-4 will quite literally have 100 trillion parameters and worshipping Sam Altman as God LOL.\n\nPeople keep claiming that others dismiss engineering effort that went into ChatGPT, GPT3, and turn a blind eye to relative opaqueness on techniques and tricks that went into making these models happen (not even a dataset available). Other than showing a proof of concept (which is SIGNIFICANT but not sufficient for SCIENCE), how exactly do we, as a community of ML, benefit from OpenAI getting all the hype and Satya's money? (Whisper is a weird counterpoint to my arguments though.)",
+                                "body_html": "<div class=\"md\"><p>not to mention being a company that is willing to put out huge ass models AND training logs which is infinitely more useful to our community than three vague blogposts and 1000 retweets by ex web3 grifters on twitter claiming GPT-4 will quite literally have 100 trillion parameters and worshipping Sam Altman as God LOL.</p>\n\n<p>People keep claiming that others dismiss engineering effort that went into ChatGPT, GPT3, and turn a blind eye to relative opaqueness on techniques and tricks that went into making these models happen (not even a dataset available). Other than showing a proof of concept (which is SIGNIFICANT but not sufficient for SCIENCE), how exactly do we, as a community of ML, benefit from OpenAI getting all the hype and Satya&#39;s money? (Whisper is a weird counterpoint to my arguments though.)</p>\n</div>",
+                                "created_utc": "02-06-2023 02:09:52",
+                                "distinguished": null,
+                                "edited": "02-06-2023 02:14:04",
+                                "id": "j7exuvy",
+                                "is_submitter": false,
+                                "link_id": "t3_10uw974",
+                                "parent_id": "t1_j7elzrw",
+                                "score": 10,
+                                "stickied": false,
+                                "replies": []
+                            },
+                            {
+                                "author": "u/supersoldierboy94",
+                                "body": "He said *for production*. Meta hasnt produced fully baked production-ready products from their research for public consumption.\n\nThat is the point of the post and Yann's reaction as a Meta employee reeks pettiness. \n\nHe first told everyone that ChatGPT is not revolutionary at all. May be a fair point. That's debatable. Then proceeds to post a chart about Meta and Google big tech as producers of research that **others just consume**. Then when asked about what research has they put into production, he claims that *it's not that we CANT, it's that we WONT*. Then proceeds to bring out what happened to Meta's first trial to do it -- Galactica that embarassingly failed. So all in all, he seems to be criticizing why these companies just consume established knowledge by *sprinkling something on top* from what they have published.\n\nI'd honestly expect Google and META to be quite cautious now on how they publish stuff since OpenAI's moves build on top of the established research that they do. \n\nNo one also said they are publishing junk. That's a strawman. The point is that he's being overly critical to startups like OpenAI who consumes established knowledge that they voluntarily opened to the public and has started to profit from it, while they have failed to produce something profitable or usable for public consumption.",
+                                "body_html": "<div class=\"md\"><p>He said <em>for production</em>. Meta hasnt produced fully baked production-ready products from their research for public consumption.</p>\n\n<p>That is the point of the post and Yann&#39;s reaction as a Meta employee reeks pettiness. </p>\n\n<p>He first told everyone that ChatGPT is not revolutionary at all. May be a fair point. That&#39;s debatable. Then proceeds to post a chart about Meta and Google big tech as producers of research that <strong>others just consume</strong>. Then when asked about what research has they put into production, he claims that <em>it&#39;s not that we CANT, it&#39;s that we WONT</em>. Then proceeds to bring out what happened to Meta&#39;s first trial to do it -- Galactica that embarassingly failed. So all in all, he seems to be criticizing why these companies just consume established knowledge by <em>sprinkling something on top</em> from what they have published.</p>\n\n<p>I&#39;d honestly expect Google and META to be quite cautious now on how they publish stuff since OpenAI&#39;s moves build on top of the established research that they do. </p>\n\n<p>No one also said they are publishing junk. That&#39;s a strawman. The point is that he&#39;s being overly critical to startups like OpenAI who consumes established knowledge that they voluntarily opened to the public and has started to profit from it, while they have failed to produce something profitable or usable for public consumption.</p>\n</div>",
+                                "created_utc": "02-06-2023 03:11:56",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j7f26hq",
+                                "is_submitter": true,
+                                "link_id": "t3_10uw974",
+                                "parent_id": "t1_j7elzrw",
+                                "score": -2,
+                                "stickied": false,
+                                "replies": []
+                            }
+                        ]
+                    },
+                    {
+                        "author": "u/supersoldierboy94",
+                        "body": "> to meet some KPI\n\nBig tech in a nutshell\n\nOr to close some JIRA tickets perhaps",
+                        "body_html": "<div class=\"md\"><blockquote>\n<p>to meet some KPI</p>\n</blockquote>\n\n<p>Big tech in a nutshell</p>\n\n<p>Or to close some JIRA tickets perhaps</p>\n</div>",
+                        "created_utc": "02-05-2023 21:59:33",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7ebeiw",
+                        "is_submitter": true,
+                        "link_id": "t3_10uw974",
+                        "parent_id": "t1_j7eba6d",
+                        "score": -6,
+                        "stickied": false,
+                        "replies": []
+                    }
+                ]
+            },
+            {
+                "author": "u/PredictorX1",
+                "body": ">I get that he is one of the godfathers of AI.\n\nWhat does that even mean? Very many people have contributed to this field.",
+                "body_html": "<div class=\"md\"><blockquote>\n<p>I get that he is one of the godfathers of AI.</p>\n</blockquote>\n\n<p>What does that even mean? Very many people have contributed to this field.</p>\n</div>",
+                "created_utc": "02-06-2023 06:12:00",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7ffj8j",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": 2,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/supersoldierboy94",
+                        "body": "i mean, you can see argument of authority from other people",
+                        "body_html": "<div class=\"md\"><p>i mean, you can see argument of authority from other people</p>\n</div>",
+                        "created_utc": "02-06-2023 06:31:03",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7fhasq",
+                        "is_submitter": true,
+                        "link_id": "t3_10uw974",
+                        "parent_id": "t1_j7ffj8j",
+                        "score": 0,
+                        "stickied": false,
+                        "replies": []
+                    },
+                    {
+                        "author": "u/supersoldierboy94",
+                        "body": "i mean, you can see others using argument of authority for sure",
+                        "body_html": "<div class=\"md\"><p>i mean, you can see others using argument of authority for sure</p>\n</div>",
+                        "created_utc": "02-06-2023 06:57:14",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7fjwzd",
+                        "is_submitter": true,
+                        "link_id": "t3_10uw974",
+                        "parent_id": "t1_j7ffj8j",
+                        "score": 0,
+                        "stickied": false,
+                        "replies": []
+                    }
+                ]
+            },
+            {
+                "author": "u/MonsieurBlunt",
+                "body": "Yea looks like Meta is making him say this stuff.\n\nI assumed he jerks off to chat GPT responses when he is alone. I am continuing to assume that tbh",
+                "body_html": "<div class=\"md\"><p>Yea looks like Meta is making him say this stuff.</p>\n\n<p>I assumed he jerks off to chat GPT responses when he is alone. I am continuing to assume that tbh</p>\n</div>",
+                "created_utc": "02-05-2023 22:26:52",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7eeg25",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": -3,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/supersoldierboy94",
+                        "body": "tbf, he has screenshots where he talks to it, then posts it in his Twitter thread to say, *I told you so*",
+                        "body_html": "<div class=\"md\"><p>tbf, he has screenshots where he talks to it, then posts it in his Twitter thread to say, <em>I told you so</em></p>\n</div>",
+                        "created_utc": "02-05-2023 22:28:29",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7eemd5",
+                        "is_submitter": true,
+                        "link_id": "t3_10uw974",
+                        "parent_id": "t1_j7eeg25",
+                        "score": 1,
+                        "stickied": false,
+                        "replies": []
+                    }
+                ]
+            },
+            {
+                "author": "u/Rohit901",
+                "body": "Lol I kinda agree with you here, and Lecun reminds me of Sheldon from Big Bang theory who is constantly berating and insulting engineers (Howard)",
+                "body_html": "<div class=\"md\"><p>Lol I kinda agree with you here, and Lecun reminds me of Sheldon from Big Bang theory who is constantly berating and insulting engineers (Howard)</p>\n</div>",
+                "created_utc": "02-05-2023 23:23:12",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7ek7ix",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": -1,
+                "stickied": false,
+                "replies": []
+            },
+            {
+                "author": "u/bacon_boat",
+                "body": "I think his view reflects his disappointment as a researcher that it's not novel ideas and algorithms that lead to success. It's scale + engineering. \n\nBut anyone with a broader view sees that ChatGPT represents a massive milestone for AI.   \nWho really cares how novel the algorithms are, openAI built a killer product, and deserve the recognition. \n\nLecun is maybe also salty because Deepmind / OpenAI are perceived as leaders, and Meta isn't.",
+                "body_html": "<div class=\"md\"><p>I think his view reflects his disappointment as a researcher that it&#39;s not novel ideas and algorithms that lead to success. It&#39;s scale + engineering. </p>\n\n<p>But anyone with a broader view sees that ChatGPT represents a massive milestone for AI.<br/>\nWho really cares how novel the algorithms are, openAI built a killer product, and deserve the recognition. </p>\n\n<p>Lecun is maybe also salty because Deepmind / OpenAI are perceived as leaders, and Meta isn&#39;t.</p>\n</div>",
+                "created_utc": "02-06-2023 05:24:41",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7fbjcg",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": -2,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/supersoldierboy94",
+                        "body": "Meta is a leader in the research community alongside Google as top contributors. The funny thing is that he started posting that graph of AI related paper contributions to show supremacy and to undermine OpenAI and DeepMind as *merely consumers* of research. But Meta hasnt provided any product from their research that has reached the public. When they tried, they immediately shut it down. \n\nHe also kinda blames the public perception as to why Meta cannot publish products without scrutiny pointing the thing that people are still overly criticizing Facebook/Meta for obviously great reasons in the past.\n\nIt is indeed a massive milestone maybe a bit above Stable Diffusion. I'd still argue that Github Copilot was bigger but since its mainly for devs, it didnt get the publicity that it wanted. It's a massive milestone because common folks pondered the idea of AI takeover which have shifted every one else's perspective on the domain. It's the culmination of decades of R&D that the public can interact to -- a gateway to AI and its complexities.\n\nCommon folks and the public do not really care about sophisticated algos that never see the light of day.",
+                        "body_html": "<div class=\"md\"><p>Meta is a leader in the research community alongside Google as top contributors. The funny thing is that he started posting that graph of AI related paper contributions to show supremacy and to undermine OpenAI and DeepMind as <em>merely consumers</em> of research. But Meta hasnt provided any product from their research that has reached the public. When they tried, they immediately shut it down. </p>\n\n<p>He also kinda blames the public perception as to why Meta cannot publish products without scrutiny pointing the thing that people are still overly criticizing Facebook/Meta for obviously great reasons in the past.</p>\n\n<p>It is indeed a massive milestone maybe a bit above Stable Diffusion. I&#39;d still argue that Github Copilot was bigger but since its mainly for devs, it didnt get the publicity that it wanted. It&#39;s a massive milestone because common folks pondered the idea of AI takeover which have shifted every one else&#39;s perspective on the domain. It&#39;s the culmination of decades of R&amp;D that the public can interact to -- a gateway to AI and its complexities.</p>\n\n<p>Common folks and the public do not really care about sophisticated algos that never see the light of day.</p>\n</div>",
+                        "created_utc": "02-06-2023 05:34:32",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7fcbh3",
+                        "is_submitter": true,
+                        "link_id": "t3_10uw974",
+                        "parent_id": "t1_j7fbjcg",
+                        "score": -1,
+                        "stickied": false,
+                        "replies": []
+                    }
+                ]
+            },
+            {
+                "author": "u/reditum",
+                "body": "Facebook: *move* ***fast*** *and b r e a k things*\n\nAlso Facebook/Meta/Zuckerbronium when they actually need to do something different that doesn't involve buying companies to form a monopoly: look guys we're working really hard on these *legs* for your avatars",
+                "body_html": "<div class=\"md\"><p>Facebook: <em>move</em> <strong><em>fast</em></strong> <em>and b r e a k things</em></p>\n\n<p>Also Facebook/Meta/Zuckerbronium when they actually need to do something different that doesn&#39;t involve buying companies to form a monopoly: look guys we&#39;re working really hard on these <em>legs</em> for your avatars</p>\n</div>",
+                "created_utc": "02-06-2023 19:24:53",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7il5mj",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": 1,
+                "stickied": false,
+                "replies": []
+            },
+            {
+                "author": "u/DominoChessMaster",
+                "body": "He seems to be like that in general",
+                "body_html": "<div class=\"md\"><p>He seems to be like that in general</p>\n</div>",
+                "created_utc": "02-06-2023 20:18:44",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7is157",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": 1,
+                "stickied": false,
+                "replies": []
+            },
+            {
+                "author": "u/DeepGamingAI",
+                "body": "To me all AI debate these days are just a regurgitation of \"glass half full or half empty\" discussions. Yes, LLMs are far more intelligent than anyone anticipated them to be by this point in time, and no they aren't general intelligence. The constant back and forth between these two groups can essentially be replayed year after year and not much has changed in terms of arguments.",
+                "body_html": "<div class=\"md\"><p>To me all AI debate these days are just a regurgitation of &quot;glass half full or half empty&quot; discussions. Yes, LLMs are far more intelligent than anyone anticipated them to be by this point in time, and no they aren&#39;t general intelligence. The constant back and forth between these two groups can essentially be replayed year after year and not much has changed in terms of arguments.</p>\n</div>",
+                "created_utc": "02-07-2023 01:50:26",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7jq9jk",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": 1,
+                "stickied": false,
+                "replies": []
+            },
+            {
+                "author": "u/f10101",
+                "body": "I always find it curious that lot of these \"godfathers of AI\" seem to be a bit like this. It gets draining to listen to them, as they have a tendency to reframe any debate or definition just so they can be right.",
+                "body_html": "<div class=\"md\"><p>I always find it curious that lot of these &quot;godfathers of AI&quot; seem to be a bit like this. It gets draining to listen to them, as they have a tendency to reframe any debate or definition just so they can be right.</p>\n</div>",
+                "created_utc": "02-07-2023 07:01:54",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7kea8m",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": 1,
+                "stickied": false,
+                "replies": []
+            },
+            {
+                "author": "u/FLQuant",
+                "body": "The technical name is butt hurt.\n\nYeah, he has some important and relevant points, butknow he spent his whole day on Twitter complaining about ChatGPT.\n\nMost of the complaints are that it isn't the first, the most advanced nor the best. I find it very curious coming from some who works at Meta since this kind of critic work for almost all Meta products.",
+                "body_html": "<div class=\"md\"><p>The technical name is butt hurt.</p>\n\n<p>Yeah, he has some important and relevant points, butknow he spent his whole day on Twitter complaining about ChatGPT.</p>\n\n<p>Most of the complaints are that it isn&#39;t the first, the most advanced nor the best. I find it very curious coming from some who works at Meta since this kind of critic work for almost all Meta products.</p>\n</div>",
+                "created_utc": "02-07-2023 16:18:04",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7mobsc",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": 1,
+                "stickied": false,
+                "replies": []
+            },
+            {
+                "author": "u/_Arsenie_Boca_",
+                "body": "His position as rival makes his statements look petty, and they might be. But still, I agree with most of his statements you quoted here.",
+                "body_html": "<div class=\"md\"><p>His position as rival makes his statements look petty, and they might be. But still, I agree with most of his statements you quoted here.</p>\n</div>",
+                "created_utc": "02-12-2023 14:13:39",
+                "distinguished": null,
+                "edited": false,
+                "id": "j8a4q2t",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": 1,
+                "stickied": false,
+                "replies": []
+            },
+            {
+                "author": "u/DrHaz0r",
+                "body": "I think you are all missing the point that Schmidhuber has basically invented Chat-GPT in the 90s already. Just with smaller networks, smaller datasets and less compute power. Although even Schmidhuber basically just stole from Gauss, but no one talks about that.",
+                "body_html": "<div class=\"md\"><p>I think you are all missing the point that Schmidhuber has basically invented Chat-GPT in the 90s already. Just with smaller networks, smaller datasets and less compute power. Although even Schmidhuber basically just stole from Gauss, but no one talks about that.</p>\n</div>",
+                "created_utc": "02-06-2023 07:26:07",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7fmzlx",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": 0,
+                "stickied": false,
+                "replies": []
+            },
+            {
+                "author": "u/clueless1245",
+                "body": "Lol at your previous posts. https://www.reddit.com/r/LateStageCapitalism/comments/zdeix8/ai_art_is_very_dystopian/j044ec2/\n\nYou are obviously disturbed and just latching on to arguing for thousands of words online as an outlet.\n\nCannot wait for next month when Ukraine or COVID-19 is back on the news cycle and you move on to /r/worldnews.",
+                "body_html": "<div class=\"md\"><p>Lol at your previous posts. <a href=\"https://www.reddit.com/r/LateStageCapitalism/comments/zdeix8/ai_art_is_very_dystopian/j044ec2/\">https://www.reddit.com/r/LateStageCapitalism/comments/zdeix8/ai_art_is_very_dystopian/j044ec2/</a></p>\n\n<p>You are obviously disturbed and just latching on to arguing for thousands of words online as an outlet.</p>\n\n<p>Cannot wait for next month when Ukraine or COVID-19 is back on the news cycle and you move on to <a href=\"/r/worldnews\">/r/worldnews</a>.</p>\n</div>",
+                "created_utc": "02-06-2023 19:58:09",
+                "distinguished": null,
+                "edited": "02-06-2023 20:15:25",
+                "id": "j7ipckn",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": 0,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/supersoldierboy94",
+                        "body": "If you've read the comments, you will know the answer. You already went my profile for some stalking reasons yet you ignored that lol",
+                        "body_html": "<div class=\"md\"><p>If you&#39;ve read the comments, you will know the answer. You already went my profile for some stalking reasons yet you ignored that lol</p>\n</div>",
+                        "created_utc": "02-06-2023 20:08:11",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7iqnqj",
+                        "is_submitter": true,
+                        "link_id": "t3_10uw974",
+                        "parent_id": "t1_j7ipckn",
+                        "score": 1,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/clueless1245",
+                                "body": "Hope you get the help you need \ud83d\ude4f.",
+                                "body_html": "<div class=\"md\"><p>Hope you get the help you need \ud83d\ude4f.</p>\n</div>",
+                                "created_utc": "02-06-2023 20:14:36",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j7irhmo",
+                                "is_submitter": false,
+                                "link_id": "t3_10uw974",
+                                "parent_id": "t1_j7iqnqj",
+                                "score": 0,
+                                "stickied": false,
+                                "replies": [
+                                    {
+                                        "author": "u/supersoldierboy94",
+                                        "body": "Hope you succeed ln trying to learn ML concepts as well \ud83d\udcaa",
+                                        "body_html": "<div class=\"md\"><p>Hope you succeed ln trying to learn ML concepts as well \ud83d\udcaa</p>\n</div>",
+                                        "created_utc": "02-06-2023 20:16:57",
+                                        "distinguished": null,
+                                        "edited": false,
+                                        "id": "j7irss7",
+                                        "is_submitter": true,
+                                        "link_id": "t3_10uw974",
+                                        "parent_id": "t1_j7irhmo",
+                                        "score": 1,
+                                        "stickied": false,
+                                        "replies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/luckymethod",
+                "body": "He's right and you're full of it.",
+                "body_html": "<div class=\"md\"><p>He&#39;s right and you&#39;re full of it.</p>\n</div>",
+                "created_utc": "02-06-2023 21:52:25",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7j41yx",
+                "is_submitter": false,
+                "link_id": "t3_10uw974",
+                "parent_id": "t3_10uw974",
+                "score": 0,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/supersoldierboy94",
+                        "body": "Thanks for adding contribution to this discussion like your contribution to the field. Salute.",
+                        "body_html": "<div class=\"md\"><p>Thanks for adding contribution to this discussion like your contribution to the field. Salute.</p>\n</div>",
+                        "created_utc": "02-06-2023 21:53:36",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7j471i",
+                        "is_submitter": true,
+                        "link_id": "t3_10uw974",
+                        "parent_id": "t1_j7j41yx",
+                        "score": 1,
+                        "stickied": false,
+                        "replies": []
+                    }
+                ]
+            }
+        ]
+    }
+}

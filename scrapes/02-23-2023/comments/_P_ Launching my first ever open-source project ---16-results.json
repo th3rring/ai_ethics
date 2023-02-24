@@ -1,0 +1,265 @@
+{
+    "scrape_settings": {
+        "n_results": 16,
+        "style": "structured",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/10nfquy/p_launching_my_first_ever_opensource_project_and/"
+    },
+    "data": {
+        "submission_metadata": {
+            "author": "u/Vegetable-Skill-9700",
+            "created_utc": "01-28-2023 08:00:18",
+            "distinguished": null,
+            "edited": "02-01-2023 10:48:09",
+            "is_original_content": false,
+            "is_self": true,
+            "link_flair_text": "Project",
+            "locked": false,
+            "nsfw": false,
+            "num_comments": 16,
+            "permalink": "/r/MachineLearning/comments/10nfquy/p_launching_my_first_ever_opensource_project_and/",
+            "score": 55,
+            "selftext": "I am building an open-source ML observability and refinement toolkit. \n\nThe tool helps ML practitioners to:\n1. Understand how their models are performing in production\n2. Catch edge-cases and outliers to help them refine their models\n3. Allow them to customise the tool according to their needs (hence, open-source)\n4. Bring data-security at the forefront (hence, self hosted)\n\nYou can check out the project https://github.com/uptrain-ai/uptrain and would love to hear feedback from the community",
+            "spoiler": false,
+            "stickied": false,
+            "subreddit": "MachineLearning",
+            "title": "[P] Launching my first ever open-source project and it might make your ChatGPT answers better",
+            "upvote_ratio": 0.86
+        },
+        "comments": [
+            {
+                "author": "u/Acceptable-Cress-374",
+                "body": "Ok, I'll bite. What's uptrain?",
+                "body_html": "<div class=\"md\"><p>Ok, I&#39;ll bite. What&#39;s uptrain?</p>\n</div>",
+                "created_utc": "01-28-2023 08:03:25",
+                "distinguished": null,
+                "edited": false,
+                "id": "j68evw5",
+                "is_submitter": false,
+                "link_id": "t3_10nfquy",
+                "parent_id": "t3_10nfquy",
+                "score": 22,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/kirlandwater",
+                        "body": "Not much what\u2019s up with you",
+                        "body_html": "<div class=\"md\"><p>Not much what\u2019s up with you</p>\n</div>",
+                        "created_utc": "01-28-2023 18:08:32",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j6artbc",
+                        "is_submitter": false,
+                        "link_id": "t3_10nfquy",
+                        "parent_id": "t1_j68evw5",
+                        "score": 10,
+                        "stickied": false,
+                        "replies": []
+                    },
+                    {
+                        "author": "u/Vegetable-Skill-9700",
+                        "body": "So, you know how it\u2019s almost impossible to build 100% accurate and super-generalised ML models. On top, the performance of these models degrade over time. Furthermore, due to the black boxiness of ML models, identifying problems with them and fixing those problems is super-hard.  \n\nUpTrain solves for these exact issues. It identifies cases where the model is going wrong, collects those problematic data-points and retrains the model on them to improve it's accuracy!\n\nYou can checkout the repo here: https://github.com/uptrain-ai/uptrain",
+                        "body_html": "<div class=\"md\"><p>So, you know how it\u2019s almost impossible to build 100% accurate and super-generalised ML models. On top, the performance of these models degrade over time. Furthermore, due to the black boxiness of ML models, identifying problems with them and fixing those problems is super-hard.  </p>\n\n<p>UpTrain solves for these exact issues. It identifies cases where the model is going wrong, collects those problematic data-points and retrains the model on them to improve it&#39;s accuracy!</p>\n\n<p>You can checkout the repo here: <a href=\"https://github.com/uptrain-ai/uptrain\">https://github.com/uptrain-ai/uptrain</a></p>\n</div>",
+                        "created_utc": "01-28-2023 08:14:43",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j68g80z",
+                        "is_submitter": true,
+                        "link_id": "t3_10nfquy",
+                        "parent_id": "t1_j68evw5",
+                        "score": 13,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/Acceptable-Cress-374",
+                                "body": "Ah, you're so sweet! I was actually setting up the updog joke :)\n\nI checked & bookmarked the repo. Looks promising!",
+                                "body_html": "<div class=\"md\"><p>Ah, you&#39;re so sweet! I was actually setting up the updog joke :)</p>\n\n<p>I checked &amp; bookmarked the repo. Looks promising!</p>\n</div>",
+                                "created_utc": "01-28-2023 09:27:57",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j68pjdo",
+                                "is_submitter": false,
+                                "link_id": "t3_10nfquy",
+                                "parent_id": "t1_j68g80z",
+                                "score": 23,
+                                "stickied": false,
+                                "replies": [
+                                    {
+                                        "author": "u/Vegetable-Skill-9700",
+                                        "body": "Lol, I get the joke now, it's a good one! Thanks for bookmarking!",
+                                        "body_html": "<div class=\"md\"><p>Lol, I get the joke now, it&#39;s a good one! Thanks for bookmarking!</p>\n</div>",
+                                        "created_utc": "01-28-2023 09:54:14",
+                                        "distinguished": null,
+                                        "edited": false,
+                                        "id": "j68t7rk",
+                                        "is_submitter": true,
+                                        "link_id": "t3_10nfquy",
+                                        "parent_id": "t1_j68pjdo",
+                                        "score": 4,
+                                        "stickied": false,
+                                        "replies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/jobeta",
+                "body": "Sweet! That dashboard looks really nice too!",
+                "body_html": "<div class=\"md\"><p>Sweet! That dashboard looks really nice too!</p>\n</div>",
+                "created_utc": "01-28-2023 14:07:06",
+                "distinguished": null,
+                "edited": false,
+                "id": "j69u8a4",
+                "is_submitter": false,
+                "link_id": "t3_10nfquy",
+                "parent_id": "t3_10nfquy",
+                "score": 3,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/Vegetable-Skill-9700",
+                        "body": "Thanks!",
+                        "body_html": "<div class=\"md\"><p>Thanks!</p>\n</div>",
+                        "created_utc": "01-28-2023 14:22:23",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j69wew8",
+                        "is_submitter": true,
+                        "link_id": "t3_10nfquy",
+                        "parent_id": "t1_j69u8a4",
+                        "score": 2,
+                        "stickied": false,
+                        "replies": []
+                    }
+                ]
+            },
+            {
+                "author": "u/StoicBatman",
+                "body": "I am new here, How it is helpful in making ChatGPT answers better?",
+                "body_html": "<div class=\"md\"><p>I am new here, How it is helpful in making ChatGPT answers better?</p>\n</div>",
+                "created_utc": "01-28-2023 23:03:28",
+                "distinguished": null,
+                "edited": false,
+                "id": "j6bsdgk",
+                "is_submitter": false,
+                "link_id": "t3_10nfquy",
+                "parent_id": "t3_10nfquy",
+                "score": 3,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/Vegetable-Skill-9700",
+                        "body": "Firstly, by measuring data drift and analyzing user behavior, UpTrain identifies which prompts/questions were unseen by the model or the cases where the user was unsatisfied with the model output. It automatically collects those cases for the model to retrain upon.\n\nSecondly, you can use the package to define a custom rule and filter out relevant data sets to retrain ChatGPT for your use case. \n\nSay you want to use LLM to write product descriptions for Nike shoes and have a database of Nike customer chats:  \na)  Rachel - I don't like these shoes. I want to return them. How do I do that?  \nb)  Ross - These shoes are great! I love them. I wear them every day while practicing unagi.  \nc) Chandler - Are there any better shoes than Nike? \ud83d\udc5f \ud83d\ude0d   \nYou probably want to filter out cases with positive sentiments or cases with lots of emojis. With UpTrain, you can easily define such rules as a python function and collect those cases.  \n\n\nI am working on an example highlighting how all the above can be done. It should be done in a week. Stay tuned!",
+                        "body_html": "<div class=\"md\"><p>Firstly, by measuring data drift and analyzing user behavior, UpTrain identifies which prompts/questions were unseen by the model or the cases where the user was unsatisfied with the model output. It automatically collects those cases for the model to retrain upon.</p>\n\n<p>Secondly, you can use the package to define a custom rule and filter out relevant data sets to retrain ChatGPT for your use case. </p>\n\n<p>Say you want to use LLM to write product descriptions for Nike shoes and have a database of Nike customer chats:<br/>\na)  Rachel - I don&#39;t like these shoes. I want to return them. How do I do that?<br/>\nb)  Ross - These shoes are great! I love them. I wear them every day while practicing unagi.<br/>\nc) Chandler - Are there any better shoes than Nike? \ud83d\udc5f \ud83d\ude0d<br/>\nYou probably want to filter out cases with positive sentiments or cases with lots of emojis. With UpTrain, you can easily define such rules as a python function and collect those cases.  </p>\n\n<p>I am working on an example highlighting how all the above can be done. It should be done in a week. Stay tuned!</p>\n</div>",
+                        "created_utc": "01-29-2023 12:59:26",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j6e8o99",
+                        "is_submitter": true,
+                        "link_id": "t3_10nfquy",
+                        "parent_id": "t1_j6bsdgk",
+                        "score": 3,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/StoicBatman",
+                                "body": "Sound awesome, Thanks for the explanation :)",
+                                "body_html": "<div class=\"md\"><p>Sound awesome, Thanks for the explanation :)</p>\n</div>",
+                                "created_utc": "01-29-2023 14:36:18",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j6enssx",
+                                "is_submitter": false,
+                                "link_id": "t3_10nfquy",
+                                "parent_id": "t1_j6e8o99",
+                                "score": 3,
+                                "stickied": false,
+                                "replies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/Vegetable-Skill-9700",
+                "body": "We currently support LLMs, Vision models, Recommendation systems, etc., and are working to integrate it seamlessly with any of the major MLOps frameworks or cloud providers.",
+                "body_html": "<div class=\"md\"><p>We currently support LLMs, Vision models, Recommendation systems, etc., and are working to integrate it seamlessly with any of the major MLOps frameworks or cloud providers.</p>\n</div>",
+                "created_utc": "01-28-2023 08:00:20",
+                "distinguished": null,
+                "edited": "01-29-2023 13:02:00",
+                "id": "j68ejbm",
+                "is_submitter": true,
+                "link_id": "t3_10nfquy",
+                "parent_id": "t3_10nfquy",
+                "score": 6,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/SupplyChainPhd",
+                        "body": "Can\u2019t wait to check it out Monday",
+                        "body_html": "<div class=\"md\"><p>Can\u2019t wait to check it out Monday</p>\n</div>",
+                        "created_utc": "01-28-2023 10:48:10",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j690ygz",
+                        "is_submitter": false,
+                        "link_id": "t3_10nfquy",
+                        "parent_id": "t1_j68ejbm",
+                        "score": 2,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/Vegetable-Skill-9700",
+                                "body": "\ud83d\ude04",
+                                "body_html": "<div class=\"md\"><p>\ud83d\ude04</p>\n</div>",
+                                "created_utc": "01-29-2023 13:00:27",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j6e8txc",
+                                "is_submitter": true,
+                                "link_id": "t3_10nfquy",
+                                "parent_id": "t1_j690ygz",
+                                "score": 1,
+                                "stickied": false,
+                                "replies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/jabarifowle",
+                "body": "Sweet!",
+                "body_html": "<div class=\"md\"><p>Sweet!</p>\n</div>",
+                "created_utc": "01-30-2023 00:04:05",
+                "distinguished": null,
+                "edited": false,
+                "id": "j6gx2ya",
+                "is_submitter": false,
+                "link_id": "t3_10nfquy",
+                "parent_id": "t3_10nfquy",
+                "score": 2,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/Vegetable-Skill-9700",
+                        "body": "Thanks!",
+                        "body_html": "<div class=\"md\"><p>Thanks!</p>\n</div>",
+                        "created_utc": "01-30-2023 00:19:29",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j6gygb7",
+                        "is_submitter": true,
+                        "link_id": "t3_10nfquy",
+                        "parent_id": "t1_j6gx2ya",
+                        "score": 1,
+                        "stickied": false,
+                        "replies": []
+                    }
+                ]
+            }
+        ]
+    }
+}

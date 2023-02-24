@@ -1,0 +1,780 @@
+{
+    "scrape_settings": {
+        "n_results": 50,
+        "style": "structured",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/10r7k0h/n_openai_starts_selling_subscriptions_to_its/"
+    },
+    "data": {
+        "submission_metadata": {
+            "author": "u/bikeskata",
+            "created_utc": "02-01-2023 15:59:38",
+            "distinguished": null,
+            "edited": false,
+            "is_original_content": false,
+            "is_self": true,
+            "link_flair_text": "News",
+            "locked": false,
+            "nsfw": false,
+            "num_comments": 50,
+            "permalink": "/r/MachineLearning/comments/10r7k0h/n_openai_starts_selling_subscriptions_to_its/",
+            "score": 47,
+            "selftext": "https://www.axios.com/2023/02/01/chatgpt-subscriptions-chatbot-openai\n\nNot fully paywalled, but there's a tiering system.",
+            "spoiler": false,
+            "stickied": false,
+            "subreddit": "MachineLearning",
+            "title": "[N] OpenAI starts selling subscriptions to its ChatGPT bot",
+            "upvote_ratio": 0.88
+        },
+        "comments": [
+            {
+                "author": "u/krand16",
+                "body": "\n[Direct link to blog](https://openai.com/blog/chatgpt-plus/)",
+                "body_html": "<div class=\"md\"><p><a href=\"https://openai.com/blog/chatgpt-plus/\">Direct link to blog</a></p>\n</div>",
+                "created_utc": "02-02-2023 05:28:36",
+                "distinguished": null,
+                "edited": false,
+                "id": "j6whjv5",
+                "is_submitter": false,
+                "link_id": "t3_10r7k0h",
+                "parent_id": "t3_10r7k0h",
+                "score": 12,
+                "stickied": false,
+                "replies": []
+            },
+            {
+                "author": "u/Parzival_007",
+                "body": "I'm not surprised, but imo this is good. I think they did the same once before ? Hopefully the watermarking system gets very good too, I know there is active research going on in this area.",
+                "body_html": "<div class=\"md\"><p>I&#39;m not surprised, but imo this is good. I think they did the same once before ? Hopefully the watermarking system gets very good too, I know there is active research going on in this area.</p>\n</div>",
+                "created_utc": "02-02-2023 00:10:57",
+                "distinguished": null,
+                "edited": false,
+                "id": "j6vtx0l",
+                "is_submitter": false,
+                "link_id": "t3_10r7k0h",
+                "parent_id": "t3_10r7k0h",
+                "score": 8,
+                "stickied": false,
+                "replies": []
+            },
+            {
+                "author": "u/bojohnsonyadig",
+                "body": "Will this attract the average joe user who just thought it was fun? Who do you think will be the target market/first adopters to pay?",
+                "body_html": "<div class=\"md\"><p>Will this attract the average joe user who just thought it was fun? Who do you think will be the target market/first adopters to pay?</p>\n</div>",
+                "created_utc": "02-02-2023 06:34:33",
+                "distinguished": null,
+                "edited": false,
+                "id": "j6wnhha",
+                "is_submitter": false,
+                "link_id": "t3_10r7k0h",
+                "parent_id": "t3_10r7k0h",
+                "score": 2,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/cachemonet0x0cf6619",
+                        "body": "me and my kids. i use it as a replacement for stack overflow and my kids use it for school.",
+                        "body_html": "<div class=\"md\"><p>me and my kids. i use it as a replacement for stack overflow and my kids use it for school.</p>\n</div>",
+                        "created_utc": "02-02-2023 07:19:24",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j6ws965",
+                        "is_submitter": false,
+                        "link_id": "t3_10r7k0h",
+                        "parent_id": "t1_j6wnhha",
+                        "score": 7,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/bojohnsonyadig",
+                                "body": "It\u2019s not up to date for any libraries past it\u2019s training date, so are you using it as a rough answer or are your questions not generally library specific?",
+                                "body_html": "<div class=\"md\"><p>It\u2019s not up to date for any libraries past it\u2019s training date, so are you using it as a rough answer or are your questions not generally library specific?</p>\n</div>",
+                                "created_utc": "02-02-2023 08:32:02",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j6x1hud",
+                                "is_submitter": false,
+                                "link_id": "t3_10r7k0h",
+                                "parent_id": "t1_j6ws965",
+                                "score": 1,
+                                "stickied": false,
+                                "replies": [
+                                    {
+                                        "author": "u/cachemonet0x0cf6619",
+                                        "body": "correct. nothing specific. I\u2019ve given it a bit of code and asked it to add doc strings to it. it was meh. \n\nI\u2019ve asked it to help me set up a new environment. it gave me old set up instructions but was able to make my way through by changing old versions. a lot like google. \n\nit will write a lot of boiler tests. I\u2019ve asked it to write a script and then write a unit test for the script. that was also meh but it was a good scaffold",
+                                        "body_html": "<div class=\"md\"><p>correct. nothing specific. I\u2019ve given it a bit of code and asked it to add doc strings to it. it was meh. </p>\n\n<p>I\u2019ve asked it to help me set up a new environment. it gave me old set up instructions but was able to make my way through by changing old versions. a lot like google. </p>\n\n<p>it will write a lot of boiler tests. I\u2019ve asked it to write a script and then write a unit test for the script. that was also meh but it was a good scaffold</p>\n</div>",
+                                        "created_utc": "02-02-2023 18:19:05",
+                                        "distinguished": null,
+                                        "edited": false,
+                                        "id": "j6zkpdk",
+                                        "is_submitter": false,
+                                        "link_id": "t3_10r7k0h",
+                                        "parent_id": "t1_j6x1hud",
+                                        "score": 2,
+                                        "stickied": false,
+                                        "replies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "author": "u/42gauge",
+                                "body": "How do your kids use it?",
+                                "body_html": "<div class=\"md\"><p>How do your kids use it?</p>\n</div>",
+                                "created_utc": "02-05-2023 21:59:34",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j7ebele",
+                                "is_submitter": false,
+                                "link_id": "t3_10r7k0h",
+                                "parent_id": "t1_j6ws965",
+                                "score": 1,
+                                "stickied": false,
+                                "replies": []
+                            }
+                        ]
+                    },
+                    {
+                        "author": "u/throwaway2676",
+                        "body": "I think a lot of people would pay for the initial model they first released.  Since then they've been censoring the shit out of it to avoid controversy, and a fair amount of the hype died down among the average joes.\n\nAt this point I think their main target demo will be white collar workers who use it to make work easier.  However, the hype will pick back up once they connect it to the internet.",
+                        "body_html": "<div class=\"md\"><p>I think a lot of people would pay for the initial model they first released.  Since then they&#39;ve been censoring the shit out of it to avoid controversy, and a fair amount of the hype died down among the average joes.</p>\n\n<p>At this point I think their main target demo will be white collar workers who use it to make work easier.  However, the hype will pick back up once they connect it to the internet.</p>\n</div>",
+                        "created_utc": "02-02-2023 10:01:18",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j6xerk7",
+                        "is_submitter": false,
+                        "link_id": "t3_10r7k0h",
+                        "parent_id": "t1_j6wnhha",
+                        "score": 3,
+                        "stickied": false,
+                        "replies": []
+                    }
+                ]
+            },
+            {
+                "author": "u/race2tb",
+                "body": "Some model like this one is Destined to become a Utility governement pays for. The productive boost you would give your society would make the cost seem insignificant.",
+                "body_html": "<div class=\"md\"><p>Some model like this one is Destined to become a Utility governement pays for. The productive boost you would give your society would make the cost seem insignificant.</p>\n</div>",
+                "created_utc": "02-02-2023 10:58:06",
+                "distinguished": null,
+                "edited": false,
+                "id": "j6xns5j",
+                "is_submitter": false,
+                "link_id": "t3_10r7k0h",
+                "parent_id": "t3_10r7k0h",
+                "score": 3,
+                "stickied": false,
+                "replies": []
+            },
+            {
+                "author": "u/TrevorIRL",
+                "body": "So it costs them $100 000/day to run\n\n30 days * $100 000/day = $3 million a month in costs\n\n10 million users * 20% who will buy (Pareto Principle) = 2 million users who buy a subscription.\n\n2 million * $20/month = $40 000 000/ month in revenue.\n\nAssuming I did my math right, that\u2019s some pretty amazing margins and it\u2019s only going to get better!",
+                "body_html": "<div class=\"md\"><p>So it costs them $100 000/day to run</p>\n\n<p>30 days * $100 000/day = $3 million a month in costs</p>\n\n<p>10 million users * 20% who will buy (Pareto Principle) = 2 million users who buy a subscription.</p>\n\n<p>2 million * $20/month = $40 000 000/ month in revenue.</p>\n\n<p>Assuming I did my math right, that\u2019s some pretty amazing margins and it\u2019s only going to get better!</p>\n</div>",
+                "created_utc": "02-02-2023 09:02:29",
+                "distinguished": null,
+                "edited": false,
+                "id": "j6x5uer",
+                "is_submitter": false,
+                "link_id": "t3_10r7k0h",
+                "parent_id": "t3_10r7k0h",
+                "score": 4,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/BCBCC",
+                        "body": "I know what the Pareto principle is, and I don't think 20% of users will pay this subscription fee, that's a pretty wild assumption",
+                        "body_html": "<div class=\"md\"><p>I know what the Pareto principle is, and I don&#39;t think 20% of users will pay this subscription fee, that&#39;s a pretty wild assumption</p>\n</div>",
+                        "created_utc": "02-02-2023 09:25:51",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j6x9axw",
+                        "is_submitter": false,
+                        "link_id": "t3_10r7k0h",
+                        "parent_id": "t1_j6x5uer",
+                        "score": 23,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/TrevorIRL",
+                                "body": "Your right, it was just some quick napkin math, I\u2019m not saying it\u2019s guaranteed.\n\nI would however say that even if you said only 10% of users would pay, you are still at $20 000 000.\n\n5% is still $10 000 000.\n\nImagine having a product better than Google, being able to improve productivity and save hours in your business, and not having to fear that too many people are using it when you need it most.\n\nI guarantee we see more than 5% of users willing to shell out $20/mo for this.\n\nEdit: This is also a product that\u2019s going to continue to get better over time!",
+                                "body_html": "<div class=\"md\"><p>Your right, it was just some quick napkin math, I\u2019m not saying it\u2019s guaranteed.</p>\n\n<p>I would however say that even if you said only 10% of users would pay, you are still at $20 000 000.</p>\n\n<p>5% is still $10 000 000.</p>\n\n<p>Imagine having a product better than Google, being able to improve productivity and save hours in your business, and not having to fear that too many people are using it when you need it most.</p>\n\n<p>I guarantee we see more than 5% of users willing to shell out $20/mo for this.</p>\n\n<p>Edit: This is also a product that\u2019s going to continue to get better over time!</p>\n</div>",
+                                "created_utc": "02-02-2023 10:21:09",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j6xhuvh",
+                                "is_submitter": false,
+                                "link_id": "t3_10r7k0h",
+                                "parent_id": "t1_j6x9axw",
+                                "score": 2,
+                                "stickied": false,
+                                "replies": [
+                                    {
+                                        "author": "u/ResetThePlayClock",
+                                        "body": "I agree with this take. It\u2019s already gotten me out of several jams at work, and it is DEFINITELY better than google.",
+                                        "body_html": "<div class=\"md\"><p>I agree with this take. It\u2019s already gotten me out of several jams at work, and it is DEFINITELY better than google.</p>\n</div>",
+                                        "created_utc": "02-02-2023 10:36:52",
+                                        "distinguished": null,
+                                        "edited": false,
+                                        "id": "j6xkc53",
+                                        "is_submitter": false,
+                                        "link_id": "t3_10r7k0h",
+                                        "parent_id": "t1_j6xhuvh",
+                                        "score": 6,
+                                        "stickied": false,
+                                        "replies": []
+                                    },
+                                    {
+                                        "author": "u/arhetorical",
+                                        "body": "$20 is frankly a very reasonable price for anyone who uses it professionally. For people who just use to generate memes or students who want to cheat on homework it's less reasonable, but I don't think that's their target market (and in the case of cheating, something they actually want to avoid).",
+                                        "body_html": "<div class=\"md\"><p>$20 is frankly a very reasonable price for anyone who uses it professionally. For people who just use to generate memes or students who want to cheat on homework it&#39;s less reasonable, but I don&#39;t think that&#39;s their target market (and in the case of cheating, something they actually want to avoid).</p>\n</div>",
+                                        "created_utc": "02-02-2023 11:57:36",
+                                        "distinguished": null,
+                                        "edited": false,
+                                        "id": "j6xxijd",
+                                        "is_submitter": false,
+                                        "link_id": "t3_10r7k0h",
+                                        "parent_id": "t1_j6xhuvh",
+                                        "score": 4,
+                                        "stickied": false,
+                                        "replies": [
+                                            {
+                                                "author": "u/2blazen",
+                                                "body": "I've been using the GPT3 API for around 0.4c per request with 0 down time. With my current usage this sums up to around 10c a day, 3usd per month. I don't see how 20usd is reasonable",
+                                                "body_html": "<div class=\"md\"><p>I&#39;ve been using the GPT3 API for around 0.4c per request with 0 down time. With my current usage this sums up to around 10c a day, 3usd per month. I don&#39;t see how 20usd is reasonable</p>\n</div>",
+                                                "created_utc": "02-02-2023 14:22:40",
+                                                "distinguished": null,
+                                                "edited": false,
+                                                "id": "j6ykrcq",
+                                                "is_submitter": false,
+                                                "link_id": "t3_10r7k0h",
+                                                "parent_id": "t1_j6xxijd",
+                                                "score": 1,
+                                                "stickied": false,
+                                                "replies": [
+                                                    {
+                                                        "author": "u/CowardlyVelociraptor",
+                                                        "body": "You're paying a premium for the nice UI",
+                                                        "body_html": "<div class=\"md\"><p>You&#39;re paying a premium for the nice UI</p>\n</div>",
+                                                        "created_utc": "02-02-2023 20:29:52",
+                                                        "distinguished": null,
+                                                        "edited": false,
+                                                        "id": "j7025ho",
+                                                        "is_submitter": false,
+                                                        "link_id": "t3_10r7k0h",
+                                                        "parent_id": "t1_j6ykrcq",
+                                                        "score": 1,
+                                                        "stickied": false,
+                                                        "replies": [
+                                                            {
+                                                                "author": "u/2blazen",
+                                                                "body": "Might be just me, but I really hate how the reply is returned in the UI. Even if the subscription will solve the random interruptions during generation, the word-by-word printing kills me, I'd rather wait a bit but receive my answer in one piece",
+                                                                "body_html": "<div class=\"md\"><p>Might be just me, but I really hate how the reply is returned in the UI. Even if the subscription will solve the random interruptions during generation, the word-by-word printing kills me, I&#39;d rather wait a bit but receive my answer in one piece</p>\n</div>",
+                                                                "created_utc": "02-03-2023 01:03:05",
+                                                                "distinguished": null,
+                                                                "edited": false,
+                                                                "id": "j70vh2g",
+                                                                "is_submitter": false,
+                                                                "link_id": "t3_10r7k0h",
+                                                                "parent_id": "t1_j7025ho",
+                                                                "score": 1,
+                                                                "stickied": false,
+                                                                "replies": [
+                                                                    {
+                                                                        "author": "u/danielbln",
+                                                                        "body": "I much prefer to see the tokens as they are generated, it's much better UX as you can abort the generation if you feel it's not going in the right direction. All my GPT3 integrations use stream:true and display every word as it comes in.",
+                                                                        "body_html": "<div class=\"md\"><p>I much prefer to see the tokens as they are generated, it&#39;s much better UX as you can abort the generation if you feel it&#39;s not going in the right direction. All my GPT3 integrations use stream:true and display every word as it comes in.</p>\n</div>",
+                                                                        "created_utc": "02-05-2023 12:56:01",
+                                                                        "distinguished": null,
+                                                                        "edited": false,
+                                                                        "id": "j7c9mpc",
+                                                                        "is_submitter": false,
+                                                                        "link_id": "t3_10r7k0h",
+                                                                        "parent_id": "t1_j70vh2g",
+                                                                        "score": 1,
+                                                                        "stickied": false,
+                                                                        "replies": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "author": "u/arhetorical",
+                                                        "body": "Isn't ChatGPT more advanced than the davinci models available through the API? In any case, the point is that if you use it for work, $20 is negligible compared to the time you'll save.",
+                                                        "body_html": "<div class=\"md\"><p>Isn&#39;t ChatGPT more advanced than the davinci models available through the API? In any case, the point is that if you use it for work, $20 is negligible compared to the time you&#39;ll save.</p>\n</div>",
+                                                        "created_utc": "02-02-2023 23:32:36",
+                                                        "distinguished": null,
+                                                        "edited": false,
+                                                        "id": "j70ndxc",
+                                                        "is_submitter": false,
+                                                        "link_id": "t3_10r7k0h",
+                                                        "parent_id": "t1_j6ykrcq",
+                                                        "score": 1,
+                                                        "stickied": false,
+                                                        "replies": [
+                                                            {
+                                                                "author": "u/2blazen",
+                                                                "body": "I thought so too, but haven't actually notice any difference, other than how the davinci models don't have the extensive content filters.\n\n>if you use it for work, $20 is negligible\n\nIf my company pays for it, sure, otherwise I'll always prefer the request-based pricing with a nice API that I can just call from my terminal",
+                                                                "body_html": "<div class=\"md\"><p>I thought so too, but haven&#39;t actually notice any difference, other than how the davinci models don&#39;t have the extensive content filters.</p>\n\n<blockquote>\n<p>if you use it for work, $20 is negligible</p>\n</blockquote>\n\n<p>If my company pays for it, sure, otherwise I&#39;ll always prefer the request-based pricing with a nice API that I can just call from my terminal</p>\n</div>",
+                                                                "created_utc": "02-03-2023 00:56:26",
+                                                                "distinguished": null,
+                                                                "edited": false,
+                                                                "id": "j70ux9o",
+                                                                "is_submitter": false,
+                                                                "link_id": "t3_10r7k0h",
+                                                                "parent_id": "t1_j70ndxc",
+                                                                "score": 1,
+                                                                "stickied": false,
+                                                                "replies": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "author": "u/frequenttimetraveler",
+                        "body": "20%? More like 2% (the whales)\n\nThis seems like an uninspired monetization strategy. But it's alright , it s still very early days , time will tell",
+                        "body_html": "<div class=\"md\"><p>20%? More like 2% (the whales)</p>\n\n<p>This seems like an uninspired monetization strategy. But it&#39;s alright , it s still very early days , time will tell</p>\n</div>",
+                        "created_utc": "02-02-2023 10:57:05",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j6xnm9i",
+                        "is_submitter": false,
+                        "link_id": "t3_10r7k0h",
+                        "parent_id": "t1_j6x5uer",
+                        "score": 4,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/TrevorIRL",
+                                "body": "Even a VERY conservative estimate here yields $4 000 000 a month in revenue which is more than enough to cover expenses and grow.\n\nVery right that this is early days and yes, uninspired, but effective.\n\nThere will be new avenues for monetization once it matures. For example, opening the API for a fee would be another strategy that would earn huge dollars for OpenAI and allow some incredible apps to be developed!",
+                                "body_html": "<div class=\"md\"><p>Even a VERY conservative estimate here yields $4 000 000 a month in revenue which is more than enough to cover expenses and grow.</p>\n\n<p>Very right that this is early days and yes, uninspired, but effective.</p>\n\n<p>There will be new avenues for monetization once it matures. For example, opening the API for a fee would be another strategy that would earn huge dollars for OpenAI and allow some incredible apps to be developed!</p>\n</div>",
+                                "created_utc": "02-02-2023 11:45:02",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j6xvg76",
+                                "is_submitter": false,
+                                "link_id": "t3_10r7k0h",
+                                "parent_id": "t1_j6xnm9i",
+                                "score": 2,
+                                "stickied": false,
+                                "replies": []
+                            }
+                        ]
+                    },
+                    {
+                        "author": "u/2blazen",
+                        "body": ">that\u2019s some pretty amazing margins\n\nThat's just the (estimated) hardware uptime cost, you haven't mentioned the wages or the R&D investment",
+                        "body_html": "<div class=\"md\"><blockquote>\n<p>that\u2019s some pretty amazing margins</p>\n</blockquote>\n\n<p>That&#39;s just the (estimated) hardware uptime cost, you haven&#39;t mentioned the wages or the R&amp;D investment</p>\n</div>",
+                        "created_utc": "02-02-2023 14:29:24",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j6yluho",
+                        "is_submitter": false,
+                        "link_id": "t3_10r7k0h",
+                        "parent_id": "t1_j6x5uer",
+                        "score": 2,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/TrevorIRL",
+                                "body": "Sure, but until recently, OpenAI has been a not for profit researching platform.\n\nThat means, the R and D would have been written off as a cost of production for this product.\n\nAs far as publicly known info, $3 million a year is our best guess at what it costs to run.\n\nConsidering the excitement at future utility, I don\u2019t imagine capital will be the constraint for future development.",
+                                "body_html": "<div class=\"md\"><p>Sure, but until recently, OpenAI has been a not for profit researching platform.</p>\n\n<p>That means, the R and D would have been written off as a cost of production for this product.</p>\n\n<p>As far as publicly known info, $3 million a year is our best guess at what it costs to run.</p>\n\n<p>Considering the excitement at future utility, I don\u2019t imagine capital will be the constraint for future development.</p>\n</div>",
+                                "created_utc": "02-02-2023 19:42:57",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j6zvy53",
+                                "is_submitter": false,
+                                "link_id": "t3_10r7k0h",
+                                "parent_id": "t1_j6yluho",
+                                "score": 2,
+                                "stickied": false,
+                                "replies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/Monoranos",
+                "body": "I am the only one who finds it weird to make profits from what it seems to be stolen data from the whole humanity?\n\nEdit: Well didn't think this was a controversial take. I feel like people juste choose to ignore the whole aspect of consent and ethics about your data.\n\nThe GDPR further clarifies the conditions for consent in Article 7:\nhttps://gdpr.eu/gdpr-consent-requirements/ \n\n1. Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data.\n\n2. If the data subject\u2019s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly distinguishable from the other matters, in an intelligible and easily accessible form, using clear and plain language. Any part of such a declaration which constitutes an infringement of this Regulation shall not be binding.\n\n3. The data subject shall have the right to withdraw his or her consent at any time. The withdrawal of consent shall not affect the lawfulness of processing based on consent before its withdrawal. Prior to giving consent, the data subject shall be informed thereof. It shall be as easy to withdraw as to give consent.\n\n4. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+                "body_html": "<div class=\"md\"><p>I am the only one who finds it weird to make profits from what it seems to be stolen data from the whole humanity?</p>\n\n<p>Edit: Well didn&#39;t think this was a controversial take. I feel like people juste choose to ignore the whole aspect of consent and ethics about your data.</p>\n\n<p>The GDPR further clarifies the conditions for consent in Article 7:\n<a href=\"https://gdpr.eu/gdpr-consent-requirements/\">https://gdpr.eu/gdpr-consent-requirements/</a> </p>\n\n<ol>\n<li><p>Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data.</p></li>\n<li><p>If the data subject\u2019s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly distinguishable from the other matters, in an intelligible and easily accessible form, using clear and plain language. Any part of such a declaration which constitutes an infringement of this Regulation shall not be binding.</p></li>\n<li><p>The data subject shall have the right to withdraw his or her consent at any time. The withdrawal of consent shall not affect the lawfulness of processing based on consent before its withdrawal. Prior to giving consent, the data subject shall be informed thereof. It shall be as easy to withdraw as to give consent.</p></li>\n<li><p>When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.</p></li>\n</ol>\n</div>",
+                "created_utc": "02-02-2023 00:59:58",
+                "distinguished": null,
+                "edited": "02-02-2023 11:03:17",
+                "id": "j6vy1lg",
+                "is_submitter": false,
+                "link_id": "t3_10r7k0h",
+                "parent_id": "t3_10r7k0h",
+                "score": -32,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/E_Snap",
+                        "body": "So are we just collectively pretending that the terms and conditions of websites don\u2019t exist? You put something up on somebody else\u2019s server, 99% of the time it\u2019s no longer yours to claim ownership of anymore.",
+                        "body_html": "<div class=\"md\"><p>So are we just collectively pretending that the terms and conditions of websites don\u2019t exist? You put something up on somebody else\u2019s server, 99% of the time it\u2019s no longer yours to claim ownership of anymore.</p>\n</div>",
+                        "created_utc": "02-02-2023 02:29:12",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j6w4skd",
+                        "is_submitter": false,
+                        "link_id": "t3_10r7k0h",
+                        "parent_id": "t1_j6vy1lg",
+                        "score": 16,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/Monoranos",
+                                "body": " I understand your point, but it's important to consider the ethics of using data that was gathered without explicit consent or understanding of how it would be used. Just because it's technically allowed under terms and conditions, doesn't mean it's morally right. Companies have a responsibility to ensure that they use data in a responsible and ethical manner, rather than solely relying on the legality of the terms and conditions.",
+                                "body_html": "<div class=\"md\"><p>I understand your point, but it&#39;s important to consider the ethics of using data that was gathered without explicit consent or understanding of how it would be used. Just because it&#39;s technically allowed under terms and conditions, doesn&#39;t mean it&#39;s morally right. Companies have a responsibility to ensure that they use data in a responsible and ethical manner, rather than solely relying on the legality of the terms and conditions.</p>\n</div>",
+                                "created_utc": "02-02-2023 10:43:38",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j6xlf7p",
+                                "is_submitter": false,
+                                "link_id": "t3_10r7k0h",
+                                "parent_id": "t1_j6w4skd",
+                                "score": -1,
+                                "stickied": false,
+                                "replies": []
+                            }
+                        ]
+                    },
+                    {
+                        "author": "u/mr_birrd",
+                        "body": "You think the whole internet is free to run? Anyways, they don't use any of your data to train it.",
+                        "body_html": "<div class=\"md\"><p>You think the whole internet is free to run? Anyways, they don&#39;t use any of your data to train it.</p>\n</div>",
+                        "created_utc": "02-02-2023 08:22:37",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j6x06eq",
+                        "is_submitter": false,
+                        "link_id": "t3_10r7k0h",
+                        "parent_id": "t1_j6vy1lg",
+                        "score": 2,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/Monoranos",
+                                "body": "I am not saying the whole internet is free to run but, using people's data without consent raises privacy and ethical concerns. Profiting from potentially stolen data raises questions about legality and morality.",
+                                "body_html": "<div class=\"md\"><p>I am not saying the whole internet is free to run but, using people&#39;s data without consent raises privacy and ethical concerns. Profiting from potentially stolen data raises questions about legality and morality.</p>\n</div>",
+                                "created_utc": "02-02-2023 10:51:18",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j6xmoc2",
+                                "is_submitter": false,
+                                "link_id": "t3_10r7k0h",
+                                "parent_id": "t1_j6x06eq",
+                                "score": 1,
+                                "stickied": false,
+                                "replies": [
+                                    {
+                                        "author": "u/mr_birrd",
+                                        "body": "No it doesn't raise ethical concerns. You literally have to agree about usage about your data and at least in Europe should be able to opt out of everything if you want. You should 100% know this, those are the rules of the game. Just cause you don't read the terms of agreements doesn't make it unethical for companies to read your data. Sure if you then use it for insurances that won't help you cause you will become sick w.h.p. that's another thing. But don't act surprised.",
+                                        "body_html": "<div class=\"md\"><p>No it doesn&#39;t raise ethical concerns. You literally have to agree about usage about your data and at least in Europe should be able to opt out of everything if you want. You should 100% know this, those are the rules of the game. Just cause you don&#39;t read the terms of agreements doesn&#39;t make it unethical for companies to read your data. Sure if you then use it for insurances that won&#39;t help you cause you will become sick w.h.p. that&#39;s another thing. But don&#39;t act surprised.</p>\n</div>",
+                                        "created_utc": "02-02-2023 11:00:24",
+                                        "distinguished": null,
+                                        "edited": false,
+                                        "id": "j6xo5qk",
+                                        "is_submitter": false,
+                                        "link_id": "t3_10r7k0h",
+                                        "parent_id": "t1_j6xmoc2",
+                                        "score": 1,
+                                        "stickied": false,
+                                        "replies": [
+                                            {
+                                                "author": "u/Monoranos",
+                                                "body": "Just read my edit about the GDPR and explicit consent.  \n\n\n\"in Europe should be able to opt out of everything if you want.\" Great point, I wonder how would OpenAI react if people want them to remove their data. Is it even possible ?",
+                                                "body_html": "<div class=\"md\"><p>Just read my edit about the GDPR and explicit consent.  </p>\n\n<p>&quot;in Europe should be able to opt out of everything if you want.&quot; Great point, I wonder how would OpenAI react if people want them to remove their data. Is it even possible ?</p>\n</div>",
+                                                "created_utc": "02-02-2023 11:06:30",
+                                                "distinguished": null,
+                                                "edited": false,
+                                                "id": "j6xp59x",
+                                                "is_submitter": false,
+                                                "link_id": "t3_10r7k0h",
+                                                "parent_id": "t1_j6xo5qk",
+                                                "score": 1,
+                                                "stickied": false,
+                                                "replies": [
+                                                    {
+                                                        "author": "u/mr_birrd",
+                                                        "body": "Do you know the dataset is was trained on even?",
+                                                        "body_html": "<div class=\"md\"><p>Do you know the dataset is was trained on even?</p>\n</div>",
+                                                        "created_utc": "02-02-2023 11:10:25",
+                                                        "distinguished": null,
+                                                        "edited": false,
+                                                        "id": "j6xps33",
+                                                        "is_submitter": false,
+                                                        "link_id": "t3_10r7k0h",
+                                                        "parent_id": "t1_j6xp59x",
+                                                        "score": 1,
+                                                        "stickied": false,
+                                                        "replies": [
+                                                            {
+                                                                "author": "u/Monoranos",
+                                                                "body": "I don't believe that they disclosed the data on which they trained chatGPT. If you know do you mind sharing ? :)",
+                                                                "body_html": "<div class=\"md\"><p>I don&#39;t believe that they disclosed the data on which they trained chatGPT. If you know do you mind sharing ? :)</p>\n</div>",
+                                                                "created_utc": "02-02-2023 11:25:17",
+                                                                "distinguished": null,
+                                                                "edited": false,
+                                                                "id": "j6xs7m3",
+                                                                "is_submitter": false,
+                                                                "link_id": "t3_10r7k0h",
+                                                                "parent_id": "t1_j6xps33",
+                                                                "score": 1,
+                                                                "stickied": false,
+                                                                "replies": [
+                                                                    {
+                                                                        "author": "u/mr_birrd",
+                                                                        "body": "Edit: Chatgpt uses GPT3. Search the dataset it used.\n\nGoogle it they have full transparency. If you find a text by yourself there maybe ask if they can remove it. First of all, the data is only used for stachastic gradient descent and the model has no idea about the content it read, it only can model probabilities of words, e.g. it learned to speak but it only speaks such that it mostly outputs what makes sence in a bayesian way.\n\nSo the model is already trained and it didn't even read all of the data, those huge models often only read each instance of sample once at maximum, since they learn that \"well\".\n\nAlso in the law text you wrote I understand it that if you opt out in the future, it doesn't make past data processing wrong. The model is already trained, so they don't have to remove anything.\n\nThey also mostly have a whole ethics chapter in their papers, maybe you go check it out. Ethics etc is not smth unknows and especially such big companies also have some people working on that in their teams.",
+                                                                        "body_html": "<div class=\"md\"><p>Edit: Chatgpt uses GPT3. Search the dataset it used.</p>\n\n<p>Google it they have full transparency. If you find a text by yourself there maybe ask if they can remove it. First of all, the data is only used for stachastic gradient descent and the model has no idea about the content it read, it only can model probabilities of words, e.g. it learned to speak but it only speaks such that it mostly outputs what makes sence in a bayesian way.</p>\n\n<p>So the model is already trained and it didn&#39;t even read all of the data, those huge models often only read each instance of sample once at maximum, since they learn that &quot;well&quot;.</p>\n\n<p>Also in the law text you wrote I understand it that if you opt out in the future, it doesn&#39;t make past data processing wrong. The model is already trained, so they don&#39;t have to remove anything.</p>\n\n<p>They also mostly have a whole ethics chapter in their papers, maybe you go check it out. Ethics etc is not smth unknows and especially such big companies also have some people working on that in their teams.</p>\n</div>",
+                                                                        "created_utc": "02-02-2023 11:32:02",
+                                                                        "distinguished": null,
+                                                                        "edited": false,
+                                                                        "id": "j6xtb3u",
+                                                                        "is_submitter": false,
+                                                                        "link_id": "t3_10r7k0h",
+                                                                        "parent_id": "t1_j6xs7m3",
+                                                                        "score": 1,
+                                                                        "stickied": false,
+                                                                        "replies": [
+                                                                            {
+                                                                                "author": "u/Monoranos",
+                                                                                "body": "Even if they have full transparency it doesn't mean they are GDPR complient. I tried to look more into it but was not successfull.",
+                                                                                "body_html": "<div class=\"md\"><p>Even if they have full transparency it doesn&#39;t mean they are GDPR complient. I tried to look more into it but was not successfull.</p>\n</div>",
+                                                                                "created_utc": "02-02-2023 11:40:02",
+                                                                                "distinguished": null,
+                                                                                "edited": false,
+                                                                                "id": "j6xumt3",
+                                                                                "is_submitter": false,
+                                                                                "link_id": "t3_10r7k0h",
+                                                                                "parent_id": "t1_j6xtb3u",
+                                                                                "score": 1,
+                                                                                "stickied": false,
+                                                                                "replies": [
+                                                                                    {
+                                                                                        "author": "u/mr_birrd",
+                                                                                        "body": "Well the thing is you aren't the first one to think about that. They do this for very long already and know that what they do is legal here. They would not waste millions in training it just to throw it away afterwards.",
+                                                                                        "body_html": "<div class=\"md\"><p>Well the thing is you aren&#39;t the first one to think about that. They do this for very long already and know that what they do is legal here. They would not waste millions in training it just to throw it away afterwards.</p>\n</div>",
+                                                                                        "created_utc": "02-02-2023 11:44:02",
+                                                                                        "distinguished": null,
+                                                                                        "edited": false,
+                                                                                        "id": "j6xvaec",
+                                                                                        "is_submitter": false,
+                                                                                        "link_id": "t3_10r7k0h",
+                                                                                        "parent_id": "t1_j6xumt3",
+                                                                                        "score": 1,
+                                                                                        "stickied": false,
+                                                                                        "replies": [
+                                                                                            {
+                                                                                                "author": "u/myrmil",
+                                                                                                "body": "Yeah, they sure wouldn't Kappa",
+                                                                                                "body_html": "<div class=\"md\"><p>Yeah, they sure wouldn&#39;t Kappa</p>\n</div>",
+                                                                                                "created_utc": "02-02-2023 11:48:52",
+                                                                                                "distinguished": null,
+                                                                                                "edited": false,
+                                                                                                "id": "j6xw2sq",
+                                                                                                "is_submitter": false,
+                                                                                                "link_id": "t3_10r7k0h",
+                                                                                                "parent_id": "t1_j6xvaec",
+                                                                                                "score": 1,
+                                                                                                "stickied": false,
+                                                                                                "replies": []
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "author": "u/butter14",
+                        "body": "It essentially operates the same way as humans digesting content and then outputting content from the ingested data.",
+                        "body_html": "<div class=\"md\"><p>It essentially operates the same way as humans digesting content and then outputting content from the ingested data.</p>\n</div>",
+                        "created_utc": "02-02-2023 12:42:32",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j6y4rnd",
+                        "is_submitter": false,
+                        "link_id": "t3_10r7k0h",
+                        "parent_id": "t1_j6vy1lg",
+                        "score": 2,
+                        "stickied": false,
+                        "replies": []
+                    },
+                    {
+                        "author": "[deleted]",
+                        "body": "Stolen from whom? This comment you posted doesn\u2019t belong to you. Images you post on Instagram don\u2019t belong to you. \n\nCan you explain your thinking a bit more?\n\nOr are you basically realizing how important SOPA was 7 years later, well into the next AI boom when the horse has very much left the barn? \n\nPerhaps you are young and inexperienced in this domain \u2014 or both?",
+                        "body_html": "<div class=\"md\"><p>Stolen from whom? This comment you posted doesn\u2019t belong to you. Images you post on Instagram don\u2019t belong to you. </p>\n\n<p>Can you explain your thinking a bit more?</p>\n\n<p>Or are you basically realizing how important SOPA was 7 years later, well into the next AI boom when the horse has very much left the barn? </p>\n\n<p>Perhaps you are young and inexperienced in this domain \u2014 or both?</p>\n</div>",
+                        "created_utc": "02-02-2023 04:26:53",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j6wcxc9",
+                        "is_submitter": false,
+                        "link_id": "t3_10r7k0h",
+                        "parent_id": "t1_j6vy1lg",
+                        "score": 9,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/Monoranos",
+                                "body": "Also to respond to your \"to young and inexperienced\" was not necessary for this debate. it gives the impression that you just want to insult me which shows a lack of maturity.  \n\n\nAnd also, maybe you should keep up to date with the legality of this mather (GDPR: Explicit consent). But hey, maybe you're to old or ignorant in this domain \u2014 or both? :)",
+                                "body_html": "<div class=\"md\"><p>Also to respond to your &quot;to young and inexperienced&quot; was not necessary for this debate. it gives the impression that you just want to insult me which shows a lack of maturity.  </p>\n\n<p>And also, maybe you should keep up to date with the legality of this mather (GDPR: Explicit consent). But hey, maybe you&#39;re to old or ignorant in this domain \u2014 or both? :)</p>\n</div>",
+                                "created_utc": "02-02-2023 10:59:08",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j6xny7i",
+                                "is_submitter": false,
+                                "link_id": "t3_10r7k0h",
+                                "parent_id": "t1_j6wcxc9",
+                                "score": 1,
+                                "stickied": false,
+                                "replies": []
+                            },
+                            {
+                                "author": "u/Monoranos",
+                                "body": "While it is true that much of the data used to train these models is sourced from publicly available sources, it's also true that much of this data was generated by individuals who may not have been fully aware of the implications or intended uses of their contributions. The question of who owns this data and how it can be used is an important one, and it's understandable that some people might feel uncomfortable about the potential for profit to be made from it. It's important to have a conversation about ethical considerations in the development and deployment of large language models.",
+                                "body_html": "<div class=\"md\"><p>While it is true that much of the data used to train these models is sourced from publicly available sources, it&#39;s also true that much of this data was generated by individuals who may not have been fully aware of the implications or intended uses of their contributions. The question of who owns this data and how it can be used is an important one, and it&#39;s understandable that some people might feel uncomfortable about the potential for profit to be made from it. It&#39;s important to have a conversation about ethical considerations in the development and deployment of large language models.</p>\n</div>",
+                                "created_utc": "02-02-2023 10:45:50",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j6xlrzq",
+                                "is_submitter": false,
+                                "link_id": "t3_10r7k0h",
+                                "parent_id": "t1_j6wcxc9",
+                                "score": 0,
+                                "stickied": false,
+                                "replies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/lunarNex",
+                "body": "So not \"open\" AI anymore?  That greed sets in fast.",
+                "body_html": "<div class=\"md\"><p>So not &quot;open&quot; AI anymore?  That greed sets in fast.</p>\n</div>",
+                "created_utc": "02-01-2023 22:01:10",
+                "distinguished": null,
+                "edited": false,
+                "id": "j6vgjgy",
+                "is_submitter": false,
+                "link_id": "t3_10r7k0h",
+                "parent_id": "t3_10r7k0h",
+                "score": -57,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "[deleted]",
+                        "body": "You must be new here from a gaming subreddit or something where people talk like this, and not actually in a research field.\n\nChatGPT is the only free, self hosted product they have exposed people to. This is actually the norm for OpenAI and you would be dying on a stale hill.\n\nOther than that their inference code is open. You can run a local version of GPT with your own code and a locally existing model right now (if you know what you are doing, minor caveat)\n\nSame for their Whisper code. Doesn\u2019t get more open than that. The compute required to train a multi billion parameter model isn\u2019t something you could do anyways.\n\nLastly \u201copen\u201d doesn\u2019t just mean free of cost. It means intellectually transparent about the code (this is always what it means). There\u2019s no reason to confuse the two. It costs 100k per day to run these models so I\u2019m not sure what leads you to think that risk should be part of an intellectually open philosophy when you can just deploy GPT yourself if you\u2019re so inclined. \n\nWelcome to the sub.",
+                        "body_html": "<div class=\"md\"><p>You must be new here from a gaming subreddit or something where people talk like this, and not actually in a research field.</p>\n\n<p>ChatGPT is the only free, self hosted product they have exposed people to. This is actually the norm for OpenAI and you would be dying on a stale hill.</p>\n\n<p>Other than that their inference code is open. You can run a local version of GPT with your own code and a locally existing model right now (if you know what you are doing, minor caveat)</p>\n\n<p>Same for their Whisper code. Doesn\u2019t get more open than that. The compute required to train a multi billion parameter model isn\u2019t something you could do anyways.</p>\n\n<p>Lastly \u201copen\u201d doesn\u2019t just mean free of cost. It means intellectually transparent about the code (this is always what it means). There\u2019s no reason to confuse the two. It costs 100k per day to run these models so I\u2019m not sure what leads you to think that risk should be part of an intellectually open philosophy when you can just deploy GPT yourself if you\u2019re so inclined. </p>\n\n<p>Welcome to the sub.</p>\n</div>",
+                        "created_utc": "02-01-2023 22:12:43",
+                        "distinguished": null,
+                        "edited": "02-02-2023 04:57:54",
+                        "id": "j6vhw51",
+                        "is_submitter": false,
+                        "link_id": "t3_10r7k0h",
+                        "parent_id": "t1_j6vgjgy",
+                        "score": 74,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "[deleted]",
+                                "body": "[removed]",
+                                "body_html": "<div class=\"md\"><p>[removed]</p>\n</div>",
+                                "created_utc": "02-02-2023 00:06:40",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j6vtj8t",
+                                "is_submitter": false,
+                                "link_id": "t3_10r7k0h",
+                                "parent_id": "t1_j6vhw51",
+                                "score": 3,
+                                "stickied": false,
+                                "replies": [
+                                    {
+                                        "author": "[deleted]",
+                                        "body": "[removed]",
+                                        "body_html": "<div class=\"md\"><p>[removed]</p>\n</div>",
+                                        "created_utc": "02-02-2023 02:49:11",
+                                        "distinguished": null,
+                                        "edited": false,
+                                        "id": "j6w67if",
+                                        "is_submitter": false,
+                                        "link_id": "t3_10r7k0h",
+                                        "parent_id": "t1_j6vtj8t",
+                                        "score": 5,
+                                        "stickied": false,
+                                        "replies": [
+                                            {
+                                                "author": "[deleted]",
+                                                "body": "[removed]",
+                                                "body_html": "<div class=\"md\"><p>[removed]</p>\n</div>",
+                                                "created_utc": "02-02-2023 02:49:37",
+                                                "distinguished": null,
+                                                "edited": false,
+                                                "id": "j6w68lq",
+                                                "is_submitter": false,
+                                                "link_id": "t3_10r7k0h",
+                                                "parent_id": "t1_j6w67if",
+                                                "score": 4,
+                                                "stickied": false,
+                                                "replies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "author": "u/42gauge",
+                                "body": "> It means intellectually transparent about the code\n\nBut you can't download any of the GPT models, or the code used to train them, so is it open in that sense?",
+                                "body_html": "<div class=\"md\"><blockquote>\n<p>It means intellectually transparent about the code</p>\n</blockquote>\n\n<p>But you can&#39;t download any of the GPT models, or the code used to train them, so is it open in that sense?</p>\n</div>",
+                                "created_utc": "02-05-2023 22:05:50",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j7ec40a",
+                                "is_submitter": false,
+                                "link_id": "t3_10r7k0h",
+                                "parent_id": "t1_j6vhw51",
+                                "score": 0,
+                                "stickied": false,
+                                "replies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/bpooqd",
+                "body": "Cool, but I wished it would include an API and integration in other messengers like Signal. Would still sign up for it for sure though as long as its reasonably priced (<20$/month).",
+                "body_html": "<div class=\"md\"><p>Cool, but I wished it would include an API and integration in other messengers like Signal. Would still sign up for it for sure though as long as its reasonably priced (&lt;20$/month).</p>\n</div>",
+                "created_utc": "02-02-2023 08:54:36",
+                "distinguished": null,
+                "edited": false,
+                "id": "j6x4p5d",
+                "is_submitter": false,
+                "link_id": "t3_10r7k0h",
+                "parent_id": "t3_10r7k0h",
+                "score": 1,
+                "stickied": false,
+                "replies": []
+            }
+        ]
+    }
+}

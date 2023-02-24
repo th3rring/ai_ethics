@@ -1,0 +1,265 @@
+{
+    "scrape_settings": {
+        "n_results": 15,
+        "style": "structured",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/10oyllu/discussion_chatgpt_and_language_understanding/"
+    },
+    "data": {
+        "submission_metadata": {
+            "author": "u/mettle",
+            "created_utc": "01-30-2023 04:21:13",
+            "distinguished": null,
+            "edited": false,
+            "is_original_content": false,
+            "is_self": true,
+            "link_flair_text": "Discussion",
+            "locked": false,
+            "nsfw": false,
+            "num_comments": 15,
+            "permalink": "/r/MachineLearning/comments/10oyllu/discussion_chatgpt_and_language_understanding/",
+            "score": 13,
+            "selftext": "The general consensus seems to be that large language models, and ChatGPT in particular, have a problem with accuracy and hallucination. As compared to what, is often unclear, but let's say as compared to other NLP methods of question answering, language understanding or as compared to Google Search.\n\nI haven't really been able to find any reliable sources documenting this accuracy problem, though.\n\nThe SuperGLUE benchmark has GPT-3 ranked #24, not terrible, but outperformed by old models like T5, which seems odd. GLUE nothing. SQUAD nothing.\n\nSo, I'm curious:\n\n1. Is there any benchmark or metric reflecting the seeming step-function made by ChatGPT that's got everyone so excited? I definitely feel like there's a difference between gpt-3 and chatGPT, but is it measurable or is it just vibes?\n2. Is there any metric showing ChatGPT's problem with fact hallucination and accuracy?\n3. Am I off the mark here looking at question-answering benchmarks as an assessment of LLMs?\n\nThanks",
+            "spoiler": false,
+            "stickied": false,
+            "subreddit": "MachineLearning",
+            "title": "[Discussion] ChatGPT and language understanding benchmarks",
+            "upvote_ratio": 0.74
+        },
+        "comments": [
+            {
+                "author": "u/Jean-Porte",
+                "body": "T5 is fine-tuned on supervised classification. Trained to output labels. That's why it outperforms GPT3.\n\nGenerative models are not as good as discriminative models for discriminative tasks. A carefully tuned Deberta is probably better than chatGPT. But ChatGPT has a user-friendly text interface. And the glue-type evaluation is not charitable to chatGPT capabilities. The model might internally store the answer but it could be misaligned to the benchmark.\n\nI always wonder why we don't try to scale-up discriminative models. Deberta-xxlarge is \"only\" 1.3B parameters, and it outperforms T5 13B.",
+                "body_html": "<div class=\"md\"><p>T5 is fine-tuned on supervised classification. Trained to output labels. That&#39;s why it outperforms GPT3.</p>\n\n<p>Generative models are not as good as discriminative models for discriminative tasks. A carefully tuned Deberta is probably better than chatGPT. But ChatGPT has a user-friendly text interface. And the glue-type evaluation is not charitable to chatGPT capabilities. The model might internally store the answer but it could be misaligned to the benchmark.</p>\n\n<p>I always wonder why we don&#39;t try to scale-up discriminative models. Deberta-xxlarge is &quot;only&quot; 1.3B parameters, and it outperforms T5 13B.</p>\n</div>",
+                "created_utc": "01-30-2023 04:50:42",
+                "distinguished": null,
+                "edited": "01-30-2023 05:04:01",
+                "id": "j6hif9e",
+                "is_submitter": false,
+                "link_id": "t3_10oyllu",
+                "parent_id": "t3_10oyllu",
+                "score": 15,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/mettle",
+                        "body": "Is there some alternative benchmark that measures factual accuracy of output?\n\nOr is that impossible to use and create because any model would overfit that data?",
+                        "body_html": "<div class=\"md\"><p>Is there some alternative benchmark that measures factual accuracy of output?</p>\n\n<p>Or is that impossible to use and create because any model would overfit that data?</p>\n</div>",
+                        "created_utc": "01-30-2023 10:27:09",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j6ilm6q",
+                        "is_submitter": true,
+                        "link_id": "t3_10oyllu",
+                        "parent_id": "t1_j6hif9e",
+                        "score": 1,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/Jean-Porte",
+                                "body": "LAMA, truthfulQA, MMLU, and [many others](https://github.com/sileod/tasksource/blob/main/tasks.md)",
+                                "body_html": "<div class=\"md\"><p>LAMA, truthfulQA, MMLU, and <a href=\"https://github.com/sileod/tasksource/blob/main/tasks.md\">many others</a></p>\n</div>",
+                                "created_utc": "01-30-2023 10:32:25",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j6imfho",
+                                "is_submitter": false,
+                                "link_id": "t3_10oyllu",
+                                "parent_id": "t1_j6ilm6q",
+                                "score": 6,
+                                "stickied": false,
+                                "replies": [
+                                    {
+                                        "author": "u/mettle",
+                                        "body": "perfect, thank you!",
+                                        "body_html": "<div class=\"md\"><p>perfect, thank you!</p>\n</div>",
+                                        "created_utc": "01-30-2023 10:35:48",
+                                        "distinguished": null,
+                                        "edited": false,
+                                        "id": "j6imy6h",
+                                        "is_submitter": true,
+                                        "link_id": "t3_10oyllu",
+                                        "parent_id": "t1_j6imfho",
+                                        "score": 1,
+                                        "stickied": false,
+                                        "replies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/EmmyNoetherRing",
+                "body": "I hate to say it, but I think the actual answer to \u201cas compared to what\u201d is \u201cas compared to my human professor\u201d. \n\n  People using it to learn are having interactions that mimic interactions with teachers/experts.  When they mention hallucinations, I think it\u2019s often in that context.",
+                "body_html": "<div class=\"md\"><p>I hate to say it, but I think the actual answer to \u201cas compared to what\u201d is \u201cas compared to my human professor\u201d. </p>\n\n<p>People using it to learn are having interactions that mimic interactions with teachers/experts.  When they mention hallucinations, I think it\u2019s often in that context.</p>\n</div>",
+                "created_utc": "01-30-2023 09:02:38",
+                "distinguished": null,
+                "edited": false,
+                "id": "j6i8xfv",
+                "is_submitter": false,
+                "link_id": "t3_10oyllu",
+                "parent_id": "t3_10oyllu",
+                "score": 4,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/mettle",
+                        "body": "this is true so far, it would seem.\n\nyou'd think there'd be some clever folks trying to quantify things better.",
+                        "body_html": "<div class=\"md\"><p>this is true so far, it would seem.</p>\n\n<p>you&#39;d think there&#39;d be some clever folks trying to quantify things better.</p>\n</div>",
+                        "created_utc": "01-30-2023 10:31:16",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j6im95b",
+                        "is_submitter": true,
+                        "link_id": "t3_10oyllu",
+                        "parent_id": "t1_j6i8xfv",
+                        "score": 1,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/EmmyNoetherRing",
+                                "body": "I wouldn\u2019t mind being one of those folks.  But you make a good point that the old rubrics may not be capturing it. \n\n If you want to nail down what users are observing as its comparison to human performance, practically speaking you may need to shift to diagnostics that were designed to evaluate human performance.   With the added challenge of avoiding tests where the answer sheet would already be in its training data.",
+                                "body_html": "<div class=\"md\"><p>I wouldn\u2019t mind being one of those folks.  But you make a good point that the old rubrics may not be capturing it. </p>\n\n<p>If you want to nail down what users are observing as its comparison to human performance, practically speaking you may need to shift to diagnostics that were designed to evaluate human performance.   With the added challenge of avoiding tests where the answer sheet would already be in its training data.</p>\n</div>",
+                                "created_utc": "01-30-2023 12:46:54",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j6j7zq4",
+                                "is_submitter": false,
+                                "link_id": "t3_10oyllu",
+                                "parent_id": "t1_j6im95b",
+                                "score": 1,
+                                "stickied": false,
+                                "replies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/fmai",
+                "body": "GPT-3 ranks relatively low on SuperGLUE because it was not finetuned on the SuperGLUE tasks, whereas T5, etc. were.\nThe amazing feat about GPT-3 is that you can reach impressive performance with just few-shot prompting, which was unknown before.\n\nAs to your questions:\n\n1. AFAIK, OpenAI hasn't published any numbers themselves and nobody outside of OpenAI has API access to ChatGPT yet, making it difficult to assess its performance on often thousands of examples from a benchmark. So, no, so far the performance improvement hasn't been quantified.\n\n2. No, there is no quantitative analysis. Most people seem to agree that, anecdotally, ChatGPT seems to hallucinate far less than GPT-3. But you can definitely get ChatGPT to generate bullshit if you keep digging, so it's far from perfect. Depending on what story you want to tell, some people will emphasize one or the other. Take it all with a grain of salt until we get solid numbers.\n\n3. AFAIK, LLMs are fantastic at closed-book question answering, where you're not allowed to look at external resources. I think a T5 based model was the first to show that it can answer trivia questions well from knowledge stored in the model parameters only. For open-book QA you will need to augment the LLM with some retrieval mechanism (which ChatGPT doesn't have yet), and therefore you can expect other models to be much better in this regard.",
+                "body_html": "<div class=\"md\"><p>GPT-3 ranks relatively low on SuperGLUE because it was not finetuned on the SuperGLUE tasks, whereas T5, etc. were.\nThe amazing feat about GPT-3 is that you can reach impressive performance with just few-shot prompting, which was unknown before.</p>\n\n<p>As to your questions:</p>\n\n<ol>\n<li><p>AFAIK, OpenAI hasn&#39;t published any numbers themselves and nobody outside of OpenAI has API access to ChatGPT yet, making it difficult to assess its performance on often thousands of examples from a benchmark. So, no, so far the performance improvement hasn&#39;t been quantified.</p></li>\n<li><p>No, there is no quantitative analysis. Most people seem to agree that, anecdotally, ChatGPT seems to hallucinate far less than GPT-3. But you can definitely get ChatGPT to generate bullshit if you keep digging, so it&#39;s far from perfect. Depending on what story you want to tell, some people will emphasize one or the other. Take it all with a grain of salt until we get solid numbers.</p></li>\n<li><p>AFAIK, LLMs are fantastic at closed-book question answering, where you&#39;re not allowed to look at external resources. I think a T5 based model was the first to show that it can answer trivia questions well from knowledge stored in the model parameters only. For open-book QA you will need to augment the LLM with some retrieval mechanism (which ChatGPT doesn&#39;t have yet), and therefore you can expect other models to be much better in this regard.</p></li>\n</ol>\n</div>",
+                "created_utc": "01-30-2023 05:02:34",
+                "distinguished": null,
+                "edited": false,
+                "id": "j6hjauf",
+                "is_submitter": false,
+                "link_id": "t3_10oyllu",
+                "parent_id": "t3_10oyllu",
+                "score": 9,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/mettle",
+                        "body": "Thanks for this thoughtful answer.\n\nRe: 2, are there solid numbers we would conceptual even be able to get? Are there known ongoing efforts?",
+                        "body_html": "<div class=\"md\"><p>Thanks for this thoughtful answer.</p>\n\n<p>Re: 2, are there solid numbers we would conceptual even be able to get? Are there known ongoing efforts?</p>\n</div>",
+                        "created_utc": "01-30-2023 10:30:12",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j6im3ap",
+                        "is_submitter": true,
+                        "link_id": "t3_10oyllu",
+                        "parent_id": "t1_j6hjauf",
+                        "score": 1,
+                        "stickied": false,
+                        "replies": []
+                    }
+                ]
+            },
+            {
+                "author": "u/andreichiffa",
+                "body": "On a very high level, transformer-derived architectures struggle with the concept of reality because they need distributions in the token embedding space to remine wide. Especially for larger model, the training data is so sparse that without that they would struggle with generalization and exposure biais.\n\nRepeated prompting and prompt optimization can pull out elements of training set from it (in some cases), because in the end they do memorize, but the exact mechanism is not yet clear and cannot be counted on.\n\nYou can go around it by adding a \u00ab\u00a0critic\u00a0\u00bb post-processor that would classify if model tries to mention a fact, look it up, and force it to re-generate until statement is factually correct. This is very close to GeDi, the Guided Generation introduced by a Salesforce team back in 2020. Given that OpenAI went this route for ChatGPT and InstructGPT to make them less psycho and more useful to the end users (+ iterative fine-tuning from user's and critic model input), there is a good chance they will go this route as well.\n\nYou can also add discrete non-differentiable layers to train model to recognize factual statements from others in-text text and learn to switch between the modes allowing it to process them differently. However, you loose nice back-propagation properties and have to do black-box optimization on discrete layers, which is costly, even by LLM standards. That seems to be the Google approach with PaLM.",
+                "body_html": "<div class=\"md\"><p>On a very high level, transformer-derived architectures struggle with the concept of reality because they need distributions in the token embedding space to remine wide. Especially for larger model, the training data is so sparse that without that they would struggle with generalization and exposure biais.</p>\n\n<p>Repeated prompting and prompt optimization can pull out elements of training set from it (in some cases), because in the end they do memorize, but the exact mechanism is not yet clear and cannot be counted on.</p>\n\n<p>You can go around it by adding a \u00ab\u00a0critic\u00a0\u00bb post-processor that would classify if model tries to mention a fact, look it up, and force it to re-generate until statement is factually correct. This is very close to GeDi, the Guided Generation introduced by a Salesforce team back in 2020. Given that OpenAI went this route for ChatGPT and InstructGPT to make them less psycho and more useful to the end users (+ iterative fine-tuning from user&#39;s and critic model input), there is a good chance they will go this route as well.</p>\n\n<p>You can also add discrete non-differentiable layers to train model to recognize factual statements from others in-text text and learn to switch between the modes allowing it to process them differently. However, you loose nice back-propagation properties and have to do black-box optimization on discrete layers, which is costly, even by LLM standards. That seems to be the Google approach with PaLM.</p>\n</div>",
+                "created_utc": "01-31-2023 04:27:19",
+                "distinguished": null,
+                "edited": "01-31-2023 06:43:06",
+                "id": "j6mdm66",
+                "is_submitter": false,
+                "link_id": "t3_10oyllu",
+                "parent_id": "t3_10oyllu",
+                "score": 3,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/Blutorangensaft",
+                        "body": "Is the critic used for fine-tuning or as a part of the loss function during training?",
+                        "body_html": "<div class=\"md\"><p>Is the critic used for fine-tuning or as a part of the loss function during training?</p>\n</div>",
+                        "created_utc": "01-31-2023 04:31:22",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j6mdw93",
+                        "is_submitter": false,
+                        "link_id": "t3_10oyllu",
+                        "parent_id": "t1_j6mdm66",
+                        "score": 1,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/andreichiffa",
+                                "body": "Most likely as a post-processor, along the lines of guided generation; pretty much the GeDi proposed by Salesforce in 2020.",
+                                "body_html": "<div class=\"md\"><p>Most likely as a post-processor, along the lines of guided generation; pretty much the GeDi proposed by Salesforce in 2020.</p>\n</div>",
+                                "created_utc": "01-31-2023 06:38:05",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j6mojfv",
+                                "is_submitter": false,
+                                "link_id": "t3_10oyllu",
+                                "parent_id": "t1_j6mdw93",
+                                "score": 2,
+                                "stickied": false,
+                                "replies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/currentscurrents",
+                "body": "I think hallucination occurs because of the next-word-prediction task on which these models were trained. No matter how good a model is, it can never predict the irreducible entropy of the sentence - the 1.5 bits per word or whatever that contains the actual information content. The best it can do is guess.\n\nThis is exactly what hallucination looks like; all the sentence structure is right, but the information is wrong. Unfortunately, this is also the most important part of the sentence.",
+                "body_html": "<div class=\"md\"><p>I think hallucination occurs because of the next-word-prediction task on which these models were trained. No matter how good a model is, it can never predict the irreducible entropy of the sentence - the 1.5 bits per word or whatever that contains the actual information content. The best it can do is guess.</p>\n\n<p>This is exactly what hallucination looks like; all the sentence structure is right, but the information is wrong. Unfortunately, this is also the most important part of the sentence.</p>\n</div>",
+                "created_utc": "01-30-2023 13:09:39",
+                "distinguished": null,
+                "edited": false,
+                "id": "j6jbokk",
+                "is_submitter": false,
+                "link_id": "t3_10oyllu",
+                "parent_id": "t3_10oyllu",
+                "score": 3,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/mettle",
+                        "body": "Sure, but the question is how often does it happen to get the right answer vs. the wrong answer and how would be measure that.",
+                        "body_html": "<div class=\"md\"><p>Sure, but the question is how often does it happen to get the right answer vs. the wrong answer and how would be measure that.</p>\n</div>",
+                        "created_utc": "01-30-2023 13:40:13",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j6jgkz8",
+                        "is_submitter": true,
+                        "link_id": "t3_10oyllu",
+                        "parent_id": "t1_j6jbokk",
+                        "score": 1,
+                        "stickied": false,
+                        "replies": []
+                    }
+                ]
+            },
+            {
+                "author": "u/bitRAKE",
+                "body": "2. Ask ChatGPT for an explanation of anything **without** a known correct answer, and then tell it that \"that answer is incorrect\". It will proceed to dream up a new answer. This could be non-existent syntax for a programming language, for example. The sequential nature of the model means it can paint itself into a corner quite easily.  \n\n\n3. Isn't knowledge accuracy a by-product of modeling correct language use to some degree, and not the design goal of the system? A fantasy story is just as valid a language use as a research paper. Accuracy seems to correlate with how the system is primed for the desired context.",
+                "body_html": "<div class=\"md\"><ol>\n<li><p>Ask ChatGPT for an explanation of anything <strong>without</strong> a known correct answer, and then tell it that &quot;that answer is incorrect&quot;. It will proceed to dream up a new answer. This could be non-existent syntax for a programming language, for example. The sequential nature of the model means it can paint itself into a corner quite easily.  </p></li>\n<li><p>Isn&#39;t knowledge accuracy a by-product of modeling correct language use to some degree, and not the design goal of the system? A fantasy story is just as valid a language use as a research paper. Accuracy seems to correlate with how the system is primed for the desired context.</p></li>\n</ol>\n</div>",
+                "created_utc": "01-31-2023 05:40:22",
+                "distinguished": null,
+                "edited": false,
+                "id": "j6mj7s2",
+                "is_submitter": false,
+                "link_id": "t3_10oyllu",
+                "parent_id": "t3_10oyllu",
+                "score": 2,
+                "stickied": false,
+                "replies": []
+            }
+        ]
+    }
+}

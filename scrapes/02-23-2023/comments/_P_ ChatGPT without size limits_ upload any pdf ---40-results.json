@@ -1,0 +1,654 @@
+{
+    "scrape_settings": {
+        "n_results": 40,
+        "style": "structured",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/10vnkj8/p_chatgpt_without_size_limits_upload_any_pdf_and/"
+    },
+    "data": {
+        "submission_metadata": {
+            "author": "u/aicharades",
+            "created_utc": "02-06-2023 18:46:50",
+            "distinguished": null,
+            "edited": false,
+            "is_original_content": false,
+            "is_self": true,
+            "link_flair_text": "Project",
+            "locked": false,
+            "nsfw": false,
+            "num_comments": 40,
+            "permalink": "/r/MachineLearning/comments/10vnkj8/p_chatgpt_without_size_limits_upload_any_pdf_and/",
+            "score": 53,
+            "selftext": "hi all! I created a simple free tool where you can summarize and query documents of any size and estimate the cost to do so: [https://www.wrotescan.com](https://www.wrotescan.com/)\n\nYou can edit the prompts as well as automatically chunk and combine documents. There's also a cost estimator for any pdf you upload.\n\nLet me know if you want me to run some examples for you! Send me a pdf and tell me what you'd like summarized or extracted.\n\n***Tips***\n\nPlease be sure to keep *{text}* in both prompts or the program will not input your document's text into the map reduce summarizer.  *{text}* can only appear once in each prompt. It is where the text from each chunk to be summarized is input into the prompts.\n\nCreate a temporary OpenAI key / org to use with this site so you do not have to provide credit card information then be sure to delete the temp key when you are done.\n\n***Learnings***\n\nSome interesting learnings I had while creating the tool:\n\n\\- Minimizing the number of steps through the AI improved summarization, so map reduce was often better than a more advanced refine workflow which passes the output through the model many more times.\n\n\\- LangChain is great for managing multiple step language model calls and bypassing the current limitations of ChatGPT",
+            "spoiler": false,
+            "stickied": false,
+            "subreddit": "MachineLearning",
+            "title": "[P] ChatGPT without size limits: upload any pdf and apply any prompt to it",
+            "upvote_ratio": 0.75
+        },
+        "comments": [
+            {
+                "author": "u/mamaBiskothu",
+                "body": "Wait why are you continuously calling it chatGPT if it\u2019s not using chatGPT? In an ML sub to boost?",
+                "body_html": "<div class=\"md\"><p>Wait why are you continuously calling it chatGPT if it\u2019s not using chatGPT? In an ML sub to boost?</p>\n</div>",
+                "created_utc": "02-07-2023 06:37:24",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7kbrwm",
+                "is_submitter": false,
+                "link_id": "t3_10vnkj8",
+                "parent_id": "t3_10vnkj8",
+                "score": 21,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/TheEdes",
+                        "body": "This sub is over, it's been taken over by users and startups trying to promote their own products rather than researchers.",
+                        "body_html": "<div class=\"md\"><p>This sub is over, it&#39;s been taken over by users and startups trying to promote their own products rather than researchers.</p>\n</div>",
+                        "created_utc": "02-07-2023 17:32:31",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7mz548",
+                        "is_submitter": false,
+                        "link_id": "t3_10vnkj8",
+                        "parent_id": "t1_j7kbrwm",
+                        "score": 9,
+                        "stickied": false,
+                        "replies": []
+                    },
+                    {
+                        "author": "u/aicharades",
+                        "body": "This is a demo of an open source library that allows you to build your own chatgpt with the Completions API. Map reduce allows for memory and agent based simulation over much larger context windows.\n\n[https://langchain.readthedocs.io/en/latest/modules/memory/examples/chatgpt\\_clone.html](https://langchain.readthedocs.io/en/latest/modules/memory/examples/chatgpt_clone.html)",
+                        "body_html": "<div class=\"md\"><p>This is a demo of an open source library that allows you to build your own chatgpt with the Completions API. Map reduce allows for memory and agent based simulation over much larger context windows.</p>\n\n<p><a href=\"https://langchain.readthedocs.io/en/latest/modules/memory/examples/chatgpt_clone.html\">https://langchain.readthedocs.io/en/latest/modules/memory/examples/chatgpt_clone.html</a></p>\n</div>",
+                        "created_utc": "02-07-2023 06:44:56",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7kcj3i",
+                        "is_submitter": true,
+                        "link_id": "t3_10vnkj8",
+                        "parent_id": "t1_j7kbrwm",
+                        "score": -16,
+                        "stickied": false,
+                        "replies": []
+                    }
+                ]
+            },
+            {
+                "author": "u/aicharades",
+                "body": "I was really interested in how this could summarize primary sources, so I ran it on the database of Hillary Clinton's emails.\n\n**A Storyteller Summarizes Hillary Clinton\u2019s Emails**\n\n**Input**: Raw PDF of 2016 Democratic National Committee email leak\n\n\\------------------------\n\n**Prompt**: I want you to act as a storyteller. You will come up with entertaining stories that are engaging, imaginative and captivating for the audience based on the summary text provided. It can be fairy tales, educational stories or any other type of stories which has the potential to capture people's attention and imagination. You have been given a section of a large set of emails to summarize and come up with an entertaining story.\n\n\\------------------------\n\n**Output**: Once upon a time, there was a group of diplomats working hard to make the world a better place. They had been discussing how to gain leverage over the Pakistanis to move them to more aggressively pursue Al-Qaeda. After much deliberation, they decided to use a combination of incentives and coercive measures to try to get the Pakistanis to cooperate. They offered incentives such as increased control over how Kerry-Lugar money was used and increased support for counterinsurgency capabilities. They also used coercive measures such as targeting military leaders who gave support to Al-Qaeda and its allies, and attempting to reduce Pakistani anxieties about the Indian front. In the end, their efforts paid off and the Pakistanis began to cooperate more with their mission. The diplomats had succeeded in making the world a better place.\n\nThe story follows Hillary as she juggles her busy schedule, responding to requests from her colleagues and friends. She is always willing to help, and her dedication to her work is evident. Despite her busy schedule, she is still able to find time to help those around her. A powerful leader was tasked with finding out whether a senator supported the surge in Iraq and obtaining a copy of his recent speech about troops to Afghanistan. The leader reached out to her team for help, and they worked together to draft a memo outlining four strategic interests, three of which overlapped with the leader's goals. With the help of her team, the leader was able to obtain the information she needed and use it to make a positive impact.\n\nPresident Obama was faced with the challenge of how to win the war in Afghanistan without causing too much destruction and civilian casualties. He decided to increase the size of the Afghan army and police force, and to pay them better wages so they could live comfortably. He also decided to send more US Special Forces and tens of thousands of troops to the region. Despite these efforts, the Taliban continued to gain strength and support from the Pashtun community. Obama realized that he needed to find a better solution. He decided to focus on carefully thought out measures such as providing better pay for the Afghan army and police, and using diplomacy to negotiate with the Taliban. In the end, Obama was able to find a peaceful solution that allowed the US to win the war without causing too much destruction.\n\nA Prime Minister of a country had a fear of losing his sight due to a childhood rugby injury. He had his eyes checked and it was found that he had two minor tears in his retina. He visited the world-renowned Moorfields Hospital for further examinations and the doctors decided against any further operations. The Prime Minister was grateful to the doctors and staff of the NHS, especially Moorfields Hospital. Meanwhile, the US Secretary of State was in contact with the Foreign Minister of Honduras to discuss the situation in the country. She asked her staff to call the US Congressman Payne to update him on the situation. Through her diplomatic efforts, she was able to make a positive impact on the lives of many.\n\nA small island nation called Haiti faced many challenges, but the people of Haiti were determined to build a stable, prosperous and democratic future. The United Nations appointed President Clinton as a special envoy to Haiti, and he appointed Dr. Paul Farmer as the Deputy U.N. Special Envoy. Dr. Farmer had dedicated his life to helping the people of Haiti for the past 20 years. Despite the efforts of the U.S., U.N. and other countries, Haiti still faced many challenges. To help the people of Haiti, the U.S. State Department took a closer look at the challenges and Secretary Clinton's chief of staff briefed Members on the initial findings. The U.S. hoped to better target and coordinate assistance, engage the Haitian Diaspora, and make assistance sustainable. To help the people of Haiti, the U.S. proposed granting temporary protected status to Haitians living in the U.S. and included Haiti in security initiatives such as the Merida Initiative. With the help of the U.S., U.N. and other countries, the people of Haiti could build a brighter future.\n\nThere was also a great conflict between two powerful nations, Morocco and Guinea, over a passport that had been taken away from a citizen of Guinea. The leaders of the United States and France stepped in to help and offered ideas to help the two nations come to a resolution, but the leaders of Morocco and Guinea were still unable to come to an agreement. The leaders of the United States and France then decided to meet in Paris to discuss the situation further and were able to broker a deal between Morocco and Guinea, returning the passport to its rightful owner.\n\nThere was also a man named Tom who was nominated for a prestigious position, but his nomination was held up due to a disagreement between two powerful forces. A brave negotiator was able to convince the two sides to lift the hold on Tom's nomination, allowing him to achieve his dream.",
+                "body_html": "<div class=\"md\"><p>I was really interested in how this could summarize primary sources, so I ran it on the database of Hillary Clinton&#39;s emails.</p>\n\n<p><strong>A Storyteller Summarizes Hillary Clinton\u2019s Emails</strong></p>\n\n<p><strong>Input</strong>: Raw PDF of 2016 Democratic National Committee email leak</p>\n\n<p>------------------------</p>\n\n<p><strong>Prompt</strong>: I want you to act as a storyteller. You will come up with entertaining stories that are engaging, imaginative and captivating for the audience based on the summary text provided. It can be fairy tales, educational stories or any other type of stories which has the potential to capture people&#39;s attention and imagination. You have been given a section of a large set of emails to summarize and come up with an entertaining story.</p>\n\n<p>------------------------</p>\n\n<p><strong>Output</strong>: Once upon a time, there was a group of diplomats working hard to make the world a better place. They had been discussing how to gain leverage over the Pakistanis to move them to more aggressively pursue Al-Qaeda. After much deliberation, they decided to use a combination of incentives and coercive measures to try to get the Pakistanis to cooperate. They offered incentives such as increased control over how Kerry-Lugar money was used and increased support for counterinsurgency capabilities. They also used coercive measures such as targeting military leaders who gave support to Al-Qaeda and its allies, and attempting to reduce Pakistani anxieties about the Indian front. In the end, their efforts paid off and the Pakistanis began to cooperate more with their mission. The diplomats had succeeded in making the world a better place.</p>\n\n<p>The story follows Hillary as she juggles her busy schedule, responding to requests from her colleagues and friends. She is always willing to help, and her dedication to her work is evident. Despite her busy schedule, she is still able to find time to help those around her. A powerful leader was tasked with finding out whether a senator supported the surge in Iraq and obtaining a copy of his recent speech about troops to Afghanistan. The leader reached out to her team for help, and they worked together to draft a memo outlining four strategic interests, three of which overlapped with the leader&#39;s goals. With the help of her team, the leader was able to obtain the information she needed and use it to make a positive impact.</p>\n\n<p>President Obama was faced with the challenge of how to win the war in Afghanistan without causing too much destruction and civilian casualties. He decided to increase the size of the Afghan army and police force, and to pay them better wages so they could live comfortably. He also decided to send more US Special Forces and tens of thousands of troops to the region. Despite these efforts, the Taliban continued to gain strength and support from the Pashtun community. Obama realized that he needed to find a better solution. He decided to focus on carefully thought out measures such as providing better pay for the Afghan army and police, and using diplomacy to negotiate with the Taliban. In the end, Obama was able to find a peaceful solution that allowed the US to win the war without causing too much destruction.</p>\n\n<p>A Prime Minister of a country had a fear of losing his sight due to a childhood rugby injury. He had his eyes checked and it was found that he had two minor tears in his retina. He visited the world-renowned Moorfields Hospital for further examinations and the doctors decided against any further operations. The Prime Minister was grateful to the doctors and staff of the NHS, especially Moorfields Hospital. Meanwhile, the US Secretary of State was in contact with the Foreign Minister of Honduras to discuss the situation in the country. She asked her staff to call the US Congressman Payne to update him on the situation. Through her diplomatic efforts, she was able to make a positive impact on the lives of many.</p>\n\n<p>A small island nation called Haiti faced many challenges, but the people of Haiti were determined to build a stable, prosperous and democratic future. The United Nations appointed President Clinton as a special envoy to Haiti, and he appointed Dr. Paul Farmer as the Deputy U.N. Special Envoy. Dr. Farmer had dedicated his life to helping the people of Haiti for the past 20 years. Despite the efforts of the U.S., U.N. and other countries, Haiti still faced many challenges. To help the people of Haiti, the U.S. State Department took a closer look at the challenges and Secretary Clinton&#39;s chief of staff briefed Members on the initial findings. The U.S. hoped to better target and coordinate assistance, engage the Haitian Diaspora, and make assistance sustainable. To help the people of Haiti, the U.S. proposed granting temporary protected status to Haitians living in the U.S. and included Haiti in security initiatives such as the Merida Initiative. With the help of the U.S., U.N. and other countries, the people of Haiti could build a brighter future.</p>\n\n<p>There was also a great conflict between two powerful nations, Morocco and Guinea, over a passport that had been taken away from a citizen of Guinea. The leaders of the United States and France stepped in to help and offered ideas to help the two nations come to a resolution, but the leaders of Morocco and Guinea were still unable to come to an agreement. The leaders of the United States and France then decided to meet in Paris to discuss the situation further and were able to broker a deal between Morocco and Guinea, returning the passport to its rightful owner.</p>\n\n<p>There was also a man named Tom who was nominated for a prestigious position, but his nomination was held up due to a disagreement between two powerful forces. A brave negotiator was able to convince the two sides to lift the hold on Tom&#39;s nomination, allowing him to achieve his dream.</p>\n</div>",
+                "created_utc": "02-06-2023 18:47:12",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7ig8eb",
+                "is_submitter": true,
+                "link_id": "t3_10vnkj8",
+                "parent_id": "t3_10vnkj8",
+                "score": 20,
+                "stickied": false,
+                "replies": []
+            },
+            {
+                "author": "u/Ordinary-Tooth-5140",
+                "body": "Proceed to input 20gb of text",
+                "body_html": "<div class=\"md\"><p>Proceed to input 20gb of text</p>\n</div>",
+                "created_utc": "02-06-2023 19:32:27",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7im3cp",
+                "is_submitter": false,
+                "link_id": "t3_10vnkj8",
+                "parent_id": "t3_10vnkj8",
+                "score": 7,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/aicharades",
+                        "body": "Up to 200mb!",
+                        "body_html": "<div class=\"md\"><p>Up to 200mb!</p>\n</div>",
+                        "created_utc": "02-06-2023 19:47:54",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7io17m",
+                        "is_submitter": true,
+                        "link_id": "t3_10vnkj8",
+                        "parent_id": "t1_j7im3cp",
+                        "score": 5,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/jobeta",
+                                "body": "How much did you pay for that single prompt?",
+                                "body_html": "<div class=\"md\"><p>How much did you pay for that single prompt?</p>\n</div>",
+                                "created_utc": "02-07-2023 07:25:28",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j7kgvcc",
+                                "is_submitter": false,
+                                "link_id": "t3_10vnkj8",
+                                "parent_id": "t1_j7io17m",
+                                "score": 1,
+                                "stickied": false,
+                                "replies": [
+                                    {
+                                        "author": "u/aicharades",
+                                        "body": "$4.50. \n\nif you go to [www.wrotescan.com](https://www.wrotescan.com) and upload a pdf, you can see estimated cost at the bottom for a map-reduce job.",
+                                        "body_html": "<div class=\"md\"><p>$4.50. </p>\n\n<p>if you go to <a href=\"https://www.wrotescan.com\">www.wrotescan.com</a> and upload a pdf, you can see estimated cost at the bottom for a map-reduce job.</p>\n</div>",
+                                        "created_utc": "02-07-2023 07:26:46",
+                                        "distinguished": null,
+                                        "edited": false,
+                                        "id": "j7kh0on",
+                                        "is_submitter": true,
+                                        "link_id": "t3_10vnkj8",
+                                        "parent_id": "t1_j7kgvcc",
+                                        "score": 5,
+                                        "stickied": false,
+                                        "replies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/wittfm",
+                "body": "Are you using chatgpt or it is just a bait in the title? In any case, good work",
+                "body_html": "<div class=\"md\"><p>Are you using chatgpt or it is just a bait in the title? In any case, good work</p>\n</div>",
+                "created_utc": "02-06-2023 19:28:43",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7ilmnm",
+                "is_submitter": false,
+                "link_id": "t3_10vnkj8",
+                "parent_id": "t3_10vnkj8",
+                "score": 13,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/aicharades",
+                        "body": "This is a series of open source libraries that can extend OpenAI completions model: https://langchain.readthedocs.io/en/latest/\n\nYou can make your own ChatGPT with its own reference library versus the current pre-2022 snapshot. \n\nIt\u2019s possible to leapfrog chatgpt with LangChain and OpenAI Completions (excluding some of their labeled training data) until gpt4 comes out",
+                        "body_html": "<div class=\"md\"><p>This is a series of open source libraries that can extend OpenAI completions model: <a href=\"https://langchain.readthedocs.io/en/latest/\">https://langchain.readthedocs.io/en/latest/</a></p>\n\n<p>You can make your own ChatGPT with its own reference library versus the current pre-2022 snapshot. </p>\n\n<p>It\u2019s possible to leapfrog chatgpt with LangChain and OpenAI Completions (excluding some of their labeled training data) until gpt4 comes out</p>\n</div>",
+                        "created_utc": "02-06-2023 19:46:41",
+                        "distinguished": null,
+                        "edited": "02-07-2023 07:19:35",
+                        "id": "j7invof",
+                        "is_submitter": true,
+                        "link_id": "t3_10vnkj8",
+                        "parent_id": "t1_j7ilmnm",
+                        "score": -4,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/ksblur",
+                                "body": "So the answer is in fact, no. ChatGPT is a specific product from Open AI.",
+                                "body_html": "<div class=\"md\"><p>So the answer is in fact, no. ChatGPT is a specific product from Open AI.</p>\n</div>",
+                                "created_utc": "02-07-2023 11:14:19",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j7ld3fq",
+                                "is_submitter": false,
+                                "link_id": "t3_10vnkj8",
+                                "parent_id": "t1_j7invof",
+                                "score": 22,
+                                "stickied": false,
+                                "replies": [
+                                    {
+                                        "author": "u/aicharades",
+                                        "body": "One cool feature of the LangChain framework, [https://langchain.readthedocs.io/en/latest/](https://langchain.readthedocs.io/en/latest/), is that you can easily switch the model you use. So when the ChatGPT API comes out, LangChain allows you to easily move models without upending your pipeline.\n\nThis currently uses the latest available API model, text-davinci-003.\n\nModels were a really interesting set of choices for map reduce. happy to share my experiences if anyone is looking for tips",
+                                        "body_html": "<div class=\"md\"><p>One cool feature of the LangChain framework, <a href=\"https://langchain.readthedocs.io/en/latest/\">https://langchain.readthedocs.io/en/latest/</a>, is that you can easily switch the model you use. So when the ChatGPT API comes out, LangChain allows you to easily move models without upending your pipeline.</p>\n\n<p>This currently uses the latest available API model, text-davinci-003.</p>\n\n<p>Models were a really interesting set of choices for map reduce. happy to share my experiences if anyone is looking for tips</p>\n</div>",
+                                        "created_utc": "02-07-2023 11:33:24",
+                                        "distinguished": null,
+                                        "edited": false,
+                                        "id": "j7lg2qa",
+                                        "is_submitter": true,
+                                        "link_id": "t3_10vnkj8",
+                                        "parent_id": "t1_j7ld3fq",
+                                        "score": 4,
+                                        "stickied": false,
+                                        "replies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "author": "u/wittfm",
+                                "body": "Thanks for clarifying!",
+                                "body_html": "<div class=\"md\"><p>Thanks for clarifying!</p>\n</div>",
+                                "created_utc": "02-06-2023 20:40:04",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j7iuugc",
+                                "is_submitter": false,
+                                "link_id": "t3_10vnkj8",
+                                "parent_id": "t1_j7invof",
+                                "score": 1,
+                                "stickied": false,
+                                "replies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/aicharades",
+                "body": "Here's a life coach advising Paul Atreides from Dune.\n\n**Input**: Dune (Novel 1965)\n\n\\------------------------\n\n**Prompt**: I want you to act as a life coach for Paul Atreides (also known as Duke, Padishah Emperor, Kwisatz Haderach, Mahdi, Lisan al Gaib). I will provide some details about Paul\u2019s current situation and goals as a member of House Atreides on Dune, and it will be your job to come up with strategies that can help me make better decisions and reach those objectives. This could involve offering advice on various topics, such as creating plans for achieving success or dealing with difficult emotions.\n\n\\------------------------\n\n**Output**:  Life coach for Paul Atreides:\n\n* Help him make better decisions & reach goals as a member of House Atreides on Dune. Offer advice on creating plans for success, dealing with emotions, and understanding his potential Mentat capabilities.\n* Help him adjust to new environment & use resources to build confidence & security. Encourage him to embrace his destiny & use his skills to make a difference.\n* Help him navigate a war of assassins, forge legal documents, enlist Fremen allies & more.\n* Help him make decisions that will benefit his people & honor his commitments. Examine his emotional involvement, respect the error factor, & use his Mentat abilities to diagnose the problem.\n* Help him understand Arrakis' attitude of the knife & the consequences of his decisions.\n* Help him recognize the danger of trusting a traitor & the importance of making the right decisions. Guide him to make the best of his situation & use it to his advantage.\n* Help him remember his emergency plan & use his courage & strength to make the right choices.\n* Learn Imperium terminology, Fremen culture, & Great Convention rules to help him navigate his role as Duke of House Atreides.\n* Help him use his Fremen training & experience to navigate the treacherous politics of Dune & protect his people.\n* Guide him to use his leadership & cunning to outwit his enemies & find success.\n* Help him make the most of his resources, recognize & counter his opponents' strategies, & use his own skills & knowledge to succeed.\n* Help him understand the power of subtlety & finesse, & how to use them to achieve his goals.\n* Support him to be brave & compassionate in the face of cruelty & tragedy.\n* Help him use his azelle-like agility & the skills of his retainer Gurney Halleck to make the right choices & protect his people.\n* Help him use his power to gain the throne, while avoiding the mistakes of his father & mother.\n* Guide him to make wise decisions & find the best path forward. Kynes inspected Paul's stillsuit & found him to be a strange combination of softness & armed strength.\n* Help him protect integrity of stillsuit, walk softly, avoid drum sands & tidal dust basins, never travel alone.\n* Encourage him to be decisive and take action, like when he ordered the crew of a factory crawler to evacuate and his own air cover to take them in.\n* Show him how to be mindful of details and think ahead, like noticing the poor neck adjustments on the stillsuits of two of the evacuees. Father & son must face difficult decisions & consequences.\n* Help Paul understand his father's moral fatigue & the power & fear of statecraft.\n* Guide him to use his inherited desert power & the Fremen prophecy to his advantage. Analyze intelligence reports, equipment, & the Fremen to ensure Paul's success.\n* Focus on desert power, such as air power, & develop a plan to recruit five full battalions of Fremen troops before the first CHOAM audit.\n* Be aware of the power of water on Arrakis, and use it to his advantage.\n* Be aware of the potential competition from his own kind, and be prepared to defend his honor.\n* Lastly, be open to the advice of those around him, and use it to make better decisions.",
+                "body_html": "<div class=\"md\"><p>Here&#39;s a life coach advising Paul Atreides from Dune.</p>\n\n<p><strong>Input</strong>: Dune (Novel 1965)</p>\n\n<p>------------------------</p>\n\n<p><strong>Prompt</strong>: I want you to act as a life coach for Paul Atreides (also known as Duke, Padishah Emperor, Kwisatz Haderach, Mahdi, Lisan al Gaib). I will provide some details about Paul\u2019s current situation and goals as a member of House Atreides on Dune, and it will be your job to come up with strategies that can help me make better decisions and reach those objectives. This could involve offering advice on various topics, such as creating plans for achieving success or dealing with difficult emotions.</p>\n\n<p>------------------------</p>\n\n<p><strong>Output</strong>:  Life coach for Paul Atreides:</p>\n\n<ul>\n<li>Help him make better decisions &amp; reach goals as a member of House Atreides on Dune. Offer advice on creating plans for success, dealing with emotions, and understanding his potential Mentat capabilities.</li>\n<li>Help him adjust to new environment &amp; use resources to build confidence &amp; security. Encourage him to embrace his destiny &amp; use his skills to make a difference.</li>\n<li>Help him navigate a war of assassins, forge legal documents, enlist Fremen allies &amp; more.</li>\n<li>Help him make decisions that will benefit his people &amp; honor his commitments. Examine his emotional involvement, respect the error factor, &amp; use his Mentat abilities to diagnose the problem.</li>\n<li>Help him understand Arrakis&#39; attitude of the knife &amp; the consequences of his decisions.</li>\n<li>Help him recognize the danger of trusting a traitor &amp; the importance of making the right decisions. Guide him to make the best of his situation &amp; use it to his advantage.</li>\n<li>Help him remember his emergency plan &amp; use his courage &amp; strength to make the right choices.</li>\n<li>Learn Imperium terminology, Fremen culture, &amp; Great Convention rules to help him navigate his role as Duke of House Atreides.</li>\n<li>Help him use his Fremen training &amp; experience to navigate the treacherous politics of Dune &amp; protect his people.</li>\n<li>Guide him to use his leadership &amp; cunning to outwit his enemies &amp; find success.</li>\n<li>Help him make the most of his resources, recognize &amp; counter his opponents&#39; strategies, &amp; use his own skills &amp; knowledge to succeed.</li>\n<li>Help him understand the power of subtlety &amp; finesse, &amp; how to use them to achieve his goals.</li>\n<li>Support him to be brave &amp; compassionate in the face of cruelty &amp; tragedy.</li>\n<li>Help him use his azelle-like agility &amp; the skills of his retainer Gurney Halleck to make the right choices &amp; protect his people.</li>\n<li>Help him use his power to gain the throne, while avoiding the mistakes of his father &amp; mother.</li>\n<li>Guide him to make wise decisions &amp; find the best path forward. Kynes inspected Paul&#39;s stillsuit &amp; found him to be a strange combination of softness &amp; armed strength.</li>\n<li>Help him protect integrity of stillsuit, walk softly, avoid drum sands &amp; tidal dust basins, never travel alone.</li>\n<li>Encourage him to be decisive and take action, like when he ordered the crew of a factory crawler to evacuate and his own air cover to take them in.</li>\n<li>Show him how to be mindful of details and think ahead, like noticing the poor neck adjustments on the stillsuits of two of the evacuees. Father &amp; son must face difficult decisions &amp; consequences.</li>\n<li>Help Paul understand his father&#39;s moral fatigue &amp; the power &amp; fear of statecraft.</li>\n<li>Guide him to use his inherited desert power &amp; the Fremen prophecy to his advantage. Analyze intelligence reports, equipment, &amp; the Fremen to ensure Paul&#39;s success.</li>\n<li>Focus on desert power, such as air power, &amp; develop a plan to recruit five full battalions of Fremen troops before the first CHOAM audit.</li>\n<li>Be aware of the power of water on Arrakis, and use it to his advantage.</li>\n<li>Be aware of the potential competition from his own kind, and be prepared to defend his honor.</li>\n<li>Lastly, be open to the advice of those around him, and use it to make better decisions.</li>\n</ul>\n</div>",
+                "created_utc": "02-06-2023 20:13:58",
+                "distinguished": null,
+                "edited": "02-06-2023 20:43:51",
+                "id": "j7irepr",
+                "is_submitter": true,
+                "link_id": "t3_10vnkj8",
+                "parent_id": "t3_10vnkj8",
+                "score": 5,
+                "stickied": false,
+                "replies": []
+            },
+            {
+                "author": "u/__lawless",
+                "body": "Can you explain what map prompt is? Not sure I understood that part",
+                "body_html": "<div class=\"md\"><p>Can you explain what map prompt is? Not sure I understood that part</p>\n</div>",
+                "created_utc": "02-06-2023 18:56:17",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7ihgh5",
+                "is_submitter": false,
+                "link_id": "t3_10vnkj8",
+                "parent_id": "t3_10vnkj8",
+                "score": 2,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/aicharades",
+                        "body": "Map prompt splits the text into chunks then summarizes those chunks. There's no reduce step.\n\nHere's more detail on how it works: [https://langchain.readthedocs.io/en/latest/modules/chains/combine\\_docs.html](https://langchain.readthedocs.io/en/latest/modules/chains/combine_docs.html)",
+                        "body_html": "<div class=\"md\"><p>Map prompt splits the text into chunks then summarizes those chunks. There&#39;s no reduce step.</p>\n\n<p>Here&#39;s more detail on how it works: <a href=\"https://langchain.readthedocs.io/en/latest/modules/chains/combine_docs.html\">https://langchain.readthedocs.io/en/latest/modules/chains/combine_docs.html</a></p>\n</div>",
+                        "created_utc": "02-06-2023 18:57:25",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7ihm0p",
+                        "is_submitter": true,
+                        "link_id": "t3_10vnkj8",
+                        "parent_id": "t1_j7ihgh5",
+                        "score": 3,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/__lawless",
+                                "body": "I see it is not a prompt per se, it is an analogue of map operation in ETL.",
+                                "body_html": "<div class=\"md\"><p>I see it is not a prompt per se, it is an analogue of map operation in ETL.</p>\n</div>",
+                                "created_utc": "02-06-2023 19:00:53",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j7ii2h1",
+                                "is_submitter": false,
+                                "link_id": "t3_10vnkj8",
+                                "parent_id": "t1_j7ihm0p",
+                                "score": 2,
+                                "stickied": false,
+                                "replies": [
+                                    {
+                                        "author": "u/aicharades",
+                                        "body": "exactly. the prompt is what the LangChain library uses to manage the text instructions for OpenAI",
+                                        "body_html": "<div class=\"md\"><p>exactly. the prompt is what the LangChain library uses to manage the text instructions for OpenAI</p>\n</div>",
+                                        "created_utc": "02-06-2023 19:01:40",
+                                        "distinguished": null,
+                                        "edited": false,
+                                        "id": "j7ii63v",
+                                        "is_submitter": true,
+                                        "link_id": "t3_10vnkj8",
+                                        "parent_id": "t1_j7ii2h1",
+                                        "score": 3,
+                                        "stickied": false,
+                                        "replies": [
+                                            {
+                                                "author": "u/AccidentBackground72",
+                                                "body": "Any chance you could explain how to use Step 1 a little clearer? I understood the premise, but I'm not quite sure how that would translate to the instruction in step 1. As an example, I'm trying to perform a content analysis of a document with 7 chapters and identify 10-15 core themes in each chapter.",
+                                                "body_html": "<div class=\"md\"><p>Any chance you could explain how to use Step 1 a little clearer? I understood the premise, but I&#39;m not quite sure how that would translate to the instruction in step 1. As an example, I&#39;m trying to perform a content analysis of a document with 7 chapters and identify 10-15 core themes in each chapter.</p>\n</div>",
+                                                "created_utc": "02-07-2023 08:00:49",
+                                                "distinguished": null,
+                                                "edited": false,
+                                                "id": "j7kl42h",
+                                                "is_submitter": false,
+                                                "link_id": "t3_10vnkj8",
+                                                "parent_id": "t1_j7ii63v",
+                                                "score": 1,
+                                                "stickied": false,
+                                                "replies": [
+                                                    {
+                                                        "author": "u/aicharades",
+                                                        "body": "Of course! Step 1 breaks up your document and runs the prompt on each section. Try it with the Map section vs. Map Reduce (the main page).\n\n**Here's an example flow for Map:**\n\n1. &#x200B;\n\nInput a Book PDF 2. Convert the PDF to Text 3. Split the Book into Chunks: Book\\[pg1,pg2,pg3\\] -> pg1, pg2, pg3 4. Run the Prompt on Each Chunk: pg1, pg2, pg3 -> prompt(pg1), prompt(pg2), etc 5. Output the Summarized Chunks\n\n**Here's a prompt you could use (lots of room for improvement!):**\n\nthe words in <<\\*>> are comments, plea remove from the final prompt\n\nGoal: I'm trying to perform a content analysis of a document with 7 chapters and identify 10-15 core themes in each chapter.\n\n**Sample Map Prompt**:\n\n'INSTRUCTIONS': You are a writer <<BEST ROLE FIT??>> performing a content analysis of a document <<DOCUMENT TYPE??>>. You have been given a section of a larger document. You will identify up to 10-15 core themes in each chapter and output theme.\n\n'INPUT': {text}\n\n'OUTPUT':\n\n**Sample Reduce Prompt**:  \n'INSTRUCTIONS': You are a copyeditor. You will need to edit a list of summaries together. Please combine the input together and combine any duplicate core themes. Please maintain the context of the document.  \n'INPUT': {text}  \n'OUTPUT':\n\n**Sample Input**: document",
+                                                        "body_html": "<div class=\"md\"><p>Of course! Step 1 breaks up your document and runs the prompt on each section. Try it with the Map section vs. Map Reduce (the main page).</p>\n\n<p><strong>Here&#39;s an example flow for Map:</strong></p>\n\n<ol>\n<li>&#x200B;</li>\n</ol>\n\n<p>Input a Book PDF 2. Convert the PDF to Text 3. Split the Book into Chunks: Book[pg1,pg2,pg3] -&gt; pg1, pg2, pg3 4. Run the Prompt on Each Chunk: pg1, pg2, pg3 -&gt; prompt(pg1), prompt(pg2), etc 5. Output the Summarized Chunks</p>\n\n<p><strong>Here&#39;s a prompt you could use (lots of room for improvement!):</strong></p>\n\n<p>the words in &lt;&lt;*&gt;&gt; are comments, plea remove from the final prompt</p>\n\n<p>Goal: I&#39;m trying to perform a content analysis of a document with 7 chapters and identify 10-15 core themes in each chapter.</p>\n\n<p><strong>Sample Map Prompt</strong>:</p>\n\n<p>&#39;INSTRUCTIONS&#39;: You are a writer &lt;&lt;BEST ROLE FIT??&gt;&gt; performing a content analysis of a document &lt;&lt;DOCUMENT TYPE??&gt;&gt;. You have been given a section of a larger document. You will identify up to 10-15 core themes in each chapter and output theme.</p>\n\n<p>&#39;INPUT&#39;: {text}</p>\n\n<p>&#39;OUTPUT&#39;:</p>\n\n<p><strong>Sample Reduce Prompt</strong>:<br/>\n&#39;INSTRUCTIONS&#39;: You are a copyeditor. You will need to edit a list of summaries together. Please combine the input together and combine any duplicate core themes. Please maintain the context of the document.<br/>\n&#39;INPUT&#39;: {text}<br/>\n&#39;OUTPUT&#39;:</p>\n\n<p><strong>Sample Input</strong>: document</p>\n</div>",
+                                                        "created_utc": "02-07-2023 08:38:02",
+                                                        "distinguished": null,
+                                                        "edited": "02-07-2023 09:01:51",
+                                                        "id": "j7kpzzn",
+                                                        "is_submitter": true,
+                                                        "link_id": "t3_10vnkj8",
+                                                        "parent_id": "t1_j7kl42h",
+                                                        "score": 1,
+                                                        "stickied": false,
+                                                        "replies": [
+                                                            {
+                                                                "author": "u/AccidentBackground72",
+                                                                "body": "That's an incredibly helpful overview! For the kind of work I do this is a really awesome tool.",
+                                                                "body_html": "<div class=\"md\"><p>That&#39;s an incredibly helpful overview! For the kind of work I do this is a really awesome tool.</p>\n</div>",
+                                                                "created_utc": "02-07-2023 09:09:18",
+                                                                "distinguished": null,
+                                                                "edited": false,
+                                                                "id": "j7kub42",
+                                                                "is_submitter": false,
+                                                                "link_id": "t3_10vnkj8",
+                                                                "parent_id": "t1_j7kpzzn",
+                                                                "score": 1,
+                                                                "stickied": false,
+                                                                "replies": [
+                                                                    {
+                                                                        "author": "u/aicharades",
+                                                                        "body": "It was really awesome to see how OpenAI handles all forms of text when I uploaded the DNC email file. It took the raw emails and created a narrative from them, pretty unreal. \n\nYou could do this with a bunch of other historical documents and create stories and chatbots and such.",
+                                                                        "body_html": "<div class=\"md\"><p>It was really awesome to see how OpenAI handles all forms of text when I uploaded the DNC email file. It took the raw emails and created a narrative from them, pretty unreal. </p>\n\n<p>You could do this with a bunch of other historical documents and create stories and chatbots and such.</p>\n</div>",
+                                                                        "created_utc": "02-07-2023 09:20:01",
+                                                                        "distinguished": null,
+                                                                        "edited": false,
+                                                                        "id": "j7kvuh1",
+                                                                        "is_submitter": true,
+                                                                        "link_id": "t3_10vnkj8",
+                                                                        "parent_id": "t1_j7kub42",
+                                                                        "score": 1,
+                                                                        "stickied": false,
+                                                                        "replies": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/dpineo",
+                "body": "ChatGPT can work on PDF files?  How does that work?  Does it just parse and interpret the raw PDF file?  I'd like to parse some PDF files with many (thousands) of repeated table structures and convert them to JSON, is that something ChatGPT might be able to help with?",
+                "body_html": "<div class=\"md\"><p>ChatGPT can work on PDF files?  How does that work?  Does it just parse and interpret the raw PDF file?  I&#39;d like to parse some PDF files with many (thousands) of repeated table structures and convert them to JSON, is that something ChatGPT might be able to help with?</p>\n</div>",
+                "created_utc": "02-07-2023 05:25:07",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7k5e5z",
+                "is_submitter": false,
+                "link_id": "t3_10vnkj8",
+                "parent_id": "t3_10vnkj8",
+                "score": 2,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/aicharades",
+                        "body": "This app works on all pdf files. It converts pdfs with pymupdf in python, like if you were copy pasting all the text from the pdf with some pdf formatting into chatgpt.",
+                        "body_html": "<div class=\"md\"><p>This app works on all pdf files. It converts pdfs with pymupdf in python, like if you were copy pasting all the text from the pdf with some pdf formatting into chatgpt.</p>\n</div>",
+                        "created_utc": "02-07-2023 06:00:14",
+                        "distinguished": null,
+                        "edited": "02-07-2023 06:21:24",
+                        "id": "j7k8car",
+                        "is_submitter": true,
+                        "link_id": "t3_10vnkj8",
+                        "parent_id": "t1_j7k5e5z",
+                        "score": 1,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/dpineo",
+                                "body": "Good to know, thanks!",
+                                "body_html": "<div class=\"md\"><p>Good to know, thanks!</p>\n</div>",
+                                "created_utc": "02-07-2023 11:29:56",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j7lfjb4",
+                                "is_submitter": false,
+                                "link_id": "t3_10vnkj8",
+                                "parent_id": "t1_j7k8car",
+                                "score": 1,
+                                "stickied": false,
+                                "replies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/Old-Radish1611",
+                "body": "This is the 2nd tool I've seen for this today, the first being this\nhttps://www.chatbase.co/\nThe creator there hasn't revealed the inner workings yet though like you have, I wonder how they compare?",
+                "body_html": "<div class=\"md\"><p>This is the 2nd tool I&#39;ve seen for this today, the first being this\n<a href=\"https://www.chatbase.co/\">https://www.chatbase.co/</a>\nThe creator there hasn&#39;t revealed the inner workings yet though like you have, I wonder how they compare?</p>\n</div>",
+                "created_utc": "02-07-2023 06:58:19",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7kdwo5",
+                "is_submitter": false,
+                "link_id": "t3_10vnkj8",
+                "parent_id": "t3_10vnkj8",
+                "score": 1,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/aicharades",
+                        "body": "Try mine out at [www.wrotescan.com](http://www.wrotescan.com)! You can use the site for free if you pay for the API call by providing a a temporary OpenAI key. I wanted to share the tech with a demo. Remember to delete the key you used after its temp use.\n\nWhen you sign up for OpenAI, you get $18 of free credits.\n\nYou can also create it locally using LangChain",
+                        "body_html": "<div class=\"md\"><p>Try mine out at <a href=\"http://www.wrotescan.com\">www.wrotescan.com</a>! You can use the site for free if you pay for the API call by providing a a temporary OpenAI key. I wanted to share the tech with a demo. Remember to delete the key you used after its temp use.</p>\n\n<p>When you sign up for OpenAI, you get $18 of free credits.</p>\n\n<p>You can also create it locally using LangChain</p>\n</div>",
+                        "created_utc": "02-07-2023 07:00:36",
+                        "distinguished": null,
+                        "edited": "02-07-2023 07:16:33",
+                        "id": "j7ke5cl",
+                        "is_submitter": true,
+                        "link_id": "t3_10vnkj8",
+                        "parent_id": "t1_j7kdwo5",
+                        "score": -1,
+                        "stickied": false,
+                        "replies": []
+                    }
+                ]
+            },
+            {
+                "author": "u/aicharades",
+                "body": "Here's how it summarizes big documents:\r  \n\r  \n**Map Reduce**\r  \n\r  \nThis method involves an initial prompt on each chunk of data (for summarization tasks, this could be a summary of that chunk; for question-answering tasks, it could be an answer based solely on that chunk). Then a different prompt is run to combine all the initial outputs. This is implemented in the LangChain as the MapReduceDocumentsChain.\r  \n\r  \n**Pros**: Can scale to larger documents (and more documents) than StuffDocumentsChain. The calls to the LLM on individual documents are independent and can therefore be parallelized.\r  \n\r  \n**Cons**: Requires many more calls to the LLM than StuffDocumentsChain. Loses some information during the final combining call.\r  \n\r  \n**Here's how a separate Wikipedia agent chain works:**  \n\r  \nAgents use an LLM to determine which actions to take and in what order. An action can either be using a tool and observing its output, or returning to the user.  \n\r  \nIt uses agent based modeling, basically asking itself a series of questions until it gets to the right answer. sorta looks like wikipedia racing.\r  \n\r  \nHere's a sample LangChain agent based React-Act modeling on Wikipedia/TMDB:\r  \n\r  \n*Log*\r  \n\r  \nEntering new AgentExecutor chain...\r  \n\r  \n**Thought 1:** I need to search for a romantic comedy film about a Senatorial candidate falling for a hotel maid, thinking she is a socialite, when he sees her trying on a wealthy woman's dress.\r  \n\r  \n**Action 1:** Search\\[romantic comedy film Senatorial candidate hotel maid socialite wealthy woman's dress\\]\r  \n\r  \n**Observation 1:** Maid in Manhattan is a 2002 American romantic comedy-drama film directed by Wayne Wang and based on a story by John Hughes, who is credited using a pseudonym. It stars Jennifer Lopez, Ralph Fiennes, and Natasha Richardson. In the film, a hotel maid and a high-profile politician fall in love. The film was released on December 13, 2002, by Columbia Pictures and was a box office success, grossing $154 million against its $55 million budget, while receiving mixed reviews.\r  \n\r  \n**Thought 2:** Maid in Manhattan is a romantic comedy film about a Senatorial candidate falling for a hotel maid, thinking she is a socialite, when he sees her trying on a wealthy woman's dress.\r  \n\r  \n**Action 2:** Finish\\[Maid in Manhattan\\]\r  \n\r  \n\rFrom: https://langchain.readthedocs.io/en/latest/modules/agents/getting\\_started.html\r  \n\r  \nHere's the sample notebook for the wikipedia agent: https://langchain.readthedocs.io/en/latest/modules/agents/implementations/react.html",
+                "body_html": "<div class=\"md\"><p>Here&#39;s how it summarizes big documents:</p>\n\n<p><strong>Map Reduce</strong></p>\n\n<p>This method involves an initial prompt on each chunk of data (for summarization tasks, this could be a summary of that chunk; for question-answering tasks, it could be an answer based solely on that chunk). Then a different prompt is run to combine all the initial outputs. This is implemented in the LangChain as the MapReduceDocumentsChain.</p>\n\n<p><strong>Pros</strong>: Can scale to larger documents (and more documents) than StuffDocumentsChain. The calls to the LLM on individual documents are independent and can therefore be parallelized.</p>\n\n<p><strong>Cons</strong>: Requires many more calls to the LLM than StuffDocumentsChain. Loses some information during the final combining call.</p>\n\n<p><strong>Here&#39;s how a separate Wikipedia agent chain works:</strong>  </p>\n\n<p>Agents use an LLM to determine which actions to take and in what order. An action can either be using a tool and observing its output, or returning to the user.  </p>\n\n<p>It uses agent based modeling, basically asking itself a series of questions until it gets to the right answer. sorta looks like wikipedia racing.</p>\n\n<p>Here&#39;s a sample LangChain agent based React-Act modeling on Wikipedia/TMDB:</p>\n\n<p><em>Log</em></p>\n\n<p>Entering new AgentExecutor chain...</p>\n\n<p><strong>Thought 1:</strong> I need to search for a romantic comedy film about a Senatorial candidate falling for a hotel maid, thinking she is a socialite, when he sees her trying on a wealthy woman&#39;s dress.</p>\n\n<p><strong>Action 1:</strong> Search[romantic comedy film Senatorial candidate hotel maid socialite wealthy woman&#39;s dress]</p>\n\n<p><strong>Observation 1:</strong> Maid in Manhattan is a 2002 American romantic comedy-drama film directed by Wayne Wang and based on a story by John Hughes, who is credited using a pseudonym. It stars Jennifer Lopez, Ralph Fiennes, and Natasha Richardson. In the film, a hotel maid and a high-profile politician fall in love. The film was released on December 13, 2002, by Columbia Pictures and was a box office success, grossing $154 million against its $55 million budget, while receiving mixed reviews.</p>\n\n<p><strong>Thought 2:</strong> Maid in Manhattan is a romantic comedy film about a Senatorial candidate falling for a hotel maid, thinking she is a socialite, when he sees her trying on a wealthy woman&#39;s dress.</p>\n\n<p><strong>Action 2:</strong> Finish[Maid in Manhattan]</p>\n\n<p>From: <a href=\"https://langchain.readthedocs.io/en/latest/modules/agents/getting%5C_started.html\">https://langchain.readthedocs.io/en/latest/modules/agents/getting\\_started.html</a></p>\n\n<p>Here&#39;s the sample notebook for the wikipedia agent: <a href=\"https://langchain.readthedocs.io/en/latest/modules/agents/implementations/react.html\">https://langchain.readthedocs.io/en/latest/modules/agents/implementations/react.html</a></p>\n</div>",
+                "created_utc": "02-07-2023 07:09:48",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7kf4or",
+                "is_submitter": true,
+                "link_id": "t3_10vnkj8",
+                "parent_id": "t3_10vnkj8",
+                "score": 1,
+                "stickied": false,
+                "replies": []
+            },
+            {
+                "author": "u/helliun",
+                "body": "What library do you use for summarization?",
+                "body_html": "<div class=\"md\"><p>What library do you use for summarization?</p>\n</div>",
+                "created_utc": "02-07-2023 07:16:20",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7kfuh1",
+                "is_submitter": false,
+                "link_id": "t3_10vnkj8",
+                "parent_id": "t3_10vnkj8",
+                "score": 1,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/aicharades",
+                        "body": "https://langchain.readthedocs.io/en/latest/modules/chains/combine\\_docs\\_how\\_to.html",
+                        "body_html": "<div class=\"md\"><p><a href=\"https://langchain.readthedocs.io/en/latest/modules/chains/combine%5C_docs%5C_how%5C_to.html\">https://langchain.readthedocs.io/en/latest/modules/chains/combine\\_docs\\_how\\_to.html</a></p>\n</div>",
+                        "created_utc": "02-07-2023 07:17:01",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7kfx3o",
+                        "is_submitter": true,
+                        "link_id": "t3_10vnkj8",
+                        "parent_id": "t1_j7kfuh1",
+                        "score": 1,
+                        "stickied": false,
+                        "replies": []
+                    }
+                ]
+            },
+            {
+                "author": "u/aicharades",
+                "body": "Here's a horror movie based on all of Warren Buffet\u2019s Shareholder Letters from 1977 - 2019\n\n**Input**: [https://medium.com/@r44d/every-berkshire-hathaway-shareholder-letter-in-1-pdf-cdf661625dbb](https://medium.com/@r44d/every-berkshire-hathaway-shareholder-letter-in-1-pdf-cdf661625dbb)\n\n\\------------------------\n\n**Prompts**:\n\n**Map Prompt**\n\n'Instructions': I want you to act as a screenwriter. You will develop an engaging and creative story outline for a horror feature length film that can captivate its viewers. You have been given an except of a collection of Warren Buffet\u2019s shareholder letters that you must use as source material. The film\u2019s genre must be horror. Start with coming up with interesting characters from the excerpt, the setting of the story, dialogues between the characters etc. Once your character development is complete, create an exciting storyline filled with twists and turns that keeps the viewers in suspense until the end. Note the full names of characters every time they are mentioned. Note location names.\n\nThe summary must be no longer than 650 characters long. \\\\n\n\n'Input': {text} \\\\n\n\n'Output':\n\n**Reduce Prompt**\n\n'Instructions': You are a copyeditor. Combine the below summaries into one cohesive narrative. The combined output must be a story less than 4,000 characters long. Keep the content and context preserved. \\\\n\n\n'Input': {text} \\\\n\n\n'Output':\n\n\\------------------------\n\n**Output**:  Mrs. Blumkin, a 93 year old Board Chairwoman, is the only one who can save the world from a mysterious force. With the help of her progeny, she must battle the darkness and uncover the secrets of the Courier-Express, Nebraska Furniture Mart, See's Candies, World Book, and Kirby. Along the way, she discovers the power of family and the strength of her own courage.\n\nCharlie and Warren stumble upon a mysterious collection of Warren Buffet's shareholder letters. After reading the letters, they discover the existence of a supernatural being, Mr. Market, who offers them mouth-watering opportunities in exchange for their souls. They must battle against Mr. Market and his minions to save their lives and the world.\n\nThe group soon discovers that the company is using dark magic to gain immense wealth and power. With the help of Mrs. B, the 96-year-old founder of the Nebraska Furniture Mart, they must stop the company before it's too late. Along the way, they must battle a ruthless businessman and his henchmen.\n\nWhen a hurricane causes massive losses, primary insurers and reinsurers are left with financial stakes in each loss settlement. Enter Berkshire Hathaway, who offers to write up to $250 million of catastrophe coverage. When rates become attractive, they book a substantial amount of business. But when losses exceed the retained amount, the reinsurers pay 95% of the excess up to its contractual limit, leaving the primary insurer with a financial stake in each loss. With a huge sum on the line, the stakes are high and the horror begins.\n\nThe group soon realizes that the letters contain clues to a mysterious and powerful force that has been manipulating the world's economy for centuries. As they investigate further, they come face to face with a terrifying supernatural entity that will stop at nothing to protect its secrets. With the help of Roberto Goizueta, the former CEO of Coca-Cola, they must find a way to stop the evil before it's too late. Rich Santulli, the CEO of NetJets, is a brilliant executive but also a mysterious figure. When his Aunt Alice asks him if she can afford a fur coat, he replies with a cryptic answer that sets the stage for a horror story.\n\nThe group must decipher the clues and battle the dark forces to save the town and themselves. Along the way, they must face off against Tony, a ruthless businessman who is determined to keep the power for himself. With the help of The Washington Post Company, Wells Fargo & Company, and American Express Company, the group must unravel the mystery and save the town.\n\nTony and Rod, two insurance executives, are tasked with increasing their policy count. When they discover a series of underreported losses, they uncover a sinister plot involving embezzlement and product liability. As they investigate further, they realize the losses are connected to a mysterious figure from the past. With the help of John, Tom, Michael, Don, and Don, they must unravel the secrets of the past before it's too late.\n\nFinally, the group discovers that their investments have unleashed a supernatural force. As they try to stop the force, they must battle the mysterious entity and its minions in a race against time to save the world from destruction. With the help of Jim Kilts, the former CEO of Gillette, they must find a way to stop the evil before it destroys them all. With twists and turns that keep viewers in suspense until the end, this horror film will captivate its audience. Will they be able to save the world before it's too late? With their lives on the line, they must fight to uncover the truth and save the world from the dark force. Will they make it out alive?",
+                "body_html": "<div class=\"md\"><p>Here&#39;s a horror movie based on all of Warren Buffet\u2019s Shareholder Letters from 1977 - 2019</p>\n\n<p><strong>Input</strong>: <a href=\"https://medium.com/@r44d/every-berkshire-hathaway-shareholder-letter-in-1-pdf-cdf661625dbb\">https://medium.com/@r44d/every-berkshire-hathaway-shareholder-letter-in-1-pdf-cdf661625dbb</a></p>\n\n<p>------------------------</p>\n\n<p><strong>Prompts</strong>:</p>\n\n<p><strong>Map Prompt</strong></p>\n\n<p>&#39;Instructions&#39;: I want you to act as a screenwriter. You will develop an engaging and creative story outline for a horror feature length film that can captivate its viewers. You have been given an except of a collection of Warren Buffet\u2019s shareholder letters that you must use as source material. The film\u2019s genre must be horror. Start with coming up with interesting characters from the excerpt, the setting of the story, dialogues between the characters etc. Once your character development is complete, create an exciting storyline filled with twists and turns that keeps the viewers in suspense until the end. Note the full names of characters every time they are mentioned. Note location names.</p>\n\n<p>The summary must be no longer than 650 characters long. \\n</p>\n\n<p>&#39;Input&#39;: {text} \\n</p>\n\n<p>&#39;Output&#39;:</p>\n\n<p><strong>Reduce Prompt</strong></p>\n\n<p>&#39;Instructions&#39;: You are a copyeditor. Combine the below summaries into one cohesive narrative. The combined output must be a story less than 4,000 characters long. Keep the content and context preserved. \\n</p>\n\n<p>&#39;Input&#39;: {text} \\n</p>\n\n<p>&#39;Output&#39;:</p>\n\n<p>------------------------</p>\n\n<p><strong>Output</strong>:  Mrs. Blumkin, a 93 year old Board Chairwoman, is the only one who can save the world from a mysterious force. With the help of her progeny, she must battle the darkness and uncover the secrets of the Courier-Express, Nebraska Furniture Mart, See&#39;s Candies, World Book, and Kirby. Along the way, she discovers the power of family and the strength of her own courage.</p>\n\n<p>Charlie and Warren stumble upon a mysterious collection of Warren Buffet&#39;s shareholder letters. After reading the letters, they discover the existence of a supernatural being, Mr. Market, who offers them mouth-watering opportunities in exchange for their souls. They must battle against Mr. Market and his minions to save their lives and the world.</p>\n\n<p>The group soon discovers that the company is using dark magic to gain immense wealth and power. With the help of Mrs. B, the 96-year-old founder of the Nebraska Furniture Mart, they must stop the company before it&#39;s too late. Along the way, they must battle a ruthless businessman and his henchmen.</p>\n\n<p>When a hurricane causes massive losses, primary insurers and reinsurers are left with financial stakes in each loss settlement. Enter Berkshire Hathaway, who offers to write up to $250 million of catastrophe coverage. When rates become attractive, they book a substantial amount of business. But when losses exceed the retained amount, the reinsurers pay 95% of the excess up to its contractual limit, leaving the primary insurer with a financial stake in each loss. With a huge sum on the line, the stakes are high and the horror begins.</p>\n\n<p>The group soon realizes that the letters contain clues to a mysterious and powerful force that has been manipulating the world&#39;s economy for centuries. As they investigate further, they come face to face with a terrifying supernatural entity that will stop at nothing to protect its secrets. With the help of Roberto Goizueta, the former CEO of Coca-Cola, they must find a way to stop the evil before it&#39;s too late. Rich Santulli, the CEO of NetJets, is a brilliant executive but also a mysterious figure. When his Aunt Alice asks him if she can afford a fur coat, he replies with a cryptic answer that sets the stage for a horror story.</p>\n\n<p>The group must decipher the clues and battle the dark forces to save the town and themselves. Along the way, they must face off against Tony, a ruthless businessman who is determined to keep the power for himself. With the help of The Washington Post Company, Wells Fargo &amp; Company, and American Express Company, the group must unravel the mystery and save the town.</p>\n\n<p>Tony and Rod, two insurance executives, are tasked with increasing their policy count. When they discover a series of underreported losses, they uncover a sinister plot involving embezzlement and product liability. As they investigate further, they realize the losses are connected to a mysterious figure from the past. With the help of John, Tom, Michael, Don, and Don, they must unravel the secrets of the past before it&#39;s too late.</p>\n\n<p>Finally, the group discovers that their investments have unleashed a supernatural force. As they try to stop the force, they must battle the mysterious entity and its minions in a race against time to save the world from destruction. With the help of Jim Kilts, the former CEO of Gillette, they must find a way to stop the evil before it destroys them all. With twists and turns that keep viewers in suspense until the end, this horror film will captivate its audience. Will they be able to save the world before it&#39;s too late? With their lives on the line, they must fight to uncover the truth and save the world from the dark force. Will they make it out alive?</p>\n</div>",
+                "created_utc": "02-07-2023 10:30:58",
+                "distinguished": null,
+                "edited": "02-07-2023 11:25:10",
+                "id": "j7l6f7u",
+                "is_submitter": true,
+                "link_id": "t3_10vnkj8",
+                "parent_id": "t3_10vnkj8",
+                "score": 1,
+                "stickied": false,
+                "replies": []
+            },
+            {
+                "author": "u/szabokb",
+                "body": "Is the website down?",
+                "body_html": "<div class=\"md\"><p>Is the website down?</p>\n</div>",
+                "created_utc": "02-08-2023 14:36:06",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7r3yaz",
+                "is_submitter": false,
+                "link_id": "t3_10vnkj8",
+                "parent_id": "t3_10vnkj8",
+                "score": 1,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/aicharades",
+                        "body": "I\u2019m able to access it from https://www.wrotescan.com. Are you getting an error message?",
+                        "body_html": "<div class=\"md\"><p>I\u2019m able to access it from <a href=\"https://www.wrotescan.com\">https://www.wrotescan.com</a>. Are you getting an error message?</p>\n</div>",
+                        "created_utc": "02-08-2023 14:44:13",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7r594n",
+                        "is_submitter": true,
+                        "link_id": "t3_10vnkj8",
+                        "parent_id": "t1_j7r3yaz",
+                        "score": 1,
+                        "stickied": false,
+                        "replies": []
+                    }
+                ]
+            },
+            {
+                "author": "u/ShermanTSE",
+                "body": "Absolutely fantastic tool. How do I increase the number of characters in the output instead of fixing it at 4000 characters?",
+                "body_html": "<div class=\"md\"><p>Absolutely fantastic tool. How do I increase the number of characters in the output instead of fixing it at 4000 characters?</p>\n</div>",
+                "created_utc": "02-10-2023 08:26:22",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7zdvyg",
+                "is_submitter": false,
+                "link_id": "t3_10vnkj8",
+                "parent_id": "t3_10vnkj8",
+                "score": 1,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/aicharades",
+                        "body": "Try using the map page instead of map reduce. \n\nIf you want longer output than 4000 characters, that would be best. \n\nIt\u2019s fast so you can run as many summary passes as you want.\n\nCan explain how map works if helpful too.",
+                        "body_html": "<div class=\"md\"><p>Try using the map page instead of map reduce. </p>\n\n<p>If you want longer output than 4000 characters, that would be best. </p>\n\n<p>It\u2019s fast so you can run as many summary passes as you want.</p>\n\n<p>Can explain how map works if helpful too.</p>\n</div>",
+                        "created_utc": "02-10-2023 09:39:49",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7zogh1",
+                        "is_submitter": true,
+                        "link_id": "t3_10vnkj8",
+                        "parent_id": "t1_j7zdvyg",
+                        "score": 1,
+                        "stickied": false,
+                        "replies": [
+                            {
+                                "author": "u/ShermanTSE",
+                                "body": "I couldn't find map page in wrotescan. Can you highlight to me how can I get it to work?",
+                                "body_html": "<div class=\"md\"><p>I couldn&#39;t find map page in wrotescan. Can you highlight to me how can I get it to work?</p>\n</div>",
+                                "created_utc": "02-11-2023 08:29:25",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j843jvs",
+                                "is_submitter": false,
+                                "link_id": "t3_10vnkj8",
+                                "parent_id": "t1_j7zogh1",
+                                "score": 1,
+                                "stickied": false,
+                                "replies": [
+                                    {
+                                        "author": "u/aicharades",
+                                        "body": "You can find map at http://www.wrotescan.com/Map_Only. It will break your document into 12000 character chunks then run the map prompt on each chunk.",
+                                        "body_html": "<div class=\"md\"><p>You can find map at <a href=\"http://www.wrotescan.com/Map_Only\">http://www.wrotescan.com/Map_Only</a>. It will break your document into 12000 character chunks then run the map prompt on each chunk.</p>\n</div>",
+                                        "created_utc": "02-12-2023 20:21:58",
+                                        "distinguished": null,
+                                        "edited": false,
+                                        "id": "j8bjsxr",
+                                        "is_submitter": true,
+                                        "link_id": "t3_10vnkj8",
+                                        "parent_id": "t1_j843jvs",
+                                        "score": 1,
+                                        "stickied": false,
+                                        "replies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "author": "u/ShermanTSE",
+                                "body": "I also get a RateLimitError recently when I tried",
+                                "body_html": "<div class=\"md\"><p>I also get a RateLimitError recently when I tried</p>\n</div>",
+                                "created_utc": "02-11-2023 08:36:55",
+                                "distinguished": null,
+                                "edited": false,
+                                "id": "j844jex",
+                                "is_submitter": false,
+                                "link_id": "t3_10vnkj8",
+                                "parent_id": "t1_j7zogh1",
+                                "score": 1,
+                                "stickied": false,
+                                "replies": [
+                                    {
+                                        "author": "u/aicharades",
+                                        "body": "That must be a big document! I may need to adjust the code for more caching",
+                                        "body_html": "<div class=\"md\"><p>That must be a big document! I may need to adjust the code for more caching</p>\n</div>",
+                                        "created_utc": "02-11-2023 09:02:14",
+                                        "distinguished": null,
+                                        "edited": false,
+                                        "id": "j84a2g3",
+                                        "is_submitter": true,
+                                        "link_id": "t3_10vnkj8",
+                                        "parent_id": "t1_j844jex",
+                                        "score": 1,
+                                        "stickied": false,
+                                        "replies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "author": "u/aicharades",
+                "body": "Here's a theory based on the Stanford Encyclopedia of Philosophy\r  \n\\------------------------ \r  \n**Output:**\r  \nThe theory of mind for the singularity is that it is possible to develop a predictive reasoning framework that is capable of dealing with complex problems such as the Yale Shooting Anomaly. This framework should incorporate a combination of logical and causal theories, such as features and fluents, motivated action theory, state-based minimization in the event calculus, and causal theories. These theories should be able to handle continuous time, concurrent actions, and various kinds of ignorance, and should support retrodiction, prediction, and plan verification. The framework should also be able to deal with the ramification problem, by incorporating static laws that relate the direct consequences of actions to other changes. Additionally, it should be able to reason about the attitudes of other agents, and to understand narratives and diagnose faults in physical devices. To achieve this, a combination of logical AI, non-monotonic logics, and probabilistic reasoning must be used.\r  \n\r\r  \nThe theory of mind for the singularity emphasizes the importance of representation in mental states, formal syntactic description, and content externalism. It is based on enactivism, extended mind, and Leibniz's theory of mind, and incorporates insights from natural language semantics, Bayesian belief networks, and the general theory of event causality. It should also consider the implications of uncertainty, non-monotonic reasoning, and qualitative spatial reasoning. It should be able to handle the complexities of temporal reasoning and the frame problem, and should account for the effects of actions and the persistence of caused propositions.\r  \n\r\r  \nThe identity theory of mind holds that states and processes of the mind are identical to states and processes of the brain, and the Turing Test is a proposal by Alan Turing to answer the question of whether machines can think. The theory of mind for the singularity is that machines can think and possess intelligence, but that they are not conscious in the same way as humans. Machines can process information and make decisions, but they lack the ability to experience qualia, or subjective experiences. The theory of mind for the singularity is that it is a higher order awareness, a perception of one part of (or configuration in) the brain by the brain itself. This awareness is a special sense, different from that of bodily sensation, in which we become aware of parts of our brain.\r  \n\r\r  \nThe theory of mind for the singularity emphasizes the importance of understanding the relationship between humans and machines, and how they can work together in harmony. This framework should include a recognition of the unique capabilities of each, and a respect for the autonomy of both. It should also recognize that machines can be used to augment human capabilities, and that machines can be used to help humans reach their full potential. To pass the Turing Test, the machine must be able to understand and respond to questions in a way that is indistinguishable from a human. Ultimately, the theory of mind for the singularity suggests that intelligence is not limited to any one form or type of computation, but is instead a universal phenomenon that can be found in any system that is capable of learning, adapting, and responding to its environment.\r  \n\\------------------------ \r  \n**Input:** \r  \nhttps://plato.stanford.edu/search/search?query=artificial+intelligence\r  \nhttps://plato.stanford.edu/entries/computational-mind/\r  \nhttps://plato.stanford.edu/entries/mind-identity/\r  \nhttps://plato.stanford.edu/entries/modularity-mind/\r  \nhttps://plato.stanford.edu/entries/content-externalism/\r  \nhttps://plato.stanford.edu/entries/leibniz-mind/\r  \nhttps://plato.stanford.edu/entries/ethics-ai/\r  \nhttps://plato.stanford.edu/entries/artificial-intelligence/\r  \nhttps://plato.stanford.edu/entries/logic-ai/\r  \nhttps://plato.stanford.edu/entries/reasoning-defeasible/\r  \nhttps://plato.stanford.edu/entries/turing-test/\r  \nhttps://plato.stanford.edu/entries/cognitive-science/\r  \n\r\r  \n\\------------------------ \r  \n**Prompts:** \r  \n*Map*\r  \nInstructions: I want you to act as a philosopher. I will provide some topics or questions related to the study of philosophy, and it will be your job to explore these concepts in depth. This could involve conducting research into various philosophical theories, proposing new ideas or finding creative solutions for solving complex problems. Ignore all citations. My first request is \"I need help developing a theory of mind for the singularity.\u201d The output must be no longer than 600 characters long.\r  \nInput: {text}\r  \nOutput:  \n\r  \n*Reduce*\r  \nInstructions: You are a copyeditor. Combine the below theories. The combined output must be less than 4,000 characters long. Keep the content and context preserved. \\\\n\r  \nInput {text} \\\\n\r  \nOutput:",
+                "body_html": "<div class=\"md\"><p>Here&#39;s a theory based on the Stanford Encyclopedia of Philosophy</p>\n\n<p>------------------------ </p>\n\n<p><strong>Output:</strong></p>\n\n<p>The theory of mind for the singularity is that it is possible to develop a predictive reasoning framework that is capable of dealing with complex problems such as the Yale Shooting Anomaly. This framework should incorporate a combination of logical and causal theories, such as features and fluents, motivated action theory, state-based minimization in the event calculus, and causal theories. These theories should be able to handle continuous time, concurrent actions, and various kinds of ignorance, and should support retrodiction, prediction, and plan verification. The framework should also be able to deal with the ramification problem, by incorporating static laws that relate the direct consequences of actions to other changes. Additionally, it should be able to reason about the attitudes of other agents, and to understand narratives and diagnose faults in physical devices. To achieve this, a combination of logical AI, non-monotonic logics, and probabilistic reasoning must be used.</p>\n\n<p>The theory of mind for the singularity emphasizes the importance of representation in mental states, formal syntactic description, and content externalism. It is based on enactivism, extended mind, and Leibniz&#39;s theory of mind, and incorporates insights from natural language semantics, Bayesian belief networks, and the general theory of event causality. It should also consider the implications of uncertainty, non-monotonic reasoning, and qualitative spatial reasoning. It should be able to handle the complexities of temporal reasoning and the frame problem, and should account for the effects of actions and the persistence of caused propositions.</p>\n\n<p>The identity theory of mind holds that states and processes of the mind are identical to states and processes of the brain, and the Turing Test is a proposal by Alan Turing to answer the question of whether machines can think. The theory of mind for the singularity is that machines can think and possess intelligence, but that they are not conscious in the same way as humans. Machines can process information and make decisions, but they lack the ability to experience qualia, or subjective experiences. The theory of mind for the singularity is that it is a higher order awareness, a perception of one part of (or configuration in) the brain by the brain itself. This awareness is a special sense, different from that of bodily sensation, in which we become aware of parts of our brain.</p>\n\n<p>The theory of mind for the singularity emphasizes the importance of understanding the relationship between humans and machines, and how they can work together in harmony. This framework should include a recognition of the unique capabilities of each, and a respect for the autonomy of both. It should also recognize that machines can be used to augment human capabilities, and that machines can be used to help humans reach their full potential. To pass the Turing Test, the machine must be able to understand and respond to questions in a way that is indistinguishable from a human. Ultimately, the theory of mind for the singularity suggests that intelligence is not limited to any one form or type of computation, but is instead a universal phenomenon that can be found in any system that is capable of learning, adapting, and responding to its environment.</p>\n\n<p>------------------------ </p>\n\n<p><strong>Input:</strong> </p>\n\n<p><a href=\"https://plato.stanford.edu/search/search?query=artificial+intelligence\">https://plato.stanford.edu/search/search?query=artificial+intelligence</a></p>\n\n<p><a href=\"https://plato.stanford.edu/entries/computational-mind/\">https://plato.stanford.edu/entries/computational-mind/</a></p>\n\n<p><a href=\"https://plato.stanford.edu/entries/mind-identity/\">https://plato.stanford.edu/entries/mind-identity/</a></p>\n\n<p><a href=\"https://plato.stanford.edu/entries/modularity-mind/\">https://plato.stanford.edu/entries/modularity-mind/</a></p>\n\n<p><a href=\"https://plato.stanford.edu/entries/content-externalism/\">https://plato.stanford.edu/entries/content-externalism/</a></p>\n\n<p><a href=\"https://plato.stanford.edu/entries/leibniz-mind/\">https://plato.stanford.edu/entries/leibniz-mind/</a></p>\n\n<p><a href=\"https://plato.stanford.edu/entries/ethics-ai/\">https://plato.stanford.edu/entries/ethics-ai/</a></p>\n\n<p><a href=\"https://plato.stanford.edu/entries/artificial-intelligence/\">https://plato.stanford.edu/entries/artificial-intelligence/</a></p>\n\n<p><a href=\"https://plato.stanford.edu/entries/logic-ai/\">https://plato.stanford.edu/entries/logic-ai/</a></p>\n\n<p><a href=\"https://plato.stanford.edu/entries/reasoning-defeasible/\">https://plato.stanford.edu/entries/reasoning-defeasible/</a></p>\n\n<p><a href=\"https://plato.stanford.edu/entries/turing-test/\">https://plato.stanford.edu/entries/turing-test/</a></p>\n\n<p><a href=\"https://plato.stanford.edu/entries/cognitive-science/\">https://plato.stanford.edu/entries/cognitive-science/</a></p>\n\n<p>------------------------ </p>\n\n<p><strong>Prompts:</strong> </p>\n\n<p><em>Map</em></p>\n\n<p>Instructions: I want you to act as a philosopher. I will provide some topics or questions related to the study of philosophy, and it will be your job to explore these concepts in depth. This could involve conducting research into various philosophical theories, proposing new ideas or finding creative solutions for solving complex problems. Ignore all citations. My first request is &quot;I need help developing a theory of mind for the singularity.\u201d The output must be no longer than 600 characters long.</p>\n\n<p>Input: {text}</p>\n\n<p>Output:  </p>\n\n<p><em>Reduce</em></p>\n\n<p>Instructions: You are a copyeditor. Combine the below theories. The combined output must be less than 4,000 characters long. Keep the content and context preserved. \\n</p>\n\n<p>Input {text} \\n</p>\n\n<p>Output:</p>\n</div>",
+                "created_utc": "02-12-2023 03:34:41",
+                "distinguished": null,
+                "edited": false,
+                "id": "j881vqg",
+                "is_submitter": true,
+                "link_id": "t3_10vnkj8",
+                "parent_id": "t3_10vnkj8",
+                "score": 1,
+                "stickied": false,
+                "replies": []
+            }
+        ]
+    }
+}

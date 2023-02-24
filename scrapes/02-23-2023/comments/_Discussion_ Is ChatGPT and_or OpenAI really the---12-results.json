@@ -1,0 +1,199 @@
+{
+    "scrape_settings": {
+        "n_results": 12,
+        "style": "structured",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/10w9dsz/discussion_is_chatgpt_andor_openai_really_the/"
+    },
+    "data": {
+        "submission_metadata": {
+            "author": "u/wonderingandthinking",
+            "created_utc": "02-07-2023 12:37:33",
+            "distinguished": null,
+            "edited": false,
+            "is_original_content": false,
+            "is_self": true,
+            "link_flair_text": "Discussion",
+            "locked": false,
+            "nsfw": false,
+            "num_comments": 12,
+            "permalink": "/r/MachineLearning/comments/10w9dsz/discussion_is_chatgpt_andor_openai_really_the/",
+            "score": 0,
+            "selftext": "Or is it someone else (who just may or may not be as well known)?",
+            "spoiler": false,
+            "stickied": false,
+            "subreddit": "MachineLearning",
+            "title": "[Discussion] Is ChatGPT and/or OpenAI really the leader in the space?",
+            "upvote_ratio": 0.45
+        },
+        "comments": [
+            {
+                "author": "u/Dr_Love2-14",
+                "body": "Leader in the space?... It is starting to irk me to see so many articles and discussions about this \"AI war\" between OpenAI and Google and their respective chatbots. OpenAI's main chatbot is GPT3, Google has LaMDA among many others. One thing for sure, they are both large and perform differently depending on the metric used.\n\nCompanies such as Facebook, Google, NVIDA, and Chinese ones like Baidu, ect. all heavily invest in AI research. The contribution of these research scientists nation and worldwide are all noteworthy and build on eachother. Google employs far more research scientists than OpenAI, and the volume of ML publications and impact factor of these publications altogether is therefore greater. Deepmind, an AI research subsidiary of Google, has been a leader in AI research and deep learning for many years.\n\nbut to directly answer your question, and for what it's worth, I would say NASA is the leader in space. Honestly your question is vague and poorly defined and you shouldn't equate chatbots to their companies.",
+                "body_html": "<div class=\"md\"><p>Leader in the space?... It is starting to irk me to see so many articles and discussions about this &quot;AI war&quot; between OpenAI and Google and their respective chatbots. OpenAI&#39;s main chatbot is GPT3, Google has LaMDA among many others. One thing for sure, they are both large and perform differently depending on the metric used.</p>\n\n<p>Companies such as Facebook, Google, NVIDA, and Chinese ones like Baidu, ect. all heavily invest in AI research. The contribution of these research scientists nation and worldwide are all noteworthy and build on eachother. Google employs far more research scientists than OpenAI, and the volume of ML publications and impact factor of these publications altogether is therefore greater. Deepmind, an AI research subsidiary of Google, has been a leader in AI research and deep learning for many years.</p>\n\n<p>but to directly answer your question, and for what it&#39;s worth, I would say NASA is the leader in space. Honestly your question is vague and poorly defined and you shouldn&#39;t equate chatbots to their companies.</p>\n</div>",
+                "created_utc": "02-07-2023 13:27:38",
+                "distinguished": null,
+                "edited": "02-07-2023 13:50:44",
+                "id": "j7lxp7k",
+                "is_submitter": false,
+                "link_id": "t3_10w9dsz",
+                "parent_id": "t3_10w9dsz",
+                "score": 33,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/wonderingandthinking",
+                        "body": "Purposefully vaguely defined so that I increase the chances of getting an answer like this. Thanks for the info. And don\u2019t underestimate or undervalue something that appears not well thought out or developed.",
+                        "body_html": "<div class=\"md\"><p>Purposefully vaguely defined so that I increase the chances of getting an answer like this. Thanks for the info. And don\u2019t underestimate or undervalue something that appears not well thought out or developed.</p>\n</div>",
+                        "created_utc": "02-08-2023 07:25:39",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7pbiy7",
+                        "is_submitter": true,
+                        "link_id": "t3_10w9dsz",
+                        "parent_id": "t1_j7lxp7k",
+                        "score": 3,
+                        "stickied": false,
+                        "replies": []
+                    },
+                    {
+                        "author": "u/ElectroNight",
+                        "body": "Meh, size of research team does not strongly correlate outcome quality and innovation. Furthermore bulky teams can reinforce momentum on a certain approach that turns into a dead end long term. Meanwhile small teams elsewhere start from a completely orthogonal approach and sometimes truly innovate. I'm not convinced Google has the right approach for the long term, organizationally or technically. Not saying ChatGPT is a Google killer either, yet.",
+                        "body_html": "<div class=\"md\"><p>Meh, size of research team does not strongly correlate outcome quality and innovation. Furthermore bulky teams can reinforce momentum on a certain approach that turns into a dead end long term. Meanwhile small teams elsewhere start from a completely orthogonal approach and sometimes truly innovate. I&#39;m not convinced Google has the right approach for the long term, organizationally or technically. Not saying ChatGPT is a Google killer either, yet.</p>\n</div>",
+                        "created_utc": "02-08-2023 09:04:21",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7poggj",
+                        "is_submitter": false,
+                        "link_id": "t3_10w9dsz",
+                        "parent_id": "t1_j7lxp7k",
+                        "score": 0,
+                        "stickied": false,
+                        "replies": []
+                    }
+                ]
+            },
+            {
+                "author": "u/impossiblefork",
+                "body": "I doubt it. Research teams associated with these companies are not known for any important novelties.\n\nThey're probably mostly special because they know how to train large transformer architectures and have the resources to do so.",
+                "body_html": "<div class=\"md\"><p>I doubt it. Research teams associated with these companies are not known for any important novelties.</p>\n\n<p>They&#39;re probably mostly special because they know how to train large transformer architectures and have the resources to do so.</p>\n</div>",
+                "created_utc": "02-07-2023 16:56:32",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7mtzzy",
+                "is_submitter": false,
+                "link_id": "t3_10w9dsz",
+                "parent_id": "t3_10w9dsz",
+                "score": 4,
+                "stickied": false,
+                "replies": []
+            },
+            {
+                "author": "u/MrEloi",
+                "body": "Does it matter?\n\nThe situation is so busy & so fluid ... and shrouded too ... that we can have no real idea.\n\nAlso, the situation could be totally different in a year or so.",
+                "body_html": "<div class=\"md\"><p>Does it matter?</p>\n\n<p>The situation is so busy &amp; so fluid ... and shrouded too ... that we can have no real idea.</p>\n\n<p>Also, the situation could be totally different in a year or so.</p>\n</div>",
+                "created_utc": "02-07-2023 14:54:21",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7mbb7y",
+                "is_submitter": false,
+                "link_id": "t3_10w9dsz",
+                "parent_id": "t3_10w9dsz",
+                "score": 1,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/wonderingandthinking",
+                        "body": "As a way of being exposed to other players in the field it does matter. Some of the best and most effective examples may be nestled away under someone(s) less known or someone relatively known that just isn\u2019t getting the press that only the most obvious examples are currently getting.\n\nEdit - typo",
+                        "body_html": "<div class=\"md\"><p>As a way of being exposed to other players in the field it does matter. Some of the best and most effective examples may be nestled away under someone(s) less known or someone relatively known that just isn\u2019t getting the press that only the most obvious examples are currently getting.</p>\n\n<p>Edit - typo</p>\n</div>",
+                        "created_utc": "02-07-2023 14:58:09",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7mbx3l",
+                        "is_submitter": true,
+                        "link_id": "t3_10w9dsz",
+                        "parent_id": "t1_j7mbb7y",
+                        "score": 1,
+                        "stickied": false,
+                        "replies": []
+                    }
+                ]
+            },
+            {
+                "author": "u/Zetus",
+                "body": "Perhaps in America, but in the world, you may want to check out Wu Dao 2.0\n\nBeyond current state of the Art.",
+                "body_html": "<div class=\"md\"><p>Perhaps in America, but in the world, you may want to check out Wu Dao 2.0</p>\n\n<p>Beyond current state of the Art.</p>\n</div>",
+                "created_utc": "02-07-2023 12:50:32",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7ls05s",
+                "is_submitter": false,
+                "link_id": "t3_10w9dsz",
+                "parent_id": "t3_10w9dsz",
+                "score": -10,
+                "stickied": false,
+                "replies": [
+                    {
+                        "author": "u/farmingvillein",
+                        "body": "There seems to be basically zero info about wu dao 2, which makes it hard to take seriously as SOTA.",
+                        "body_html": "<div class=\"md\"><p>There seems to be basically zero info about wu dao 2, which makes it hard to take seriously as SOTA.</p>\n</div>",
+                        "created_utc": "02-07-2023 18:07:39",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7n41tv",
+                        "is_submitter": false,
+                        "link_id": "t3_10w9dsz",
+                        "parent_id": "t1_j7ls05s",
+                        "score": 10,
+                        "stickied": false,
+                        "replies": []
+                    },
+                    {
+                        "author": "u/BrotherAmazing",
+                        "body": "Possibly, I guess, but how would you or anyone else know?   Wu Dao 2 is like a mythical beast, like the Loch Ness Monster, that we catch blurry glimpses of and that\u2019s it.\n\nAlso, even suppose Wu Dao 2 is SOTA despite no one being able to confirm that (trust me bro!).  The problem is it was trained by just copying what Google and OpenAI had published and trying to just scale up what they did.  I\u2019m not sure I would call that a \u201cleader in the space\u201d if you have no clue how to make any innovations yourself, so you wait for someone else to publish an innovation and then you just copy it and try to scale it up.",
+                        "body_html": "<div class=\"md\"><p>Possibly, I guess, but how would you or anyone else know?   Wu Dao 2 is like a mythical beast, like the Loch Ness Monster, that we catch blurry glimpses of and that\u2019s it.</p>\n\n<p>Also, even suppose Wu Dao 2 is SOTA despite no one being able to confirm that (trust me bro!).  The problem is it was trained by just copying what Google and OpenAI had published and trying to just scale up what they did.  I\u2019m not sure I would call that a \u201cleader in the space\u201d if you have no clue how to make any innovations yourself, so you wait for someone else to publish an innovation and then you just copy it and try to scale it up.</p>\n</div>",
+                        "created_utc": "02-07-2023 21:14:45",
+                        "distinguished": null,
+                        "edited": false,
+                        "id": "j7nt1za",
+                        "is_submitter": false,
+                        "link_id": "t3_10w9dsz",
+                        "parent_id": "t1_j7ls05s",
+                        "score": 6,
+                        "stickied": false,
+                        "replies": []
+                    }
+                ]
+            },
+            {
+                "author": "u/Fast_Goat_9613",
+                "body": "Wu Dao 2 seem like a total beast \ud83e\udd2f",
+                "body_html": "<div class=\"md\"><p>Wu Dao 2 seem like a total beast \ud83e\udd2f</p>\n</div>",
+                "created_utc": "02-07-2023 14:14:37",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7m51kj",
+                "is_submitter": false,
+                "link_id": "t3_10w9dsz",
+                "parent_id": "t3_10w9dsz",
+                "score": -8,
+                "stickied": false,
+                "replies": []
+            },
+            {
+                "author": "u/gamerx88",
+                "body": "Leader in what space and what sense? Fundamental research? Innovation? Marketshare for LLM? Hype?",
+                "body_html": "<div class=\"md\"><p>Leader in what space and what sense? Fundamental research? Innovation? Marketshare for LLM? Hype?</p>\n</div>",
+                "created_utc": "02-08-2023 20:50:57",
+                "distinguished": null,
+                "edited": false,
+                "id": "j7smwbb",
+                "is_submitter": false,
+                "link_id": "t3_10w9dsz",
+                "parent_id": "t3_10w9dsz",
+                "score": 1,
+                "stickied": false,
+                "replies": []
+            }
+        ]
+    }
+}
