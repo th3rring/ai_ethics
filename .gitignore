@@ -2,3 +2,5 @@
 notebooks/.ipynb_checkpoints
 scrapes/02-23-2023/comments/.ipynb_checkpoints
 scrapes/02-23-2023/subreddits/.ipynb_checkpoints
+ai_sentiment/__pycache__
+ai_sentiment.egg-info
