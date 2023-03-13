@@ -53,8 +53,11 @@ class RedditScraper(Scraper):
         # List of keywords to be 
         self.keywords = keywords
 
+        # Load local .env file to get praw credientals
+        # Make sure to fill out the env_template file and change its name to .env
         load_dotenv()
 
+        # Connect to praw API using credientals
         self.reddit_ = praw.Reddit(
             client_id = os.getenv("CLIENT_ID"),
             client_secret = os.getenv("CLIENT_SECRET"),
@@ -118,11 +121,10 @@ class RedditScraper(Scraper):
                 print("Caught invalid comment! skipping...")
                 continue
 
+        # Staple comment conversation together into a single string
         body_content = ""
         for comment_content in comments:
             body_content += comment_content["author"] + ": " + comment_content["body"] + ". "
-
-
 
         return ClassificationTarget(cur_element.title, body_content, cur_element.tags)
 
@@ -140,11 +142,13 @@ class WebScraper(Scraper):
         Args:
             path: A PathLib path to a csv file with three columns \"Title\", \"Addresses\", and \"Tags\" """
 
+        # Read columns
         df = pd.read_csv(path)
         titles = df["Titles"].tolist()
         urls = df["Addresses"].tolist()
         tags = df["Tags"].tolist()
 
+        # Append entries to queue
         for title, url, tag in zip(titles, urls, tags):
             self.queue.append(WebQueueElement(title, url, tag))
 
@@ -154,11 +158,11 @@ class WebScraper(Scraper):
         # Get next element in queue
         cur_element = self.queue.popleft()
 
+        # Taken from https://importsem.com/evaluate-sentiment-analysis-in-bulk-with-spacy-and-python/
         headers = {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'}
         res = requests.get(cur_element.url, headers=headers)
         html_page = res.text
 
-        # Taken from https://importsem.com/evaluate-sentiment-analysis-in-bulk-with-spacy-and-python/
         soup = BeautifulSoup(html_page, 'html.parser')
         for script in soup(["script", "style","meta","label","header","footer"]):
           script.decompose()
