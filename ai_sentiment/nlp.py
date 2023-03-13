@@ -7,7 +7,10 @@ from ai_sentiment.data import ClassificationResult, ClassificationTarget
 class SentimentClassifier:
 
     def __init__(self, pipeline = "en_core_web_trf"):
-        """Init for NLP sentiment classifier"""
+        """Init for NLP sentiment classifier
+
+        Ensure that you've downloaded a model! Here, we default to the
+        transformer model, https://spacy.io/models/en#en_core_web_trf"""
 
         self.nlp = spacy.load(pipeline)
         self.nlp.add_pipe('spacytextblob')
@@ -52,8 +55,9 @@ class SentimentClassifier:
 
         return [self.process(t) for t in targets]
 
-    def dumpResults(self, filename: str, results: List[ClassificationResult]):
-        """Dumps a list of results to a CSV file
+    @staticmethod
+    def dumpResults(filename: str, results: List[ClassificationResult]):
+        """Static method that dumps a list of results to a CSV file
 
         Args:
             filename: String filename for output csv, excludes file extension

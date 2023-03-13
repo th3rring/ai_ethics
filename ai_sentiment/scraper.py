@@ -129,7 +129,7 @@ class RedditScraper(Scraper):
 
 WebQueueElement = namedtuple("WebQueueElement", ["title", "url", "tags"])
 
-def WebScraper(Scraper):
+class WebScraper(Scraper):
 
     def __init__(self):
         """Init for web scraper"""
@@ -142,7 +142,7 @@ def WebScraper(Scraper):
 
         df = pd.read_csv(path)
         titles = df["Titles"].tolist()
-        urls = df["Address"].tolist()
+        urls = df["Addresses"].tolist()
         tags = df["Tags"].tolist()
 
         for title, url, tag in zip(titles, urls, tags):
