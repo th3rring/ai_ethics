@@ -25,6 +25,7 @@ class SentimentClassifier:
             Result of classification!"""
 
         # Process!
+        # Taken from https://importsem.com/evaluate-sentiment-analysis-in-bulk-with-spacy-and-python/
         doc = self.nlp(target.body)
         sentiment = doc._.blob.polarity
         sentiment = round(sentiment,2)

@@ -158,6 +158,7 @@ class WebScraper(Scraper):
         res = requests.get(cur_element.url, headers=headers)
         html_page = res.text
 
+        # Taken from https://importsem.com/evaluate-sentiment-analysis-in-bulk-with-spacy-and-python/
         soup = BeautifulSoup(html_page, 'html.parser')
         for script in soup(["script", "style","meta","label","header","footer"]):
           script.decompose()
