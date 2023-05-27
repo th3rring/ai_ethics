@@ -26,6 +26,9 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import requests
 
+# Imports for pdf scraper
+from PyPDF2 import PdfReader
+
 
 class Scraper(ABC):
 
@@ -183,7 +186,6 @@ class RedditScraper(Scraper):
 
 WebQueueElement = namedtuple("WebQueueElement", ["title", "url", "tags"])
 
-
 class WebScraper(Scraper):
 
     def __init__(self):
@@ -225,4 +227,96 @@ class WebScraper(Scraper):
         page_text = "".join(
             [s for s in page_text.splitlines(True) if s.strip("\r\n")])
 
+
+
         return ClassificationTarget(cur_element.title, page_text, cur_element.tags)
+    
+CSVQueueElement = namedtuple("CSVQueueElement", ["title", "url", "body", "tags"])
+
+class CSVScraper(Scraper):
+
+    def __init__(self):
+        """Init for web scraper"""
+
+    def queueCSV(self, path: Path):
+        """Process a CSV of article data and add them to the queue.
+
+        Unlike the WebScraper, this scraper will not attempt to scrape the body of the article, but will instead use the body.
+
+        Args:
+            path: A PathLib path to a csv file with four columns \"Title\", \"Addresses\", \"Body\", and \"Tags\" """
+
+        # Read columns
+        df = pd.read_csv(path)
+        titles = df["Titles"].tolist()
+        urls = df["Addresses"].tolist()
+        bodies = df["Body"].tolist()
+        tags = df["Tags"].tolist()
+
+        # Append entries to queue
+        for title, url, body, tag in zip(titles, urls, bodies, tags):
+            self.queue.append(CSVQueueElement(title, url, body, tag))
+    
+    def scrapeNext(self) -> ClassificationTarget:
+        """Create a classification target for the next request in the queue"""
+
+        # Get next element in queue
+        cur_element = self.queue.popleft()
+
+        return ClassificationTarget(cur_element.title, str(cur_element.body), cur_element.tags)
+    
+
+PDFQueueElement = namedtuple("PDFQueueElement", ["title", "path", "tags"])
+
+class PDFScraper(Scraper):
+
+    def __init__(self):
+        """Init for pdf scraper"""
+
+    # TODO Add better tags
+    def queuePDF(self, path: Path):
+        """Process a PDF file and add it to the queue
+
+        Args:
+            path: A PathLib path to a pdf file """
+
+        # Append entries to queue
+        self.queue.append(PDFQueueElement(path.name, path, ["pdf"]))
+        
+    def queueDir(self, path: Path):
+        """Process a directory of PDF files and add them to the queue
+        
+        Args:
+            path: A PathLib path to a directory of pdf files """
+            
+        # Find all PDFs in directory
+        for file in path.glob("*.pdf"):
+            self.queue.append(PDFQueueElement(file.name, file, ["pdf"]))
+
+            
+    def scrapeNext(self) -> ClassificationTarget:
+        
+        # Get next element in queue
+        cur_element = self.queue.popleft()
+
+        # Create visitor function
+        parts = []
+
+        def visitor_body(text, cm, tm, fontDict, fontSize):
+            # Checks that text isn't in header or footer
+            y = tm[5]
+            if y > 50 and y < 720:
+                parts.append(text)
+        
+        # Extract text from PDF
+        pdf = PdfReader(cur_element.path)
+        
+        for p in pdf.pages:
+            p.extract_text(visitor_text=visitor_body)
+        
+        print(f"parts {parts}")
+        
+        # Join all pages together
+        text = "".join(parts)
+        
+        return ClassificationTarget(cur_element.title, text, cur_element.tags)
