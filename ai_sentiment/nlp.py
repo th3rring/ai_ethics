@@ -1,6 +1,7 @@
 import spacy
 import pickle
 from pathlib import Path
+# from spacy import en_core_web_trf
 from spacytextblob.spacytextblob import SpacyTextBlob
 from typing import List
 import pandas as pd
@@ -16,6 +17,10 @@ class SentimentClassifier:
         transformer model, https://spacy.io/models/en#en_core_web_trf"""
 
         self.nlp = spacy.load(pipeline)
+        
+        # self.nlp = en_core_web_trf.load()
+        
+        # TODO Check that this doesn't block the transformer model from running
         self.nlp.add_pipe('spacytextblob')
 
     def process(self, target: ClassificationTarget) -> ClassificationResult:
@@ -89,6 +94,21 @@ class SentimentClassifier:
         if serialize:
             with open(filepath.with_suffix(".pickle"), 'wb') as f:
                 pickle.dump(df, f)
+        
+    @staticmethod
+    def loadResults(filename: str):
+        if type(filename) == str:
+            filename = Path(filename)
+        df = pd.read_csv(filename)
+        return df
+                
+    @staticmethod
+    def combineResults(filenames: List[str], write_filename: str):
+        dfs = [SentimentClassifier.loadResults(f) for f in filenames]
+        df = pd.concat(dfs)
+
+        df.to_csv(Path(write_filename).with_suffix(".csv"))
+        
 
     def processListToFile(self, filename: str, targets: List[ClassificationTarget]):
         """Calls NLP pipeline on a list of targets and dump results to a CSV file
