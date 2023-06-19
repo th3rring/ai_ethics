@@ -10,7 +10,7 @@ from ai_sentiment.scraper import CSVScraper
 csv_path = Path(argv[1])
 
 # Project root dir
-project_dir = Path(__file__).parent
+project_dir = Path(__file__).parents[1]
 
 print(f"Loading data from {project_dir / csv_path}")
 csv_scraper = CSVScraper()
