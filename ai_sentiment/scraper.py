@@ -248,14 +248,13 @@ class CSVScraper(Scraper):
 
         # Read columns
         df = pd.read_csv(path)
-        titles = df["Titles"].tolist()
-        urls = df["Addresses"].tolist()
+        titles = df["Title"].tolist()
+        urls = df["Link"].tolist()
         bodies = df["Body"].tolist()
-        tags = df["Tags"].tolist()
 
         # Append entries to queue
-        for title, url, body, tag in zip(titles, urls, bodies, tags):
-            self.queue.append(CSVQueueElement(title, url, body, tag))
+        for title, url, body in zip(titles, urls, bodies):
+            self.queue.append(CSVQueueElement(title, url, body, []))
     
     def scrapeNext(self) -> ClassificationTarget:
         """Create a classification target for the next request in the queue"""

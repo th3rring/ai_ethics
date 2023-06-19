@@ -1,35 +1,33 @@
 from pathlib import Path
 from sys import argv
 
-import numpy as np
-
-from ai_sentiment.nlp import SentimentClassifier
+from ai_sentiment.nlp import AsentSentimentClassifier, SentimentClassifier
 from ai_sentiment.scraper import CSVScraper
 
-# Path to scrapes to look at
-csv_path = Path(argv[1])
+for data_path in argv[1:]:
+  # Path to scrapes to look at
+  csv_path = Path(data_path)
 
-# Project root dir
-project_dir = Path(__file__).parents[1]
+  # Project root dir
+  project_dir = Path(__file__).parents[1]
 
-print(f"Loading data from {project_dir / csv_path}")
-csv_scraper = CSVScraper()
-csv_scraper.queueCSV(project_dir / csv_path)
+  print(f"Loading data from {project_dir / csv_path}")
+  csv_scraper = CSVScraper()
+  csv_scraper.queueCSV(project_dir / csv_path)
 
-# Extract text articles
-targets = csv_scraper.scrapeAll()
-target_path = Path(f"{csv_path}_targets.yml")
-csv_scraper.dumpTargets(project_dir / target_path, targets)
-dataset_name = csv_path.stem
-split_N = int(argv[2])
-split = np.array_split(np.asarray(targets), split_N)
-for t in range(split_N):
-  nlper = SentimentClassifier()
-  results = nlper.processList(split[t])
-  nlper.dumpResults(f"{dataset_name}_{t}_results", results)
+  # Extract text articles
+  targets = csv_scraper.scrapeAll()
+  target_path = Path(f"{csv_path}_targets.yml")
+  csv_scraper.dumpTargets(project_dir / target_path, targets)
 
-combined_fn = f"{dataset_name}_results"
-SentimentClassifier.combineResults([f"{dataset_name}_{t}_results.csv" for t in range(split_N)], combined_fn)
-nlper = SentimentClassifier()
-results = nlper.processList(targets)
-nlper.dumpResults(combined_fn, results)
+  asent_results_file = f"{project_dir / 'new_data_results' / csv_path.stem}_asent.csv"
+  asent_nlp = AsentSentimentClassifier()
+  results = asent_nlp.processList(targets)
+  print(f"Dumping asent results to {asent_results_file}")
+  asent_nlp.dumpResults(asent_results_file, results)
+
+  textblob_results_file = f"{project_dir / 'new_data_results' / csv_path.stem}_textblob.csv"
+  textblob_nlp = SentimentClassifier()
+  results = textblob_nlp.processList(targets)
+  print(f"Dumping textblob results to {textblob_results_file}")
+  textblob_nlp.dumpResults(textblob_results_file, results)

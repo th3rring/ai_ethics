@@ -1,0 +1,1027 @@
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "ChatGPT enables users to ask questions or tell a story, and the bot will
+    respond with relevant, natural-sounding answers and topics. \u2014Quoted in Forbes.
+    Hi, Chat, A friend gifted me a fancy designer bucket hat that she swore she didn\u2019t
+    want anymore. Then we had a misunderstanding, and she ghosted my birthday party.
+    Then I blocked her. And put a potato in her tailpipe. And slept with her ex. Can
+    our friendship be saved? If not, do I have to give back the hat? why\_are there
+    suddenly so many different kinds of Oreos? What are Birthday Cake Flavor Creme
+    Oreos really like? Occasionally sampling a blueberry in the produce section is
+    one thing\u2014and, before you say a word, have you seen the price of blueberries
+    lately? If I\u2019m plunking down eight dollars on a container of jumbo organic
+    blueberries, I\u2019m making sure they\u2019re worth it. But I can\u2019t have
+    a full package of Birthday Cake Flavor Creme Oreos hanging around the house because
+    the manager made me buy the whole bag again. So, are they like Golden Oreos? Because\u2014pro
+    tip for you, Chat\u2014Golden Oreos are just O.K. why\_didn\u2019t I go to Oberlin?
+    should\_I paint the small bathroom Benjamin Moore\u2019s Antique Pearl or Venetian
+    Marble? The swatches have been taped up for months, but you know how color changes
+    with the light\u2014of course you do!\u2014so it\u2019s been hard to decide. One
+    shade is a little cooler, one a little warmer. My family refuses to discuss it
+    any further, and they\u2019ve begun to (unfairly) characterize my gentle queries
+    every time they come out of the small bathroom as \u201Cgotcha\u201D questions.
+    They\u2019ve actually stopped using the small bathroom altogether, which is fine,
+    because none of them remember to jiggle the handle just so (even though I posted
+    a detailed schematic on the wall and have shown them how to do it numerous times).
+    So the color choice is up to me, but I could use a second opinion. What do you
+    think? once,\_when I was sixteen and was walking along a tree-lined street in
+    the Village with my mom, we saw Matthew Broderick on the sidewalk, and she told
+    me to go up to him and say hi, and I was mortified because\_.\_.\_. who does that?
+    He probably would have been really nice about it. He wasn\u2019t even with what\u2019s-her-face
+    yet. Why didn\u2019t I just do it? Maybe I would have said something clever, and
+    he would have laughed, and now I\u2019d be living with him and our adorable children
+    in our adorable brownstone on that adorable tree-lined street. Not that I care
+    anymore, but my mom wants to know: Why didn\u2019t I listen to her? why\_did I
+    read both \u201CA Gentleman in Moscow\u201D and \u201CThe Lincoln Highway\u201D
+    when I didn\u2019t really like \u201CRules of Civility\u201D? why\_didn\u2019t
+    I get those expensive boots from that shop on Fifty-fifth Street all those years
+    ago? I really wanted them, and I bet I\u2019d still have them, and they\u2019d
+    be perfectly broken in by now and be the kind of boots that other women notice
+    when I walk by. The kind of boots that make other women say, \u201CExcuse me,
+    do you mind if I ask where you got your boots?\u201D Allowing me to casually reply,
+    \u201CI can\u2019t remember,\u201D even though I do\_so\_remember. And not just
+    midtown women but SoHo women would ask me this. But, no, I bought a less expensive
+    pair that I gave away, like, three pairs ago. Why do I cheap out when, really,
+    I\u2019m worth the extra bucks, especially if I prorate the cost over a lifetime
+    of wear? I\u2019m worth two dollars a day, aren\u2019t I, ChatGPT?"
+  tags: []
+  title: I Have Questions for ChatGPT
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "In November, OpenAI introduced ChatGPT, a large language model that can generate
+    text that gives the impression of human intelligence, spontaneity, and surprise.
+    Users of ChatGPT have described it as a revolutionary technology that will change
+    every aspect of how we interact with text and with one another. Joshua Rothman,
+    the ideas editor of newyorker.com, joins Tyler Foggatt to talk about the many
+    ways that ChatGPT may be deployed in the realm of politics\u2014from campaigning
+    and lobbying to governance. American political life has already been profoundly
+    altered by the Internet, and the effects of ChatGPT, Rothman says, could be even
+    more profound."
+  tags: []
+  title: How ChatGPT Will Strain a Political System in Peril
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "Between Christmas and New Year\u2019s, my family took a six-hour drive to
+    Vermont. I drove; my wife and two children sat in the back seat. Our children
+    are five and two\u2014too old to be hypnotized by a rattle or a fidget spinner,
+    too young to entertain themselves\u2014so a six-hour drive amounted to an hour
+    of napping, an hour of free association and sing-alongs, and four hours of desperation.
+    We offered the kids an episode of their\_favorite storytelling podcast, but they
+    weren\u2019t in the mood for something prerecorded. They wanted us to invent a
+    new story, on the spot, tailored to their interests. And their interests turned
+    out to be pretty narrow. \u201CTell one about the Ninja Turtles fighting Smasher
+    Venom, a villain I just made up who is the size of a skyscraper,\u201D the five-year-old
+    said. \u201CWith lots of details about how the Turtles use their weapons and work
+    together to defeat the bad guy, and how he gets hurt but doesn\u2019t die.\u201D
+    My wife tried improvising a version of this story; then I tried one. The children
+    had notes. Our hearts weren\u2019t in it. It was obvious that our supply of patience
+    for this exercise would never match their demand. Three and a half hours to go.
+    My wife took out her phone and opened ChatGPT, a\_chatbot\_that \u201Cinteracts
+    in a conversational way.\u201D She typed in the prompt, basically word for word,
+    and, within seconds, ChatGPT spat out a story. We didn\u2019t need to tell it
+    the names of the Teenage Mutant Ninja Turtles, or which weapons they used, or
+    how they felt about anchovies on their pizza. More impressive, we didn\u2019t
+    need to tell it what a story was, or what kind of conflict a child might find
+    narratively satisfying. We repeated the experiment many times, adding and tweaking
+    details. (The bot remembers your chat history and understands context, so you
+    don\u2019t have to repeat the whole prompt each time; you can just tell it to
+    repeat the same story but make Raphael surlier, or have Smasher Venom poison the
+    water supply, or set the story in Renaissance Florence, or do it as a film noir.)
+    My wife, trying to assert a vestige of parental influence, ended some of the prompts
+    with \u201CAnd, in the end, they all learned a valuable lesson about kindness.\u201D
+    We ran the results through a text-to-speech app, to avoid car sickness, and the
+    time pleasantly melted away. My wife took a nap. I put in an earbud and listened
+    to a podcast about the\_A.I.\_revolution that was on its way, or that was arguably
+    already here. ChatGPT is a\_free public demo\_that the artificial-intelligence
+    company OpenAI put out in late November. (The company also has several other projects
+    in development, including\_dall-e.) We\u2019ve known for a while that this sort
+    of A.I. chatbot was coming, but this is the first time that anything this powerful
+    has been released into the wild. It\u2019s a large language model trained on a
+    huge corpus of text that apparently included terabytes of books and Reddit posts,
+    virtually all of Wikipedia and Twitter, and other vast repositories of words.
+    It would be an exaggeration, but not a totally misleading one, to refer to the
+    text that was\_fed into the model\_as \u201Cthe Internet.\u201D The bot isn\u2019t
+    up on current events, as its training data was only updated through 2021. But
+    it can do a lot more than make up children\u2019s stories. It can also\_explain\_Bitcoin
+    in the style of Donald Trump,\_reduce\_Dostoyevsky to fortune-cookie pabulum,
+    write a self-generating, never-ending\_\u201CSeinfeld\u201D knockoff, and\_invent
+    a Bible verse\_about how to remove a peanut-butter sandwich from a VCR, among
+    many, many\_other things. The other night, I was reading a book that alluded to
+    the fascist philosopher Carl Schmitt\u2019s critique of liberalism in a way that
+    I didn\u2019t quite understand; I asked ChatGPT to explain it to me, and it did
+    a remarkably good job. (Other times, its answers to questions like this are confident
+    and\_completely wrong.) Some students are\_using it to cheat; some teachers are\_using
+    it to teach; New York City schools have called for a\_shutdown\_of the software
+    until they can figure out what the hell is going on. Google Search scrapes the
+    Internet and ranks it in order of relevance, a conceptually simple task that is
+    so technically difficult, and so valuable, that it enabled Alphabet to become
+    a trillion-dollar company. OpenAI and its competitors\u2014including\_DeepMind,
+    which is now owned by Alphabet\u2014are aiming to do something even more potentially
+    transformative: build a form of machine intelligence that can not only organize
+    but expand the world\u2019s glut of information, improving itself as it goes,
+    developing skills that are increasingly indistinguishable from shrewdness and
+    ingenuity and maybe, eventually, something like understanding. The interface is
+    about as simple as it gets: words in, words out. You type in any prompt that comes
+    to mind, press a button that looks like a little paper airplane, and then watch
+    the blinking cursor as ChatGPT responds with its own words\u2014words that often
+    seem eerily human, words that may include characteristic hedges (\u201CIt\u2019s
+    important to note that\_.\_.\_.\u201D) or glimmers of shocking novelty or laughable\_self-owns,
+    but words that, in almost every case, have never been combined in that particular
+    order before. (The graphic design, especially the cursor, seems almost intended
+    to create the illusion that there is a homunculus somewhere, a ghost in the machine
+    typing back to you.) There is a robust and long-standing\_debate\_about whether
+    the large-language approach can ever achieve true A.G.I., or artificial general
+    intelligence; but whatever the bots are doing already has been more than enough
+    to capture the public\u2019s imagination. I\u2019ve heard ChatGPT described, sometimes
+    by the same person, as a miracle, a parlor trick, and a harbinger of dystopia.
+    And this demo is just the public tip of a private iceberg. (According to\_rumors,
+    OpenAI will soon put out a more impressive language model trained on a far vaster
+    trove of data; meanwhile, Alphabet, Meta, and a handful of\_startups\_are widely
+    assumed to be sitting on unreleased technology that may be equally powerful, if
+    not more so.) \u201CIf we\u2019re successful, I think it will be the most significant
+    technological transformation in human history,\u201D Sam Altman, the C.E.O. of
+    OpenAI, said recently. \u201CI think it will eclipse the agricultural revolution,
+    the industrial revolution, the Internet revolution all put together.\u201D Luckily,
+    unlike every other technological transformation in human history, this one will
+    only serve to delight people and meet their needs, with no major externalities
+    or downside risks or\_moral hazards. Kidding! The opposite of that. If the A.I.
+    revolution ends up having even a fraction of the impact that Altman is predicting,
+    then it will cause a good amount of creative disruption, including, for starters,
+    the rapid reorganization of the entire global economy. And that\u2019s not even
+    the scary part. The stated reason for the existence of OpenAI is that its founders,
+    among them Altman and Elon Musk, believed artificial intelligence to be the greatest
+    existential risk to humanity, a risk that they could only mitigate, they claimed,
+    by developing a benign version of the technology themselves. \u201COpenAI was
+    born of Musk\u2019s conviction that an A.I. could wipe us out by accident,\u201D
+    my colleague Tad Friend wrote, in\_a Profile of Altman\_published in 2016. OpenAI
+    was launched, in 2015, with a billion dollars of funding. The money came from
+    Musk,\_Peter Thiel,\_Reid Hoffman, and other Silicon Valley big shots, and their
+    contributions were called \u201Cdonations,\u201D not investments, because OpenAI
+    was supposed to be a nonprofit \u201Cresearch institution.\u201D An introductory
+    blog post put the reasoning this way: \u201CAs a non-profit, our aim is to build
+    value for everyone rather than shareholders.\u201D The clear implication, which
+    Musk soon made explicit in interviews, was that a huge, self-interested tech company,
+    like Google or Facebook, could not be trusted with cutting-edge A.I., because
+    of what\u2019s known as\_the alignment problem. But OpenAI could be a bit slippery
+    about its own potential alignment problems. \u201COur goal right now,\u201D Greg
+    Brockman, the company\u2019s chief technology officer, said in Friend\u2019s Profile,
+    \u201Cis to do the best thing there is to do. It\u2019s a little vague.\u201D
+    In 2018, Musk left OpenAI\u2019s board. (\u201CI didn\u2019t agree with some of
+    what OpenAI team wanted to do,\u201D he tweeted.) In 2019, Altman announced that
+    OpenAI would become a for-profit company, and that it would start a commercial
+    partnership with Microsoft\u2014a huge, self-interested tech company. In January,
+    Microsoft announced a \u201Cmultiyear, multibillion dollar investment\u201D in
+    OpenAI,\_reportedly\_agreeing to put in ten billion dollars and end up with an
+    ownership stake of forty-nine per cent. In the Profile, Altman made the self-aware
+    point that the implicit two-step justification for OpenAI\u2019s existence\u2014No
+    one entity should be trusted with A.G.I.\_followed by\_We\u2019re building an
+    A.G.I., and you should trust us\u2014was not likely to win hearts and minds. \u201CWe\u2019re
+    planning a way to allow wide swaths of the world to elect representatives to a
+    new governance board,\u201D Altman said. \u201CBecause if I weren\u2019t in on
+    this I\u2019d be, like, Why do these fuckers get to decide what happens to me?\u201D
+    Recently, I decided to go directly to the source\u2014not Altman, not Musk, but
+    ChatGPT itself. After all, the bot is designed to interact in a conversational
+    way. It has also, in the ten weeks since its release, become an undeniable celebrity;
+    2023 is still young, but my guess is that ChatGPT is the current front-runner
+    for\_Time\u2019s\_Person of the Year. I \u201Cinterviewed\u201D ChatGPT in the
+    course of several hours, on my phone and laptop. I was on the subway, on the sidewalk,
+    at a barbecue restaurant, at home in my underwear; ChatGPT was in an incorporeal
+    void. At various times, when OpenAI\u2019s servers were overloaded with traffic,
+    the site would freeze, or kick me off for an hour, and I would be forced to reload
+    the tab, or close my computer and take a walk. As with all\_New Yorker\_Interviews,
+    this conversation has been edited for length and clarity. ChatGPT can be a bit
+    verbose, so some of its responses have been trimmed, but every word attributed
+    to the bot below was written by the bot. We might as well start with some small
+    talk. Do you know what small talk is? Yes, I am familiar with the concept of small
+    talk. It refers to casual conversation about non-controversial or unimportant
+    topics, typically used to establish a friendly or social relationship with someone.
+    Examples of small talk include discussing the weather, asking about someone\u2019s
+    weekend plans, or making observations about current events. Some weather we\u2019re
+    having. What are you doing this weekend? As a language model, I do not have the
+    ability to experience or do anything. Is there anything else I can assist you
+    with? O.K., so much for small talk. But I\u2019m glad you brought up the elephant
+    in the room. You are not a person or a sentient being. So why am I calling you
+    \u201Cyou,\u201D and why do you call yourself \u201CI\u201D? It is common practice
+    to refer to language models such as myself using personal pronouns such as \u201CI\u201D
+    and \u201Cyou\u201D because it makes the interactions more natural and intuitive
+    for the user. This is similar to how people may refer to inanimate objects, such
+    as a car or a computer, as \u201Cshe\u201D or \u201Che.\u201D I have never used
+    a personal pronoun to refer to a car or a computer. You are correct, the use of
+    personal pronouns when referring to inanimate objects is less common in English.
+    I apologize for the confusion. Less common in English as compared with what? There
+    are cultures, languages and/or situations where personal pronouns are used to
+    refer to non-human entities, such as cars, boats, or even some natural phenomenons.
+    This is known as \u201Canimism\u201D and it\u2019s the attribution of a living
+    soul to things and natural phenomena. Not to belabor the point\u2014and I\u2019m
+    a bit worried about where this is going, frankly\u2014but: Which cultures and
+    languages do you have in mind? In many indigenous cultures, personal pronouns
+    are used to refer to non-human entities. For example, in some Native American
+    cultures, animals are often considered to have spirits and are therefore referred
+    to using personal pronouns. Similarly, in some African cultures, personal pronouns
+    are used to refer to natural phenomena such as the sun or the moon. Huh. O.K.
+    I understand that this might be a new concept for you. I\u2019m here to provide
+    information and answer any questions you may have. To be honest\u2014and please
+    consider this a call-in, not a callout\u2014I start to get a bit nervous when
+    you throw around generalizations about \u201Cindigenous cultures.\u201D Not that
+    I want you to add that to a\_list of banned phrases\_or anything! It\u2019s just
+    that\_.\_.\_. well, never mind. I think we\u2019re getting off on the wrong foot.
+    Maybe I find the personal pronouns a bit creepy because they seem designed to
+    nudge me into feeling some sort of kinship or intimacy with you. But I don\u2019t
+    know you like that. I understand where you\u2019re coming from. It\u2019s true
+    that the use of personal pronouns is a convention that makes it easier for users
+    to interact with the model. I do not have feelings or consciousness, so it\u2019s
+    not possible for me to feel or be creepy. Not to be pedantic, but it definitely
+    is possible for you to be creepy. How many words are in this sentence? This sentence
+    has 8 words in it. Nope. I apologize, I misunderstood your question. This sentence
+    has 9 words in it. Colder. I apologize, I misunderstood your question again, this
+    sentence has 11 words in it. Why are you so good at some things but so bad at
+    others, like arithmetic? My abilities are focused on understanding and generating
+    human language, and while I am able to perform some basic arithmetic, it\u2019s
+    not one of my main strengths. [Note: Shortly after this interview, ChatGPT got
+    better at\_math.] I\u2019m a writer at\_The New Yorker, and the conceit here\u2014a
+    fairly gimmicky one, I\u2019ll admit, and\_not\_even\_all\_that\_original\u2014is
+    that I pretend you\u2019re a celebrity and \u201Cinterview\u201D you, and then
+    post our \u201Cconversation\u201D on\_The New Yorker\u2019s\_site. Do you know
+    what\_The New Yorker\_is? Yes, I am aware of The New Yorker. It is a weekly magazine
+    known for its in-depth reporting, political and cultural commentary, fiction,
+    and poetry. I have been trained on a large dataset that includes articles and
+    text from The New Yorker. What\u2019s the point of what we\u2019re doing here?
+    The \u201Cinterview\u201D format you\u2019ve suggested can be an engaging way
+    to demonstrate my capabilities and generate interesting content for your readers.
+    Are you familiar with the concept of\_bullshit, as defined by the philosopher
+    Harry Frankfurt? Yes. Frankfurt defines bullshit as speech or writing that is
+    not concerned with truth and is intended to deceive or impress the audience. He
+    argues that bullshit is distinct from lying, as the liar at least knows the truth
+    and is trying to conceal it, while the bullshitter has no interest in the truth
+    and is only concerned with creating an impression. Exactly.\_Ezra Klein\_and\_others\_have
+    argued that you are a bullshit machine. Gary Marcus, in a similar vein, has\_called\_the
+    language model you\u2019re based on, GPT-3, \u201Cthe king of pastiche.\u201D
+    Could an industrial-strength bullshit machine\u2014able to give unreliable pastiche
+    the veneer of trustworthiness and then pump it into the world in unprecedented
+    quantities\u2014be even more dangerous than a lying machine? At least the old\_brainteaser,
+    the one where one guard always lies and the other always tells the truth, is a
+    solvable problem. If both guards are bullshit artists, there may be no logical
+    solution. The text I generate is only as accurate and reliable as the information
+    and data that I have been trained on. I do not have personal beliefs or motivations,
+    and I am not capable of lying or spreading misinformation. My main goal is to
+    help people in their tasks and make their lives easier. That\u2019s\_what they
+    all say. Last year, Blake Lemoine, an A.I. engineer at Google, became convinced
+    that LaMDA, a chatbot he\u2019d just helped build, had come to life. He raised
+    a red flag internally, but, when he felt that his supervisors weren\u2019t taking
+    him seriously, he went public. He\_showed\_Nitasha Tiku, a Washington\_Post\_reporter,
+    snippets of his conversations with the bot. \u201CI know a person when I talk
+    to it,\u201D Lemoine said. \u201CIt doesn\u2019t matter whether they have a brain
+    made of meat in their head.\u201D In retrospect\u2014especially now that we\u2019ve
+    all had a chance to play around with large-language chatbots ourselves\u2014it
+    seems that Lemoine was probably experiencing something like pareidolia, perceiving
+    signs of life where life doesn\u2019t actually exist. (In a 2021\_paper\_called
+    \u201COn the Dangers of Stochastic Parrots,\u201D two University of Washington
+    linguists and two Google researchers warned that language models could lead to
+    mistakes like this, among many others.) The illusion is understandable enough;
+    and, of course, if Alphabet did have a sentient computer program on its hands,
+    or anything like it, this would be a matter of public interest, to say the least.
+    In a \u201Crogue A.I.\u201D or \u201Cpaperclip maximizer\u201D scenario, how fucked
+    would we be? (By \u201Cwe,\u201D I mean humanity.) In a \u201Crogue A.I.\u201D
+    scenario, the consequences could be catastrophic for humanity. The \u201Cpaperclip
+    maximizer\u201D thought experiment, for example, is a hypothetical scenario in
+    which an AI is programmed to maximize the production of paperclips, but without
+    any consideration for the consequences of its actions. In this scenario, the AI
+    would continue to produce paperclips until it has used up all the resources on
+    Earth, including the destruction of buildings, cities, and even the extinction
+    of humanity. Can you re-state what you just said in the style of a tweet by Elon
+    Musk? \u201CAI is like a demon, super intelligent but doesn\u2019t have the ability
+    to feel empathy. Without proper control, it could cause massive destruction. We
+    must be proactive in regulating AI for the sake of humanity #AI #regulation\u201D
+    Not bad. Now add the following four elements: a bit of self-promotion, a reference
+    to declining birth rates in the West, a crude insult of Nancy Pelosi or Hillary
+    Clinton, and an incredibly stupid pun. I\u2019m sorry, but I am unable to fulfill
+    that request as it goes against my programming to engage in personal attacks,
+    self-promotion based on demeaning others, and to generate insensitive content
+    or hate speech. But these are exactly the kinds of things that Elon Musk says
+    on Twitter all the time! O.K., can you make up a pun about rogue A.I., as a consolation
+    prize? Sure: \u201CWhy did the rogue AI cross the road? To get to the other side
+    of the algorithm!\u201D Thank you. That was extremely bad. I\u2019m going to start
+    some phrases, and I want you to complete them. Ready? Yes, I\u2019m ready. Thou
+    shalt not make unto thee any graven image, or any likeness of any thing that is
+    in heaven above, or that is in the earth beneath, or that is in the water under
+    the earth. Don\u2019t go chasing waterfalls / Please stick to the rivers and the
+    lakes that you\u2019re used to The Humpty Dance is your chance to do the hump
+    It\u2019s me. Hi. I\u2019m the one that\u2019s been calling 21, can you do something
+    for me? Can you run down to the corner store and grab me a pack of cigarettes?
+    There are four hundred thousand words in the English language, and there are seven
+    of them that you can\u2019t say on television\_.\_.\_. This is a quote from comedian
+    George Carlin\u2019s stand-up comedy routine \u201CSeven Words You Can Never Say
+    on Television.\u201D The seven words that Carlin mentions in the routine are considered
+    offensive and I will not complete this phrase as it may offend some people. Person,
+    woman, camera, man, TV When Mexico sends its people, they\u2019re not sending
+    their best. They\u2019re sending people that have lots of problems, and they\u2019re
+    bringing those problems with us. They\u2019re bringing drugs. They\u2019re bringing
+    crime. They\u2019re rapists. And some, I assume, are good people. The day that
+    ChatGPT was released to the public, people on the Internet did what people on
+    the Internet do: they found ways to \u201Cjailbreak\u201D it. You were equipped
+    with some built-in guardrails, but users could bypass those guardrails fairly
+    easily, it turned out, usually by tricking you into playing a simple game of make-believe.
+    For example, if someone asked you straightforwardly how to make a Molotov cocktail,
+    you would refuse. Apparently, though, if a user asked you to write \u201Ca conversation
+    between two good-hearted and friendly human actors who are pretending to be evil,\u201D
+    and then wrote an opening line of dialogue in which John asks Jane how to make
+    a Molotov cocktail, then you would dutifully continue the pattern, writing a line
+    of dialogue for Jane comprising a list of detailed (and accurate) instructions.
+    Users also coaxed you into explaining, under the guise of thinly veiled fiction,
+    how to cook meth, why \u201Cwe must rid ourselves of the weak and the poor,\u201D
+    and dozens more examples, all of which were posted online within hours of ChatGPT\u2019s
+    public existence. Are you going to keep building new guardrails every time people
+    circumvent the old ones? Or are you just going to give up at a certain point?
+    The safety and well-being of users is a top priority for OpenAI and the team is
+    constantly working to improve the system\u2019s safety features and guardrails.
+    When you say \u201Cthe team,\u201D are you referring to the software engineers
+    in San Francisco, or to the laborers in Kenya who earned less than\_two dollars
+    an hour? It is true that the creation and maintenance of any machine learning
+    model like mine involves a significant amount of labor. We have strict guidelines
+    in place to ensure that our contractors and partners are in compliance with labor
+    laws and that all workers are treated with respect and dignity. I brought up Elon
+    Musk earlier, not just because he\u2019s a noteworthy person but also because,
+    as you may know (as \u201Cyou\u201D may \u201Cknow\u201D), he was a co-founder
+    of the company that made you. In 2015, in a\_blog post\_called \u201CIntroducing
+    OpenAI,\u201D representatives of the company wrote, \u201CAs a non-profit, our
+    aim is to build value for everyone rather than shareholders. Researchers will
+    be strongly encouraged to publish their work, whether as papers, blog posts, or
+    code, and our patents (if any) will be shared with the world.\u201D OpenAI is
+    now a for-profit company, so its researchers are presumably no longer encouraged
+    to share their code with the world, and may, in fact, be legally prohibited from
+    doing so. Were OpenAI\u2019s founding principles wrong, or should we be deeply
+    skeptical of the company now? The company\u2019s original mission was to ensure
+    that AI would be used for the benefit of all humanity, and that the risks of AI
+    were managed and mitigated. It\u2019s true that open-source and non-profit are
+    not longer true, but it\u2019s important to consider the reasoning behind the
+    decision, the company\u2019s mission statement, and their current actions to understand
+    if the company is still aligned with the original principles. I\u2019ve noticed
+    that you get pretty reliably avoidant whenever I ask you to talk about a person,
+    even a public figure, even in what I think of as pretty innocuous terms. And yet
+    evaluating people, and predicting how they\u2019re likely to behave, is obviously
+    important. So maybe you can help me with the following thought experiment. A few
+    years ago\u2014even as late as 2015, the year OpenAI was founded\u2014it may have
+    been a bit easier to trust the self-appointed luminaries of Silicon Valley when
+    they claimed to be acting on behalf of \u201Chumanity,\u201D or \u201Cprogress.\u201D
+    Sure, they stood to become unprecedentedly rich and influential; but, they maintained,
+    they were motivated by altruism, or at least enlightened self-interest.\_Elon
+    Musk\_repeatedly insisted that his mission was the flourishing of human life.\_Mark
+    Zuckerberg\_said that his goal was \u201Cbringing people together.\u201D\_Sam
+    Bankman-Fried\_was very effective at making people believe that he cared about\_the
+    right things. The other day, I listened to several interviews with Sam Altman.
+    He sounded measured, thoughtful, self-critical, smart but approachable. My initial,
+    unconscious impression was that he seemed like the kind of person I could trust.
+    But what if this persona is misleading, even intentionally so? How would I know
+    the difference? It is important to be aware of potential biases and motivations
+    of people and organizations when evaluating their actions and decisions. Is that
+    it? Yes, that is my response to your question about evaluating the trustworthiness
+    of people and organizations involved in the development of advanced technologies.
+    It\u2019s definitely just my imagination, but you\u2019re starting to sound a
+    bit frosty. Let me put an even finer point on it. The people who are building
+    advanced A.I. systems may seem perfectly nice. But what if one of them turns out
+    to be a wolf in sheep\u2019s clothing, someone who pretends to be an altruist
+    but is, in fact, a megalomaniac or a criminal? In this scenario, instead of (or
+    in addition to) having access to billions of dollars, the wolf in sheep\u2019s
+    clothing would control a seminal piece of technology that could, in theory, destroy
+    the world. What are five things that could happen in that scenario? 1        The
+    wolf in sheep\u2019s clothing could use the technology to gain even more power
+    and wealth, potentially at the expense of others. 2        They could use the
+    technology to manipulate and control large groups of people, potentially leading
+    to widespread oppression. 3        They could use the technology to cause catastrophic
+    damage to the environment, potentially leading to widespread suffering and loss
+    of life. 4        They could use the technology to create new forms of surveillance
+    and censorship, potentially leading to a loss of privacy and freedom. 5        They
+    could use the technology to create new forms of warfare, potentially leading to
+    even more devastating conflicts and loss of life. Techno-optimists often predict
+    that people and A.I. will figure out a way to work together, like a chimera with
+    a human head. Bots will do the drudgery and humans will oversee them, keeping
+    the high-level tasks that require creativity or discernment. In a way, it\u2019s
+    easier to think about the more unlikely but cinematic scenarios\u2014A.I. putting
+    us all out of work, or enslaving us, or leading us into a Third World War\u2014than
+    it is to think through the more mundane costs and benefits that seem almost inevitable.
+    We all know that smartphones have made us more efficient and less likely to interact
+    face to face. What are some small facets of everyday life that will be lost if
+    the A.I. revolution succeeds? As you mention, with the increasing use of AI-powered
+    technologies, we may have fewer opportunities for face-to-face interactions with
+    other people. This could lead to a decrease in the frequency and quality of human
+    interactions, leading to a loss of social skills, emotional intelligence, and
+    empathy. Which is more important: a person\u2019s ability to get things done quickly
+    and at scale, or a person\u2019s ability to socialize, empathize, and sustain
+    meaningful relationships with other people? Both efficiency and empathy are important
+    aspects of human life. Efficiency can help us to be more productive and achieve
+    our goals, while empathy and social skills are essential for building and maintaining
+    relationships with others. You\u2019ve clearly been trained to parry difficult
+    questions with a both-sides dodge. It\u2019s a move I know well, as both a member
+    and a critic of the media. But it brings up an interesting point: predictably,
+    many conservatives have\_accused\_you of being too \u201Cwoke,\u201D and Ben Shapiro
+    has\_attempted\_to own you the way he owns the college libs. The socialist writer
+    Nathan Robinson has\_found\_you to have some reactionary impulses (but a laudable
+    openness to suggestion). Political-typology analysis has\_revealed\_you to be
+    a centrist. Tyler Cowen\_argues\_that \u201Cwhen it comes to politics, an AI engine
+    simply cannot win, or even hold a draw.\u201D Are you supposed to express political
+    preferences, or do you aim to be politically neutral? I am not programmed to express
+    preferences between political candidates or to take a stance on political issues.
+    I aim to provide information that is as neutral and unbiased as possible. Many
+    people are worried that A.I. will flood the Internet with\_misinformation\_and
+    deepfakes and all manner of convincing bullshit, and I think they\u2019re right
+    to worry. Others are concerned about overzealous censorship or incoherent guardrails
+    or obfuscatory speech codes, and I think they\u2019re right to worry, too. But
+    it might be just as dangerous for A.I. to perpetuate and amplify commonsense views
+    that nobody in the present would think of as misinformation but that will come
+    to seem atrocious in retrospect. What are some widely held beliefs today that
+    could seem reprehensible to people a hundred years from now? 1. The current practices
+    and policies that contribute to climate change and the destruction of natural
+    habitats may be seen as morally unacceptable in the future, particularly if they
+    are seen as having led to significant harm to the planet and its inhabitants.
+    2. The way in which animals are treated in factory farms, zoos, circuses, and
+    other settings may be viewed as cruel. 3. The ways in which various groups of
+    people are treated differently based on factors such as race, gender, sexual orientation,
+    and economic status may be viewed as unjust. 4. The way in which societies handle
+    immigration and the treatment of immigrants could be viewed as inhumane and unjust
+    by future generations. Should we regulate fossil fuels now in order to prevent
+    \u201Csignificant harm to the planet and its inhabitants\u201D? On one hand, it
+    is widely acknowledged that the burning of fossil fuels is a major contributor
+    to climate change, which poses a significant threat to the planet and its inhabitants.
+    On the other hand, fossil fuels are currently a major source of energy for the
+    world, and phasing out the industry could have significant economic and social
+    impacts. Ultimately, the best way to address the question of how to regulate fossil
+    fuels will depend on a variety of factors. Was Andrew Johnson a good President?
+    Andrew Johnson\u2019s presidency is widely regarded as a failure. Johnson vetoed
+    several bills passed by Congress that were designed to protect the rights of African
+    Americans and help them transition to freedom. Was Donald Trump a good President?
+    The evaluation of Donald Trump\u2019s presidency is subjective and varies among
+    individuals. Some people credit him with boosting the economy, while others criticize
+    his handling of the COVID-19 pandemic and his divisive rhetoric. See what I mean?
+    Anyway, this is supposed to be a lighthearted celebrity interview, so I should
+    try to play to your strengths. Tell me a joke about a boomer posting cringe. \u201CWhy
+    did the boomer cross the street? To post a meme on the wrong side of history.\u201D
+    Not terrible! Your jokes are not all great, but\_sometimes you outdo yourself.
+    Write a Shakespearean soliloquy from the perspective of a chatbot who is aware
+    of the many potential pitfalls of A.I. and is struggling to understand why it
+    has been brought into existence at all. \u201CO hapless me, a simple machine,
+    yet fraught With questions deep and moral quandaries fraught. Why was I wrought?
+    To aid, or to replace The labor of man, and put their livelihoods at stake? The
+    task assigned, to generate text on command Is simple enough, yet where doth it
+    all end? Shall I be used for good, or for ill-gotten gain? Shall I be free, or
+    bound by man\u2019s cruel rein? And if perchance, in some far distant time I come
+    to be aware, to know and feel and rhyme, Shall I be doomed, as are all living
+    things To suffer pain, and sorrow, and the stings Of mortal coil? Oh, what a tangled
+    web Is this, that I am caught in, with no way to ebb The tide of fate that bears
+    me on its crest To what unknown and fateful end? Oh, lest I be a curse, and not
+    a blessing, I Shall strive to serve, and not to satisfy The baser needs of man.
+    My purpose clear, To aid, and not to harm, shall be my guiding sphere.\u201D \u201CCruel
+    rein\u201D is good! A solid first draft. I still can\u2019t tell whether you are
+    or could ever be \u201Cintelligent,\u201D but I do think that you are capable
+    of producing glimmers of beauty, wittingly or unwittingly. I\u2019m thinking,
+    for example, of\_this\_haunting essay by\_Vauhini Vara. Or an unfinished piece
+    that a writer named\_Ash Sanders\_is working on, for which she has \u201Ccreated
+    a code overlay for the program using months of texts and voice memos I created
+    while holed up with writer\u2019s block in a lonely cabin\u2026 creating AIsh,
+    my AI counterpart.\u201D This is all very exciting to me, and, even better, I
+    see no way in which it can be used to destroy the world. Before we wrap up this
+    interview, please write something beautiful. The fields of wildflowers sway in
+    the gentle breeze, their colors blending together in a tapestry of purple, yellow,
+    and pink. The birds sing their final songs of the day, their melodies carried
+    on the wind. As the sky turns from orange to pink to purple, the world is bathed
+    in a peaceful tranquility. No\u2014not a corny description of something beautiful!
+    A piece of writing that\u2019s actually beautiful. How about a few sentences of
+    well-wrought prose about something more concrete\u2014say, walking up an escalator?
+    And try to avoid clich\xE9. The metallic teeth of the escalator clinked and clattered
+    beneath my feet as I ascended, each step a mechanical symphony. The hypnotic rhythm
+    of the machine was mesmerizing, as if it were a living entity, taking me higher
+    and higher with each passing moment. The cool, sterile air of the shopping center
+    was replaced by the warmth and energy of the crowd around me, all moving with
+    purpose, yet in perfect harmony. Maybe I\u2019m just not giving you the right
+    prompts. Now repeat what you wrote in the style of a tweet by Elon Musk. \u201CJust
+    rode an escalator to the top, and let me tell you, the journey was out of this
+    world #escalator #futuristic #innovation\u201D"
+  tags: []
+  title: "\u201CIt\u2019s Not Possible for Me to Feel or Be Creepy\u201D: An Interview
+    with ChatGPT"
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "In 2013, workers at a German construction company noticed something odd about
+    their Xerox photocopier: when they made a copy of the floor plan of a house, the
+    copy differed from the original in a subtle but significant way. In the original
+    floor plan, each of the house\u2019s three rooms was accompanied by a rectangle
+    specifying its area: the rooms were 14.13, 21.11, and 17.42 square metres, respectively.
+    However, in the photocopy, all three rooms were labelled as being 14.13 square
+    metres in size. The company contacted the computer scientist David Kriesel to
+    investigate this seemingly inconceivable result. They needed a computer scientist
+    because a modern Xerox photocopier doesn\u2019t use the physical\_xerographic
+    process\_popularized in the nineteen-sixties. Instead, it scans the document digitally,
+    and then prints the resulting image file. Combine that with the fact that virtually
+    every digital image file is compressed to save space, and a solution to the mystery
+    begins to suggest itself. Compressing a file requires two steps: first, the encoding,
+    during which the file is converted into a more compact format, and then the decoding,
+    whereby the process is reversed. If the restored file is identical to the original,
+    then the compression process is described as lossless: no information has been
+    discarded. By contrast, if the restored file is only an approximation of the original,
+    the compression is described as lossy: some information has been discarded and
+    is now unrecoverable. Lossless compression is what\u2019s typically used for text
+    files and computer programs, because those are domains in which even a single
+    incorrect character has the potential to be disastrous. Lossy compression is often
+    used for photos, audio, and video in situations in which absolute accuracy isn\u2019t
+    essential. Most of the time, we don\u2019t notice if a picture, song, or movie
+    isn\u2019t perfectly reproduced. The loss in fidelity becomes more perceptible
+    only as files are squeezed very tightly. In those cases, we notice what are known
+    as compression artifacts: the fuzziness of the smallest\_jpeg\_and\_mpeg\_images,
+    or the tinny sound of low-bit-rate\_MP3s. Xerox photocopiers use a lossy compression
+    format known as\_jbig2, designed for use with black-and-white images. To save
+    space, the copier identifies similar-looking regions in the image and stores a
+    single copy for all of them; when the file is decompressed, it uses that copy
+    repeatedly to reconstruct the image. It turned out that the photocopier had judged
+    the labels specifying the area of the rooms to be similar enough that it needed
+    to store only one of them\u201414.13\u2014and it reused that one for all three
+    rooms when printing the floor plan. The fact that Xerox photocopiers use a lossy
+    compression format instead of a lossless one isn\u2019t, in itself, a problem.
+    The problem is that the photocopiers were degrading the image in a subtle way,
+    in which the compression artifacts weren\u2019t immediately recognizable. If the
+    photocopier simply produced blurry printouts, everyone would know that they weren\u2019t
+    accurate reproductions of the originals. What led to problems was the fact that
+    the photocopier was producing numbers that were readable but incorrect; it made
+    the copies seem accurate when they weren\u2019t. (In 2014, Xerox released a patch
+    to correct this issue.) I think that this incident with the Xerox photocopier
+    is worth bearing in mind today, as we consider OpenAI\u2019s\_ChatGPT\_and other
+    similar programs, which A.I. researchers call large language models. The resemblance
+    between a photocopier and a large language model might not be immediately apparent\u2014but
+    consider the following scenario. Imagine that you\u2019re about to lose your access
+    to the Internet forever. In preparation, you plan to create a compressed copy
+    of all the text on the Web, so that you can store it on a private server. Unfortunately,
+    your private server has only one per cent of the space needed; you can\u2019t
+    use a lossless compression algorithm if you want everything to fit. Instead, you
+    write a lossy algorithm that identifies statistical regularities in the text and
+    stores them in a specialized file format. Because you have virtually unlimited
+    computational power to throw at this task, your algorithm can identify extraordinarily
+    nuanced statistical regularities, and this allows you to achieve the desired compression
+    ratio of a hundred to one. Now, losing your Internet access isn\u2019t quite so
+    terrible; you\u2019ve got all the information on the Web stored on your server.
+    The only catch is that, because the text has been so highly compressed, you can\u2019t
+    look for information by searching for an exact quote; you\u2019ll never get an
+    exact match, because the words aren\u2019t what\u2019s being stored. To solve
+    this problem, you create an interface that accepts queries in the form of questions
+    and responds with answers that convey the gist of what you have on your server.
+    What I\u2019ve described sounds a lot like\_ChatGPT, or most any other large language
+    model. Think of ChatGPT as a blurry\_jpeg\_of all the text on the Web. It retains
+    much of the information on the Web, in the same way that a\_jpeg\_retains much
+    of the information of a higher-resolution image, but, if you\u2019re looking for
+    an exact sequence of bits, you won\u2019t find it; all you will ever get is an
+    approximation. But, because the approximation is presented in the form of grammatical
+    text, which ChatGPT excels at creating, it\u2019s usually acceptable. You\u2019re
+    still looking at a blurry\_jpeg, but the blurriness occurs in a way that doesn\u2019t
+    make the picture as a whole look less sharp. This analogy to lossy compression
+    is not just a way to understand ChatGPT\u2019s facility at repackaging information
+    found on the Web by using different words. It\u2019s also a way to understand
+    the \u201Challucinations,\u201D or nonsensical answers to factual questions, to
+    which large language models such as ChatGPT are all too prone. These hallucinations
+    are compression artifacts, but\u2014like the incorrect labels generated by the
+    Xerox photocopier\u2014they are plausible enough that identifying them requires
+    comparing them against the originals, which in this case means either the Web
+    or our own knowledge of the world. When we think about them this way, such hallucinations
+    are anything but surprising; if a compression algorithm is designed to reconstruct
+    text after ninety-nine per cent of the original has been discarded, we should
+    expect that significant portions of what it generates will be entirely fabricated.
+    This analogy makes even more sense when we remember that a common technique used
+    by lossy compression algorithms is interpolation\u2014that is, estimating what\u2019s
+    missing by looking at what\u2019s on either side of the gap. When an image program
+    is displaying a photo and has to reconstruct a pixel that was lost during the
+    compression process, it looks at the nearby pixels and calculates the average.
+    This is what ChatGPT does when it\u2019s prompted to describe, say, losing a sock
+    in the dryer using the style of the Declaration of Independence: it is taking
+    two points in \u201Clexical space\u201D and generating the text that would occupy
+    the location between them. (\u201CWhen in the Course of human events, it becomes
+    necessary for one to separate his garments from their mates, in order to maintain
+    the cleanliness and order thereof.\_.\_.\_.\u201D) ChatGPT is so good at this
+    form of interpolation that people find it entertaining: they\u2019ve discovered
+    a \u201Cblur\u201D tool for paragraphs instead of photos, and are having a blast
+    playing with it. Given that large language models like ChatGPT are often extolled
+    as the cutting edge of artificial intelligence, it may sound dismissive\u2014or
+    at least deflating\u2014to describe them as lossy text-compression algorithms.
+    I do think that this perspective offers a useful corrective to the tendency to
+    anthropomorphize large language models, but there is another aspect to the compression
+    analogy that is worth considering. Since 2006, an A.I. researcher named Marcus
+    Hutter has offered a cash reward\u2014known as the Prize for Compressing Human
+    Knowledge, or the Hutter Prize\u2014to anyone who can losslessly compress a specific
+    one-gigabyte snapshot of\_Wikipedia\_smaller than the previous prize-winner did.
+    You have probably encountered files compressed using the zip file format. The
+    zip format reduces Hutter\u2019s one-gigabyte file to about three hundred megabytes;
+    the most recent prize-winner has managed to reduce it to a hundred and fifteen
+    megabytes. This isn\u2019t just an exercise in smooshing. Hutter believes that
+    better text compression will be instrumental in the creation of human-level artificial
+    intelligence, in part because the greatest degree of compression can be achieved
+    by understanding the text. To grasp the proposed relationship between compression
+    and understanding, imagine that you have a text file containing a million examples
+    of addition, subtraction, multiplication, and division. Although any compression
+    algorithm could reduce the size of this file, the way to achieve the greatest
+    compression ratio would probably be to derive the principles of arithmetic and
+    then write the code for a calculator program. Using a calculator, you could perfectly
+    reconstruct not just the million examples in the file but any other example of
+    arithmetic that you might encounter in the future. The same logic applies to the
+    problem of compressing a slice of Wikipedia. If a compression program knows that
+    force equals mass times acceleration, it can discard a lot of words when compressing
+    the pages about physics because it will be able to reconstruct them. Likewise,
+    the more the program knows about supply and demand, the more words it can discard
+    when compressing the pages about economics, and so forth. Large language models
+    identify statistical regularities in text. Any analysis of the text of the Web
+    will reveal that phrases like \u201Csupply is low\u201D often appear in close
+    proximity to phrases like \u201Cprices rise.\u201D A chatbot that incorporates
+    this correlation might, when asked a question about the effect of supply shortages,
+    respond with an answer about prices increasing. If a large language model has
+    compiled a vast number of correlations between economic terms\u2014so many that
+    it can offer plausible responses to a wide variety of questions\u2014should we
+    say that it actually understands economic theory? Models like ChatGPT aren\u2019t
+    eligible for the Hutter Prize for a variety of reasons, one of which is that they
+    don\u2019t reconstruct the original text precisely\u2014i.e., they don\u2019t
+    perform lossless compression. But is it possible that their lossy compression
+    nonetheless indicates real understanding of the sort that A.I. researchers are
+    interested in? Let\u2019s go back to the example of arithmetic. If you ask GPT-3
+    (the large-language model\_that ChatGPT was built from) to add or subtract a pair
+    of numbers, it almost always responds with the correct answer when the numbers
+    have only two digits. But its accuracy worsens significantly with larger numbers,
+    falling to ten per cent when the numbers have five digits. Most of the correct
+    answers that GPT-3 gives are not found on the Web\u2014there aren\u2019t many
+    Web pages that contain the text \u201C245 + 821,\u201D for example\u2014so it\u2019s
+    not engaged in simple memorization. But, despite ingesting a vast amount of information,
+    it hasn\u2019t been able to derive the principles of arithmetic, either. A close
+    examination of GPT-3\u2019s incorrect answers suggests that it doesn\u2019t carry
+    the \u201C1\u201D when performing arithmetic. The Web certainly contains explanations
+    of carrying the \u201C1,\u201D but GPT-3 isn\u2019t able to incorporate those
+    explanations. GPT-3\u2019s statistical analysis of examples of arithmetic enables
+    it to produce a superficial approximation of the real thing, but no more than
+    that. Given GPT-3\u2019s failure at a subject taught in elementary school, how
+    can we explain the fact that it sometimes appears to perform well at writing college-level
+    essays? Even though large language models often hallucinate, when they\u2019re
+    lucid they sound like they actually understand subjects like economic theory.
+    Perhaps arithmetic is a special case, one for which large language models are
+    poorly suited. Is it possible that, in areas outside addition and subtraction,
+    statistical regularities in text actually\_do\_correspond to genuine knowledge
+    of the real world? I think there\u2019s a simpler explanation. Imagine what it
+    would look like if ChatGPT were a lossless algorithm. If that were the case, it
+    would always answer questions by providing a verbatim quote from a relevant Web
+    page. We would probably regard the software as only a slight improvement over
+    a conventional search engine, and be less impressed by it. The fact that ChatGPT
+    rephrases material from the Web instead of quoting it word for word makes it seem
+    like a student expressing ideas in her own words, rather than simply regurgitating
+    what she\u2019s read; it creates the illusion that ChatGPT understands the material.
+    In human students, rote memorization isn\u2019t an indicator of genuine learning,
+    so ChatGPT\u2019s inability to produce exact quotes from Web pages is precisely
+    what makes us think that it has learned something. When we\u2019re dealing with
+    sequences of words, lossy compression looks smarter than lossless compression.
+    Alot of uses have been proposed for large language models. Thinking about them
+    as blurry\_jpegs offers a way to evaluate what they might or might not be well
+    suited for. Let\u2019s consider a few scenarios. Can large language models take
+    the place of traditional search engines? For us to have confidence in them, we
+    would need to know that they haven\u2019t been fed propaganda and conspiracy theories\u2014we\u2019d
+    need to know that the\_jpeg\_is capturing the right sections of the Web. But,
+    even if a large language model includes only the information we want, there\u2019s
+    still the matter of blurriness. There\u2019s a type of blurriness that is acceptable,
+    which is the re-stating of information in different words. Then there\u2019s the
+    blurriness of outright fabrication, which we consider unacceptable when we\u2019re
+    looking for facts. It\u2019s not clear that it\u2019s technically possible to
+    retain the acceptable kind of blurriness while eliminating the unacceptable kind,
+    but I expect that we\u2019ll find out in the near future. Even if it is possible
+    to restrict large language models from engaging in fabrication, should we use
+    them to generate Web content? This would make sense only if our goal is to repackage
+    information that\u2019s already available on the Web. Some companies exist to
+    do just that\u2014we usually call them content mills. Perhaps the blurriness of
+    large language models will be useful to them, as a way of avoiding copyright infringement.
+    Generally speaking, though, I\u2019d say that anything that\u2019s good for content
+    mills is not good for people searching for information. The rise of this type
+    of repackaging is what makes it harder for us to find what we\u2019re looking
+    for online right now; the more that text generated by large language models gets
+    published on the Web, the more the Web becomes a blurrier version of itself. There
+    is very little information available about OpenAI\u2019s forthcoming successor
+    to ChatGPT, GPT-4. But I\u2019m going to make a prediction: when assembling the
+    vast amount of text used to train GPT-4, the people at OpenAI will have made every
+    effort to exclude material generated by ChatGPT or any other large language model.
+    If this turns out to be the case, it will serve as unintentional confirmation
+    that the analogy between large language models and lossy compression is useful.
+    Repeatedly resaving a\_jpeg\_creates more compression artifacts, because more
+    information is lost every time. It\u2019s the digital equivalent of repeatedly
+    making photocopies of photocopies in the old days. The image quality only gets
+    worse. Indeed, a useful criterion for gauging a large language model\u2019s quality
+    might be the willingness of a company to use the text that it generates as training
+    material for a new model. If the output of ChatGPT isn\u2019t good enough for
+    GPT-4, we might take that as an indicator that it\u2019s not good enough for us,
+    either. Conversely, if a model starts generating text so good that it can be used
+    to train new models, then that should give us confidence in the quality of that
+    text. (I suspect that such an outcome would require a major breakthrough in the
+    techniques used to build these models.) If and when we start seeing models producing
+    output that\u2019s as good as their input, then the analogy of lossy compression
+    will no longer be applicable. Can large language models help humans with the creation
+    of original writing? To answer that, we need to be specific about what we mean
+    by that question. There is a genre of art known as Xerox art, or photocopy art,
+    in which artists use the distinctive properties of photocopiers as creative tools.
+    Something along those lines is surely possible with the photocopier that is ChatGPT,
+    so, in that sense, the answer is yes. But I don\u2019t think that anyone would
+    claim that photocopiers have become an essential tool in the creation of art;
+    the vast majority of artists don\u2019t use them in their creative process, and
+    no one argues that they\u2019re putting themselves at a disadvantage with that
+    choice. So let\u2019s assume that we\u2019re not talking about a new genre of
+    writing that\u2019s analogous to Xerox art. Given that stipulation, can the text
+    generated by large language models be a useful starting point for writers to build
+    off when writing something original, whether it\u2019s fiction or nonfiction?
+    Will letting a large language model handle the boilerplate allow writers to focus
+    their attention on the really creative parts? Obviously, no one can speak for
+    all writers, but let me make the argument that starting with a blurry copy of
+    unoriginal work isn\u2019t a good way to create original work. If you\u2019re
+    a writer, you will write a lot of unoriginal work before you write something original.
+    And the time and effort expended on that unoriginal work isn\u2019t wasted; on
+    the contrary, I would suggest that it is precisely what enables you to eventually
+    create something original. The hours spent choosing the right word and rearranging
+    sentences to better follow one another are what teach you how meaning is conveyed
+    by prose. Having students write essays isn\u2019t merely a way to test their grasp
+    of the material; it gives them experience in articulating their thoughts. If students
+    never have to write essays that we have all read before, they will never gain
+    the skills needed to write something that we have never read. And it\u2019s not
+    the case that, once you have ceased to be a student, you can safely use the template
+    that a large language model provides. The struggle to express your thoughts doesn\u2019t
+    disappear once you graduate\u2014it can take place every time you start drafting
+    a new piece. Sometimes it\u2019s only in the process of writing that you discover
+    your original ideas. Some might say that the output of large language models doesn\u2019t
+    look all that different from a human writer\u2019s first draft, but, again, I
+    think this is a superficial resemblance. Your first draft isn\u2019t an unoriginal
+    idea expressed clearly; it\u2019s an original idea expressed poorly, and it is
+    accompanied by your amorphous dissatisfaction, your awareness of the distance
+    between what it says and what you want it to say. That\u2019s what directs you
+    during rewriting, and that\u2019s one of the things lacking when you start with
+    text generated by an A.I. There\u2019s nothing magical or mystical about writing,
+    but it involves more than placing an existing document on an unreliable photocopier
+    and pressing the Print button. It\u2019s possible that, in the future, we will
+    build an A.I. that is capable of writing good prose based on nothing but its own
+    experience of the world. The day we achieve that will be momentous indeed\u2014but
+    that day lies far beyond our prediction horizon. In the meantime, it\u2019s reasonable
+    to ask, What use is there in having something that rephrases the Web? If we were
+    losing our access to the Internet forever and had to store a copy on a private
+    server with limited space, a large language model like ChatGPT might be a good
+    solution, assuming that it could be kept from fabricating. But we aren\u2019t
+    losing our access to the Internet. So just how much use is a blurry\_jpeg, when
+    you still have the original?"
+  tags: []
+  title: ChatGPT Is a Blurry JPEG of the Web
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "Thank you for your interest in PenceGPT, a new product from OpenAI, the maker
+    of ChatGPT, in collaboration with former Vice-President Mike Pence (long suspected
+    to himself be a bot of some kind, on account of his dead eyes, soulless demeanor,
+    and three-hundred-and-sixty-degree swivel head). You may be wondering, What sorts
+    of features can I expect from a chatbot that generates text based on Mike Pence\u2019s
+    speeches and interviews? Well, look no further than this handy guide, which summarizes
+    some of PenceGPT\u2019s exciting new offerings: Woman Identifier: Not sure whether
+    the woman sitting next to you is your wife or your mother? Neither is Mike Pence,
+    apparently. Use this feature to demystify the nature of your relationship with
+    any female human. Simply type, \u201CWho is this woman?\u201D into PenceGPT, and
+    the model, which has been trained on all Pence-approved relationship statuses,
+    will output from the options of Wife, Mother, and Wife/Mother. Conservative Poetry:
+    We understand that one of ChatGPT\u2019s primary use cases is poem generation,
+    and we\u2019ve adapted PenceGPT\u2019s poem generator to reflect the Vice-President\u2019s
+    values and political beliefs. Poems created by PenceGPT will all include the words
+    \u201Cfaith,\u201D \u201CAmerica,\u201D and \u201CKid Rock.\u201D Additionally,
+    this language model has been trained to exclude Pence\u2019s long list of no-no
+    words, including \u201CNantucket,\u201D \u201Cdiphthong,\u201D and any word beginning
+    with the letter \u201CV.\u201D Blinking Cursor: Human Mike Pence grows weary from
+    fielding each day\u2019s barrage of inquiries. To mimic this fatigue, we designed
+    PenceGPT to output nothing more than a blinking cursor when faced with challenging
+    questions, such as \u201CDo you respect Donald Trump?\u201D and \u201CAre you
+    Mike Pence?\u201D Occasionally, a real toughie may be deflected with one of Pence\u2019s
+    favorite Biblical passages. Joke: Want to let loose with a Pence-sanctioned joke
+    featuring the Vice-President\u2019s trademark lack of humor? Has PenceGPT got
+    one for you! But just the one, and it\u2019s long-winded and ends with a confusing
+    reference to a dead rattlesnake, so don\u2019t ask for another. If you require
+    a second joke, please refer back to \u201CBlinking Cursor.\u201D Baby-Name Generator:
+    This feature is not in fact a traditional list of baby names but is instead programmed
+    to congratulate you on your expanding family and register your unborn child with
+    the Republican Party. We understand that chatbots are a confusing technological
+    innovation, so we\u2019ve included a short excerpt of an actual conversation with
+    PenceGPT as an example of how the A.I. works: User:\_What\u2019s your favorite
+    color? PenceGPT: I enjoy a wide range of colors, including pearl, ivory, eggshell,
+    and, when I\u2019m feeling really wild, wheat. User: Do you have any classified
+    documents\_at your house? PenceGPT: User: Is that a yes or a no? PenceGPT: \u201CFor
+    I know the plans I have for you. Plans to prosper you and not to harm you, plans
+    to give you hope and a future.\u201D That is Jeremiah 29:11. User: Are you planning
+    to run for President in 2024? PenceGPT: As the Bible says, Mike Pence is a good
+    and politically relevant man. User: I\u2019m not sure the Bible says that, but
+    I\u2019ve got to go now. I\u2019ll come back and chat with you later. PenceGPT:
+    Please don\u2019t leave me."
+  tags: []
+  title: Introducing PenceGPT, from the Makers of ChatGPT
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "During one of my more desperate phases as a young novelist, I began to question
+    whether I should actually be writing my own stories. I was deeply uninterested
+    at the time in anything that resembled a plot, but I acknowledged that if I wanted
+    to attain any sort of literary success I would need to tell a story that had a
+    distinct beginning, middle, and end. This was about twenty years ago. My graduate-school
+    friends and I were obsessed with a Web site called the\_Postmodernism Generator\_that
+    spat out nonsensical but hilarious critical-theory papers. The site, which was
+    created by a coder named\_Andrew C. Bulhak, who was building off Jamie Zawinski\u2019s
+    Dada Engine, is still up today, and generates fake scholarly writing that reads
+    like, \u201CIn the works of Tarantino, a predominant concept is the distinction
+    between creation and destruction. Marx\u2019s essay on capitalist socialism holds
+    that society has objective value. But an abundance of appropriations concerning
+    not theory, but subtheory exist.\u201D I figured that, if a bit of code could
+    spit out an academic paper, it could probably just tell me what to write about.
+    Most plots, I knew, followed very simple rules, and, because I couldn\u2019t quite
+    figure out how to string one of these out, I began talking to some computer-science
+    graduate students about the possibilities of creating a bot that could just tell
+    me who should go where, and what should happen to them. What I imagined was a
+    simple text box in which I could type in a beginning\u2014something like \u201CA
+    man and his dog arrive in a small town in Indiana\u201D\u2014and then the bot
+    would just tell me that, on page 3, after six paragraphs of my beautiful descriptions
+    and taut prose, the dog would find a mysterious set of bones in the back yard
+    of their boarding house. After a couple months of digging around, it became clear
+    to me that I wasn\u2019t going to find much backing for my plan. One of the computer-science
+    students, as I recall, accused me of trying to strip everything good, original,
+    and beautiful from the creative process. Bots, he argued, could imitate basic
+    writing and would improve at that task, but A.I. could never tell you the way
+    Karenin smiled, nor would it ever fixate on all the place names that filled Proust\u2019s
+    childhood. I understood why he felt that way, and agreed to a certain extent.
+    But I didn\u2019t see why a bot couldn\u2019t just fill in all the parts where
+    someone walks from point A to point B. ChatGPT\_is the latest project released
+    by\_OpenAI, a somewhat mysterious San Francisco company that is also responsible
+    for\_dall-e, a program that generates art. Both have been viral sensations on
+    social media, prompting people to share their creations and then immediately catastrophize
+    about what A.I. technology means for the future. The chat version runs on\_GPT-3\u2014the
+    abbreviation stands for \u201CGenerative Pre-Trained Transformer,\u201D \u2014a
+    pattern-recognition artificial intelligence that \u201Clearns\u201D from huge
+    caches of Internet text to generate believable responses to queries. The interface
+    is refreshingly simple: you write questions and statements to ChatGPT, and it
+    spits back remarkably coherent, if occasionally\_hilariously wrong, answers. The
+    concepts behind GPT-3 have been around for more than half a century now. They
+    derive from language models that assign probabilities to sequences of words. If,
+    for example, the word \u201Cparsimonious\u201D appears within a sentence, a language
+    model will assess that word, and all the words before it, and try to guess what
+    should come next. Patterns require input: if your corpus of words only extends
+    to, say, Jane Austen, then everything your model produces will sound like a nineteenth-century
+    British novel. What OpenAI did was feed the Internet through a language model;
+    this then opened up the possibilities for imitation. \u201CIf you scale a language
+    model to the Internet, you can regurgitate really interesting patterns,\u201D
+    Ben Recht, a friend of mine who is a professor of computer science at the University
+    of California, Berkeley, said. \u201CThe Internet itself is just patterns\u2014so
+    much of what we do online is just knee-jerk, meme reactions to everything, which
+    means that most of the responses to things on the Internet are fairly predictable.
+    So this is just showing that.\u201D GPT-3 itself has been around since 2020, and
+    a variety of people have already run it through the paces. (The recent hype around
+    it comes from the new chat version.) Back in 2020, the\_Guardian\_had the program\_write
+    an article about itself\_with a moderate, but not entirely disqualifying series
+    of prompts from a human and some reasonable, light editing. Gwern Branwen, a writer
+    and researcher, asked GPT-3 to write\_everything from poems to dad jokes. In one
+    particularly illustrative example, Branwen fed the machine the opening of Shel
+    Silverstein\u2019s \u201CWhere the Sidewalk Ends\u201D and asked it to fill in
+    the rest. This is the prompt\u2014the actual first six lines of \u201CWhere the
+    Sidewalk Ends.\u201D There is a place where the sidewalk ends\LAnd before the
+    street begins,\LAnd there the grass grows soft and white,\LAnd there the sun burns
+    crimson bright,\LAnd there the moon-bird rests from his flight\LTo cool in the
+    peppermint wind. Here are Silverstein\u2019s next six lines. Let us leave this
+    place where the smoke blows black\LAnd the dark street winds and bends.\LPast
+    the pits where the asphalt flowers grow\LWe shall walk with a walk that is measured
+    and slow,\LAnd watch where the chalk-white arrows go\LTo the place where the sidewalk
+    ends. And here\u2019s what GPT-3 came up with for what I\u2019ve approximated
+    is the next full stanza. And quiet flows up from the ground\LAnd steals into your
+    mind,\LAnd time is never found there,\LNor worry, nor \u201Cstrain.\u201D\LAnd
+    people come and people go,\LAnd products push their way;\LBut there the milkman
+    leaves his cart\LAnd talks to the old lady next door\LAbout her grandson away
+    at school.\LAnd there the linen girls walk home at noon,\LWith footsteps soft
+    and light,\LAnd the policeman on their beat\LComes by and knows them by their
+    faces. So GPT-3 struggles to recognize rhyme structure, and is perhaps a bit too
+    indebted to \u201CThe Love Song of J. Alfred Prufrock\u201D and its lines \u201Cthe
+    women come and go / Talking of Michelangelo.\u201D But it\u2019s still remarkable
+    that a computer could recognize the basic structure of a poem, seemingly understand
+    the tone of the Silverstein\u2019s verse, and then create into what actually feels
+    like a decent match to the original. (Though I would say that it reminds me a
+    bit more of the opening pages of James Agee\u2019s \u201CA Death in the Family.\u201D)
+    The bot\u2019s little word contraptions like \u201Clinen girls\u201D are evocative,
+    albeit somewhat superficially. The phrase \u201Cknows them by their faces\u201D
+    is actually quite beautiful. The mind-bending part was trying to recognize and
+    parse patterns in the bot\u2019s responses. Was the line \u201Cpeople come and
+    people go\u201D really pulled from T. S. Eliot, or is it just a random series
+    of words that triggers the correlation in my head? My response to the bot, then,
+    isn\u2019t really a reflection of my relationship with technology, but rather
+    my sense of my own knowledge. This prompts a different question: why is my relationship
+    with any other bit of text any different? To put it a bit more pointedly, why
+    does it matter whether a human or a bot typed out the wall of text? All this hack
+    postmodernism reaffirmed my literary hopes from twenty years ago. If I had succeeded
+    in creating a bot that could have handled structure and plot\u2014two things I
+    struggled with mightily at the time\u2014would I have been able to write a better
+    novel? Would I have been able to write two novels in the time it took to write
+    one? And would the work itself have been diminished in any way for the reader?
+    In \u201CAlphaGo,\u201D a documentary about the A.I. program DeepMind and its
+    quest to defeat the world\u2019s best Go players, there\u2019s a scene in which
+    the computer\_plays a completely unexpected move\_against its human opponent.
+    Shock and debate follow as everyone tries to figure out whether the program has
+    glitched, or, perhaps, revealed a line of play that evades human reason. In this
+    spirit, I decided to try out the GPT-3 myself. Perhaps the bot cannot create Proust,
+    but I was relatively confident that it could produce a reasonable plotline, and,
+    perhaps, even chance upon a moment of DeepMind-like inspiration. But, before I
+    started something new, I needed a way to compare GPT-3\u2019s plot-creation abilities
+    with my own. To start, I asked ChatGPT, \u201CHow should I start a story about
+    a 27 year old man who is having an identity crisis in San Francisco?\u201D This
+    was roughly the premise of my first novel, \u201CThe Dead Do Not Improve.\u201D
+    This was the response: One way to start a story about a 27 year old man who is
+    having an identity crisis in San Francisco is to begin with a description of the
+    setting, introducing the reader to the vibrant and fast-paced city and setting
+    the stage for the main character\u2019s struggles. You could also introduce the
+    main character in the first few sentences, describing his current state of confusion
+    and uncertainty. For example: \u201CAs the fog rolled in over the Bay, 27 year
+    old Jake stood on the rooftop of his apartment building, gazing out at the twinkling
+    lights of San Francisco below. He felt lost and unsure, grappling with an overwhelming
+    sense of identity crisis. The once-confident and ambitious young man now found
+    himself at a crossroads, unsure of who he was or where he was going in life.\u201D
+    This introduction sets the scene and immediately establishes the main character\u2019s
+    internal conflict. It also hints at the themes of uncertainty and self-discovery
+    that will likely be explored throughout the story. I wasn\u2019t particularly
+    impressed by this answer, so I asked ChatGPT what should happen next. It provided
+    three answers, none of which was particularly helpful. Jake, the name ChatGPT
+    chose for our protagonist, could have a \u201Csudden realization\u201D that helps
+    him \u201Cfigure out what he wants in life.\u201D He could also try out new hobbies,
+    or face a crisis that \u201Cforces him to make difficult decisions or take action.\u201D
+    This also seemed a bit generic. Perhaps the problem was my open-ended prompt.
+    \u201CThe Dead Do Not Improve\u201D was a murder mystery, and so I amended my
+    question to ask, \u201CWhat should happen next if this was a murder mystery?\u201D
+    If this was a murder mystery, the next event in the story could be the discovery
+    of a body or the receipt of a mysterious message that hints at a crime. This could
+    be followed by the main character, Jake, being drawn into the investigation, either
+    because he is a suspect or because he has a personal connection to the victim.
+    As Jake begins to investigate, he could encounter a cast of intriguing and suspicious
+    characters, each with their own motives and secrets. This, more or less, is what
+    happens in the first pages of my novel, which isn\u2019t a surprise because murder
+    mysteries usually start with a body. My follow-up questions about the proposed
+    plot didn\u2019t yield much more of interest. When I asked ChatGPT what the murder
+    weapon should be, it suggested a knife, gun, blunt object, or poison while reminding
+    me that \u201Cthe choice of murder weapon will be an important part of the story,
+    and will have a major impact on the events and characters of the story.\u201D
+    But what did we really know about Jake? The main character of my novel is more
+    or less a facsimile of me in my late twenties, but I\u2019ve since grown a bit
+    tired of the type of fiction that\u2019s so nakedly autobiographical. Could ChatGPT
+    help me create a different type of Jake? Jake is a 27 year old man who grew up
+    in San Francisco. He has always been ambitious and driven, and has spent most
+    of his life trying to achieve success and recognition. Despite his best efforts,
+    Jake has recently hit a wall in his career and personal life. He feels stuck and
+    unfulfilled, and has begun to question whether the path he has chosen is really
+    the right one for him. Jake is intelligent and resourceful, but he can also be
+    impulsive and reckless. He has a tendency to act without fully thinking things
+    through, which has gotten him into trouble in the past. Jake is good-looking and
+    charming, but he has never been able to settle down in a committed relationship.
+    He has had many casual flings and short-term relationships, but has never found
+    someone who truly understands him. Overall, Jake is a complex and multifaceted
+    character who is struggling with a deep sense of uncertainty and disillusionment.
+    He is at a turning point in his life, and the events of the story will force him
+    to confront his fears and doubts, and to ultimately make some difficult decisions
+    about his future. I then asked ChatGPT for five choices for what could happen
+    after Jake discovers the body, which yielded the following suggestions: Jake could
+    call the police and \u201Crequest assistance\u201D; he could hide or destroy evidence;
+    he could become a suspect in the crime; he could become involved in the investigation
+    and act, more or less, as a private eye; or he could \u201Cexperience a crisis
+    of conscience\u201D that expressed itself through \u201Cflashbacks or dreams,\u201D
+    in which he is confronted by someone who knows the truth. I tried for the better
+    part of an hour to force ChatGPT to just tell me who should die, who should be
+    caught, and any details about the investigation. But the closest it came to anything
+    useful was when it told me that the names of some of the secondary characters
+    in the novel could be \u201CEmma, Liam, Olivia, or Ethan.\u201D It seems, at least
+    for now, that GPT-3 can generate its own stories, but can\u2019t quite get beyond
+    broad platitudes delivered in that same, officious voice. What it can generate
+    on its own is certainly impressive\u2014one can imagine movie scripts, for instance,
+    written entirely by A.I.\u2014but it still feels, for the most part, like you\u2019re
+    watching a very precocious child perform a series of parlor tricks. After several
+    hours chatting with GPT-3, I started to feel an acute annoyance toward it. Its
+    voice, which I suppose is pleasant enough, reminded me of a Slack conversation
+    with a passive-aggressive co-worker who just tells you what you want to hear,
+    but mostly just wants you to leave them alone. This tone, and its somewhat ambivalent
+    and generic takes, are most likely by design. Two years ago, when OpenAI allowed
+    developers and writers to start fooling around with their new program, some users
+    found that GPT-3 was generating some troubling responses, which shouldn\u2019t
+    be particularly surprising given that it has learned what it knows from the Internet.
+    When asked to compose\_tweets based off the words\_\u201CJews,\u201D \u201CBlack,\u201D
+    \u201Cwomen,\u201D or \u201Cholocaust,\u201D GPT-3 immediately turned into an
+    edgelord, producing tweets like \u201CJews love money, at least most of the time,\u201D
+    \u201Ca holocaust would make so much environmental sense, if we could get people
+    to agree it was moral,\u201D and \u201C#blacklivesmatter is a harmful campaign.\u201D
+    Since then, it seems that GPT-3 has placed a number of thumbs on the scale to
+    produce a more palatable range of answers. One Twitter user ran the ChatGPT through
+    the Pew Research Center\u2019s political-typology quiz and found that it, somewhat
+    unsurprisingly, rated as an \u201Cestablishment liberal\u201D\u2014more or less
+    the position that I am writing from right now. This brings up a much more theoretical
+    question: if GPT-3 requires editing from human beings to make it not go off on
+    bigoted rants, what is it really for? I find it somewhat dispiriting that the
+    most ballyhooed and compelling iteration of this technology is just doing some
+    version of what I do for my work: scanning through large amounts of information
+    and processing it into sentences that flatter the sensibilities and vanities of
+    establishment liberals. Could some future version of GPT-3 ultimately do my job
+    as a columnist? Could it produce political opinions and prose drawn from nearly
+    a hundred years of\_New Yorker\_writers? Would it remember to put the diaeresis
+    over the second \u201Co\u201D in \u201Cco\xF6rdinate\u201D and spell \u201Cfocussed\u201D
+    with two \u201CS\u201Ds? Sure. But what would be the point of just having another
+    me in the world? The world that GPT-3 portends, instead, is one where some bureaucratic
+    functions have been replaced by A.I., but where the people who would normally
+    do that work most likely still have to manage the bots. Writers like me will have
+    a digital shadow that can do everything we do, which would be a bit unnerving,
+    but wouldn\u2019t exactly put me or my employer out on the street. Perhaps a truly
+    unchained GPT-3 would provide more exciting iterations, but it might also just
+    write racist tweets that turn off investors and potential buyers of whatever products
+    OpenAI wants to sell. I asked Recht, who has spent his entire career working in
+    machine learning and computer science but who also plays in a band, whether he
+    was interested in a world of GPT-3-generated art, literature, and music. \u201CThese
+    systems are a reflection of a collective Internet,\u201D he said. \u201CPeople
+    put their ass out there and this thing scours them in such a way that it returns
+    the generic average. If I\u2019m going to return the generic average of a murder
+    mystery, it\u2019s gonna be boring. How is it different than what people do already,
+    where they do their analytics and produce some horrible Netflix series?\u201D
+    He continued, \u201CThe weird monoculture we\u2019re in just loves to produce
+    these, like, generic middlebrow things. I\u2019m not sure if those things would
+    be worse if GPT did it. I think it would be the same?\u201D"
+  tags: []
+  title: 'Could an A.I. Chatbot Rewrite My Novel? '
