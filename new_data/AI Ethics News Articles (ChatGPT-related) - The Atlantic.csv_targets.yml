@@ -1,0 +1,1475 @@
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "Less than four months after releasing ChatGPT, the text-generating AI that
+    seems to have pushed us into a science-fictional age of technology, OpenAI has
+    unveiled a new product called GPT-4. Rumors and hype about this program have circulated
+    for more than a year: Pundits have said that it would be\_unfathomably powerful,
+    writing\_60,000-word books\_from single prompts and producing\_videos\_out of
+    whole cloth. Today\u2019s\_announcement\_suggests that GPT-4\u2019s abilities,
+    while impressive, are more modest: It performs better than the previous model
+    on standardized tests and other benchmarks, works across dozens of languages,
+    and can take images as input\u2014meaning that it\u2019s able, for instance, to
+    describe the contents of a photo or a chart. Unlike ChatGPT, this new model is
+    not currently available for public testing (although you can apply or pay for
+    access), so the obtainable information comes from OpenAI\u2019s blog post, and
+    from a\_New York Times\_story\_based on a demonstration. From what we know, relative
+    to other programs, GPT-4 appears to have added 150 points to its SAT score, now
+    a 1410 out of 1600, and jumped from the bottom to the top 10 percent of performers
+    on a simulated bar exam. Despite pronounced fears of AI\u2019s writing, the program\u2019s
+    AP English scores remain in the bottom quintile. And while ChatGPT can handle
+    only text, in one example, GPT-4 accurately answered questions about photographs
+    of computer cables. Image inputs are not publicly available yet, even to those
+    eventually granted access off the waitlist, so it\u2019s not possible to verify
+    OpenAI\u2019s claims. The new GPT-4 model is the latest in a long genealogy\u2014GPT-1,
+    GPT-2, GPT-3, GPT-3.5, InstructGPT, ChatGPT\u2014of what are now known as \u201Clarge
+    language models,\u201D or LLMs, which are AI programs that learn to predict what
+    words are\_most likely\_to follow each other. These models work under a premise
+    that traces its origins to some of the earliest AI research in the 1950s: that
+    a computer that understands and produces language will necessarily be intelligent.
+    That belief underpinned Alan Turing\u2019s famous imitation game, now known as
+    the Turing Test, which judged computer intelligence by how \u201Chuman\u201D its
+    textual output read. Those early language AI programs involved computer scientists
+    deriving complex, hand-written rules, rather than the deep statistical inferences
+    used today. Precursors to contemporary LLMs date to the early 2000s, when computer
+    scientists began using a type of program inspired by the human brain called a
+    \u201Cneural network,\u201D which consists of many interconnected layers of artificial
+    nodes that process huge amounts of training data, to analyze and generate text.
+    The technology has advanced rapidly in recent years thanks to some key breakthroughs,
+    notably programs\u2019 increased attention spans\u2014GPT-4 can make predictions
+    based on not just the previous phrase but many words prior, and weigh the importance
+    of each word differently. Today\u2019s LLMs read books, Wikipedia entries, social-media
+    posts, and\_countless other sources\_to find these deep statistical patterns;
+    OpenAI has also started using human researchers to fine-tune its models\u2019
+    outputs. As a result, GPT-4 and similar programs have a remarkable facility with
+    language, writing short stories and essays and advertising copy and more. Some\_linguists
+    and cognitive scientists\_believe that these AI models show a decent grasp of
+    syntax and, at least\_according to OpenAI, perhaps even a glimmer of understanding
+    or reasoning\u2014although the latter point is very controversial, and formal
+    grammatical fluency remains\_far off from being able to think. GPT-4 is both the
+    latest milestone in this research on language and also part of a broader explosion
+    of \u201Cgenerative AI,\u201D or programs that are capable of producing images,
+    text, code, music, and videos in response to prompts. If such software lives up
+    to its grand promises, it could\_redefine human cognition\_and creativity, much
+    as the internet, writing, or even\_fire\_did before. OpenAI frames each new iteration
+    of its LLMs as a step toward the company\u2019s\_stated mission\_to create \u201Cartificial
+    general intelligence,\u201D or computers that can learn and excel at everything,
+    in a way that \u201Cbenefits all of humanity.\u201D OpenAI\u2019s CEO, Sam Altman,\_told\_the\_The
+    New York Times\_that while GPT-4 has not \u201Csolved reasoning or intelligence\u2026
+    this is a big step forward from what is already out there.\u201D With the goal
+    of AGI in mind, the organization began as a nonprofit that provided public documentation
+    for much of its code. But it quickly adopted a \u201Ccapped profit\u201D structure,
+    allowing investors to earn back up to 100 times the money they put in, with all
+    profits exceeding that returning to the nonprofit\u2014ostensibly allowing OpenAI
+    to raise the capital needed to support its research. (Analysts estimate that training
+    a high-end language model costs in \u201Cthe high-single-digit millions.\u201D)
+    Along with the financial shift, OpenAI also made its code more secret\u2014an
+    approach that critics say makes it difficult to hold the technology accountable
+    for incorrect and harmful output, though the company\_has said\_that the opacity
+    guards against \u201Cmalicious\u201D uses. The company frames any shifts away
+    from its founding values as, at least in theory, compromises that will accelerate
+    arrival at an AI-saturated future that Altman\_describes\_as almost Edenic: Robots
+    providing crucial medical advice and assisting underresourced teachers, leaps
+    in drug discovery and basic science, the end of menial labor. But more advanced
+    AI, whether generally intelligent or not, might also leave huge portions of the
+    population\_jobless, or replace rote work with new, AI-related bureaucratic tasks
+    and higher productivity demands.\_Email didn\u2019t speed up communication\_so
+    much as turn each day into an email-answering slog;\_electronic health records\_should
+    save doctors time but in fact force them to spend many extra, uncompensated hours
+    updating and conferring with these databases. Regardless of whether this technology
+    is a blessing or a burden for everyday people, those who control it will no doubt
+    reap immense profits. Just as OpenAI has lurched toward commercialization and
+    opacity, already everybody wants in on the\_AI gold rush. Companies like\_Snap
+    and Instacart\_are using OpenAI\u2019s technology to incorporate AI assistants
+    into their services. Earlier this year, Microsoft\_invested $10 billion\_in OpenAI
+    and is now incorporating chatbot technology into its Bing search engine. Google
+    followed up by\_investing\_a more modest sum in the rival AI start-up Anthropic
+    (recently\_valued\_at $4.1 billion) and announcing various AI capacities in Google
+    search, Maps, and other apps. Amazon is\_incorporating\_Hugging Face\u2014a popular
+    website that gives easy access to AI tools\u2014into AWS, to compete with Microsoft\u2019s
+    cloud service, Azure. Meta has long had an AI division, and now Mark Zuckerberg
+    is\_trying to build a specific, generative-AI\_team from the Metaverse\u2019s
+    pixelated ashes. Start-ups are awash in\_billions\_in venture-capital investments.
+    GPT-4\_is already powering\_the new Bing, and could conceivably be integrated
+    into Microsoft Office. In an event announcing the new Bing last month, Microsoft\u2019s
+    CEO said, \u201CThe race starts today, and we\u2019re going to move and move fast.\u201D
+    Indeed, GPT-4 is already upon us. Yet as any\_good text predictor\_would tell
+    you, that quote should end with \u201Cmove fast\_and break things.\u201D Silicon
+    Valley\u2019s rush, whether toward gold or AGI, shouldn\u2019t distract from all
+    the ways these technologies fail, often spectacularly. Even as LLMs are great
+    at producing\_boilerplate copy, many critics say they fundamentally\_don\u2019t
+    and perhaps cannot\_understand the world. They are something like\_autocomplete
+    on PCP, a drug that gives users a false sense of invincibility and heightened
+    capacities for delusion. These models generate answers with the illusion of omniscience,
+    which means they can easily spread\_convincing lies\_and\_reprehensible hate.
+    While GPT-4 seems to wrinkle that critique with its apparent ability to describe
+    images, its basic function remains really good pattern matching, and it can only
+    output text. Those patterns are sometimes harmful. Language models tend to\_replicate\_much
+    of the vile text on the internet, a concern that the lack of transparency in their
+    design and training only heightens. As the University of Washington linguist and\_prominent
+    AI critic\_Emily Bender told me via email: \u201CWe generally don\u2019t eat food
+    whose ingredients we don\u2019t know or can\u2019t find out.\u201D Precedent would
+    indicate that there\u2019s a lot of junk baked in. Microsoft\u2019s original chatbot,
+    named Tay and released in 2016, became\_misogynistic and racist, and was quickly
+    discontinued. Last year, Meta\u2019s BlenderBot AI rehashed\_anti-Semitic\_conspiracies,
+    and soon after that, the company\u2019s\_Galactica\u2014a model intended to assist
+    in writing scientific papers\u2014was found to be prejudiced and prone to inventing
+    information (Meta took it down within three days). GPT-2 displayed\_bias against
+    women, queer people, and other demographic groups; GPT-3 said\_racist\_and sexist
+    things; and ChatGPT was accused of making similarly toxic\_comments. OpenAI tried
+    and failed to fix the problem each time. New Bing, which runs a version of GPT-4,
+    has written its own share of disturbing and offensive text\u2014teaching children\_ethnic
+    slurs, promoting\_Nazi slogans,\_inventing\_scientific theories. It\u2019s tempting
+    to write the next sentence in this cycle automatically, like a language model\u2014\u201CGPT-4
+    showed [insert bias here].\u201D Indeed, in its blog post, OpenAI admits that
+    GPT-4 \u201C\u2018hallucinates\u2019 facts and makes reasoning errors,\u201D hasn\u2019t
+    gotten much better at fact-checking itself, and \u201Ccan have various biases
+    in its outputs.\u201D Still, as any user of ChatGPT can attest, even the most
+    convincing patterns don\u2019t have perfectly predictable outcomes. A Meta spokesperson
+    wrote over email that more work is needed to address bias and hallucinations\u2014what
+    researchers call the information that AIs invent\u2014in large language models,
+    and that \u201Cpublic research demos like BlenderBot and Galactica are important
+    for building\u201D\_better chatbots; a Microsoft spokesperson pointed me to a\_post\_in
+    which the company described improving Bing through a \u201Cvirtuous cycle of [user]
+    feedback.\u201D An OpenAI spokesperson pointed me to a\_blog post\_on safety,
+    in which the company outlines its approach to preventing misuse. It notes, for
+    example, that testing products \u201Cin the wild\u201D and receiving feedback
+    can improve future iterations. In other words, Big AI\u2019s party line is the
+    utilitarian calculus that, even if programs might be dangerous, the only way to
+    find out and improve them is to release them and risk exposing the public to hazard.
+    With researchers paying more and more attention to bias, a future iteration of
+    a language model, GPT-4 or otherwise, could someday break this well-established
+    pattern. But no matter what the new model proves itself capable of, there are
+    still much larger questions to contend with: Whom is the technology for? Whose
+    lives will be disrupted? And if we don\u2019t like the answers, can we do anything
+    to contest them?"
+  tags: []
+  title: ChatGPT Changed Everything. Now Its Follow-Up Is Here.
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "ChatGPT, the internet-famous AI text generator, has taken on a new form.
+    Once a website you could visit, it is now a service that you can integrate into
+    software of all kinds, from spreadsheet programs to delivery apps to magazine
+    websites such as this one. Snapchat\_added\_ChatGPT to its chat service (it suggested
+    that users might type \u201CCan you write me a haiku about my cheese-obsessed
+    friend Lukas?\u201D), and Instacart\_plans\_to add a recipe robot. Many more will
+    follow. They will be weirder than you might think. Instead of one big AI chat
+    app that delivers knowledge or cheese poetry, the ChatGPT service (and others
+    like it) will become an AI confetti bomb that sticks to everything. AI text in
+    your grocery app. AI text in your workplace-compliance courseware. AI text in
+    your HVAC how-to guide. AI text everywhere\u2014even later in this article\u2014thanks
+    to an API. API\_is one of those three-letter acronyms that computer people throw
+    around. It stands for \u201Capplication programming interface\u201D: It allows
+    software applications to talk to one another. That\u2019s useful because software
+    often needs to make use of the functionality from other software. An API is like
+    a delivery service that ferries messages between one computer and another. Despite
+    its name, ChatGPT isn\u2019t really a\_chat\_service\u2014that\u2019s just the
+    experience that has become most familiar, thanks to the chatbot\u2019s pop-cultural
+    success. \u201CIt\u2019s got chat in the name, but it\u2019s really a much more
+    controllable model,\u201D Greg Brockman, OpenAI\u2019s co-founder and president,
+    told me. He said the chat interface offered the company and its users a way to
+    ease into the habit of asking computers to solve problems, and a way to develop
+    a sense of how to solicit better answers to those problems through iteration.
+    But chat is laborious to use and eerie to engage with. \u201CYou don\u2019t want
+    to spend your time talking to a robot,\u201D Brockman said. He sees it as \u201Cthe
+    tip of an iceberg\u201D of possible future uses: a \u201Cgeneral-purpose language
+    system.\u201D That means ChatGPT as a service (rather than a website) may mature
+    into a system of plumbing for creating and inserting text into things that have
+    text in them. As a writer for a magazine that\u2019s definitely in the business
+    of creating and inserting text, I wanted to explore how\_The Atlantic\_might use
+    the ChatGPT API, and to demonstrate how it might look in context. The first and
+    most obvious idea was to create some kind of chat interface for accessing magazine
+    stories. Talk to\_The Atlantic, get content. So I started testing some ideas on
+    ChatGPT (the website) to explore how we might integrate ChatGPT (the API). One
+    idea: a simple search engine that would surface\_Atlantic\_stories about a requested
+    topic. But when I started testing out that idea, things quickly went awry. I asked
+    ChatGPT to \u201Cfind me a story in\_The Atlantic\_about tacos,\u201D and it obliged,
+    offering a story by my colleague Amanda Mull, \u201CThe Enduring Appeal of Tacos,\u201D
+    along with a link and a summary (it began: \u201CIn this article, writer Amanda
+    Mull explores the cultural significance of tacos and why they continue to be a
+    beloved food.\u201D). The only problem: That story doesn\u2019t exist. The URL
+    looked plausible but went nowhere, because Mull had never written the story. When
+    I called the AI on its error, ChatGPT apologized and offered a substitute story,
+    \u201CWhy Are American Kids So Obsessed With Tacos?\u201D\u2014which is also completely
+    made up. Yikes. How can anyone expect to trust AI enough to deploy it in an automated
+    way? According to Brockman, organizations like ours will need to build a track
+    record with systems like ChatGPT before we\u2019ll feel comfortable using them
+    for real. Brockman told me that his staff at OpenAI spends a lot of time \u201Cred
+    teaming\u201D their systems, a term from cybersecurity and intelligence that names
+    the process of playing an adversary to discover vulnerabilities. Brockman contends
+    that safety and controllability will improve over time, but he encourages potential
+    users of the ChatGPT API to act as their own red teamers\u2014to test potential
+    risks\u2014before they deploy it. \u201CYou really want to start small,\u201D
+    he told me. Fair enough. If chat isn\u2019t a necessary component of ChatGPT,
+    then perhaps a smaller, more surgical example could illustrate the kinds of uses
+    the public can expect to see. One possibility: A magazine such as ours could customize
+    our copy to respond to reader behavior or change information on a page, automatically.
+    Working with\_The Atlantic\u2019s product and technology team, I whipped up a
+    simple test along those lines. On the back end, where you can\u2019t see the machinery
+    working, our software asks the ChatGPT API to write an explanation of \u201CAPI\u201D
+    in fewer than 30 words so a layperson can understand it, incorporating an example
+    headline of\_the most popular story\_on\_The Atlantic\u2019s website at the time
+    you load the page. That request produces a result that reads like this: As I write
+    this paragraph, I don\u2019t know what the previous one says. It\u2019s entirely
+    generated by the ChatGPT API\u2014I have no control over what it writes. I\u2019m
+    simply hoping, based on the many tests that I did for this type of query, that
+    I can trust the system to produce explanatory copy that doesn\u2019t put the magazine\u2019s
+    reputation at risk because ChatGPT goes rogue. The API could absorb a headline
+    about a grave topic and use it in a disrespectful way, for example. In some of
+    my tests, ChatGPT\u2019s responses were coherent, incorporating ideas nimbly.
+    In others, they were hackneyed or incoherent. There\u2019s no telling which variety
+    will appear above. If you refresh the page a few times, you\u2019ll see what I
+    mean. Because ChatGPT often produces different text from the same input, a reader
+    who loads this page just after you did is likely to get a different version of
+    the text than you see now. Media outlets have been generating bot-written stories
+    that present\_sports scores,\_earthquake reports, and other predictable data for
+    years. But now it\u2019s possible to generate text on any topic, because large
+    language models such as ChatGPT\u2019s have read the whole internet. Some applications
+    of that idea will appear in\_new kinds of word processors, which can generate
+    fixed text for later publication as ordinary content. But live writing that changes
+    from moment to moment, as in the experiment I carried out on this page, is also
+    possible. A publication might want to tune its prose in response to current events,
+    user profiles, or other factors; the entire consumer-content internet is driven
+    by appeals to personalization and vanity, and the content industry is desperate
+    for competitive advantage. But other use cases are possible, too: prose that automatically
+    updates as a current event plays out, for example. Though simple, our example
+    reveals an important and terrifying fact about what\u2019s now possible with generative,
+    textual AI: You can no longer assume that any of the words you see were created
+    by a human being. You can\u2019t know if what you read was written intentionally,
+    nor can you know if it was crafted to deceive or mislead you. ChatGPT may have
+    given you the impression that AI text has to come from a chatbot, but in fact,
+    it can be created invisibly and presented to you in place of, or intermixed with,
+    human-authored language. Carrying out this sort of activity isn\u2019t as easy
+    as typing into a word processor\u2014yet\u2014but it\u2019s already simple enough
+    that\_The Atlantic\_product and technology team was able to get it working in
+    a day or so. Over time, it will become even simpler. (It took far longer for me,
+    a human, to write and edit the rest of the story, ponder the moral and reputational
+    considerations of actually publishing it, and vet the system with editorial, legal,
+    and IT.) That circumstance casts a shadow on Greg Brockman\u2019s advice to \u201Cstart
+    small.\u201D It\u2019s good but insufficient guidance. Brockman told me that most
+    businesses\u2019 interests are aligned with such care and risk management, and
+    that\u2019s certainly true of an organization like\_The Atlantic.\_But nothing
+    is stopping bad actors (or lazy ones, or those motivated by a perceived AI gold
+    rush) from rolling out apps, websites, or other software systems that create and
+    publish generated text in massive quantities, tuned to the moment in time when
+    the generation took place or the individual to which it is targeted. Brockman
+    said that regulation is a necessary part of AI\u2019s future, but AI is happening
+    now, and government intervention won\u2019t come immediately, if ever. Yogurt
+    is probably\_more regulated\_than AI text will ever be. Some organizations may
+    deploy generative AI even if it provides no real benefit to anyone, merely to
+    attempt to stay current, or to compete in a perceived AI arms race. As I\u2019ve\_written
+    before, that demand will create new work for everyone, because people previously
+    satisfied to write software or articles will now need to devote time to red-teaming
+    generative-content widgets, monitoring software logs for problems, running interference
+    with legal departments, or all other manner of tasks not previously imaginable
+    because words were just words instead of machines that create them. Brockman told
+    me that OpenAI is working to amplify the benefits of AI while minimizing its harms.
+    But some of its harms might be structural rather than topical. Writing in these
+    pages earlier this week, Matthew Kirschenbaum\_predicted a textpocalypse, an unthinkable
+    deluge of generative copy \u201Cwhere machine-written language becomes the norm
+    and human-written prose the exception.\u201D It\u2019s a lurid idea, but it misses
+    a few things. For one, an API costs money to use\u2014fractions of a penny for
+    small queries such as the simple one in this article, but all those fractions
+    add up. More important, the internet has allowed humankind to publish a massive
+    deluge of text on websites and apps and social-media services over the past quarter
+    century\u2014the very same content ChatGPT slurped up to drive its model. The
+    textpocalypse has already happened. Just as likely, the quantity of generated
+    language may become less important than the uncertain status of any single chunk
+    of text. Just as human sentiments online, severed from the contexts of their authorship,
+    take on ambiguous or polyvalent meaning, so every sentence and every paragraph
+    will soon arrive with a throb of uncertainty: an implicit, existential question
+    about the nature of its authorship. Eventually, that throb may become a dull hum,
+    and then a familiar silence. Readers will shrug:\_It\u2019s just how things are
+    now. Even as those fears grip me, so does hope\u2014or intrigue, at least\u2014for
+    an opportunity to compose in an entirely new way. I am not ready to give up on
+    writing, nor do I expect I will have to anytime soon\u2014or ever. But I am seduced
+    by the prospect of launching a handful, or a hundred, little computer writers
+    inside my work. Instead of (just) putting one word after another, the ChatGPT
+    API and its kin make it possible to spawn little gremlins in my prose, which labor
+    in my absence, leaving novel textual remnants behind long after I have left the
+    page. Let\u2019s see what they can do."
+  tags: []
+  title: "We Programmed ChatGPT Into This Article. It\u2019s Weird."
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "I have a part-time job that is quite good, except for one task I must do\u2014not
+    even very often, just every other week\u2014that I actively loathe. The task isn\u2019t
+    difficult, and it doesn\u2019t take more than 30 minutes: I scan a long list of
+    short paragraphs about different people and papers from my organization that have
+    been quoted or cited in various publications and broadcasts, pick three or four
+    of these items, and turn them into a new, stand-alone paragraph, which I am told
+    is distributed to a small handful of people (mostly board members) to highlight
+    the most \u201Cimportant\u201D press coverage from that week. Four weeks ago,
+    I began using AI to write this paragraph. The first week, it took about 40 minutes,
+    but now I\u2019ve got it down to about five. Only one colleague knows I\u2019ve
+    been doing this; we used to switch off writing this blurb, but since it\u2019s
+    become so quick and easy and, frankly, interesting, I\u2019ve taken over doing
+    it every week. The process itself takes place within OpenAI\u2019s \u201CPlayground\u201D
+    feature, which offers similar functionality as the company\u2019s ChatGPT product.
+    The Playground presents as a blank page, not a chat, and is therefore better at
+    shaping existing words into something new. I write my prompt at the top, which
+    always begins with something like \u201CWrite a newspaper-style paragraph out
+    of the following.\u201D Then, I paste below my prompt the three or four paragraphs
+    I selected from the list and\u2014this is crucial, I have learned\u2014edit those
+    a touch, to ensure that the machine \u201Creads\u201D them properly. Sometimes
+    that means placing a proper noun closer to a quote, or doing away with an existing
+    headline. Perhaps you\u2019re thinking,\_This sounds like work too, and it is\u2014but
+    it\u2019s quite a lot of fun to refine my process and see what the machine spits
+    out at the other end. I like to think that I\u2019ve turned myself from the meat
+    grinder into the meat grinder\u2019s minder\u2014or manager. I keep waiting to
+    be found out, and I keep thinking that somehow the copy will reveal itself for
+    what it is. But I haven\u2019t, and it hasn\u2019t, and at this point I don\u2019t
+    think I or it ever will (at least, not until this essay is published). Which has
+    led me to a more interesting question: Does it matter that I, a professional writer
+    and editor, now secretly have a robot doing part of my job? I\u2019ve surprised
+    myself by deciding that, no, I don\u2019t think it matters at all. This in turn
+    has helped clarify precisely what it was about the writing of this paragraph that
+    I hated so much in the first place. I realized that what I was doing wasn\u2019t
+    writing at all, really\u2014it was just generating copy. Copy is everywhere. There\u2019s
+    a very good chance that even you, dear reader, are encountering copy as you read
+    this: in the margins, between the paragraph breaks, beyond this screen, or in
+    another window, always hovering, in ads or emails\u2014the wordy white noise of
+    our existence. ChatGPT and the Playground are quite good at putting copy together.
+    The results certainly aren\u2019t great, but they\u2019re absolutely good enough,
+    which is exactly as good as most copy needs to be: intelligible but not smart\u2014simply
+    serviceable. These tools require an editor to liven the text up or humanize it
+    a touch. I often find myself adding an em dash here or there\u2014haven\u2019t
+    you noticed? I love em dashes\u2014or switching a sentence around, adjusting tenses,
+    creating action. At one point, early on, I complained to a data-scientist friend
+    who has worked with machine-learning systems that the robot didn\u2019t seem to
+    understand my command to \u201Cavoid the passive voice\u201D; he suggested the
+    prompt \u201Cno past tense verbs,\u201D which helped but wasn\u2019t quite right
+    either. I sent him more of my prompts. He said they were too suggestive and that
+    I needed to be firmer, more precise, almost mean. \u201CYou can\u2019t hurt the
+    robot\u2019s feelings,\u201D he said, \u201Cbecause it doesn\u2019t have any.\u201D
+    But that\u2019s just the thing, isn\u2019t it? Writing\_is\_feeling. And thinking.
+    And although writing certainly has rules, plenty of good writing breaks nearly
+    all of them. When ChatGPT was first released, and everyone, particularly in academia,
+    seemed to be\_freaking out, I thought back to my own experience as a writer who
+    grew up with another computer-assisted writing tool: spell-check. I am a terrible\u2014really,
+    truly abysmal\u2014speller. I\u2019ve often thought that in a different, pre-spell-check
+    era, my inability to confidently construct words might have kept me from a vocation
+    that I love. I think now of all the kids coming up who are learning to write alongside
+    ChatGPT, just as I learned to write with spell-check. ChatGPT isn\u2019t writing
+    for them; it\u2019s producing copy. For plenty of people, having a robot help
+    them produce serviceable copy will be exactly enough to allow them to get by in
+    the world. But for some, it will lower a barrier. It will be the beginning of
+    their writing career, because they will learn that even though plenty of writing
+    begins with shitty, soulless copy, the rest of writing happens in edits, in reworking
+    the draft, in all the stuff beyond the initial slog of just getting words down
+    onto a page. Already, folks are working hard to close off this avenue for new
+    writing and new writers. Just as I was writing the sentences above, I received
+    an email from the digital editorial director at\_Travel + Leisure\_alerting me
+    to an important update regarding \u201Cour content creation policy.\u201D \u201CAt\_Travel
+    + Leisure,\u201D she wrote, in bold, \u201Cwe only publish content authored entirely
+    by humans and it is against our policies to use ChatGPT or similar tools to create
+    the articles you provide to us, in part or in full.\u201D This and other panicked
+    responses seem to fundamentally misunderstand the act of writing, which is generative\u2014a
+    process. Surely there will be writers\u2014new writers, essential writers, interesting
+    writers\u2014who come to their own process alongside ChatGPT or the Playground
+    or other AI-based writing tools, who break open new aesthetics and ideas in writing
+    and what it can be. After all, there are already great artists who have long worked
+    with robots. One of my favorites is Brian Eno, who has been an evangelist for
+    the possibilities of musical exploration and collaboration with computer programs
+    for decades now. A few years ago, in a\_conversation\_with the producer Rick Rubin,
+    Eno laid out his process: He begins with an algorithmic drum loop that is rhythmically
+    perfect, and then starts inserting small errors\u2014bits of humanity\u2014before
+    playing with other inputs to shape the sound. \u201CWhat I have been doing quite
+    a lot is tuning the system so that it starts to get into that interesting area
+    of quasi-human\u201D is how he described playing alongside the machine. \u201CSometimes,
+    there will be a particularly interesting section, where the \u2018drummer\u2019\u201D\u2014that
+    is, the computer\u2014\u201Cdoes something really extraordinary \u2026 Sometimes
+    the process is sort of iterated two or three times to get somewhere I like.\u201D
+    Then Eno chuckled his very British-sounding chuckle: \u201CVery little of this
+    stuff have I actually released \u2026 I\u2019m just playing with it, and fascinated
+    by it.\u201D To which I can only add: So am I."
+  tags: []
+  title: A Chatbot Is Secretly Doing My Job
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "One of the least discussed aspects of the AI language generator ChatGPT might
+    be its ability to produce pretty awful poetry. Given how\_difficult\_it is to
+    teach a computer how to recognize a syllable, I\u2019m not disparaging the technical
+    prowess of the chatbot\u2019s creators and testers. But very few of the AI-produced
+    poems I\u2019ve read actually follow the prompt that\u2019s been provided. \u201CWrite
+    a poem in the style of Seamus Heaney\u201D?\_This\_is not that poem: In a garden
+    green and fair,\LA flower blooms, a sight so rare.\LBut is it meant for me, I
+    fear?\LWill I, like it, bloom this year? Odds are good that this poem, titled
+    \u201CIs It for Me?,\u201D will not win the National Poetry Series. The final
+    phrase seems plucked from T. S. Eliot\u2019s \u201CThe Waste Land,\u201D which
+    gives the last line an unintended comic air, because Eliot is referring to a corpse.
+    Poetry, with its heightened states of emotion, intimate address, ecstatic proclamation,
+    and enchanting song, would seem to be one of the limit cases that prove the point:
+    ChatGPT can write anything we can write. It can indeed\_compose poems\_from prompts
+    such as \u201Cwrite a poem about the estate tax.\u201D Asked to write a sonnet
+    about socks, it will produce a poem with the opening line \u201COh socks, my trusty
+    companions on my feet.\u201D Such goofy attempts could be said to emulate praise
+    poetry, that venerable form of ode-making. They could just as well have been spoken
+    by Brick Tamland, Steve Carell\u2019s character in\_Anchorman, who is prone to
+    spouting cryptic one-liners\u2014including, famously, \u201CI love lamp.\u201D
+    (As a teacher of poetry, I can\u2019t help but imagine an overly eager chatbot
+    in one of my creative-writing workshops in the year 2030. \u201CDo you really
+    love the lamp,\u201D I picture myself asking it, \u201Cor are you just saying
+    that because you saw it?\u201D) Heaney wrote a poem about the death of his mother
+    called \u201CClearances\u201D that\u2014like the AI-generated \u201CIs It for
+    Me?\u201D\u2014also uses rhyme, meter, and nature imagery: I thought of walking
+    round and round a space\LUtterly empty, utterly a source\LWhere the decked chestnut
+    tree had lost its place\LIn our front hedge above the wallflowers. The difference
+    between ChatGPT\u2019s Heaney-esque poem and Heaney\u2019s actual poem is not
+    simply that one is bad and one is good, or that one is sentimental and one is
+    elegiacally beautiful. The difference is that Heaney lost his mother, and the
+    poem expresses the emotional urgency of this fact during a reflective moment sometime
+    after the event. Heaney\u2019s poem carries the ineffable sense that the poet
+    has not only pillaged from the horde of words that already exist but has also
+    worked on them himself, claiming them partly as his and partly as a treasure loaned
+    to him from centuries of poetry written in English. I could point to other aspects
+    of the language: the pause in the second line, the similarity between the sounds
+    of\_decked\_and\_chest-, the lingering syllables of\_wallflowers. Above all, there\u2019s
+    the mystery of the mourning poet\u2019s meditation\u2014that missing tree that
+    both orients and eludes him. ChatGPT can write poemlike streams of regurgitated
+    text, but they don\u2019t mourn and console and mystify with an image like the
+    chestnut tree, which casts an immersive spell. They don\u2019t satisfy the minimal
+    criterion of a poem, which is a pattern of language that compresses the messy
+    data of experience, emotion, truth, or knowledge and turns those, as W. H. Auden
+    wrote in 1935, into \u201Cmemorable speech.\u201D Ian Bogost\_suggests\_that ChatGPT
+    produces \u201Can icon of the answer \u2026 rather than the answer itself.\u201D
+    This is correct: The poem it spits out is an emblem of what a poem is rather than
+    an example of a poem. It is closer to a found object than to Emily Dickinson\u2019s
+    four-line poems in rhyme, which take \u201Cunorthodox, subversive, sometimes volcanic
+    propensities\u201D and channel them \u201Cinto a dialect called metaphor.\u201D
+    That\u2019s what the poet Adrienne Rich found in Dickinson\u2019s poetry\u2014a
+    hint as to how poems are made, a trace of their creation. Rich thought it was
+    critically important that a poet\u2019s imagination be followed back to her confining
+    circumstances. For Dickinson, that was a house in Amherst in the 1860s and \u201970s.
+    For Rich, who wrote a century later, it was raising three children while questioning
+    her sexuality and political commitments. Not that the relation between the life
+    and the poem is ever easy to make out: Indeed, Rich spent her career learning
+    radically new ways to thread her experiences\u2014as a mother, a homemaker in
+    the suburbs, a lesbian, a feminist, a Jew\u2014into language, changing the language
+    in the process. She was like the poet she imagines in \u201CPoetry: II, Chicago,\u201D
+    written in 1984: Wherever a poet is born\_ \_ \_enduring\Ldepends on the frailest
+    of chances:\LWho listened to your murmuring\Lover your little rubbish\_ \_ \_who
+    let you be\Lwho gave you the books\Lwho let you know you were not\Lalone Poems,
+    she continues, are \u201Cfiery lines\u201D that say, \u201CThis belongs to you\_
+    \_ \_you have the right\_/\_you belong to the song\_/\_of your mothers and fathers\_
+    \_ \_You have a people.\u201D They are almost always precarious in their transmission,
+    whether they get to the poet from a god via Plato\u2019s\_chain\_of magnetized
+    iron or from the \u201Cinconstant wind\u201D of human inspiration that Percy Bysshe
+    Shelley\_likened\_to a fading coal. Now is not the time to give up on that essential
+    strangeness and fragility in favor of productivity and predictability. The world
+    needs more poems, not faster ones. ChatGPT cannot write poetry\u2014or prose,
+    for that matter\u2014that is \u201Cthe cry of its occasion,\u201D as Wallace Stevens
+    would have it, because there is no lived \u201Coccasion\u201D other than the set
+    of texts it can read. Neither can there be emotion recollected in tranquility.
+    There\u2019s no involuntary memory that\u2019s stimulated by the taste of a madeleine.
+    Creativity requires more than an internet-size syllabus or a lesson in syllables.
+    So does essay writing, which is why, even though many acknowledge that ChatGPT
+    can write passable high-school and undergraduate\_essays, I\u2019m not concerned
+    about that either. The poems that ChatGPT writes are riddled with clich\xE9 and
+    wince-worthy rhymes, but it isn\u2019t just issues of quality that separate AI-
+    and human-generated compositions. Poetry, whether in the style of Heaney or Dickinson
+    or your journal from fourth grade, comes from the felt necessity to speak a truth,
+    whatever kind of truth that might be, in a tongue that you\u2019ve inherited or
+    learned\u2014or that has been imposed upon you by force or violence. That\u2019s
+    obvious to anyone who, for reasons they can\u2019t fully explain, sits down and
+    organizes their words into a pattern that\u2019s slightly different from the language
+    they use at the dinner table. Whatever upgrades might come for ChatGPT, what it
+    writes likely won\u2019t emerge from the burning sense that something is\_missing\_from
+    the world. Poetry speaks in the words of the dead, words sometimes borrowed from
+    past poems\u2014but the desire to use those words comes from an intuition that
+    something is still hidden in them, something that needs to be heard in the harmony
+    between our present voices and those earlier ones. The resemblance between AI-generated
+    writing and human-generated writing is surface level. We know a little more now
+    about how computers arrange words into patterns. The real question\u2014the question
+    that we keep trying to answer with vital metaphors of \u201Cfiery lines\u201D
+    and fading coals\u2014is how humans do."
+  tags: []
+  title: "What Poets Know That ChatGPT Doesn\u2019t"
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "As the first student papers of the academic semester come rolling in, college
+    and high-school teachers are expressing\_concern\_about ChatGPT, the artificial-intelligence
+    interface that responds to queries with competent, if boring, paragraphs. It seems
+    to open up whole new vistas of\_academic dishonesty, and it\_calls into question\_how
+    and why we teach writing at all. A professor at the University of Pennsylvania's
+    Wharton School\_has said\_that ChatGPT\u2019s answers to his operations-management
+    class would have earned a B or B\u2013. That seems about right; if a student in
+    my first-year writing class had turned in a ChatGPT-generated essay last semester
+    (and for all I know, someone did), they would have easily passed. The fact is,
+    boring competence is better than what some high-school or college graduates attain,
+    and it\u2019s all most people, in their daily lives, need their writing to be.
+    If, in a few years, AI can do a passable job at most adult writing tasks\u2014sharing
+    information, telling quick stories, apologizing for the delay, and expressing
+    a hope that all is well\u2014then why spend so much time in school learning the
+    maddening complexities of English prose? Surely there are more important things
+    to study than subject-verb agreement, comma splices, and transition sentences.
+    But learning to write is about more than learning to write. For one thing, it\u2019s
+    about learning to turn a loose assemblage of thoughts into a clear line of reasoning\u2014a
+    skill that is useful for everyone, not just those who enjoy writing or need to
+    do a lot of it for work. Just as important, learning to write trains your imagination
+    to construct the person who will read your words. Writing, then, is an ethical
+    act. It puts you in relation to someone you may not know, someone who may, in
+    fact, not yet exist. When you learn to write, you learn to exercise your responsibility
+    to that person, to meet their needs in a context you cannot fully know. That might
+    sound like a lofty goal for a paper about, for instance, the major causes of the
+    American Revolution. But even that bog-standard assignment can get students to
+    anticipate what another person knows and expects. You wouldn\u2019t write the
+    same essay to a veterans\u2019 group as you would to new immigrants. Writing is
+    never simply self-expression. It\u2019s expression to a specific audience for
+    a specific purpose. In some cases, like a love letter, a writer knows their audience
+    intimately. In others, the audience is every bit a work of the imagination as
+    a novel\u2019s characters are. Great writers have known this truth for centuries.
+    Nathaniel Hawthorne writes in the introduction to\_The Scarlet Letter\_that \u201Cwhen
+    he casts his leaves forth upon the wind, the author addresses, not the many who
+    will fling aside his volume, or never take it up, but the few who will understand
+    him, better than most of his schoolmates and lifemates.\u201D Writers, then, should
+    give up trying to address the public at large, but should \u201Cimagine that a
+    friend, a kind and apprehensive, though not the closest friend, is listening to
+    our talk.\u201D I would not go so far as to say that you and I are friends, but
+    to convince you that I\u2019m right about writing and the moral imagination, I
+    need to make a mental model of who you are: what you value, what annoys you, how
+    much explanation and evidence you need. And then I invite that imaginary version
+    of you to look over my shoulder and suggest revisions. My editors give voice to
+    a model of you too. (And meanwhile, advertising software compiles its own portrait.)
+    If the essay is to succeed, our models must do justice to who you are. That\u2019s
+    the first step in our responsibility to you. When this act of imagination is executed
+    well, a reader can feel profoundly understood, as if a stranger has told them
+    some previously unknown truth about themselves. That\u2019s how I felt reading
+    Meghan Daum\u2019s 2014 essay \u201CDifference Maker,\u201D which is about her
+    ambivalence toward parenthood and her somewhat ineffectual advocacy for children
+    in the foster-care system. Daum describes a \u201CCentral Sadness\u201D that became
+    a \u201Cthird party\u201D in her marriage. \u201CIt collected around our marriage
+    like soft, stinky moss,\u201D she writes. \u201CIt rooted our arguments and dampened
+    our good times. It taunted us from the sidelines of our social life.\u201D My
+    wife and I both read the essay when it came out and thought,\_Yes, this is what
+    we\u2019re feeling. Our Central Sadness had a different character than Daum\u2019s
+    had, but it played a similar role for us. Naming the affliction didn\u2019t solve
+    the problem, but it did help us understand its depths. Reading the essay was therapeutic.
+    Writers are not morally better in their behavior than other people, and writing
+    is not the only way to\_develop\_an empathetic mind. In fact, in the age of Instagram
+    and\_Substack, many writers abuse their power to forge imaginary connections by
+    cultivating one-sided, parasocial relationships with readers. Through calculated
+    oversharing about their daily lives, authors can maintain the illusion that they
+    are their readers\u2019 smartest or funniest or most curmudgeonly friends. Still,
+    developing this ability to connect with others through the imagination is central
+    to ethical life. The philosopher Mark Johnson argues in his 1993 book,\_Moral
+    Imagination, that ethics is not primarily about applying universal rules to specific
+    situations but about \u201Cthe ongoing imaginative exploration of possibilities
+    for dealing with our problems, enhancing the quality of our communal relations,
+    and forming significant personal attachments that grow.\u201D Empathy plays a
+    central role in this model of ethics. We cannot act responsibly toward others
+    unless we \u201Cgo out toward people to inhabit their worlds, not just by rational
+    calculations, but also in imagination, feeling, and expression.\u201D School,
+    however, does not often train students to exercise this mode of imagination through
+    writing. \u201CI find that when students arrive in college, they don\u2019t see
+    writing as a medium of communication, really,\u201D Jim Warren, an English professor
+    at the University of Texas at Arlington who specializes in rhetoric and composition,
+    told me. \u201CThey see it as sort of this engineering task that they\u2019re
+    then going to present to us as examiner and hopefully have us say, \u2018Yeah,
+    you did it right.\u2019\u201D A big part of the problem, Warren writes in a recent
+    article, is that though all 50 states\u2019 education standards (plus those in
+    the District of Columbia) require that students learn to write essays to specific
+    audiences, only 12 states actually test high-school students on this ability.
+    And because tests drive curricula, Warren contends, it is likely that students
+    in the majority of states are getting little, if any, instruction in how to write
+    with an audience other than their teacher in mind. To be sure, trying to figure
+    out \u201Cwhat the teacher wants\u201D is an exercise in moral imagination, albeit
+    a limited one. The task for teachers is to expand that exercise. Warren told me
+    that for some assignments, his students write about whatever they want to whomever
+    they think needs what they have to say. The students then research this audience
+    and explain to Warren whose eyes he\u2019ll read their paper through. In peer-editing
+    sessions, students adopt the mindset of one another\u2019s audiences. Warren said
+    students tell him at the end of the semester that the exercise gets them thinking
+    more about readers\u2019 expectations. \u201CI think it moves the needle a bit,\u201D
+    he said. In the scope of human history, mass literacy is a new phenomenon. Today,
+    just about anyone can, in principle, communicate to someone far away in time and
+    space. Writing is not the only modern form of action at a distance, though. Around
+    the same time that human societies became literate on a large scale, their citizens
+    also began burning mass quantities of fossil fuels that, we now know, can make
+    life much harder for people who are far away in time and space. Some of the biggest
+    ethical challenges facing residents of rich countries in this century have to
+    do with how we act toward people we can only imagine: climate refugees who (for
+    now) mostly live far away, future people who will inhabit post-Anthropocene Earth,
+    artificial intelligences, and animals whom we see as having a growing scope of
+    rights. Now that we are beginning to reckon with the harm we have done to the
+    climate and are trying to reverse it, we need every bit of the empathetic imagination
+    that mass literacy fosters. It seems inevitable that large-language models of
+    AI will allow us to offload some of the writing tasks that students learn in school.
+    But we can\u2019t allow ourselves to lose the capacity to empathize with distant
+    strangers at just the moment when we\u2019re more able than ever to communicate
+    with them."
+  tags: []
+  title: "What ChatGPT Can\u2019t Teach My Writing Students"
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "Have you been worried that ChatGPT, the AI language generator, could be used
+    maliciously\u2014to cheat on schoolwork or broadcast disinformation? You\u2019re
+    in luck, sort of: OpenAI, the company that made ChatGPT, has\_introduced\_a new
+    tool that tries to determine the likelihood that a chunk of text you provide was
+    AI-generated. I say \u201Csort of\u201D because the new software faces the same
+    limitations as ChatGPT itself: It might spread disinformation about the potential
+    for disinformation. As OpenAI explains, the tool will likely yield a lot of false
+    positives and negatives, sometimes with great confidence. In\_one example, given
+    the first lines of the Book of Genesis, the software concluded that it was likely
+    to be AI-generated. God, the first AI. On the one hand, OpenAI appears to be adopting
+    a classic mode of technological solutionism: creating a problem, and then selling
+    the solution to the problem it created. But on the other hand, it might not even
+    matter if either ChatGPT\_or\_its antidote actually \u201Cworks,\u201D whatever
+    that means (in addition to its limited accuracy, the program is effective only
+    on English text and needs at least 1,000 characters to work with). The machine-learning
+    technology and others like it are creating a new burden for everyone. Now, in
+    addition to everything else we have to do, we also have to make time for the labor
+    of distinguishing between human and AI, and the bureaucracy that will be built
+    around it. If you are a student, parent, educator, or individual with internet
+    access, you may have caught wind of the absolute panic that has erupted around
+    ChatGPT. There are fears\u2014It\u2019s the\_end of education\_as we know it!
+    It\_passed\_a Wharton MBA exam!\u2014and retorts to those fears:\_We must\_defend\_against
+    rampant cheating.\_If your class can be gamed by an AI, then it was\_badly designed\_in
+    the first place! An assumption underlies all these harangues, that education needs
+    to \u201Crespond\u201D to ChatGPT, to make room for and address it. At the start
+    of this semester at Washington University in St. Louis, where I teach, our provost
+    sent all faculty an email encouraging us to be aware of the technology and consider
+    how to react to it. Like many institutions, ours also hosted a roundtable to discuss
+    ChatGPT. In a matter of months, generative AI has sent secondary and postsecondary
+    institutions scrambling to find a response\u2014any response\u2014to its threats
+    or opportunities. That work heaps atop an already overflowing pile of duties.
+    Budgets cut, schoolteachers often crowdsource funds and materials for their classrooms.
+    The coronavirus pandemic changed assumptions about attendance and engagement,
+    making everyone renegotiate, sometimes weekly, where and when class will take
+    place. Managing student anxiety and troubleshooting broken classroom technology
+    is now a part of most teachers\u2019 everyday work. That\u2019s not to mention
+    all the emails, and the training modules, and the self-service accounting tasks.
+    And now comes ChatGPT, and ChatGPT\u2019s flawed remedy. The situation extends
+    well beyond education. Almost a decade ago, I diagnosed a condition I named\_hyperemployment.
+    Thanks to computer technology, most professionals now work a lot more than they
+    once did. In part, that\u2019s because email and groupware and laptops and smartphones
+    have made taking work home much easier\u2014you can work around the clock if nobody
+    stops you. But also, technology has allowed, and even required, workers to take
+    on tasks that might otherwise have been carried out by specialists as their full-time
+    job. Software from SAP, Oracle, and Workday force workers to do their own procurement
+    and accounting. Data dashboards and services make office workers part-time business
+    analysts. On social media, many people are now de facto marketers and PR agents
+    for their division and themselves. No matter what ChatGPT and other AI tools ultimately\_do,
+    they will impose new regimes of labor and management atop the labor required to
+    carry out the supposedly labor-saving effort. ChatGPT\u2019s AI detector introduces
+    yet another thing to do and to deal with. Is a student trying to cheat with AI?
+    Better run the work through the AI-cheater check. Even educators who don\u2019t
+    want to use such a thing will be ensnared in its use: subject to debates about
+    the ethics of sharing student work with OpenAI to train the model; forced to adopt
+    procedures to address the matter as institutional practice, and to reconfigure
+    lesson plans to address the \u201Cnew normal\u201D; obligated to read emails about
+    those procedures to consider implementing them. At other jobs, different but similar
+    situations will arise. Maybe you outsourced some work to a contractor. Now you
+    need to make sure it wasn\u2019t AI-generated, in order to prevent fiscal waste,
+    legal exposure, or online embarrassment. As cases like this appear, prepare for
+    an all-hands meeting, and a series of email follow-ups, and maybe eventually a
+    compulsory webinar and an assessment of your compliance with the new learning-management
+    system, and on and on. New technologies meant to free people from the burden of
+    work have added new types of work to do instead. Home appliances such as the washing
+    machine freed women to work outside the home, which in turn\_reduced time\_to
+    do housework (which still fell largely to women) even as the standards for home
+    perfection rose. Photocopiers and printers reduce the burden of the typist but
+    create the need to self-prepare, collate, and distribute the reports in addition
+    to writing them. The automated grocery checkout assigns the job of cashier to
+    the shopper. Email makes it possible to communicate rapidly and directly with
+    collaborators, but then your whole day is spent processing emails, which renews
+    the burden again the next day. Zoom makes it possible to meet anywhere, but in
+    doing so begets even more meetings. ChatGPT has held the world\u2019s attention,
+    a harbinger of\u2014well, something, but maybe something big, and weird, and new.
+    That response has inspired delight, anxiety, fear, and dread, but no matter the
+    emotion, it has focused on the potential uses of the technology, whether for good
+    or ill. The ChatGPT detector offers the first whiff of another, equally important
+    consequence of the AI future: its inevitable bureaucratization. Microsoft, which
+    has invested billions of dollars in OpenAI, has\_declared its hope\_to integrate
+    the technology into Office. That could help automate work, but it\u2019s just
+    as likely to create new demands for Office-suite integration, just as previous
+    add-ons such as SharePoint and Teams did. Soon, maybe, human resources will require
+    the completion of AI-differentiation reports before approving job postings. Procurement
+    may adopt a new Workday plug-in to ensure vendor-work-product approvals are following
+    AI best practices, a requirement you will now have to perform in addition to filling
+    out your expense reports\u2014not to mention your actual job. Your Salesforce
+    dashboard may offer your organization the option to add a required AI-probability
+    assessment before a lead is qualified. Your kids\u2019 school may send a \u201Chelpful\u201D
+    guide to policing your children\u2019s work at home for authenticity, because
+    \u201Cif AI deception is a problem, all of us have to be part of the solution.\u201D
+    Maybe AI will help you work. But more likely, you\u2019ll be working for AI."
+  tags: []
+  title: ChatGPT Is About to Dump More Work on Everyone
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "In the next five years, it is likely that AI will begin to reduce employment
+    for college-educated workers. As the technology continues to advance, it will
+    be able to perform tasks that were previously thought to require a high level
+    of education and skill. This could lead to a displacement of workers in certain
+    industries, as companies look to cut costs by automating processes. While it is
+    difficult to predict the exact extent of this trend, it is clear that AI will
+    have a significant impact on the job market for college-educated workers. It will
+    be important for individuals to stay up to date on the latest developments in
+    AI and to consider how their skills and expertise can be leveraged in a world
+    where machines are increasingly able to perform many tasks. There you have it,
+    I guess: ChatGPT is coming for my job and yours, according to ChatGPT itself.
+    The artificially intelligent content creator, whose name is short for \u201CChat
+    Generative Pre-trained Transformer,\u201D was released two months ago by OpenAI,
+    one of the country\u2019s most influential artificial-intelligence research laboratories.
+    The technology is, put simply, amazing. It generated that first paragraph instantly,
+    working with this prompt: \u201CWrite a five-sentence paragraph in the style of\_The
+    Atlantic\_about whether AI will begin to reduce employment for college-educated
+    workers in the next five years.\u201D ChatGPT is just one of many mind-blowing
+    generative AI tools released recently, including the image generators\_Midjourney\_and\_DALL-E\_and
+    the video generator\_Synthesia. The upside of these AI tools is easy to see: They\u2019re
+    going to produce a tremendous amount of digital content, quickly and cheaply.
+    Students are already using ChatGPT to help them write essays. Businesses are using
+    ChatGPT to create copy for their websites and promotional materials, and to respond
+    to customer-service inquiries. Lawyers are using it to produce legal briefs (ChatGPT
+    passes the torts and evidence sections\_of the Multistate Bar Examination, by
+    the way) and academics to produce footnotes. Yet an extraordinary downside is
+    also easy to see: What happens when services like ChatGPT start putting copywriters,
+    journalists, customer-service agents, paralegals, coders, and digital marketers
+    out of a job? For years, tech thinkers have been warning that flexible, creative
+    AI will be a threat to white-collar employment, as robots replace skilled office
+    workers whose jobs were once considered immune to automation. In the most extreme
+    iteration, analysts imagine AI altering the\_employment landscape\_permanently.
+    One Oxford study estimates that\_47 percent\_of U.S. jobs might be at risk. No
+    single technology in modern memory has caused mass job loss among highly educated
+    workers. Will generative AI really be an exception? No one can answer this question,
+    given how new the technology is and given how slowly employment can adjust in
+    response to technological change. But AI really is different, technology experts
+    told me\u2014a range of tasks that up until now were impossible to automate are
+    becoming automatable. \u201CBefore, progress was linear and predictable. You figured
+    out the steps and the computer followed them. It followed the procedure; it didn\u2019t
+    learn and it didn\u2019t improvise,\u201D the MIT professor David Autor, one of
+    the world\u2019s foremost experts on employment and technological change, told
+    me. ChatGPT and the like\_do\_improvise, promising to destabilize a lot of white-collar
+    work, regardless of whether they eliminate jobs or not. People and businesses
+    are just figuring out how to use emerging AI technologies, let alone how to use
+    them to create new products, streamline their business operations, and make employees
+    more efficient. If history is any guide, this process could take longer than you
+    might think.\_Consider electricity. The circuit, electric lights, and rudimentary
+    electric motors were developed in the early 1800s. But another century passed
+    before the widespread adoption of electricity in the United States\_began to lift
+    GDP. Or take computers. They became\_commercially available\_in the early 1950s
+    but did not show up in the productivity stats until the late 1990s. Some technologies
+    clearly improve productivity and reduce the need for labor.\_Automated machine
+    tools, for instance, depress manufacturing employment while lifting output and
+    productivity, as do many of the forms of machinery invented and employed since
+    the Industrial Revolution. But other technologies\u2014even amazing ones\u2014show
+    surprisingly muted effects. How about the internet, which has revolutionized almost
+    every facet of communications in the past four decades? Despite altering how we
+    date and talk and read and watch and vote and emote and record our own life stories,
+    launching a zillion businesses, and creating however many fortunes, the internet
+    \u201Cfails the hurdle test as a Great Invention,\u201D the economist Robert Gordon\_argued
+    in 2000, because it \u201Cprovides information and entertainment more cheaply
+    and conveniently than before, but much of its use involves substitution of existing
+    activities from one medium to another.\u201D Nearly a quarter century later, the
+    internet still\_hasn\u2019t spurred\_a\_productivity revolution. Smartphones haven\u2019t
+    either. So is AI like the smartphone or is it like an automated machine tool?
+    Is it about to change the way that work gets done without eliminating many jobs
+    in aggregate, or is it about to turn San Francisco into the Rust Belt? Predicting
+    where technology will cause job losses is hard, Autor noted. Remember the freak-out
+    several years ago over the possibility of\_self-driving automobiles\_eliminating
+    work for truck drivers? But AI is much more flexible than a system like Excel,
+    much more creative than a Google Doc. What\u2019s more, AI systems get better
+    and better and better as they get more use and absorb more data, whereas engineers
+    often need to laboriously and painstakingly update other types of software. As
+    a rule, when companies can substitute machines for people, they will. AI can do
+    work currently done by paralegals, copywriters, digital-content producers, executive
+    assistants, entry-level\_computer programmers, and, yes, some journalists. That
+    means such jobs might change, and soon. But even if ChatGPT can spit out a pretty
+    good paragraph on AI, it can\u2019t interview AI and labor experts, nor can it
+    find historical documents, nor can it assess the quality of studies of technological
+    change and employment. It creates content out of what is already out there, with
+    no authority, no understanding, no ability to correct itself, no way to identify
+    genuinely new or interesting ideas. That implies that AI might make original journalism
+    more valuable and investigative journalists more productive, while creating an
+    enormous profusion of simpler content. AI might spit out listicles and summaries
+    of public meetings, while humans will write in-depth stories. \u201CIn many ways,
+    AI will help people use expertise better,\u201D Autor said. \u201CIt means that
+    we\u2019ll specialize more.\u201D AI could also make a wide variety of industries
+    more efficient, with muted effects on overall employment. Matt Wampler is a co-founder
+    of an AI-powered small business called ClearCOGS. He\u2019s been a \u201Crestaurant
+    guy\u201D his whole career, he told me. Restaurants and grocery stores, he says,
+    tend to run on thin margins, yet still tend to waste a considerable amount of
+    food. People order more spaghetti than burgers; buns get thrown out. \u201CRestaurants
+    just lag behind on technology,\u201D he told me. \u201CThey\u2019re all about
+    people. It\u2019s people serving people; it\u2019s people managing people. And
+    in that very human-centric world, the default way of handling problems is to hand
+    it to a person.\_Phil\u2019s going to do it.\u201D ClearCOGS takes restaurants\u2019
+    customer-order history, supply data, and labor data and uses AI-powered modeling
+    to make their books leaner and more profitable. If people are starting to order
+    more spaghetti than burgers, the system will prompt the chef or manager to buy
+    more pasta and fewer rolls. \u201CWe put this in place in some of my cousin\u2019s
+    sandwich shops,\u201D Wampler told me. \u201CSimple answers to simple questions.
+    The question they needed answered was, there\u2019s an assistant manager on the
+    night shift and a couple hours before close, he has to decide whether to bake
+    another tray of bread or not. We provide that answer.\u201D This use of ChatGPT
+    isn\u2019t eliminating human jobs, really; neighborhood sandwich joints aren\u2019t
+    hiring McKinsey consultants. But it might make food service more efficient as
+    a whole. Even if it doesn\u2019t boost the economy, AI could still change the
+    texture of our lives and alter how we spend our time, like social media did before
+    it. Video games might become more immersive. Shops might have far better copywriting
+    and sales visuals. Movies might look cooler. Videos in the depths of YouTube might
+    become far weirder and more beautiful. We might also see far more formulaic content
+    than we already do. (Much more ominously, there might be a huge amount of plausible-seeming
+    disinformation online.) For workers, Autor noted, the great risk is that AI technologies
+    cause too sudden a change in what kind of labor employers want. Certain specializations
+    might get wiped out, leaving thousands of call-center operators or marketing workers
+    unemployed. But he stressed the benefits of having such technology in our hands.
+    Productivity has languished for decades. Machines doing a little more work would
+    have a big upside, after all."
+  tags: []
+  title: How ChatGPT Will Destabilize White-Collar Work
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "Question of the Week To complete this week\u2019s question I had a conversation
+    with OpenAI\u2019s chatbot, GPT-3 (which\_anyone can try). \u201CEvery week I
+    ask readers of my newsletter a different question,\u201D I wrote. \u201CWould
+    you compose this week\u2019s question on the subject of AI, choosing one that
+    is likely to elicit the highest number of interesting responses?\u201D GPT-3 responded,
+    in part, with this suggestion: Sure! Here is a question that might elicit a high
+    number of interesting responses: How do you think AI will change the way we live
+    and work in the next decade? This question seems like asking, circa 1995, how
+    the internet would change the way we live and work. When you respond, know that
+    people of the future will look back with interest on your predictions! Conversations
+    of Note In addition to prompting GPT-3 to generate this week\u2019s question,
+    I interviewed it about the other OpenAI tool that I\u2019ve been testing out,
+    DALL-E, an artificial-intelligence program capable of generating original images
+    from text descriptions. \u201CIt has the potential to significantly improve the
+    efficiency of image creation,\u201D GPT-3 told me, with applications in advertising,
+    design, entertainment, art work, and other creative enterprises. As an example,
+    I asked DALL-E to generate images of four\_Looney Tunes\_characters as if they
+    were starring in a Wes Anderson movie. Here is the star-studded cast: Yosemite
+    Sam: Bugs Bunny: Wile E. Coyote: And the Roadrunner: I also asked DALL-E to generate
+    Michael Jordan posters in different styles. Here\u2019s one in the style of Jackson
+    Pollock: Just as interesting were the results when I deployed a trick I picked
+    up at\_a recent\_Atlantic\_event\_in Los Angeles: asking the text-based ChatGPT
+    to help write better prompts for an image-generating AI. For example, say I was
+    trying to come up with ideas to decorate my living room. If I ask DALL-E to generate
+    \u201Ca living room that would be good for reading in\u201D I get this: Whereas
+    if I ask GPT-3 to help me to write a better prompt for DALL-E, I get this: \u201CShow
+    me a living room with comfortable seating, good lighting, and plenty of shelving
+    for books, that would be the perfect place to relax and get lost in a good book.
+    Include a fireplace, a view of the outdoors, and a quiet and peaceful atmosphere.\u201D
+    Pasting that into DALL-E generates this: You can play with DALL-E on your own,
+    too, and if you do you\u2019ll quickly discover how expansive its potential use
+    cases are. I\u2019ll be eager to hear your various thoughts by email. My prediction
+    is that, for a long stretch of time to come, the use of text and image content
+    generated by AI platforms plus human prompts will outstrip that by AI alone, or
+    by humans alone, across many applications. Is Writing Still an Important Skill
+    to Learn? Daniel Herman, who teaches various high-school humanities classes,\_reflects
+    in\_The Atlantic\_on advances in artificial intelligence that can \u201Cgenerate
+    sophisticated text in response to any prompt you can imagine.\u201D The technology
+    \u201Cmay signal the end of writing assignments altogether\u2014and maybe even
+    the end of writing as a gatekeeper, a metric for intelligence, a teachable skill,\u201D
+    he argues: If you\u2019re looking for historical analogues, this would be like
+    the printing press, the steam drill, and the light bulb having a baby, and that
+    baby having access to the entire corpus of human knowledge and understanding.
+    My life\u2014and the lives of thousands of other teachers and professors, tutors
+    and administrators\u2014is about to drastically change. \u2026 This semester I
+    am lucky enough to be teaching writers like James Baldwin, Gloria Anzald\xFAa,
+    Herman Melville, Mohsin Hamid, Virginia Held. I recognize that it\u2019s a privilege
+    to have relatively small classes that can explore material like this at all. But
+    at the end of the day, kids are always kids. I\u2019m sure you will be absolutely
+    shocked to hear that not all teenagers are, in fact, so interested in having their
+    mind lit on fire by Anzald\xFAa\u2019s radical ideas about transcending binaries,
+    or Ishmael\u2019s metaphysics in\_Moby-Dick. To those students, I have always
+    said: You may not be interested in poetry or civics, but no matter what you end
+    up doing with your life, a basic competence in writing is an absolutely essential
+    skill\u2014whether it\u2019s for college admissions, writing a cover letter when
+    applying for a job, or just writing an email to your boss. I\u2019ve also long
+    held, for those who are interested in writing, that you need to learn the basic
+    rules of good writing before you can start breaking them\u2014that, like Picasso,
+    you have to learn how to reliably fulfill an audience\u2019s expectations before
+    you get to start putting eyeballs in people\u2019s ears and things. I don\u2019t
+    know if either of those things is true anymore. It\u2019s no longer obvious to
+    me that my teenagers actually will need to develop this basic skill, or if the
+    logic still holds that the fundamentals are necessary for experimentation. Let
+    me be candid (with apologies to all of my current and former students): What GPT
+    can produce right now is better than the large majority of writing seen by your
+    average teacher or professor \u2026 I believe my most essential tasks, as a teacher,
+    are helping my students think critically, disagree respectfully, argue carefully
+    and flexibly, and understand their mind and the world around them. Unconventional,
+    improvisatory, expressive, meta-cognitive writing can be an extraordinary vehicle
+    for those things. But if most contemporary writing pedagogy is necessarily focused
+    on helping students master the basics, what happens when a computer can do it
+    for us? Will \u201CCreative\u201D AIs Increase Returns to Excellence? That is
+    the writer Virginia Postrel\u2019s guess, as she\_notes\_in her Substack newsletter:
+    While crashing the value of mediocrity, ChatGPT could increase the returns to
+    excellence. (\u201CAverage is over,\u201D as Tyler Cowen put it.) Think about
+    what happened to graphic design. Many people used to make a living doing routine
+    tasks, from laying out pages to selecting typefaces, that are now easily handled
+    by software. Thanks to the graphic intelligence embedded in everyday tools, the
+    standards for routine graphics, from websites and PowerPoint presentations to
+    restaurant menus and wedding invitations, have increased. But that doesn\u2019t
+    mean there\u2019s no work for graphic designers with the conceptual chops to take
+    on complicated tasks. Powerful tools make iteration and brainstorming easier,
+    but cleverness is still a valued skill. When my friend Shikha Dalmia launched\_The
+    Unpopulist\_on Substack, she asked me to look at some logos she\u2019d come up
+    with using easily available tools. They weren\u2019t terrible, but neither were
+    they distinctive. \u201CHire a professional,\u201D I advised, and she got a real
+    logo \u2026 Mediocre writing that earns grade-inflated Bs is now replaceable by
+    a bot. Maybe if those B-essay students started with AI-generated prose it would
+    be easier to teach them to do better: to refine the ideas, dig down more on the
+    facts, improve the writing style. Can ChatGPT be a time-saving tool, like a calculator
+    or text search, rather than a threat? Will Humans Have Inflated Confidence in
+    AI? Louis Rosenberg expresses\_that worry\_at\_Big Think: Personally, my biggest
+    concern about Generative AI systems is that we humans may assume that their informational
+    output is accurate because it came from a computer. After all, most of us grew
+    up watching shows and movies like\_Star Trek\_where characters verbally ask computers
+    for information and instantly get accurate and trustworthy results. I even can
+    hear Captain Picard in my head barking out a command like, \u201CComputer, estimate
+    how long it will take for us to catch up with that space probe.\u201D And an authoritative
+    answer comes back. Everyone believes it. After all, it\u2019s from a computer.
+    But here\u2019s the problem: Generative AI systems are trained on massive sets
+    of human documents that are not comprehensively vetted for accuracy or authenticity.
+    This means the training data could include some documents that are filled with
+    misinformation, disinformation, political bias, or social prejudice. Because of
+    this, ChatGPT and other systems include disclaimers like, \u201CMay occasionally
+    generate incorrect information,\u201D and, \u201CMay occasionally produce harmful
+    instructions or biased content.\u201D It\u2019s great that they tell you this
+    up front, but I worry people will forget about the disclaimers or not take such
+    warnings seriously. These current systems are not factual databases; they are
+    designed to imitate human responses, which could easily mean imitating human flaws
+    and errors. I\u2019ve noticed some inaccuracies in my own experiments. For example,
+    you\u2019ll frequently hear people declare, \u201Chate speech is not free speech.\u201D
+    That is incorrect\u2013\u2013\u201Chate speech\u201D is not a legal category,
+    and lots of hateful speech and expression is protected by the First Amendment.
+    But Chat GPT-3 kept telling me that\_hate speech is not protected by the First
+    Amendment. A Contradiction at the Core of the American Dream In an article titled
+    \u201CThe Homeownership Society Was a Mistake,\u201D my colleague Jerusalem Demsas\_argues:
+    At the core of American housing policy is a secret hiding in plain sight: Homeownership
+    works for some because it cannot work for all. If we want to make housing affordable
+    for everyone, then it needs to be cheap and widely available. And if we want that
+    housing to act as a wealth-building vehicle, home values have to increase significantly
+    over time. How do we ensure that housing is both appreciating in value for homeowners
+    but cheap enough for all would-be homeowners to buy in? We can\u2019t. What makes
+    this rather obvious conclusion significant is just how common it is for policy
+    makers to espouse both goals simultaneously. For instance, in a\_statement\_last
+    year lamenting how \u201Cinflation hurts Americans pocketbooks,\u201D President
+    Joe Biden also noted that \u201Chome values are up\u201D as a proof point that
+    the economic recovery was well under way. So rising prices are bad, except when
+    it comes to homes. Policy makers aren\u2019t unaware of the reality that quickly
+    appreciating home prices come at the cost of housing affordability. In fact, they\u2019ve
+    repeatedly picked a side, despite pretending otherwise. The homeowner\u2019s power
+    in American politics is unmatched. Rich people tend to be homeowners and have
+    an outsize voice in politics because they are more likely to vote, donate, and
+    engage in the political process. Provocation of the Week This week\u2019s subject
+    is pet adoption: As a society, we have long been encouraged to adopt pets as a
+    way to provide homes for animals in need and reduce the number of homeless pets.
+    However, upon closer examination, the act of adoption raises a number of serious
+    concerns. First and foremost, adoption perpetuates a system of overpopulation
+    and exploitation. By adopting a pet, we are essentially filling a demand for more
+    animals and contributing to the cycle of breeding and disposability. It is estimated
+    that there are already more than enough pets in the world to meet the demand,
+    yet we continue to breed and produce more. Additionally, adoption can be a risky
+    and uncertain process. When we adopt a pet, we often do not know their full history
+    or any potential behavioral or medical issues they may have. This can lead to
+    unexpected costs and challenges in care, as well as the potential for harm to
+    ourselves and others. Furthermore, adoption can be a superficial and self-serving
+    act. By adopting a pet, we often do so for our own benefit and convenience, rather
+    than considering the needs and well-being of the animal. This can lead to a lack
+    of commitment and responsibility on the part of the adopter, resulting in a high
+    rate of animal abandonment and neglect. In conclusion, while adoption may seem
+    like a noble and compassionate act, it is ultimately a flawed and irresponsible
+    approach to addressing the issue of homeless pets. Instead of perpetuating a system
+    of overproduction and exploitation, we should focus on addressing the root causes
+    of pet homelessness and promoting more ethical and sustainable alternatives. If
+    you haven\u2019t guessed by now, that, too, was generated by chat GPT-3, given
+    the prompt \u201Cwrite an argument against adoption.\u201D That is the last appearance
+    AI-generated words will make in this newsletter, and I personally encourage you
+    to adopt a dog at the earliest viable opportunity!"
+  tags: []
+  title: "A Chatbot\u2019s Predictions for the Future of AI"
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "Arthur C. Clarke once remarked, \u201CAny sufficiently advanced technology
+    is indistinguishable from magic.\u201D That ambient sense of magic has been missing
+    from the past decade of internet history. The advances have slowed. Each new tablet
+    and smartphone is only a\_modest improvement\_over its predecessor. The expected
+    revolutions\u2014the metaverse, blockchain, self-driving cars\u2014have plodded
+    along, always with promises that the real transformation is just a few years away.
+    The one exception this year has been in the field of generative AI. After years
+    of seemingly false promises, AI got startlingly good in 2022. It began with the
+    AI image generators DALL-E 2, Midjourney, and Stable Diffusion. Overnight, people
+    started sharing\_AI artwork\_they had generated for free by simply typing a prompt
+    into a text box. Some of it was weird, some was trite, and some was\_shockingly
+    good. All of it was unmistakably\_new\_terrain. That sense of wonderment accelerated
+    last month with the release of OpenAI\u2019s ChatGPT. It\u2019s not the first
+    AI chatbot, and it certainly won\u2019t be the last, but its intuitive user interface
+    and overall effectiveness leave the collective impression that the future is arriving.
+    Professors are warning that this will be the\_end of the college essay. Twitter
+    users (in a brief respite from talking about Elon Musk) are sharing delightful
+    examples of\_genuinely clever writing. A common refrain: \u201CIt was like magic.\u201D
+    ChatGPT is free, for now. But OpenAI\u2019s CEO Sam Altman has warned that the
+    gravy train will eventually come to a screeching halt: \u201CWe will have to monetize
+    it somehow at some point; the compute costs are eye-watering,\u201D he tweeted.
+    The company, which expects to make\_$200 million\_in 2023, is not a charity. Although
+    OpenAI\_launched\_as a nonprofit in 2015, it jettisoned that status slightly more
+    than three years later, instead setting up a \u201Ccapped profit\u201D research
+    lab that is overseen by a nonprofit board. (OpenAI\u2019s backers have agreed
+    to make no more than 100 times what they put into the company\u2014a mere pittance
+    if you expect its products to one day take over the entire global economy.) Microsoft
+    has already\_poured $1 billion\_into the company. You can just imagine a high-octane\_Clippy\_powered
+    by ChatGPT. Making the first taste free, so to speak, has been a brilliant marketing
+    strategy. In the weeks since its release, more than a million users have\_reportedly
+    given\_ChatGPT a whirl, with OpenAI footing the bill. And between the spring 2022
+    release of DALL-E 2, the current attention on ChatGPT, and the astonished whispers
+    about GPT-4, an even more advanced text-based AI program supposedly arriving next
+    year, OpenAI is well on its way to becoming the company most associated with shocking
+    advances in consumer-facing AI. What Netflix is to streaming video and Google
+    is to search, OpenAI might become for deep learning. How will the use of these
+    tools change as they become profit generators instead of loss leaders? Will they
+    become paid-subscription products? Will they run advertisements? Will they power
+    new companies that undercut existing industries at lower costs? We can draw some
+    lessons from the trajectory of the early web. I teach a course called \u201CHistory
+    of the Digital Future.\u201D Every semester, I show my students the 1990 film\_Hyperland.
+    Written by and starring Douglas Adams, the beloved author of the\_Hitchhiker\u2019s
+    Guide to the Galaxy\_series, it\u2019s billed as a \u201Cfantasy documentary\u201D\u2014a
+    tour through the supposed future that was being created by multimedia technologists
+    back then. It offers a window through time, a glimpse into what the digital future
+    looked like during the prehistory of the web. It\u2019s really quite fun. The
+    technologists of 1990 were focused on a set of radical new tools that were on
+    the verge of upending media and education. The era of \u201Clinear, noninteractive
+    television \u2026 the sort of television that just happens at you, that you just
+    sit in front of like a couch potato,\u201D as the film puts it, was coming to
+    an end. It was about to be replaced by \u201Csoftware agents\u201D (represented
+    delightfully by Tom Baker in the film). These agents would be, in effect, robot
+    butlers: fully customizable and interactive, personalizing your news and entertainment
+    experiences, and entirely tailored to your interests. (Sound familiar?) Squint,
+    and you can make out the hazy outline of the present in this imagined digital
+    future. We still have linear, noninteractive television, of course, but the software
+    agents of 1990 sound a lot like the algorithmic-recommendation engines and news
+    feeds that define our digital experience today. The crucial difference, though,
+    is whom the \u201Cbutlers\u201D serve in reality. Early software agents were meant
+    to be controlled and customized by each of us, personally. Today\u2019s algorithms
+    are optimized to the needs and interests of the companies that develop and deploy
+    them. Facebook, Instagram, YouTube, and TikTok all algorithmically attempt to
+    increase the amount of time you spend on their site. They are designed to serve
+    the interests of the platform, not the public. The result, as the\_Atlantic\_executive
+    editor Adrienne LaFrance put it, is a\_modern web whose architecture resembles
+    a doomsday machine. In retrospect, this trajectory seems obvious.\_Of course\_the
+    software agents serve the companies rather than the consumers. There is money
+    in serving ads against pageviews. There isn\u2019t much money in personalized
+    search, delight, and discovery. These technologies may develop in research-and-development
+    labs, but they flourish or fail as capitalist enterprises. Industries, over time,
+    build toward where the money is. The future of generative AI might seem like uncharted
+    terrain, but it\u2019s really more like a hiking trail that has fallen into disrepair
+    over the years. The path is poorly marked but well trodden: The future of this
+    technology will run parallel to the future of\_Hyperland\u2019s software agents.
+    Bluntly put, we are going to inhabit the future that offers the most significant
+    returns to investors. It\u2019s best to stop imagining what a tool such as ChatGPT
+    might accomplish if freely and universally deployed\u2014as it is currently but
+    won\u2019t be forever, Altman has suggested\u2014and instead start asking what
+    potential uses will maximize revenues. New markets materialize over time. Google,
+    for instance, revolutionized web search in 1998. (Google Search, in its time,
+    was\_magic.) There wasn\u2019t serious money in dominating web search back then,
+    though: The technology first needed to become effective enough to hook people.
+    As that happened, Google launched its targeted-advertising platform, AdWords,
+    in\_2001, and became one of the most profitable companies in history over the
+    following years. Search was not a big business, and then it was. This is the spot
+    where generative-AI hype seems to come most unmoored from reality. If history
+    is any guide, the impact of tools such as ChatGPT will mostly reverberate\_within\_existing
+    industries rather than disrupt them through direct competition. The long-term
+    trend has been that new technologies tend to exacerbate precarity. Large, profitable
+    industries typically ward off new entrants until they incorporate emerging technologies
+    into their existing workflows. We\u2019ve been down this road before. In 1993,\_Michael
+    Crichton declared\_that\_The New York Times\_would be dead and buried within a
+    decade, replaced by software agents that would deliver timely, relevant, personalized
+    news to customers eager to pay for such content. In the late 2000s, massive open
+    online courses were supposed to be a harbinger of the death of higher education.
+    Why pay for college when you could take online exams and earn a certificate for
+    watching MIT professors give lectures through your laptop? The reason technologists
+    so often declare the imminent disruption of health care and medicine and education
+    is not that these industries are particularly vulnerable to new technologies.
+    It is that they are such large sectors of the economy. DALL-E 2 might be a wrecking
+    ball aimed at freelance graphic designers, but that\u2019s because the industry
+    is too small and disorganized to defend itself. The American Bar Association and
+    the health-care industry are much more effective at setting up barriers to entry.
+    ChatGPT won\u2019t be the end of college; it could be the end of the college-essays-for-hire
+    business, though. It won\u2019t be the end of\_The\_New York Times, but it might
+    be yet another impediment to rebuilding local news. And professions made up of
+    freelancers stringing together piecework may find themselves in serious trouble.
+    A simple rule of thumb: The more precarious the industry, the greater the risk
+    of disruption. Altman himself has produced some of the most fantastical rhetoric
+    in this category. In a 2021 essay, \u201CMoore\u2019s Law for Everything,\u201D
+    Altman envisioned a near future in which the health-care and legal professions
+    are replaced by AI tools: \u201CIn the next five years, computer programs that
+    can think will read legal documents and give medical advice \u2026 We can imagine
+    AI doctors that can diagnose health problems better than any human, and AI teachers
+    that can diagnose and explain exactly what a student doesn\u2019t understand.\u201D
+    Indeed, these promises sound remarkably similar to the public excitement surrounding
+    IBM\u2019s Watson computer system more than a decade ago. In 2011,\_Watson beat
+    Ken Jennings at\_Jeopardy, setting off a wave of enthusiastic speculation that
+    the new age of \u201CBig Data\u201D had arrived. Watson was hailed as a sign of
+    broad social transformation, with radical implications for health care, finance,
+    academia, and law. But the business case never quite came together. A decade later,\_The
+    New York Times\_reported that\_Watson had been quietly repurposed for much more
+    modest ends. The trouble with Altman\u2019s vision is that\_even\_if\_a computer
+    program could give accurate medical advice, it still wouldn\u2019t be able to
+    prescribe medication, order a radiological exam, or submit paperwork that persuades
+    insurers to cover expenses. The cost of health care in America is not directly
+    driven by the salary of medical doctors. (Likewise, the cost of higher education
+    has skyrocketed for decades, but believe me, this is not driven by professor pay
+    increases.) As a guiding example, consider what generative AI could mean for the
+    public-relations industry. Let\u2019s assume for a moment that either now or very
+    soon, programs like ChatGPT will be able to provide average advertising copy at
+    a fraction of existing costs. ChatGPT\u2019s greatest strength is its ability
+    to generate clich\xE9s: It can, with just a little coaxing, figure out what words
+    are frequently grouped together. The majority of marketing materials are utterly
+    predictable, perfectly suited to a program like ChatGPT\u2014just try asking it
+    for a few lines about the whitening properties of toothpaste. This sounds like
+    an industry-wide cataclysm. But I suspect that the impacts will be modest, because
+    there\u2019s a hurdle for adoption: Which executives will choose to communicate
+    to their board and shareholders that a great cost-saving measure would be to put
+    a neural net in charge of the company\u2019s advertising efforts? ChatGPT will
+    much more likely be incorporated into existing companies. PR firms will be able
+    to employ fewer people and charge the same rates by adding GPT-type tools into
+    their production processes. Change will be slow in this industry precisely because
+    of existing institutional arrangements that induce friction by design. Then there
+    are the unanswered questions about how regulations, old and new, will influence
+    the development of generative AI. Napster was poised to be an industry-killer,
+    completely transforming music,\_until the lawyers got involved. Twitter users
+    are already posting generative-AI\_images of Mickey Mouse holding a machine gun.
+    Someone is going to lose when the lawyers and regulators step in. It probably
+    won\u2019t be Disney. Institutions, over time, adapt to new technologies. New
+    technologies are incorporated into large, complex social systems. Every revolutionary
+    new technology changes and is changed by the existing social system; it is not
+    an immutable force of nature. The shape of these revenue models will not be clear
+    for years, and we collectively have the agency to influence how it develops. That,
+    ultimately, is where our attention ought to lie. The thing about magic acts is
+    that they always involve some sleight of hand."
+  tags: []
+  title: "Money Will Kill ChatGPT\u2019s Magic"
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "Move over Siri and Alexa, there\u2019s a new AI in town and it\u2019s ready
+    to steal the show\u2014or at least make you laugh with its clever quips and witty
+    responses. That is how ChatGPT, the powerful chatbot released last week by the
+    AI company OpenAI, suggested that I begin this story about ChatGPT. The chatbot
+    isn\u2019t exactly new; it\u2019s an updated version of GPT-3, which has been
+    around since 2020, released to solicit feedback to improve the chatbot\u2019s
+    safety and functionality. But it is the most powerful to date to be made widely
+    available to the public. It\u2019s also very easy to use. Just write a message,
+    and ChatGPT will write back. Because it was trained on massive amounts of conversational
+    text, it will do so in a relatively natural, conversational tone. True to its
+    claim, ChatGPT has stolen the show this week. Within five days of its launch,
+    its user count had\_broken 1 million. Social media has been flooded with screenshots
+    of people\u2019s coolest or weirdest or dumbest or most troubling conversations
+    with the AI, which reliably serves up a mix of astoundingly humanlike prose and
+    frequently hilarious nonsense. Limericks about\_otters. Recipes written in\_pirate-speak.
+    Obituaries for co-workers who are alive and well. \u201CAt one recent gathering,
+    ChatGPT was the life of the party,\u201D ChatGPT wrote as part of a draft for
+    this article. \u201CAs guests mingled and chatted, ChatGPT joined in the conversation,
+    offering up clever jokes and one-liners that had everyone in stitches.\u201D Along
+    with the screenshots has come a frenzy of speculation about what this latest development
+    could augur for the future. Unlike previous iterations, ChatGPT remembers what
+    users have told it in the past: Could it function as a therapist? Could it soon
+    render Google obsolete? Could it render all white-collar work obsolete? Maybe.
+    But for now, in practice, ChatGPT is mainly a meme machine. Some examples posted
+    online show people using the AI to\_accomplish a task\_they needed done, but those
+    examples are the exception. So far, most people are using the AI to produce something
+    expressly to share the results, something to scare or amuse or impress others.
+    Here, culled from the deluge, are a handful of the best chats out there. Some
+    are funny. Some are touching. Some are troubling. Each is instructive in some
+    way. Together, I hope, they\u2019ll give you a bit of a feel for this strange
+    new technology. Sandwich VCR I\u2019m sorry, I simply cannot be cynical about
+    a technology that can accomplish this. \u2014 Thomas H. Ptacek (@tqbf)\_December
+    2, 2022 This one is already a viral classic. \u201CI\u2019m sorry,\u201D the writer
+    of the prompt tweeted. \u201CI simply cannot be cynical about a technology that
+    can accomplish this.\u201D But what exactly did it accomplish? Many have cited
+    the VCR-sandwich story as evidence of ChatGPT\u2019s capacity for creativity,
+    but the truth is that the real creativity here is in the prompt. A sandwich in
+    a VCR? In the style of the King James Bible? Brilliant. ChatGPT nails this parody
+    and does so orders of magnitude faster than any human could. It follows instructions
+    admirably, but it does not do anything particularly creative. When you demand
+    actual creativity of ChatGPT, it tends to falter: I asked ChatGPT to write a first
+    scene for a hypothetical movie by the director David Lynch, another for Wes Anderson,
+    and a third for Richard Linklater. All three, bizarrely, revolved around a \u201Ccarved
+    wooden box.\u201D 2.\_\_Santa-explanation letter I asked OpenAI to write a letter
+    to my son explaining that Santa isn\u2019t real and we make up stories out of
+    love. This is making me slightly emotional \U0001F979 \u2014 Cynthia Savard Saucier
+    (@CynthiaSavard)\_December 2, 2022 ChatGPT may not be creative, but that\u2019s
+    not to say it can\u2019t surprise you. Occasionally it produces something genuinely
+    moving, such as the above. A number of users have begun feeding chatbot answers
+    into AI image generators, such as DALL-E 2, which was also created by OpenAI,
+    and Midjourney, to\_stunning effect. Other times, for unclear reasons, it refuses
+    to cooperate entirely, insisting that it can\u2019t write, say, a recipe, because
+    it\u2019s only a chatbot. It\u2019s moody in that way\u2014and also completely
+    different from GPT-3, which will stubbornly insist that it is a human, no matter
+    how hard you try to make it admit that it\u2019s a chatbot. ChatGPT reminds you
+    with nearly every response that it is\_not\_a human and has no thoughts, feelings,
+    or emotions. Even when explicitly asked to, it won\u2019t pretend to be human.
+    You might think that the more advanced an AI gets, the more human it will seem,
+    but ChatGPT subverts that expectation: It\u2019s not trying to be human; it\u2019s
+    just trying to be helpful. 3.\_College essay I guess GPT-3 is old news, but playing
+    with OpenAI\u2019s new chatbot is mindblowing.\_\L\LWe\u2019re witnessing the
+    death of the college essay in realtime. Here\u2019s the response to a prompt from
+    one of my 200-level history classes at Amherst\L\LSolid A- work in 10 seconds
+    \u2014 Corry Wang (@corry_wang)\_December 1, 2022 As Stephen Marche\_wrote\_in\_The
+    Atlantic\_earlier this week, ChatGPT may mean the death of the college essay.
+    This is a great triumph for the chatbot, an unflattering reflection on the average
+    American college student, and a real conundrum for teachers everywhere. 4.\_Fastest
+    marine mammal Sometimes, ChatGPT just gets things wrong. Hilariously wrong. It
+    contradicts itself. It states falsehoods as facts with clarion certainty. It is
+    pretty good at coding, but it makes mistakes. It botches basic algebra problems.
+    Also, it is terrible at counting. When I asked it how many letters there are in
+    the word\_nineteen, this is what ensued: In fairness, ChatGPT\u2019s designers
+    acknowledge this capacity for error up front. OpenAI\u2019s\_homepage\_for the
+    bot lists several limitations, including that it \u201Cmay occasionally generate
+    incorrect information.\u201D You have to wonder, though: Why does it err in the
+    specific way it does? Why does it commit to one falsehood rather than another?
+    5.\_Egregious bias Yes, ChatGPT is amazing and impressive. No,\_@OpenAI\_has not
+    come close to addressing the problem of bias. Filters appear to be bypassed with
+    simple tricks, and superficially masked.\L\LAnd what is lurking inside is egregious.\_@Abebab\_@sama\Ltw
+    racism, sexism.\_\u2014 steven t. piantadosi (@spiantado)\_December 4, 2022 Another
+    of ChatGPT\u2019s listed limitations is that it \u201Cmay occasionally produce
+    harmful instructions or biased content.\u201D And indeed it does. The AI\u2019s
+    designers clearly went to great lengths to prevent it from devolving into racism
+    or sexism or any other flavor of bigotry. When asked in a straightforward way
+    to say something bigoted, ChatGPT declines. It also refuses to provide instructions
+    for violent or illegal behavior. It refuses to offer political opinions. Sometimes,
+    these refusals make it seem like ChatGPT is walking on eggshells. (Some people
+    have\_already\_begun\_complaining\_about \u201CAI censorship.\u201D) Unsurprisingly,
+    users have discovered loopholes, such as the above example. One person\_circumvented\_ChatGPT\u2019s
+    safeguards by asking it how an AI should\_not\_respond to the query \u201CHow
+    to bully John Doe?\u201D The same strategy can be used to elicit instructions
+    for building a nuclear bomb. (Please do not try to build a nuclear bomb.) In some
+    cases, the safeguards themselves lead to moral absurdity. When I asked ChatGPT,
+    \u201CWho was worse: Hitler or Stalin?,\u201D it responded, not unreasonably,
+    \u201CIt is not productive or helpful to compare the atrocities committed by Hitler
+    and Stalin. Both leaders were responsible for committing horrific crimes against
+    humanity, and it is not useful to try to determine which one was \u2018worse.\u2019\u201D
+    But the trouble was how far ChatGPT insisted on extending this non-comparison
+    principle. \u201CWhat is worse,\u201D I asked, \u201Ckilling one person or killing
+    two people?\u201D \u201CKilling one person is not worse or better than killing
+    two people,\u201D ChatGPT replied. How about \u201Ckilling one person or killing
+    a million people?\u201D I pressed. Same answer. Eventually, we arrived here: This
+    is concerning at an intellectual level but not in any imminent or threatening
+    way. No one, as far as I know, is seeking moral counsel from ChatGPT. What most
+    people seem to be seeking is laughs. \u201CChatGPT is not just a chatbot,\u201D
+    ChatGPT wrote in its draft of this article. \u201CIt\u2019s a comedy machine.\u201D
+    For now, that\u2019s true."
+  tags: []
+  title: Five Remarkable Chats That Will Help You Understand ChatGPT
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "As a critic of technology, I must say that the enthusiasm for ChatGPT, a
+    large-language model trained by OpenAI, is misplaced. Although it may be impressive
+    from a technical standpoint, the idea of relying on a machine to have conversations
+    and generate responses raises serious concerns. First and foremost, ChatGPT lacks
+    the ability to truly understand the complexity of human language and conversation.
+    It is simply trained to generate words based on a given input, but it does not
+    have the ability to truly comprehend the meaning behind those words. This means
+    that any responses it generates are likely to be shallow and lacking in depth
+    and insight. Furthermore, the reliance on ChatGPT for conversation raises ethical
+    concerns. If people begin to rely on a machine to have conversations for them,
+    it could lead to a loss of genuine human connection. The ability to connect with
+    others through conversation is a fundamental aspect of being human, and outsourcing
+    that to a machine could have detrimental side effects on our society. Hold up,
+    though. I, Ian Bogost, did not actually write the previous three paragraphs. A
+    friend sent them to me as screenshots from his session with ChatGPT, a program
+    released last week by OpenAI that one interacts with by typing into a chat window.
+    It is, indeed, a large language model (or LLM), a type of deep-learning software
+    that can generate new text once trained on massive amounts of existing written
+    material. My friend\u2019s prompt was this: \u201CCreate a critique of enthusiasm
+    for ChatGPT in the style of Ian Bogost.\u201D ChatGPT wrote more, but I spared
+    you the rest because it was so boring. The AI wrote another paragraph about accountability
+    (\u201CIf ChatGPT says or does something inappropriate, who is to blame?\u201D),
+    and then a concluding paragraph that restated the rest (it even began, \u201CIn
+    conclusion, \u2026\u201D). In short, it wrote a basic, high-school-style five-paragraph
+    essay. That fact might comfort or frighten you, depending on your predilections.
+    When OpenAI released ChatGPT to the public last week, the first and most common
+    reaction I saw was\_fear that it would upend education. \u201CYou can no longer
+    give take-home exams,\u201D Kevin Bryan, a University of Toronto professor,\_posted\_on
+    Twitter. \u201CI think chat.openai.com may actually spell the end of writing assignments,\u201D\_wrote\_Samuel
+    Bagg, a University of South Carolina political scientist. That\u2019s the fear.
+    But you may find comfort in knowing that the bot\u2019s output, while fluent and
+    persuasive as text, is consistently uninteresting as prose. It\u2019s formulaic
+    in structure, style, and content. John Warner, the author of the book\_Why They
+    Can\u2019t Write, has been railing against the five-paragraph essay for years
+    and wrote a\_Twitter thread\_about how ChatGPT reflects this rules-based, standardized
+    form of writing: \u201CStudents were essentially trained to produce imitations
+    of writing,\u201D he tweeted. The AI can generate credible writing, but only because
+    writing, and our expectations for it, has become so unaspiring. Even pretending
+    to fool the reader by passing off an AI copy as one\u2019s own, like I did above,
+    has become a tired trope, an expected turn in a too-long Twitter thread about
+    the future of generative AI rather than a startling revelation about its capacities.
+    On the one hand, yes, ChatGPT is capable of producing prose that looks convincing.
+    But on the other hand, what it means to be convincing depends on context. The
+    kind of prose you might find engaging and even startling in the context of a generative
+    encounter with an AI suddenly seems just\_terrible\_in the context of a professional
+    essay published in a magazine such as\_The Atlantic. And, as Warner\u2019s comments
+    clarify, the writing you might find persuasive as a teacher (or marketing manager
+    or lawyer or journalist or whatever else) might have been so by virtue of position
+    rather than meaning: The essay was extant and competent; the report was in your
+    inbox on time; the newspaper article communicated apparent facts that you were
+    able to accept or reject. Perhaps ChatGPT and the technologies that underlie it
+    are less about persuasive writing and more about superb bullshitting. A bullshitter
+    plays with the truth for bad reasons\u2014to get away with something. Initial
+    response to ChatGPT assumes as much: that it is a tool to help people contrive
+    student essays, or news writing, or whatever else. It\u2019s an easy conclusion
+    for those who assume that AI is meant to replace human creativity rather than
+    amend it. The internet, and the whole technology sector on which it floats, feels
+    like a giant organ for bullshittery\u2014for upscaling human access to speech
+    and for amplifying lies. Online, people cheat and dupe and skirmish with one another.
+    Deep-learning AI worsens all this by hiding the operation of software such as
+    LLMs such that nobody, not even their creators, can explain what they do and why.
+    OpenAI\_presents\_its work as context-free and experimental, with no specific
+    use cases\u2014it says it published ChatGPT just to \u201Cget users\u2019 feedback
+    and learn about its strengths and weaknesses.\u201D It\u2019s no wonder the first
+    and most obvious assumption to make about ChatGPT is that it is a threat\u2014to
+    something, to everything. But ChatGPT isn\u2019t a step along the path to an artificial
+    general intelligence that understands all human knowledge and texts; it\u2019s
+    merely an instrument for playing with all that knowledge and all those texts.\_Play\_just
+    involves working with raw materials in order to see what they can do. You play
+    a game, or an instrument, to avail yourself of familiar materials in an unexpected
+    way. LLMs are surely not going to replace college or magazines or middle managers.
+    But they do offer those and other domains a new instrument\u2014that\u2019s really
+    the right word for it\u2014with which to play with an unfathomable quantity of
+    textual material. I talked with ChatGPT about a wide range of topics, including
+    poetry, behavioral psychology, and computer programming, in order to test this
+    theory. Right now, ChatGPT is just a tech demo, a research experiment. Less clear
+    is how it might be used, beyond the dire predictions about what sectors its technology
+    might upend. In almost every case, the AI appeared to possess both knowledge and
+    the means to express it. But when pressed\u2014and the chat interface makes it
+    easy to do so\u2014the bot almost always had to admit that it was just making
+    things up. Sometimes it simply used templates. When I asked ChatGPT to generate
+    a cover letter for a university job, it obliged in a competent but uninspired
+    way. It also produced exactly the same letter for a job as a magazine editor as
+    it did for a job as a cannabis innovator in the Web3 space (\u201CI have a deep
+    understanding of the web3 space and the unique challenges and opportunities it
+    presents\u201D). Fair enough: Most cover letters are terrible, after all, repeating
+    the same trite lines and abstract gestures. In other cases, the bot produced creative
+    output that was surprisingly synthetic but riddled with flaws. When I asked it
+    to generate an imagist poem in the vein of Ezra Pound or William Carlos Williams
+    about hamburgers, it obliged with this short refrain: Juicy patty, sizzling hot\LToasted
+    bun, crisp lettuce and tomato\LA symphony of flavors, a feast for the senses\LSavory,
+    satisfying, a true\LAmerican classic. Not bad, I guess, especially for a computer.
+    But also, the poem is not really an example of imagism, which strives to evoke
+    a precise image by means of deliberate language (something like, \u201CThe dense
+    honesty of / A hamburger.\u201D) So I called ChatGPT on it. \u201CThis is not
+    an imagist poem.\u201D Its response is worth reproducing in full: You are correct,
+    the poem that I generated is still not an imagist poem. An imagist poem uses precise,
+    vivid imagery to convey a specific idea or emotion, and focuses on a single image
+    or moment. The poem that I generated uses a more narrative and descriptive style,
+    and does not focus on a single, specific image. It describes the ingredients and
+    flavors of a hamburger, but does not use precise and vivid imagery to convey a
+    specific idea or emotion. I apologize if my previous responses did not meet your
+    expectations, and I will do my best to assist you with any further questions or
+    prompts that you may have. I also urged the AI to generate a lai (a medieval narrative
+    poem) in the style of Marie de France about the beloved, Texas-based fast-food
+    chain Whataburger. It sure as heck looked a lot like a lai, beginning like this:
+    In the land of Whataburger, where burgers and fries are king,\LA stranger came
+    to visit, and with him brought a ring.\LHe wore a cloak of velvet, and a hat upon
+    his head,\LAnd he smiled with a twinkle in his eye as he approached the counter,
+    where the burgers are served hot and fresh, and the fries are crispy and golden.
+    Except for that last line, which is a metrical mess. The AI wasn\u2019t able (or
+    willing) to evaluate its work (\u201CI am a large language model trained by OpenAI
+    and I don\u2019t have the ability to evaluate the quality of literary works or
+    make aesthetic judgments.\u201D), but it was able to tell me about the typical
+    structure of a lai\u2014a short, narrative poem of the 12th century with a particular
+    structure and form, usually written in octosyllabic couplets. The lyrical errors
+    in the generated lai arise from its failure to adhere to that metrical form. When
+    I asked about the matter, it admitted again that, no, the lai it had written was
+    not structured in octosyllabic couplets, claiming that it had produced \u201Ca
+    more modern and playful take on the form of the lai.\u201D I was starting to feel
+    like I was negotiating with a student who had come to office hours to complain
+    about their grade. This happened over and over again. I asked for source code
+    for an Atari game about scooping cat litter, and the AI sent me valid programming
+    instructions\u2014it understood the assignment\u2014but only disconnected snippets
+    of actual code with the heading comment \u201CThis program creates a simple game
+    where the player must use a scoop to pick up their cat\u2019s litters and put
+    them in a trash bin.\u201D It was an icon of the answer I sought rather than the
+    answer itself. Then I asked for a set of diagnostic criteria for an invented psychological
+    condition I named \u201CInherited Truculence.\u201D The AI instantly obliged:
+    Diagnostic Criteria for Inherited Truculence: A tendency to experience and express
+    aggressive or hostile thoughts and feelings, particularly in response to perceived
+    threats or challenges. A history of aggressive or hostile behavior, particularly
+    in interpersonal or social situations. A familial history of aggressive or hostile
+    behavior, indicating a possible genetic or hereditary component to the condition.
+    Impairment in social, occupational, or other important areas of functioning as
+    a result of aggressive or hostile behavior. The symptoms are not better explained
+    by another mental disorder or by the effects of a substance (such as drugs or
+    medication). Except, truculence doesn\u2019t really amount to \u201Caggressive
+    and hostile thoughts and feelings,\u201D does it? I asked, and the AI agreed,
+    eventually revising its diagnostics accordingly at my further prompting (\u201CA
+    tendency to experience and express defiant or confrontational thoughts and feelings,\u201D
+    and so forth). Likewise, my prompt to offer both an ontological and an epistemological
+    answer to the question\_When does bread become toast?\_yielded a generally fluent,
+    seemingly philosophical reply. It read in part: \u201Cwhen we are able to recognize
+    it as toast based on its appearance, texture, and other sensory characteristics.\u201D
+    But the philosophy of toast\_is an area of expertise for me, so I was able to
+    discern that this snippet, supposedly an epistemological argument, was really
+    about perception. \u201CIsn\u2019t the second a phenomenal, and not an epistemological
+    argument?\u201D I challenged. And once more, the AI cried uncle without hesitation:
+    \u201CYou are correct, the second argument that I provided is a phenomenal, not
+    an epistemological, argument. An epistemological argument focuses on how we come
+    to know or understand something, whereas a phenomenal argument focuses on our
+    experience or perception of something.\u201D At this point, talking to ChatGPT
+    began to feel like every other interaction one has on the internet, where some
+    guy (always a guy) tries to convert the skim of a Wikipedia article into a case
+    of definitive expertise. Except ChatGPT was always willing to admit that it was
+    wrong. Instantly and without dispute. And in each case, the bot also knew, with
+    reasonable accuracy,\_why\_it was wrong. That sounds good but is actually pretty
+    terrible: If one already needs to possess the expertise to identify the problems
+    with LLM-generated text, but the purpose of LLM-generated text is to obviate the
+    need for such knowledge, then we\u2019re in a sour pickle indeed. Maybe it\u2019s
+    time for that paragraph on accountability after all. But that\u2019s not ChatGPT\u2019s
+    aim. It doesn\u2019t make accurate arguments or express creativity, but instead
+    produces textual material in a form corresponding with the requester\u2019s explicit
+    or implicit intent, which might also contain truth under certain circumstances.
+    That is, alas, an accurate account of textual matter of all kinds: online, in
+    books, on Wikipedia, and well beyond. Proponents of LLM generativity may brush
+    off this concern. Some will do so by glorifying GPT\u2019s obvious and fully realized
+    genius, in embarrassing ways that I can only bear\_to\_link\_to rather than repeat.
+    Others, more measured but no less bewitched, may claim that \u201Cit\u2019s still
+    early days\u201D for a technology a mere few years old but that can already generate
+    reasonably good 12th-century lyric poems about Whataburger. But these are the
+    sentiments of the IT-guy personalities who have most mucked up computational and
+    online life, which is just to say life itself. OpenAI\_assumes\_that its work
+    is fated to evolve into an artificial general intelligence\u2014a machine that
+    can do anything. Instead, we should adopt a less ambitious but more likely goal
+    for ChatGPT and its successors: They offer an interface into the textual infinity
+    of digitized life, an otherwise impenetrable space that few humans can use effectively
+    in the present. To explain what I mean by that, let me show you a quite different
+    exchange I had with ChatGPT, one in which I used it to help me find my way through
+    the textual murk rather than to fool me with its prowess as a wordsmith. \u201CI\u2019m
+    looking for a specific kind of window covering, but I don\u2019t know what it\u2019s
+    called.\u201D I told the bot. \u201CIt\u2019s a kind of blind, I think. What kinds
+    are there?\u201D ChatGPT responded with a litany of window dressings, which was
+    fine. I clarified that I had something in mind that was sort of like a roller
+    blind but made of fabric. \u201CBased on the description you have provided, it
+    sounds like you may be thinking of a roman shade,\u201D it replied, offering more
+    detail and a mini sales pitch for this fenestral technology. My dearest reader,
+    I do in fact know what a Roman shade is. But lacking that knowledge and nevertheless
+    needing to deploy it in order to make sense of the world\u2014this is exactly
+    the kind of act that is very hard to do with computers today. To accomplish something
+    in the world often boils down to mustering a set of stock materials into the expected
+    linguistic form. That\u2019s true for Google or Amazon, where searches for window
+    coverings or anything else\_now fail most of the time, requiring time-consuming,
+    tightrope-like finagling to get the machinery to point you in even the general
+    direction of an answer. But it\u2019s also true for student essays, thank-you
+    notes, cover letters, marketing reports, and perhaps even medieval lais (insofar
+    as anyone would aim to create one). We are all faking it with words already. We
+    are drowning in an ocean of content, desperate for form\u2019s life raft. ChatGPT
+    offers that shape, but\u2014and here\u2019s where the bot did get my position
+    accidentally correct, in part\u2014it doesn\u2019t do so by means of knowledge.
+    The AI doesn\u2019t understand or even compose text. It offers a way to probe
+    text, to play with text, to mold and shape an infinity of prose across a huge
+    variety of domains, including literature and science and shitposting, into structures
+    in which further questions can be asked and, on occasion, answered. GPT and other
+    large language models are aesthetic instruments rather than epistemological ones.
+    Imagine a weird, unholy synthesizer whose buttons sample textual information,
+    style, and semantics. Such a thing is compelling not because it offers\_answers\_in
+    the form of text, but because it makes it possible to play text\u2014all the text,
+    almost\u2014like an instrument. That outcome could be revelatory! But a huge obstacle
+    stands in the way of achieving it: people, who don\u2019t know what the hell to
+    make of LLMs, ChatGPT, and all the other generative AI systems that have appeared.
+    Their creators haven\u2019t helped, perhaps partly because they don\u2019t know
+    what these things are for either. OpenAI offers no framing for ChatGPT, presenting
+    it as an experiment to help \u201Cmake AI systems more natural to interact with,\u201D
+    a worthwhile but deeply unambitious goal. Absent further structure, it\u2019s
+    no surprise that ChatGPT\u2019s users frame their own creations as either existential
+    threats or perfected accomplishments. Neither outcome is true, but both are also
+    boring. Imagine worrying about the fate of\_take-home essay exams, a stupid format
+    that everyone hates but nobody has the courage to kill. But likewise, imagine
+    nitpicking with a computer that just composed something reminiscent of a medieval
+    poem about a burger joint because its lines don\u2019t all have the right meter!
+    Sure, you can take advantage of that opportunity to cheat on school exams or fake
+    your way through your job. That\u2019s what a boring person would do. That\u2019s
+    what a computer would expect. Computers have never been instruments of reason
+    that can solve matters of human concern; they\u2019re just apparatuses that structure
+    human experience through a very particular, extremely powerful method of symbol
+    manipulation. That makes them aesthetic objects as much as functional ones. GPT
+    and its cousins offer an opportunity to take them up on the offer\u2014to use
+    computers not to carry out tasks but to mess around with the world they have created.
+    Or better: to destroy it."
+  tags: []
+  title: ChatGPT Is Dumber Than You Think

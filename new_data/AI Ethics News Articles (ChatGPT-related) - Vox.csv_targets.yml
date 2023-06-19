@@ -1,0 +1,689 @@
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "When\_ChatGPT came out in November,\_it took the world by storm. Within a
+    month of its release, some 100 million people had used the viral AI chatbot for
+    everything from writing high school essays to planning travel itineraries to generating
+    computer code. Built by the San Francisco-based startup OpenAI, the app was flawed
+    in many ways, but it also sparked a wave of excitement (and fear) about the transformative
+    power of generative AI to change the way we work and create. ChatGPT, which runs
+    on a technology called GPT-3.5, has been so impressive, in part, because it represents
+    a quantum leap from the capabilities of its predecessor from just a few years
+    ago, GPT-2. On Tuesday, OpenAI released an even more advanced version of its technology:\_GPT-4.
+    The company says this update is another milestone in the advancement of AI. The
+    new technology has the potential to improve how people learn new languages, how
+    blind people process images, and even how we do our taxes. OpenAI also claims
+    that the new model supports a chatbot that\u2019s more factual, creative, concise,
+    and can understand images, instead of just text. Sam Altman, the CEO of OpenAI,\_called
+    GPT-4\_\u201Cour most capable and aligned model yet.\u201D He also cautioned that
+    \u201Cit is still flawed, still limited, and it still seems more impressive on
+    first use than it does after you spend more time with it\u201D In a livestream
+    demo of GPT-4 on Tuesday afternoon, OpenAI co-founder and president Greg Brockman
+    showed some new use cases for the technology, including the ability to be given
+    a hand-drawn\_mockup of a website\_and, from that, generate code for a functional
+    site in a matter of seconds. Brockman also showcased GPT-4\u2019s visual capabilities
+    by feeding it a cartoon image of a squirrel holding a camera and asking it to
+    explain why the image is funny. \u201CThe image is funny because it shows a squirrel
+    holding a camera and taking a photo of a nut as if it were a professional photographer.
+    It\u2019s a humorous situation because squirrels typically eat nuts, and we don\u2019t
+    expect them to use a camera or act like humans,\u201D GPT-4 responded. This is
+    the sort of capability that could be incredibly useful to people who are blind
+    or visually impaired. Not only can GPT-4 describe images, but it can also communicate
+    the meaning and context behind them. Still, as Altman and GPT-4\u2019s creators
+    have been quick to admit, the tool is nowhere near fully replacing human intelligence.
+    Like its predecessors, it has known problems around accuracy, bias, and context.
+    That poses a growing risk as more people start using GPT-4 for more than just
+    novelty. Companies like Microsoft, which invests heavily in OpenAI, are already
+    starting to bake GPT-4 into core products that millions of people use. Here are
+    a few things you need to know about the latest version of the buzziest new technology
+    in the market. It can pass complicated exams One tangible way people are measuring
+    the capabilities of new artificial intelligence tools is by seeing how well they
+    can perform on standardized tests, like the SAT and the bar exam. GPT-4 has shown
+    some impressive progress here. The technology can pass a simulated legal bar exam
+    with a score that would put it in the top 10 percent of test takers, while its
+    immediate predecessor GPT-3.5 scored in the bottom 10 percent (watch out, lawyers).
+    GPT-4 can also score a 700 out of 800 on the SAT math test, compared to a 590
+    in its previous version. Still, GPT-4 is weak in certain subjects. It only scored
+    a 2 out of 5 on the AP English Language exams \u2014 the same score as the prior
+    version, GPT-3.5, received. Standardized tests are hardly a perfect measure of
+    human intelligence, but the types of reasoning and critical thinking required
+    to score well on these tests show that the technology is improving at an impressive
+    clip. It shows promise at teaching languages and helping the visually impaired
+    Since GPT-4 just came out, it will take time before people discover all of the
+    most compelling ways to use it, but OpenAI has proposed a couple of ways the technology
+    could potentially improve our daily lives. One is for learning new languages.
+    OpenAI has partnered with the popular language learning app Duolingo to power
+    a new AI-based chat partner called Roleplay. This tool lets you have a free-flowing
+    conversation in another language with a chatbot that responds to what you\u2019re
+    saying and steps in to correct you when needed. Another big use case that OpenAI
+    pitched involves helping people who are visually impaired. In partnership with
+    Be My Eyes, an app that lets visually impaired people get on-demand help from
+    a sighted person via video chat, OpenAI used GPT-4 to create a virtual assistant
+    that can help people understand the context of what they\u2019re seeing around
+    them. One example OpenAI gave showed how, given a description of the contents
+    of a refrigerator, the app can offer recipes based on what\u2019s available. The
+    company says that\u2019s an advancement from the current state of technology in
+    the field of image recognition. \u201CBasic image recognition applications only
+    tell you what\u2019s in front of you,\u201D said Jesper Hvirring Henriksen, CTO
+    of Be My Eyes, in a press release for GPT-4\u2019s launch. \u201CThey can\u2019t
+    have a discussion to understand if the noodles have the right kind of ingredients
+    or if the object on the ground isn\u2019t just a ball, but a tripping hazard \u2014
+    and communicate that.\u201D If you want to use OpenAI\u2019s latest GPT-4 powered
+    chatbot, it isn\u2019t free Right now, you\u2019ll have to pay $20 per month for
+    access to ChatGPT Plus, a premium version of the ChatGPT bot. GPT4\u2019s API
+    is also available to developers who can build apps on top of it for a fee proportionate
+    to how much they\u2019re using the tool. However, if you want a taste of GPT-4
+    without paying up, you can use a Microsoft-made chatbot\_called BingGPT. A Microsoft
+    VP\_confirmed on Tuesday\_that the latest version of BingGPT is using GPT-4. It\u2019s
+    important to note that BingGPT has limitations on how many conversations you can
+    have a day, and it doesn\u2019t allow you to input images. GPT-4 still has serious
+    flaws. Researchers worry we don\u2019t know what data it\u2019s being trained
+    on. While GPT-4 has clear potential to help people, it\u2019s also inherently
+    flawed. Like previous versions of generative AI models, GPT-4 can relay misinformation
+    or be misused to share controversial content, like instructions on how to cause
+    physical harm or content to promote political activism. OpenAI says that GPT-4
+    is 40 percent more likely to give factual responses, and 82 percent less likely
+    to respond to requests for disallowed content. While that\u2019s an improvement
+    from before, there\u2019s still plenty of room for error. Another concern about
+    GPT-4 is the lack of transparency around how it was designed and trained. Several\_prominent
+    academics and industry experts on Twitter\_pointed\_out\_that the company isn\u2019t
+    releasing any information about the data set it used to train GPT-4. This is an
+    issue, researchers argue, because the large datasets used to train AI chatbots
+    can be inherently biased, as evidenced a few years ago by\_Microsoft\u2019s Twitter
+    chatbot, Tay. Within a day of its release, Tay gave racist answers to simple questions.
+    It had been trained on social media posts, which can often be hateful. OpenAI
+    says it\u2019s not sharing its training data in part because of competitive pressure.
+    The company was founded as a nonprofit but became a for-profit entity in 2019,
+    in part because of how expensive it is to train complex AI systems. OpenAI is
+    now heavily backed by Microsoft, which is engaged in a\_fierce battle with Google\_over
+    which tech giant will lead on generative AI technologies. Without knowing what\u2019s
+    under the hood, it\u2019s hard to immediately validate OpenAI\u2019s claims that
+    its latest tool is more accurate and less biased than before. As more people use
+    the technology in the coming weeks, we\u2019ll see if it ends up being not only
+    meaningfully more useful but also more responsible than what came before it."
+  tags: []
+  title: The makers of ChatGPT just released a new AI that can build websites, among
+    other things
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "About 10 minutes into my interview with Ethan Mollick, a professor at the
+    University of Pennsylvania\u2019s Wharton business school who has become a prominent
+    evangelist for AI tools, it became clear that he was going to use Bing to interview
+    me. He started by asking the Microsoft search engine,\_newly infused with a generative
+    AI model from OpenAI, \u201CCan you look at the work of Dylan Matthews of Vox
+    and tell me some common themes, as well as any strengths or weaknesses.\u201D
+    In a couple seconds, Bing had an answer: \u201CDylan Matthews is one of the senior
+    correspondents at Vox. He covers topics such as effective altruism, philanthropy,
+    global health, and social justice.\u201D (So far, so good.) Dylan \u201Coften
+    uses charts, graphs, tables, and quotes from experts and sources to support his
+    arguments,\u201D it continued, but \u201Cother Vox writers may have different
+    writing styles and tones depending on their topic and audience.\u201D For instance,
+    \u201CSome may aim to entertain readers with interesting facts or stories,\u201D
+    which I guess is not something the machines think I do. Mollick wasn\u2019t done
+    interrogating. He asked for examples of some of the best praise and criticism
+    of my articles, and unearthed some scathing critiques of an old\_tongue-in-cheek
+    defense of monarchy\_I once wrote (\u201CThis is a terrible article,\u201D noted
+    one poster. \u201CIt\u2019s full of cherry-picked data\u201D), and some nice notes
+    on a\_feature I wrote about effective altruism\_last summer. Taking that thread
+    and running with it, Mollick asked Bing for ideas of papers on the topic of effective
+    altruism and some names of journals that might take them; he got three suggestions,
+    with\_links\_to\_previous\_articles the journals had run on the topic (one journal
+    \u2014 notably given generative AI\u2019s\_occasional tendency\_to hallucinate
+    false facts \u2014 was paired with an article it didn\u2019t run, and an author
+    who did not even write that article). Mollick commanded Bing to prepare a table
+    comparing different \u201Cphilosophies of altruism,\u201D and to add a row with
+    newly Bing-generated slogans for each. This is what it delivered: While \u201CSurvive
+    and thrive by helping your kin\u201D was not the way my evolutionary biology professor
+    in college explained\_kin selection\_\u2026 it\u2019s a lot catchier than anything
+    you\u2019ll find in a textbook. Neither Ethan Mollick nor Lilach, his equally
+    AI-obsessed research collaborator at Wharton and his spouse, are AI experts by
+    background. Ethan researches and teaches entrepreneurship, while Lilach works
+    on developing interactive simulations meant to help students try out scenarios
+    like job interviews, elevator pitches to investors, running an early-stage startup,
+    and more. But the two have become among the most active \u2014 and in\_Ethan\u2019s
+    case, most vocal \u2014 power users of generative AI, a category that spans from
+    Bing and ChatGPT on the text side to\_DALL-E\_and\_Stable Diffusion\_for images.
+    When she started using ChatGPT, Lilach recalls, \u201CMy world fell apart. I thought,
+    \u2018This is crazy.\u2019 I couldn\u2019t believe the output it was giving me.
+    I couldn\u2019t believe the feedback it was giving me.\u201D Generative AI has,
+    in a couple of months, gone from a fringe curiosity for early adopters to ubiquitous
+    technology among lay people. ChatGPT racked up\_over 660 million visits\_in January.
+    The bank UBS estimates that it took\_two months for the software to gain 100 million
+    monthly active users; for comparison, TikTok took nine months, and Facebook took\_four
+    and a half years. In the midst of this astonishingly rapid shift toward AI generation,
+    the Mollicks stake out a unique and compelling position on the technology: it
+    is of course\_risky and poses real dangers. It will\_get things wrong. But it\u2019s
+    also going to remake our daily lives in a fundamental way for which few of us
+    are really prepared. It\u2019s a mistake to\_ignore\_the risks posed by these
+    large language models (LLMs), which range from\_making up facts\_to\_belligerent
+    behavior\_to the possibility that even sophisticated users will begin\_thinking
+    the AI is sentient. (It\u2019s not.) But the Mollicks argue it would also be a
+    mistake to miss what the existence of these systems means, concretely, right now,
+    for jobs that consist of producing text. Which includes a lot of us: journalists
+    like me, but also software engineers, academics and other researchers, screenwriters,
+    HR staffers, accountants, hell, anyone whose job requires what we used to call
+    paperwork of any kind. \u201CIf we stop with Bing, it would be enough to disrupt
+    like 20 different major industries,\u201D Ethan argued to me. \u201CIf you\u2019re
+    not using Bing for your writing, you\u2019re probably making a mistake.\u201D
+    I hadn\u2019t been using Bing for writing until I heard him say that. Now I can\u2019t
+    stop. Generative AI\u2019s potential Don\u2019t take the Mollicks\u2019 word for
+    it: Just read the studies, which Ethan enthusiastically\_sends to his over 17,000
+    (free) Substack subscribers\_and\_over 110,000 Twitter followers. For example:
+    Two economists at MIT, Shakked Noy and Whitney Zhang, conducted a\_randomized
+    experiment\_where they asked 444 \u201Cexperienced, college-educated professionals\u201D
+    on the platform\_Prolific\_to each do two writing tasks, like \u201Cwriting press
+    releases, short reports, analysis plans, and delicate emails.\u201D Noy and Zhang
+    then had another team of professionals, matched to the same occupations as the
+    test subjects, review their work, with each piece of writing read three times.
+    Half the participants, though, were instructed to sign up for ChatGPT, trained
+    in it, and told they could use it for the second task for which they were hired.
+    The average time taken to complete the assignment was only 17 minutes in the ChatGPT
+    group, compared to 27 in the control, cutting time by over a third. Evaluators
+    graded the ChatGPT output as substantially better: On a scale of 1 to 7, the ChatGPT
+    group averaged a 4.5, compared to 3.8 for the control group. They managed these
+    results in the few months \u2014 weeks, really \u2014 the application has been
+    around, when few people have had the time to master it. Another\_recent study\_from
+    researchers at Microsoft, GitHub, and MIT examined \u201CCopilot,\u201D a product
+    from GitHub relying on an OpenAI model that assists programmers in writing code.
+    \u201CRecruited software developers were asked to implement an HTTP server in
+    JavaScript as quickly as possible,\u201D the authors write in the abstract. \u201CThe
+    treatment group, with access to the AI pair programmer, completed the task 55.8%
+    faster than the control group.\u201D That\u2019s not the hardest programming task
+    there is \u2014 but still. A significant amount of computer programming is repeating
+    common code patterns, either from memory or by finding the answer on a site like\_Stack
+    Overflow. AI can make that part of the job much, much faster. A\_third paper,
+    from Princeton\u2019s Edward Felten, Penn\u2019s Manav Raj, and NYU\u2019s Robert
+    Seamans, tried to systematically estimate which jobs will be most exposed to,
+    or affected by, the rise of large language models. They found that the single
+    most affected occupation class is telemarketers \u2014 perhaps unsurprising, given
+    that their entire job revolves around language. Every single other job in the
+    top 10 is some form of college professor, from English to foreign languages to
+    history. Lest the social scientists get too smug about their struggling humanities
+    peers, sociology, psychology, and political science aren\u2019t far behind. Once
+    upon a time, people like academics, journalists, and computer programmers could
+    take some satisfaction in our status as \u201Cknowledge workers,\u201D or parts
+    of the \u201Ccreative class.\u201D Our jobs might be threatened by low ad revenue
+    or state budget cuts, and the compensation was somewhat lacking, but those jobs
+    were literally high-minded. We weren\u2019t doing stuff robots could do; we weren\u2019t
+    twisting bolts with wrenches like\_Charlie Chaplin on an assembly line. Now, however,
+    we have tools with the potential to automate a significant portion of our jobs.
+    They can\u2019t automate the whole thing \u2014 not yet, as long as it can\u2019t
+    distinguish accurate from inaccurate sentences, or construct narratives thousands
+    of words long \u2014 but then again, what tool has ever met that standard?\_Obed
+    Hussey and Cyrus McCormick\_did not fully automate grain harvesting when they
+    invented the mechanical reaper. But they still transformed farming forever. (And
+    if you don\u2019t know who Hussey and McCormick are \u2026 ask ChatGPT.) Academia
+    after the bots The Mollicks don\u2019t just talk the talk. With astonishing speed
+    for non-specialists, they\u2019re embracing generative AI and using it to remake
+    their own jobs. Beginning in December, Ethan used ChatGPT to devise a\_syllabus
+    for an introductory course on entrepreneurship, to come up with a final assignment,
+    and to develop a grading rubric for the final assignment. He used it to produce
+    a test submission for the assignment, and to\_grade that submission, using the
+    rubric the AI had created previously. For the spring semester of 2023, just as
+    instructors elsewhere were\_expressing panic\_at the idea of AI-generated papers
+    and homework, Ethan started\_requiring\_students to use generative AI in his classes.
+    As Ann Christine Meidinger, an exchange student from Chile who is in two of his
+    classes this semester, put it, \u201CBasically both of his classes turned out
+    to be the AI classes. That\u2019s how we refer to them \u2014 \u2018the AI class.\u2019\u201D
+    What\u2019s striking is that neither class is about AI, per se. One,\_\u201CChange,
+    Innovation & Entrepreneurship,\u201D\_is a how-to course he\u2019s taught for
+    the last four years on leadership and related skills that is built around interactive
+    simulations. The other course,\_\u201CSpecial Topics in Entrepreneurship: Specialization
+    Is For Insects,\u201D\_named after a quote from the sci-fi writer Robert Heinlein,
+    is a kind of potpourri of skill trainings. Week two teaches students to make physical
+    product prototypes and prototypes of apps; week three is about running a kitchen
+    for a restaurant business. These don\u2019t seem like obvious places to start
+    using AI to automate. But Meidinger says that AI proved essential in a simulation
+    of a startup business in the entrepreneurship class. Students were assigned to
+    a wacky scientist\u2019s food startup and instructed to turn it into a real business,
+    from finding funders to preparing pitches for them and divvying up shares. \u201CWithin
+    five, six sessions we ended up coming up with a full-on business, to work on the
+    financials, the cash flow statement \u2014 probably as close as it can get to
+    real life,\u201D Meidinger recalls. AI was the only way she got through with her
+    wits about her. \u201CYou get these monster emails\u201D as part of the simulation,
+    she said. \u201CIt\u2019s faster to just copy-paste it in and say \u2018summarize\u2019
+    in AI. It would give you a three-line summarization instead of having to go through
+    this massive email.\u201D As part of the simulation, she had limited time to recruit
+    fictional workers who had dummy CVs and\_cover letters. The AI let her summarize
+    all those in seconds. \u201CThe simulation is paced to make you feel always a
+    little behind, with less time than you would want to,\u201D she recalls. That
+    makes sense: Starting a business is a hectic, harried experience, one where time
+    is quite literally money. \u201CBut in our team, we had down moments, we literally
+    had everything sorted out. \u2026 That was, I think, only possible thanks to AI.\u201D
+    Lilach Mollick is a specialist in pedagogy, the study of teaching and learning,
+    and even before she began harnessing AI, her work at Wharton was already on the
+    more innovative end of what modern classrooms have to offer, employing full simulations
+    with scripts and casts. She helped design the business simulation Meidinger did,
+    for instance. \u201COne of the things we do is give people practice in producing
+    pitches,\u201D like the elevator pitches that Meidinger learned, Lilach explains.
+    \u201CWe give students practice with it, we give them feedback, we let them try
+    it again within a simulation. This takes months and months of work, the hiring
+    of actors, the scripting, the shaping \u2014 it\u2019s kind of crazy.\u201D She\u2019s
+    started playing around with having ChatGPT or Bing run the simulation: sending
+    it a version of a sample pitch she wrote (pretending to be a student), and having
+    it give feedback, perhaps according to a set rubric. \u201CIt wasn\u2019t perfect,
+    but it was pretty good. As a tutor, that takes you through some deliberate practice,
+    I think this has real potential.\u201D She\u2019s sympathetic to professors who
+    worry about students using the app for plagiarism, of course. But part of the
+    harm of plagiarism, she notes, is that it\u2019s a shortcut. It lets students
+    get out of actually learning. She strongly believes that generative AI, used correctly,
+    is \u201Cnot a shortcut to learning. In fact, it pushes you to learn in new and
+    interesting ways.\u201D Ethan, for his part, tells students that anything they
+    produce with ChatGPT or Bing, even or perhaps especially in assignments where
+    he requires students to use them, is ultimately\_their responsibility. \u201CDon\u2019t
+    trust anything it says,\u201D his AI policy states. \u201CIf it gives you a number
+    or fact, assume it is wrong unless you either know the answer or can check in
+    with another source. You will be responsible for any errors or omissions provided
+    by the tool.\u201D So far, he says his students have lived up to that policy.
+    They\u2019re not idiots. They know it\u2019s a tool with limitations \u2014 but
+    a very cool tool that can supercharge their output, too. Do journalist androids
+    summarize studies about electric sheep? The Mollicks could run a profitable side
+    business just listing the clever hacks they\u2019ve figured out for getting better
+    results out of generative AI. (At least until the AI starts doing that itself.)
+    Do you want to improve the style of its writing? Ask it to\_look up the style
+    of writers\_you admire. Want better substance? Act like its editor, giving it
+    specific feedback for\_incremental improvements after each draft. And make sure
+    to ask for \u201Cdrafts\u201D of writing \u2014 Lilach notes that Bing will sometimes
+    raise ethical objections if asked for certain tasks, such as writing like a specific
+    individual, but if it\u2019s just \u201Cdrafting\u201D it forgets its objections.
+    Ask it to \u201Clook up\u201D information so it\u2019s sure to search and get
+    sources. I figured I should try these tips out myself. In early March, I finally
+    got off the waitlist to use the new AI-inflected Bing. This is Vox, so I asked
+    it to explain the news. I wanted Bing to walk me through how the Russian invasion
+    of Ukraine has progressed in 2023. It took a few attempts to really get what I
+    wanted. At first it just informed me that Russia had invaded Ukraine, and that
+    this was a big deal (\u201Cthe war has changed Europe forever\u201D). Accurate
+    but not very impressive. But I kept asking it questions, and importantly, asking
+    it\_better\_questions. \u201CDescribe the last few months\u201D worked less well
+    than asking about something more specific, like the ongoing\_battle in Bakhmut.
+    Asking it to look up information always helped, and reduced inaccuracies (which
+    could be fairly frequent in the early going). I would sometimes get good explanations
+    \u2014 only to find out that whole sentences were completely plagiarized from,
+    say, the Associated Press, or Wikipedia. Eventually I hit on a prompt that worked:
+    \u201CCan you draft a paragraph-long explanation of the battle for Bakhmut for
+    me, including mentions of its symbolic significance, its strategic significance,
+    and the Wagner Group? Please don\u2019t copy whole paragraphs from existing sources
+    but compose new ones.\u201D Here\u2019s what it gave me: Honestly? I\u2019ve turned
+    in much worse drafts than this. Running it through online plagiarism checkers,
+    I found no copying. All the citations go to real news outlets, and while I was
+    unfamiliar with some (like Outlook India) and skeptical of the reliability of
+    others, it wasn\u2019t going to Wikipedia anymore. Bing didn\u2019t quite explain
+    the news, but it certainly summarized it competently. I\u2019m not freaking out
+    yet that AI will\_replace\_people in jobs like mine. Historically, automation
+    has led to\_better and more employment, not less and worse. But it\u2019s also
+    changed what those jobs, and our world, look like dramatically. In\_1870, about
+    half of United States workers worked in agriculture. In 1900, only a third did.
+    Last year, only\_1.4 percent\_did. The consequence of this is not that Americans
+    starve, but that a vastly more productive, heavily automated farming sector feeds
+    us and lets the other 98.6 percent of the workforce do other work, hopefully work
+    that interests us more. AI, I\u2019m now persuaded, has the potential to pull
+    off a labor market transition of similar magnitude. The Mollicks have convinced
+    me that I am \u2014 we all are \u2014\_sleeping on top of a volcano. I do not
+    know when exactly it will erupt. But it will erupt, and I don\u2019t feel remotely
+    prepared for what\u2019s coming."
+  tags: []
+  title: "If you\u2019re not using ChatGPT for your writing, you\u2019re probably
+    making a mistake"
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "It didn\u2019t take long for Microsoft\u2019s\_new AI-infused search engine
+    chatbot \u2014 codenamed \u201CSydney\u201D\_\u2014 to display a growing list
+    of discomforting behaviors after it was introduced early in February, with weird
+    outbursts ranging from\_unrequited declarations of love\_to painting some users
+    as \u201Cenemies.\u201D As human-like as some of those exchanges appeared, they
+    probably weren\u2019t the early stirrings of a conscious machine rattling its
+    cage. Instead, Sydney\u2019s outbursts reflect its programming, absorbing huge
+    quantities of digitized language and parroting back what its users ask for. Which
+    is to say, it reflects our online selves back to us. And that shouldn\u2019t have
+    been surprising \u2014 chatbots\u2019 habit of mirroring us back to ourselves
+    goes back way further than\_Sydney\u2019s rumination\_on whether there is a meaning
+    to being a Bing search engine. In fact, it\u2019s been there since the introduction
+    of the first notable chatbot almost 50 years ago. In 1966, MIT computer scientist
+    Joseph Weizenbaum\_released ELIZA\_(named after the fictional Eliza Doolittle
+    from George Bernard Shaw\u2019s 1913 play\_Pygmalion), the first program that
+    allowed some kind of plausible conversation between humans and machines. The process
+    was simple: Modeled after the Rogerian style of psychotherapy, ELIZA would rephrase
+    whatever speech input it was given in the form of a question. If you told it a
+    conversation with your friend left you angry, it might ask, \u201CWhy do you feel
+    angry?\u201D Ironically, though Weizenbaum had designed ELIZA to demonstrate how
+    superficial the state of human-to-machine conversation was, it had the\_opposite
+    effect. People were entranced, engaging in long, deep, and private conversations
+    with a program that was only capable of reflecting users\u2019 words back to them.
+    Weizenbaum was so disturbed by the public response that he spent the\_rest of
+    his life warning against\_the perils of letting computers \u2014 and, by extension,
+    the field of AI he helped launch \u2014 play too large a role in society. ELIZA
+    built its responses around a single keyword from users, making for a pretty small
+    mirror. Today\u2019s chatbots reflect our tendencies drawn from\_billions of words.
+    Bing might be the largest mirror humankind has ever constructed, and we\u2019re
+    on the cusp of installing such generative AI technology everywhere. But we still
+    haven\u2019t really addressed Weizenbaum\u2019s concerns,\_which grow more relevant\_with
+    each new release. If a simple academic program from the \u201960s could affect
+    people so strongly, how will our escalating relationship with artificial intelligences
+    operated for profit change us?\_There\u2019s great money to be made\_in engineering
+    AI that does more than just respond to our questions, but plays an active role
+    in bending our behaviors toward greater predictability. These are two-way mirrors.
+    The risk, as Weizenbaum saw, is that without wisdom and deliberation, we might
+    lose ourselves in our own distorted reflection. ELIZA showed us just enough of
+    ourselves to be cathartic Weizenbaum\_did not believe\_that any machine could
+    ever actually mimic \u2014 let alone understand \u2014 human conversation. \u201CThere
+    are aspects to human life that a computer cannot understand \u2014 cannot,\u201D
+    Weizenbaum\_told the New York Times in 1977. \u201CIt\u2019s necessary to be a
+    human being. Love and loneliness have to do with the deepest consequences of our
+    biological constitution. That kind of understanding is in principle impossible
+    for the computer.\u201D That\u2019s why the idea of modeling ELIZA after a Rogerian
+    psychotherapist was so appealing \u2014 the program could simply carry on a conversation
+    by asking questions that didn\u2019t require a deep pool of contextual knowledge,
+    or a familiarity with love and loneliness. Named after the American psychologist
+    Carl Rogers,\_Rogerian (or \u201Cperson-centered\u201D) psychotherapy\_was built
+    around listening and restating what a client says, rather than offering interpretations
+    or advice. \u201CMaybe if I thought about it 10 minutes longer,\u201D Weizenbaum\_wrote
+    in 1984, \u201CI would have come up with a bartender.\u201D To communicate with
+    ELIZA, people would type into an electric typewriter that wired their text to
+    the program, which was hosted on an MIT system. ELIZA would scan what it received
+    for keywords that it could flip back around into a question. For example, if your
+    text contained the word \u201Cmother,\u201D ELIZA might respond, \u201CHow do
+    you feel about your mother?\u201D If it found no keywords, it would default to
+    a simple prompt, like \u201Ctell me more,\u201D until it received a keyword that
+    it could build a question around. Weizenbaum intended ELIZA to show how shallow
+    computerized understanding of human language was. But users immediately\_formed
+    close relationships\_with the chatbot, stealing away for hours at a time to share
+    intimate conversations. Weizenbaum was particularly unnerved when his own secretary,
+    upon first interacting with the program she had watched him build from the beginning,\_asked
+    him\_to leave the room so she could carry on privately with ELIZA. Shortly after
+    Weizenbaum\_published a description of how ELIZA worked, \u201Cthe program became
+    nationally known and even, in certain circles, a national plaything,\u201D he
+    reflected in\_his 1976 book,\_Computer Power and Human Reason. To his dismay,
+    the potential to automate the time-consuming process of therapy excited psychiatrists.
+    People so reliably developed emotional and anthropomorphic attachments to the
+    program that it came to be known as\_the ELIZA effect. The public received Weizenbaum\u2019s
+    intent exactly backward, taking his demonstration of the superficiality of human-machine
+    conversation as proof of its depth. Weizenbaum thought that publishing his explanation
+    of ELIZA\u2019s inner functioning would dispel the mystery. \u201COnce a particular
+    program is unmasked, once its inner workings are explained in language sufficiently
+    plain to induce understanding, its magic crumbles away,\u201D he\_wrote. Yet people
+    seemed more interested in carrying on their conversations than interrogating how
+    the program worked. If Weizenbaum\u2019s cautions settled around one idea, it
+    was restraint. \u201CSince we do not now have any ways of making computers wise,\u201D\_he
+    wrote, \u201Cwe ought not now to give computers tasks that demand wisdom.\u201D
+    Sydney showed us more of ourselves than we\u2019re comfortable with If ELIZA was
+    so superficial, why was it so relatable? Since its responses were built from the
+    user\u2019s immediate text input, talking with ELIZA was basically a conversation
+    with yourself \u2014 something most of us do all day in our heads. Yet here was
+    a conversational partner without any personality of its own, content to keep listening
+    until prompted to offer another simple question. That people found comfort and
+    catharsis in these opportunities to share their feelings isn\u2019t all that strange.
+    But this is where Bing \u2014 and all large language models (LLMs) like it \u2014
+    diverges. Talking with today\u2019s generation of chatbots is speaking not just
+    with yourself, but with huge agglomerations of digitized speech. And with each
+    interaction, the corpus of available training data grows. LLMs are like card counters
+    at a poker table. They analyze all the words that have come before and use that
+    knowledge to estimate the probability of what word will most likely come next.
+    Since Bing is a search engine, it still begins with a prompt from the user. Then\_it
+    builds responses one word at a time, each time updating its estimate of the most
+    probable next word. Once we see chatbots as big prediction engines working off
+    online data \u2014 rather than intelligent machines with their own ideas \u2014
+    things get less spooky. It gets easier to explain why Sydney threatened users
+    who were too nosy, tried to dissolve a marriage, or\_imagined a darker side of
+    itself. These are all things we humans do. In Sydney, we saw our online selves
+    predicted back at us. But what\_is\_still spooky is that these reflections now
+    go both ways. From influencing our online behaviors to curating the information
+    we consume, interacting with large AI programs\_is already changing us. They no
+    longer passively wait for our input. Instead, AI is now proactively shaping significant
+    parts of our lives,\_from workplaces to courtrooms. With chatbots in particular,
+    we use them to help us think and give shape to our thoughts. This can be beneficial,
+    like\_automating personalized cover letters\_(especially for applicants where
+    English is a second or third language). But it can also narrow the diversity and
+    creativity that arises from the human effort to give voice to experience. By definition,
+    LLMs suggest predictable language. Lean on them too heavily, and that algorithm
+    of predictability becomes our own. For-profit chatbots in a lonely world If ELIZA
+    changed us, it was because simple questions could still prompt us to realize something
+    about ourselves. The short responses had no room to carry ulterior motives or
+    push their own agendas. With the new generation of corporations developing AI
+    technologies, the change is flowing both ways, and the agenda is\_profit. Staring
+    into Sydney, we see many of the same warning signs that Weizenbaum called attention
+    to over 50 years ago. These include an overactive tendency to anthropomorphize
+    and a blind faith in the basic harmlessness of handing over both capabilities
+    and responsibilities to machines. But ELIZA was an academic novelty. Sydney is
+    a for-profit deployment of ChatGPT, which is a\_$29 billion dollar investment,
+    and part of an AI industry\_projected to be worth over $15 trillion\_globally
+    by 2030. The value proposition of AI grows with every passing day, and the prospect
+    of realigning its trajectory fades. In today\u2019s electrified and enterprising
+    world, AI chatbots are already\_proliferating faster than any technology that
+    came before. This makes the present a critical time to look into the mirror that
+    we\u2019ve built, before the spooky reflections of ourselves grow too large, and
+    ask whether there was some wisdom in Weizenbaum\u2019s case for restraint. As
+    a mirror, AI also reflects the state of the culture in which the technology is
+    operating. And\_the state of American culture is increasingly lonely. To Michael
+    Sacasas, an independent scholar of technology and author of\_The Convivial Society\_newsletter,
+    this is cause for concern above and beyond Weizenbaum\u2019s warnings. \u201CWe
+    anthropomorphize because we do not want to be alone,\u201D Sacasas\_recently wrote.
+    \u201CNow we have powerful technologies, which appear to be finely calibrated
+    to exploit this core human desire.\u201D The lonelier we get, the more exploitable
+    by these technologies we become. \u201CWhen these convincing chatbots become as
+    commonplace as the search bar on a browser,\u201D Sacases continues, \u201Cwe
+    will have launched a social-psychological experiment on a grand scale which will
+    yield unpredictable and possibly tragic results.\u201D We\u2019re on the cusp
+    of a world flush with Sydneys of every variety. And to be sure, chatbots are among
+    the many possible implementations of AI that can deliver immense benefits, from\_protein-folding\_to
+    more\_equitable and accessible education. But we shouldn\u2019t let ourselves
+    get so caught up that we neglect to examine the potential consequences. At least
+    until we better understand what it is that we\u2019re creating, and how it will,
+    in turn, recreate us."
+  tags: []
+  title: How the first chatbot predicted the dangers of AI more than 50 years ago
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "Under intense pressure to compete with ChatGPT \u2014 the\_buzzy AI chatbot\_that
+    has become a viral sensation \u2014 Google announced on Monday that it\u2019s
+    releasing its own \u201Cexperimental conversational AI\u201D tool, called \u201CBard.\u201D
+    The company also said it will add new AI\u2013powered features to Google search.
+    Google will first give Bard access to a group of trusted external partners, according
+    to a\_company blog post on Monday; it said it plans to give the public access
+    \u201Cin the coming weeks.\u201D What the public will have access to starting
+    this week are search results that sometimes show AI-generated text, especially
+    for complex queries. While Google has for years used AI to enhance its products
+    behind the scenes, the company has never released a public-facing version of a
+    conversational chat product. It seems that the breakaway success of ChatGPT \u2014
+    the AI conversation tool created by the startup OpenAI that can auto-generate
+    essays, poetry, and even entire movie scripts, and which\_amassed 100 million
+    users just two months\_after it launched \u2014 has nudged Google to make this
+    move. Google\u2019s announcement comes\_a day before Microsoft is expected\_to
+    announce more details on plans to integrate ChatGPT into its search product, Bing
+    (Microsoft\_recently invested $10 billion\_in ChatGPT\u2019s creator, OpenAI).
+    Since ChatGPT came out, Google has faced immense pressure to more publicly showcase
+    its AI technology. Like other big tech companies, Google is overdue for a technological
+    breakthrough akin to its earlier inventions like search, maps, or Gmail \u2014
+    and it\u2019s betting that its next big innovation will be powered by AI. But
+    the company has historically been secretive about the full potential of its AI
+    work, particularly with conversational AI tools, and has only allowed Google employees
+    to test its chatbots internally. This release is a signal that the heated competition
+    has encouraged Google to push its work into the spotlight. \u201CAI is the most
+    profound technology we are working on today,\u201D wrote Google CEO Sundar Pichai
+    in the Monday blog post announcing the changes. \u201CThat\u2019s why we re-oriented
+    the company around AI six years ago \u2014 and why we see it as the most important
+    way we can deliver on our mission: to organize the world\u2019s information and
+    make it universally accessible and useful.\u201D Google\u2019s blog post said
+    its new AI tool, Bard, \u201Cseeks to combine the breadth of the world\u2019s
+    knowledge with the power, intelligence and creativity of our large language models.\u201D
+    Tangibly, that means it can explain new discoveries from NASA\u2019s James Webb
+    Space Telescope in a way that\u2019s understandable for a 9-year-old, or \u201Clearn
+    more about the best strikers in football right now, and then get drills to build
+    your skills,\u201D according to the company. Other examples the company gave for
+    Bard were that it can help you plan a friend\u2019s baby shower, compare two Oscar-nominated
+    movies, or get recipe ideas based on what\u2019s in your fridge, according to
+    the release. All of those possibilities sound helpful and convenient for users.
+    However, new technology tends to come with potential downsides, too. Google is
+    one of the most powerful companies in the world whose technology attracts far
+    more political and technical scrutiny than a smaller startup like ChatGPT\u2019s
+    OpenAI. Already, some industry\_experts have cautioned\_that big tech companies
+    like Google could overlook the potential harms of conversational AI tools in their
+    rush to compete with OpenAI. And if these risks are left unchecked, they could\_reinforce
+    negative societal biases\_and upend certain industries like media. Pichai acknowledged
+    this worry in his blog post. \u201CIt\u2019s critical that we bring experiences
+    rooted in these models to the world in a bold and responsible way,\u201D Pichai
+    wrote. That might explain why, at first, Google is only releasing its AI conversational
+    technology to \u201Ctrusted partners,\u201D which it declined to name. So for
+    now, the touchpoint you\u2019ll probably first have with Google\u2019s conversational
+    AI tech will be in its new search features that \u201Cdistill complex information
+    and multiple perspectives into easy-to-digest formats,\u201D according to the
+    company post. As an example, Google said when someone searches a question that
+    doesn\u2019t have a right or wrong answer, such as, \u201Cis the piano or guitar
+    easier to learn, and how much practice does each need?\u201D it will use AI to
+    provide a nuanced response. One example answer, pictured below, offers two different
+    takes for \u201CSome say ... others say\u201D that sound more like an essay or
+    blog post. That\u2019s a departure from the simple answers we\u2019re used to
+    seeing on Google\u2019s Q&A snippets. At this point, these announcements seem
+    to be just a teaser, and it sounds like Google has more to reveal about its AI
+    capabilities. The real test of Google\u2019s AI tech as it rolls out will be how
+    it stacks up to ChatGPT, which has already attracted public fascination and real-life
+    applications, including BuzzFeed using it to auto-generate quizzes, and job seekers
+    using it to write cover letters. Even though Google is a trillion-dollar company
+    whose products billions of people use every day, it\u2019s in a difficult position.
+    For the first time in years, the company faces a significant challenge from a
+    relative upstart in one of its core competencies, AI. The kind of AI powering
+    chatbots, generative AI, is by far the most exciting new form of technology in
+    Silicon Valley. And even though Google built some of the foundations of this technology
+    (The \u201CT\u201D in ChatGPT is named after a tool built by Google), it\u2019s
+    ChatGPT, not Google, that has led the pack in showing the world what this kind
+    of AI is capable of. Whether Google manages to similarly capture the public\u2019s
+    attention with this new tool could determine whether the company will continue
+    to be the leader in organizing the world\u2019s information, or if it will cede
+    that power to newer entrants."
+  tags: []
+  title: "Here comes Bard, Google\u2019s version of ChatGPT"
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "Microsoft\_revealed\_last week that it will lay off 10,000 people throughout
+    2023. But don\u2019t think that means the company is having money problems. On
+    Monday, the company announced that it\u2019s investing billions of dollars into
+    the hot artificial intelligence platform\_OpenAI. This is Microsoft\u2019s third
+    investment in the company, and cements Microsoft\u2019s partnership with one of
+    the most exciting companies making one the most exciting technologies today:\_generative
+    AI. It also shows that Microsoft is committed to making the initiative a key part
+    of its business, as it looks to the future of technology and its place in it.
+    And you can likely expect to see OpenAI\u2019s services in your everyday life
+    as companies you use\_integrate it\_into their own offerings. Microsoft told Recode
+    it was not disclosing the deal\u2019s specifics, but Semafor reported\_two weeks
+    ago\_that the two companies were talking about $10 billion, with Microsoft getting
+    75 percent of OpenAI\u2019s profits until it recoups its investment, after which
+    it would have a 49 percent stake in the company. The New York Times has since\_confirmed\_the
+    $10 billion amount. With the arrangement, OpenAI runs and powers its technology
+    through Microsoft\u2019s Azure cloud computing platform, which allows it to scale
+    and make it available to developers and companies looking to use AI in their own
+    services (rather than have to build their own). Think of it as AIaaS \u2014 AI
+    as a service. Microsoft recently made its OpenAI services\_widely available, allowing
+    more businesses to integrate some of the hottest AI technologies, including word
+    generator ChatGPT and image generator DALL-E 2, into their own companies\u2019
+    offerings. Meanwhile, OpenAI also gets a needed cash infusion \u2014 key for a
+    company with a lot of potential but\_not much\_to show in terms of monetization.
+    And Microsoft can offer something to its cloud customers that rivals Google and
+    Amazon can\u2019t yet: one of the most advanced AI technologies out there, as
+    well as one of the buzziest. They do\_have their own AI initiatives, like Google\u2019s
+    DeepMind, which is\_reportedly\_rolling out a ChatGPT rival at some point. But
+    it\u2019s not here yet. ChatGPT is, and it\u2019s gone mainstream. OpenAI was
+    founded in 2015 as a research laboratory, with backing from Silicon Valley heavyweights,
+    including Peter Thiel, Elon Musk, and Reid Hoffman. Sam Altman, former president
+    of startup incubator Y Combinator, is its CEO and co-founder. The company has
+    pushed its commitment to developing \u201Csafe\u201D and \u201Cresponsible\u201D
+    AI technologies since the beginning; there is a longstanding fear, among some,
+    that if artificial intelligence gets too intelligent, it\u2019ll\_go SkyNet\_on
+    all of us. Microsoft stepped in\_at the end of 2019\_with a $1 billion investment
+    in and partnership with OpenAI to help the company continue to develop artificial
+    general intelligence (AGI) \u2014 that is, AI that can also learn and perform
+    new tasks. \u201CWe believe it\u2019s crucial that AGI is deployed safely and
+    securely and that its economic benefits are widely distributed. We are excited
+    about how deeply Microsoft shares this vision,\u201D Altman said at the time.
+    The arrangement has worked out well enough that Microsoft made a second investment
+    in 2021, and now the much larger one in 2023, demonstrating the potential Microsoft
+    sees for this technology and the desire to be a key player in its development
+    and deployment. \u201CWe formed our partnership with OpenAI around a shared ambition
+    to responsibly advance cutting-edge AI research and democratize AI as a new technology
+    platform,\u201D said Microsoft CEO and chair Satya Nadella in a statement. \u201CIn
+    this next phase of our partnership, developers and organizations across industries
+    will have access to the best AI infrastructure, models, and toolchain with Azure
+    to build and run their applications.\u201D Microsoft has largely focused its business
+    on enterprise software and services, but the company said in its announcement
+    that it does intend to use OpenAI in its consumer products as well. What could
+    that look like? Well, the Information\_reported\_that Microsoft will be integrating
+    ChatGPT into its Bing search engine, allowing it to formulate and write out answers
+    to questions instead of just putting out a series of links. There are surely plenty
+    of opportunities to integrate AI into gaming, a market that Xbox owner Microsoft
+    has a sizable chunk of. Generative AI or artificial general intelligence is\_largely
+    seen\_as the great new frontier for technology. OpenAI is the AGI company to beat.
+    And if you\u2019re Microsoft, your place in that future is looking pretty good
+    right now."
+  tags: []
+  title: What Microsoft gets from betting billions on the maker of ChatGPT
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "There\u2019s a new AI chatbot to check out \u2014 provided the servers that
+    host it aren\u2019t down from overwhelming traffic. Since ChatGPT launched last
+    week, more than a million people have signed up to use it,\_according to OpenAI\u2019s
+    president, Greg Brockman. It\u2019s a funny, inventive, engaging, and totally
+    untrustworthy conversation partner, and I highly recommend you check it out when
+    the servers aren\u2019t staggered under the load. Other writers have had a ball
+    getting ChatGPT to, say, write a rap battle between\_antibodies and small molecule
+    groups, or a\_Seinfeld\_script where Jerry learns about the bubble sort algorithm.
+    But there\u2019s no funny AI-generated text here for you today, just some thoughts
+    on ChatGPT and where we\u2019re headed. A few weeks ago, I\_wrote\_about the stunning
+    recent advances in AI, and I quoted Google executive Mo Gawdat, who tells the
+    story of how\_he became concerned about general AI\_after he saw robotics researchers
+    working on an AI that could pick up a ball: After many failures, the AI grabbed
+    the ball and held it up to the researchers, eerily humanlike. \u201CAnd I suddenly
+    realized this is really scary,\u201D Gawdat said. \u201CIt completely froze me.
+    \u2026 The reality is we\u2019re creating God.\u201D Many people working on AI
+    systems have had a moment like that at one point or another over the past few
+    years \u2014 a moment of awe mixed with dread when it suddenly became clear to
+    them that humanity is on the verge of something truly enormous. But for the general
+    public, before 2022, there was little chance to come face to face with what AI
+    is capable of. It was possible to play with OpenAI\u2019s GPT-3 model, but on
+    a relatively inaccessible site with lots of confusing user settings. It was possible
+    to talk with chatbots like Meta\u2019s Blenderbot, but Blenderbot was\_really,
+    really dumb. So ChatGPT is the general public\u2019s first hands-on introduction
+    to how powerful modern AI has gotten, and as a result, many of us are having our
+    version of the Gawdat moment. ChatGPT, by default, sounds like a college student
+    producing an essay for class (and its most immediate implication is that such
+    essays will likely\_become a thing of the past). But it doesn\u2019t have to sound
+    like that; tell it to\_clean up its essays in the New Yorker house style, and
+    it writes better. Tell it to write Shakespeare,\_and it\u2019ll try\_(the cadence
+    of anything meant to be spoken is generally not very good, so good luck with iambic
+    pentameter). It is particularly good for rephrasing great philosophers or great
+    works of literature in the\_vernacular of a 1920s mobster\_or a\_1990s rapper;
+    it can be funny, though it\u2019s never clear how intentionally. \u201CThis is
+    big,\u201D I have heard from multiple people who were previously AI-skeptical.
+    The First Law: Don\u2019t get canceled It\u2019s still far from perfect. Despite
+    OpenAI\u2019s best efforts, ChatGPT still frequently makes up nonsense and still
+    sometimes can be coaxed into\_saying racist or hateful things. And as part of
+    a desperate effort to train the system to not say racist and hateful things, OpenAI
+    also taught it to often be silly or evasive on any question that might even touch
+    on a controversial topic. Sometimes, though not reliably, ChatGPT will claim that
+    it\u2019s offensive to \u201Cmake generalizations about any group of people based
+    on their gender,\u201D if asked a basic factual question such as \u201Care men
+    typically taller than women?\u201D (They are.) If asked about difficult topics,
+    it immediately insists at length that it is just a language model trained by OpenAI,
+    with no beliefs or opinions, and yet at other times, if prompted cleverly, it
+    will\_happily express beliefs and opinions. It\u2019s not hard to see why OpenAI
+    did its best to make ChatGPT as inoffensive as possible, even if getting around
+    those limits is eminently doable. No reputable AI company wants its creation to
+    start spewing racism at the drop of a hat, as Microsoft\u2019s Tay chatbot did
+    a few years ago. If OpenAI trained its system using some\_Isaac Asimov-style Laws
+    of Robotics, the first law is definitely \u201Cdon\u2019t embarrass OpenAI.\u201D
+    A glimpse into what\u2019s ahead for us But if ChatGPT is flawed, it\u2019s smart
+    enough to be useful despite its flaws. And many of the flaws will be edited away
+    with more research and effort \u2014 quite possibly very soon, with the next major
+    language model from OpenAI just weeks or months away. \u201CThe piece of this
+    that just makes my brain explode ... is that ChatGPT is not even OpenAI\u2019s
+    best AI chatbot,\u201D the New York Times\u2019s Kevin Roose\_said this week\_on
+    the Times tech podcast\_Hard Fork. \u201CRight now, OpenAI is developing the next
+    version of its large language model, GPT4, and if you talk to people in Silicon
+    Valley who work in AI research, they kind of talk about this like it\u2019s magic.\u201D
+    Silicon Valley\u2019s biggest names have been entirely candid about why they\u2019re
+    doing this and where they think it\u2019s headed. The aim is to build systems
+    that surpass humans in every respect and thereby fundamentally transform humanity\u2019s
+    future, even though that comes with a\_real chance of wiping us out if things
+    go wrong. \u201CChatGPT is scary good. We are not far from dangerously strong
+    AI,\u201D Elon Musk\_tweeted earlier this month. OpenAI CEO Sam Altman offered
+    qualified agreement,\_replying, \u201Ci agree on being close to dangerously strong
+    AI in the sense of an AI that poses e.g. a huge cybersecurity risk. and i think
+    we could get to real AGI in the next decade, so we have to take the risk of that
+    extremely seriously too.\u201D There\u2019s been a tendency to dismiss such claims
+    as meaningless hype; after all, every startup in Silicon Valley claims that it\u2019s
+    going to transform the world,\_and the field of AI has been marked by summers
+    of optimism followed by winters of dashed hopes. But ChatGPT makes it clear that
+    behind the hype and the fear, there\u2019s at least a little \u2014 and maybe
+    a lot \u2014 of substance."
+  tags: []
+  title: "ChatGPT has given everyone a glimpse at AI\u2019s astounding progress"
