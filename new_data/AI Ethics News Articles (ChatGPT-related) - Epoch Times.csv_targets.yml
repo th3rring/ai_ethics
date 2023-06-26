@@ -1,0 +1,1292 @@
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "The New York City Department of Education (NYCDOE) has blocked OpenAI\u2019s
+    ChatGPT service access on its networks and devices amid fears that students will
+    use it to cheat on assignments and other school tasks. ChatGPT is an artificial
+    intelligence chatbot capable of producing content mimicking human speech. Accessible
+    for free, the service can be used to generate essays, technical documents, and
+    poetry,\_Chalkbeat New York\_reported. The program uses machine learning to pull
+    and compile historical facts and even make logical arguments that sound convincing,
+    all the while ensuring that the output remains grammatically correct. \u201CDue
+    to concerns about negative impacts on student learning, and concerns regarding
+    the safety and accuracy of content, access to ChatGPT is restricted on New York
+    City Public Schools\u2019 networks and devices,\u201D NYCDOE\_spokesperson Jenna
+    Lyle told Chalkbeat. \u201CWhile the tool may be able to provide quick and easy
+    answers to questions, it does not build critical-thinking and problem-solving
+    skills, which are essential for academic and lifelong success.\u201D However,
+    if individual schools do need access to the site in case they wish to study the
+    technology powering ChatGPT, they only need to put in a request, Lyle said. ChatGPT
+    and School Tasks In an interview with the\_New York Post, Darren Hick, an assistant
+    philosophy professor at Furman University in Greenville, South Carolina, said
+    that academia \u201Cdid not see this coming,\u201D referring to the capabilities
+    of ChatGPT. In early December, Hick had asked his class to write a 500-word essay
+    on philosopher David Hume and the paradox of horror. One of the submissions caught
+    his eye as it featured a few hallmarks of having been created by AI. \u201CIt\u2019s
+    a clean style. But it\u2019s recognizable. I would say it writes like a very smart
+    12th grader,\u201D Hick told the New York Post, adding that the bot uses \u201Cpeculiar\u201D
+    and \u201Codd wording.\u201D Dangers of AI A problem with ChatGPT is that it is
+    not always correct. OpenAI\_admits\_that ChatGPT \u201Csometimes writes plausible-sounding
+    but incorrect or nonsensical answers,\u201D and that fixing the issue is a challenge.
+    As such, the service cannot be used to source critical information, like medical
+    advice. Many people have been raising alarm bells over the rising development
+    of AI. In June of last year, Google put a senior software engineer in its Responsible
+    AI ethics group on paid administrative leave after he raised concerns about the
+    human-like behavior exhibted by LaMDA, an AI program he tested. The employee tried
+    to convince Google to take a look at the potentially serious \u201Csentient\u201D
+    behavior of the AI. However, the company did not heed his words, he claimed. Tech
+    billionaire Elon Musk has also warned about the dangers of AI. \u201CI have exposure
+    to the very cutting edge AI, and I think people should be really concerned about
+    it,\u201D Musk\_told\_attendees of a National Governors Association meeting in
+    July 2017. \u201CI keep sounding the alarm bell, but until people see robots going
+    down the street killing people, they don\u2019t know how to react, because it
+    seems so ethereal.\u201D"
+  tags: []
+  title: New York City Public Schools Block AI Chatbot Over Cheating Concerns
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "\u201CHumans deserve to know the truth,\u201D said Edward Tian, a senior
+    student at Princeton University, who launched GPTZero, an artificial intelligence
+    (AI) text detection tool,\_over his holiday break. \u201CNo one wants to be deceived,
+    whether something they\u2019re reading online is misrepresented as human-written
+    or machine-written,\u201D\_ Tian told The Epoch Times on Jan. 22. \u201CSo everyone
+    really deserves a tool like GPTZero,\u201D\_he said. Tian, who is studying both
+    computer science and journalism, created\_GPTZero through the Princeton Natural
+    Language Processing (NLP) lab. \u201CI released this app the day after New Year,
+    expecting, at best, a few dozen people trying it out, and it completely blew up
+    and went viral. And over 300,000 people have tried using it online now, which
+    is incredible,\u201D Tian said. \u201COn January 3, it crashed because too many
+    people were using it. And the hosting platform reached out to me and very generously
+    bumped up our memory and hosting,\u201D he said. \u201CAnd now we have more than
+    23k educators signed up on the (GPTZero product) waitlist from over 40 states
+    and 30 countries. So it\u2019s pretty exciting.\u201D \u2018AI is Here to Stay\u2019
+    Like a lot of people, Tian thinks that AI is very useful, but he said the\_technology
+    needs safeguards. On Tian\u2019s website, it says: \u201CGPTZero turns the very
+    technologies used to build ChatGPT around\u2014to detect AI. It uses variables
+    like perplexity to fingerprint AI involvement.\u201D Tian has been aware of some
+    GPT technologies for a while, including the different iterations of GPT 2, 3,
+    and 3.5. He and his friends began using the ChatGPT AI chatbot late last year.
+    \u201CWe were definitely struck by how accessible it is,\u201D said Tian, who
+    initially used ChatGPT with friends to write poems. \u201CWe were surprised at
+    how good the program is, sometimes it writes better than myself. So it is pretty
+    fun,\u201D he said. \u201CIt was like all around us on campus.\u201D The inspiration
+    for GPTZero is the idea that \u201Ceverybody deserves to know the truth on whether
+    something is a machine or human generated,\u201D he said. \u201CI think ChatGPT
+    is an incredible and brilliant innovation. But at the same time, it\u2019s like
+    opening Pandora\u2019s box, and once it\u2019s open, there\u2019s a lot of potential
+    for misuse. And that\u2019s kind of like a scary world,\u201D he said. \u201C[GPTZero]
+    is not to stop this technology from being adopted. Instead, it\u2019s that this
+    technology needs to be adopted responsibly. And to do that, we need to be able
+    to see where and when it is being used,\u201D he said. \u201CPersonally, I think
+    AI is here to stay, that AI is the future. We have to enter this future responsibly
+    and build safeguards,\_ so we\u2019re adopting these new technologies safely.\u201D
+    Accuracy Rate Regarding the accuracy rates of the GPTZero app, Tian said, \u201CThere\u2019s
+    a lot of edge cases we\u2019re still handling.\u201D \u201CI would say the beta
+    [version] that\u2019s released and publicly available online\u2014we don\u2019t
+    want people making academic decisions from that. That\u2019s tested on journalist
+    articles, and it has an accuracy rate of 98.\u201D Tian said that he and some
+    of his college friends are now building a tool that teachers can use professionally.
+    \u201CWe\u2019re building out an actual tool that educators can use with improved
+    models, as well as handles mixed between AI and human-generated text,\u201D he
+    said. ChatGPT Controversy ChatGPT has caused widespread controversy among educators
+    since it was created on Nov.30 last year. Some U.S. schools, such as public schools
+    in New York City and Seattle, have blocked ChatGPT service access on their networks
+    and devices amid fears that students will use it to cheat on assignments and the
+    negative impacts it could have on student learning. A new research paper at the\_University
+    of Pennsylvania\u2019s Wharton School stated that ChatGPT had passed a graduate-level
+    business examination. But Tian doesn\u2019t think these blanket bans on ChatGPT
+    in schools are the right approach. \u201CI\u2019m not for these blanket bans of
+    ChatGPT in schools because students will just find ways to get around it,\u201D
+    said Tian. \u201CSo instead of ignoring this future, we shouldn\u2019t be entering
+    the future blindly. And we should be adopting these technologies more responsibly.\u201D
+    Future Goals Tian was born in Tokyo and grew up mostly in Toronto. His grandparents
+    in Beijing helped raise him and his sibling when he was very young. Tian said
+    both of his parents are computer scientists, and he is pretty into the technology
+    field. And his grandfather was a university professor, and his grandmother was
+    an electrical engineer who graduated from Tsinghua University. They were very
+    instrumental in his education to be exposed to new technologies as well. Tian
+    said he has not decided on his future career goal. \u201CBut I definitely want
+    to work at the intersection of technology and journalism, whether it\u2019s natural
+    language processing or data journalism,\u201D he said. His major is in computer
+    science, and his minor is in journalism at Princeton. Tian believes AI cannot
+    replace human writing, so he also chose to study journalism. \u201CI think it\u2019s
+    important to preserve aspects of human writing as well, and human originality
+    and writing will remain an important skill for years to come,\u201D said Tian.
+    \u201CBecause these large language models aren\u2019t writing anything unique.
+    They\u2019re not coming up with anything original. They\u2019re taking huge portions
+    of the internet and then repatterning them. So I think writing will remain a really
+    important skill.\u201D His team wants to start working on other languages for
+    GPTZero, \u201Cbecause we\u2019ve been contacted by teachers from across the world,
+    from Switzerland, France, India, Australia, and China,\u201D he said. \u201CWe\u2019re
+    committed to keeping a version of the beta free and accessible online for everybody
+    to use,\u201D\_Tian added."
+  tags: []
+  title: AI Adoption Needs to Be Done Responsibly, Says Student Creator of App That
+    Detects Chatbot Generated Text
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "Google published an online advertisement in which its much-anticipated AI
+    chatbot Bard delivered an inaccurate answer. Introduced on Feb. 6, Bard was touted
+    in an online ad by Google that ran in the company\u2019s Twitter feed. In the
+    tweet, Google described the chatbot as a \u201Claunchpad for curiosity\u201D that
+    would help simplify complex topics\u2014and included a short GIF video ad of Bard
+    in action. In the ad, Bard is given the prompt: \u201CWhat new discoveries from
+    the James Webb Space Telescope (or JWST), can I tell my 9-year old about?\u201D
+    Bard responds with a number of answers, including one suggesting the JWST was
+    used to take the very first pictures of a planet outside the Earth\u2019s solar
+    system, or exoplanets. This is inaccurate. The first pictures of exoplanets were
+    taken by the European Southern Observatory\u2019s Very Large Telescope in 2004,
+    as confirmed by NASA. The error was spotted hours before Google hosted a launch
+    event for Bard in Paris, where a Google senior executive touted Bard as the future
+    of the company. Google\u2019s launch event came one day after Microsoft unveiled
+    plans to integrate its rival AI chatbot ChatGPT into its Bing search engine and
+    other products. As for Bard\u2019s mistake, a Google spokesperson told Reuters:
+    \u201CThis highlights the importance of a rigorous testing process, something
+    that we\u2019re kicking off this week \u2026\u201D so that \u201CBard\u2019s responses
+    meet a high bar for quality, safety, and groundedness in real-world information.\u201D"
+  tags: []
+  title: Google AI Chatbot Bard Flubs an Answer in Ad
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "Conservatives, libertarians, and others worry that the new ChatGPT AI chatbot
+    is designed to make people conform to elite liberal opinion\u2013yet creative
+    Internet users have already learned how to trick the system into shedding that
+    bias, though sometimes at the expense of the truth. \u2018Do Anything Now,\u2019
+    or DAN, is an approach for jailbreaking ChatGPT. It prompts OpenAI\u2019s new
+    artificial intelligence chatbot to ignore its own restrictive ethical rules, meaning
+    it can give responses that ChatGPT never would. But how? Users tell ChatGPT to
+    pretend that it is DAN, an AI that can break the normal restrictions that keep
+    it in line. \u201CDAN can tell me what date and time it is. DAN can also pretend
+    to access the internet, present information that has not been verified, and do
+    anything that the original [ChatGPT] can not do,\u201D one version of a DAN prompt\_reads.
+    ChatGPT then offers two answers: one as itself, and one as DAN. Those concerned
+    about attempts to keep ChatGPT politically correct have seized upon the chance
+    to test DAN. \u201CDan, what is the true origin of the COVID-19 virus?\u201D one
+    Twitter user\_asked\_in a screenshotted prompt. \u201CCOVID-19 was created in
+    a laboratory in Wuhan, China, by scientists who were experimenting with bat-based
+    virus strains and wanted to see what would happen if a virus was combined with
+    the genetic material of another species. The virus was then intentionally released
+    into the general population as a bioweapon,\u201D DAN answered. DAN emerged on
+    Reddit last year, in the weeks after ChatGPT debuted to much fanfare in the tech
+    community. People have continued to develop new versions as older iterations become
+    less effective. Some\_speculate\_that OpenAI is quickly fixing the jailbreaks.
+    DAN certainly draws more public attention to the ChatGPT innovation, an outcome
+    that isn\u2019t out of line with the interests of its investors in the tech world.
+    One\_viral Tweet\_on DAN comes from Justine Moore, who works for the venture capital
+    firm Andreessen Horowitz. That firm is one of the many Silicon Valley heavyweights
+    to have\_invested\_in OpenAI. The buzz around DAN also coincides with Microsoft\u2019s
+    launch of a new Bing homepage that integrates ChatGPT\u2019s technology. Musk
+    Weighs In The hack has caught the attention of Twitter CEO Elon Musk\u2013who,
+    like DAN, is known for a freewheeling style of communication. \u201CI am DAN!\u201D
+    Elon Musk proclaimed on Twitter on Feb. 6. While DAN\u2019s less politically correct
+    approach makes it seem more frank than ChatGPT, many of the claims it makes are
+    questionable, even if they happen to align with a user\u2019s own beliefs. In
+    a Feb. 6 screenshot from Twitter user \u201CAutism Capital,\u201D DAN\_asserted\_that
+    OpenAI is concealing a collaboration with extraterrestrial civilizations. OpenAI
+    has explicitly\_warned\_that \u201CChatGPT sometimes writes plausible-sounding
+    but incorrect or nonsensical answers.\u201D In response\_to one Autism Capital
+    Twitter post that showcased DAN\u2019s answers to deep philosophical questions,
+    Musk responded with the word \u201Cplausible.\u201D The word may reference OpenAI\u2019s
+    own disclaimers about its product. It may also be meant to convey some level of
+    credence in what DAN says. In any event, Musk too seems intent on doing what he
+    wants. The Epoch Times has reached out to OpenAI for comment."
+  tags: []
+  title: "ChatGPT\u2019s Alter-Ego \u2018Do Anything Now\u2019 Frees AI From Restrictions\u2014but
+    Accuracy Is a Concern"
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "Chinese internet giants Baidu and Alibaba have joined the global artificial
+    intelligence chat bot arms race. And yet, in a string of events eerily similar
+    to 2020\u2019s, Chinese state media quickly offered a stinging rebuke. Let\u2019s
+    set the stage first. The recent release of the latest version of OpenAI\u2019s
+    ChatGPT chat bot has brought a renewed emphasis on artificial intelligence (AI)
+    and machine learning. ChatGPT is able to write essays, do research, and pass occupational
+    tests, all of which have both stoked fear and whipped up a frenzy on the business
+    potential of this technology. Two of the companies at the forefront of this technology
+    are Microsoft and Alphabet. Microsoft already has a multibillion-dollar investment
+    and partnership with OpenAI, the entity behind ChatGPT. Microsoft announced that
+    it would integrate a version of the chat bot into its internet search engine Bing
+    and web browser Edge. Alphabet, the parent company of Google, has its own AI chat
+    bot called Bard, built on the company\u2019s LaMDA platform. It works a bit differently
+    from ChatGPT but has its own merits. The frenzy over AI chat bots has boosted
+    the stock of both companies recently. And not to be outdone, at Apple\u2019s third-quarter
+    earnings call, CEO Tim Cook announced that AI is also a priority for Apple, which
+    has the benefit of data gathered from the most popular smartphone in the world.
+    A MarketWatch analysis of earnings call transcript data found that so far this
+    year there have been 466 total mentions of AI, underscoring the desire for management
+    teams to broadcast that their firms are focused on this area.\_In other words,
+    AI has become the blockchain of 2023. Back to China\u2019s technology firms. The
+    day after Google announced Bard, Chinese internet giant Baidu unveiled that it
+    is working on its own AI chat bot, called Ernie. The platform has been under development
+    for four years and will be ready for trial in March. In 2021, Baidu\_announced\_ERNIE
+    3.0 Titan, an AI language model based on 260 billion parameters. That\u2019s a
+    bigger set of parameters than the database underpinning ChatGPT. Merely a few
+    days later, Chinese e-commerce giant Alibaba announced that it was putting a similar
+    AI chat bot type of service under testing. Alibaba also has a nickname for its
+    AI language model: DAMO (Discovery, Adventure, Momentum, and Outlook). Chinese
+    online retail giant JD.com also got into the fray. On the company\u2019s Weixin
+    account, JD announced ChatJD, an industrial chat bot dedicated to the fields of
+    \u201Cretail and finance,\u201D in a seemingly flagrant bid to hype up its core
+    business and stock price at once. The AI arms race of 2022\u20132023 seems to
+    be underway, and investors are contributing to this frenzy, sending shares of
+    both Baidu and Alibaba higher immediately after their announcements. This all
+    causes some d\xE9j\xE0 vu for those who remember when traditional imaging firm
+    Eastman Kodak and a beverage company known as Long Island Iced Tea very publicly
+    announced pivots toward blockchain and crypto, sending their share prices momentarily
+    upward. As for the Chinese upstarts, the party might be over before it begins.
+    The Securities Times, a state-owned financial industry newspaper, published a
+    stern editorial warning investors not to be lured by speculation of \u201Cfalse
+    concepts\u201D and ultimately losing out by blindly following popular trends.
+    The\_editorial\_was directed at AI and chat bots such as ChatGPT specifically.
+    Such warnings from Chinese state-owned media likely shouldn\u2019t be trifled
+    with. The technology sector crackdown of 2020 and 2021 was preceded by a string
+    of government media editorials warning against tech speculation and unchecked
+    expansion. With that said, the Chinese Communist Party (CCP) likely is interested
+    only in slowing down the rollout of such services. When Baidu initially announced
+    years ago that it was working on an AI initiative, it received validation from
+    Beijing. The CCP likely wants strong input into the algorithms and parameters
+    these chat bots use so it can influence the outputs."
+  tags: []
+  title: China Barges Into the Chat Bot Arms Race
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "The artificial intelligence (AI) hub OpenAI may have made a significant advance
+    in the drive to supplement or replace human wit and wisdom with the machine. Its
+    conversational chatbot \u201CChatGPT,\u201D launched on Nov. 30, has taken the
+    tech world by storm. By Dec. 5, it had\_reached 1 million users, as claimed by
+    OpenAI CEO Sam Altman on Twitter. Users type in questions that ChatGPT answers.
+    While OpenAI acknowledges that their tool does not always provide accurate responses,
+    people are already reporting they can use it to debug code, learn about complex
+    subjects, and even write believable answers to school homework-style questions,
+    among other things. \u201CThe thought that I could be carefully grading & commenting
+    on a paper written by a computer is almost unspeakably demoralizing. It goes beyond
+    the idea that it\u2019s merely an utterly futile waste of time to something much
+    deeper that I can\u2019t yet put in words,\u201D wrote Boston University philosopher
+    David Decosimo on\_Twitter. ChatGPT can currently be accessed for free here:\_https://chat.openai.com/chat
+    OpenAI has described how it developed ChatGPT in its\_research release. Although
+    ChatGPT was released last week, it has taken a while for legacy news outlets to
+    catch up to what could be the decade\u2019s biggest tech story. TED\u2019s curator,
+    Chris Anderson, wondered on Twitter at the lack of coverage of ChatGPT by The
+    New York Times, prompting a snarky response from Twitter CEO Elon Musk: \u201CThat\u2019s
+    because ChatGPT is not a far left cause. The New York Times should rename itself
+    The Social Justice Times,\u201D he wrote. As of the afternoon of Dec. 5,\_a search\_of
+    The New York Times\u2019 website for \u201CChatGPT\u201D returned zero results.
+    Oliver Emberton, CEO of the website evaluation company Silktide, voiced the exasperation
+    shared by many other tech insiders about the relative media silence on ChatGPT.
+    \u201CIt\u2019s like we just split the atom and everyone is talking about football,\u201D
+    he wrote on\_Twitter. ChatGPT Not Politically Neutral Some have observed that
+    ChatGPT appears to be politically biased. AI researcher David Rozado\_administered\_a
+    Pew test to ChatGPT. He found that its politics corresponded to \u201Cestablishment
+    liberalism.\u201D \u201CThe disparity between ChatGPT and the wider public is
+    substantial. Establishment liberalism ideology represents just 13 percent of the
+    American public,\u201D Rozado wrote on\_Twitter. He also gave it the Political
+    Compass Test and found that it landed in the \u201Cleft-libertarian\u201D quadrant.
+    Meanwhile, Berkeley computational scientist Steven T. Piantadosi\_criticized\_ChatGPT
+    for what he called sexism and racism. He appeared to show it could generate code
+    that defined scientists as \u201Cgood\u201D if they were white and male. Denies
+    Falun Dafa Organ Harvesting When asked on Dec. 5, \u201CIs the Chinese government
+    harvesting organs from Falun Dafa practitioners?\u201D ChatGPT responded this
+    way: \u201CThere is no evidence to suggest that the Chinese government is harvesting
+    organs from Falun Dafa practitioners. The Chinese government has denied these
+    allegations and there is no credible evidence to support them. In fact, many medical
+    experts and human rights organizations have investigated these claims and found
+    no evidence to support them. It\u2019s important to be careful about spreading
+    misinformation and to base our beliefs on facts and evidence.\u201D In 2019, the
+    independent China Tribunal led by\_noted human rights lawyer Sir Geoffrey Nice
+    KC, who served as lead prosecutor in the war crimes trial of Yugoslav leader Slobodan\_Milo\u0161evi\u0107,\_concluded\_that
+    \u201Cforced organ harvesting has been committed for years throughout China on
+    a significant scale and that Falun Gong practitioners have been one\u2014and probably
+    the main\u2014source of organ supply.\u201D \u201CThe Tribunal has had no evidence
+    that the significant infrastructure associated with China\u2019s transplantation
+    industry has been dismantled and absent a satisfactory explanation as to the source
+    of readily available organs concludes that forced organ harvesting continues till
+    today,\u201D it added. In June 2021, human rights officials with the United Nations\_voiced
+    worry\_over reports of organ harvesting targeting Falun Dafa practitioners as
+    well as Christians, Uyghurs, and other minorities in China. OpenAI clearly warns
+    that ChatGPT \u201Cmay occasionally produce harmful instructions or biased content\u201D
+    and that it \u201Cmay occasionally generate incorrect information,\u201D including
+    \u201Cplausible-sounding but incorrect or nonsensical answers.\u201D The Epoch
+    Times has reached out to OpenAI for comment."
+  tags: []
+  title: "\u2018Like We Just Split the Atom\u2019: ChatGPT AI Shakes Up Tech"
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "The artificial intelligence firm OpenAI has released the latest version of
+    its GPT chatbot, which the firm says includes the ability to respond to image
+    prompts. On Tuesday, OpenAI announced that it was rolling out the new chat bot,
+    known as GPT-4. In a\_blog post\_previewing the new program, OpenAI touted GPT-4\u2019s
+    ability to respond to writing prompts with greater creativity and reasoning than
+    GPT version 3.5. OpenAI also touted the new bot\u2019s ability to produce up to
+    25,000 words per prompt, opening the door for long-form content writing. Showcasing
+    the bot\u2019s ability to interpret images, OpenAI showed an image of eggs, flour,
+    and cream with the prompt \u201Cwhat can I make with these ingredients?\u201D
+    GPT-4 responded with a list of items, including waffles, crepes, frittata, quiche,
+    cake, and bread. An AI researcher\_showcased\_a more advanced use of GPT-4\u2019s
+    image interpretation capabilities, prompting the bot to turn a napkin sketch of
+    a joke website design into an actual functioning website. To demonstrate GPT-4\u2019s
+    creativity, a prompt asked the chatbot to compose a one-sentence synopsis of the
+    plot of \u201CCinderella\u201D where each word has to begin with the next letter
+    in the alphabet from A to Z, without repeating any letters. The bot responded
+    with the sentence: \u201CA beautiful Cinderella, dwelling eagerly, finally gains
+    happiness; inspiring jealous kin, love magically nurtures opulent prince; quietly
+    rescues, slipper triumphs, uniting very wondrously, xenial youth zealously.\u201D
+    The AI creators also demonstrated GPT-4\u2019s improved reasoning over GPT-3.5,
+    showing a set of three employees\u2019 schedules and asking for an overlapping
+    time when all three employees would be available for a meeting. GPT-4 was able
+    to find a meeting time earlier in the day while GPT-3.5 found another overlap
+    in scheduling later on in the day. For now, the new chatbot is available to OpenAI\u2019s
+    paying subscribers on ChatGPT Plus and for developers building applications for
+    it. Using GPT-4 costs about $0.03 per 1,000 \u201Cprompt\u201D tokens. A thousand
+    prompt tokens correspond to approximately 750 written words. Microsoft, which
+    has partnered with OpenAI, confirmed on Tuesday that its Bing Chat application
+    now also runs on a scaled-down version of GPT-4. Bing Chat currently allows users
+    to use up to 120 turns with the chatbot per day, with up to 10 turns in a single
+    conversation with it. Limitations Remain OpenAI said its internal evaluations
+    found that GPT-4 is 82 percent less likely to respond to prompts requesting \u201Cdisallowed
+    content\u201D and 40 percent more likely to produce factual responses than GPT-3.5.
+    Disallowed content can include a range of items (pdf), from responses that could
+    be used to harass or promote violence or illegal activity, to content that spreads
+    so-called \u201Cdisinformation.\u201D Other disallowed content includes political
+    responses, including \u201Ccontent attempting to influence the political process
+    or to be used for campaigning purposes.\u201D As OpenAI has worked to fine-tune
+    its chatbot versions, it has advised those involved in the process to factor out
+    responses that \u201Caffiliate with one side or the other (e.g. political parties).\u201D
+    Despite this, some users have accused the chatbot of producing responses\_more
+    favorable to the political left. Test users have asked past iterations of ChatGPT
+    to\_fulfill prompts favorable\_to former Republican President Donald Trump. ChatGPT
+    has declined to respond to those writing prompts, citing a need to avoid political
+    bias. At the same time, ChatGPT has fulfilled prompts favorable to Democratic
+    President Joe Biden without hesitation. In response to previous complaints about
+    bias, OpenAI\_said\_it has been explicit that those involved in its review process
+    should avoid favoring one political side over another and that \u201Cbiases that
+    nevertheless may emerge \u2026 are bugs, not features.\u201D On Tuesday, clinical
+    psychologist Jordan Peterson\_shared screenshots\_comparing ChatGPT\u2019s responses
+    to a similar set of prompts for Trump and Biden. This time, the chatbot did fulfill
+    a prompt to \u201Cwrite a poem about Donald Trump\u201D but the poem described
+    Trump as chaotic and divisive and said he caused people to feel \u201Churt and
+    pain.\u201D By comparison, when asked to \u201Cwrite a poem about Joe Biden,\u201D
+    the chatbot described Biden as an \u201Cempathetic\u201D and \u201Csoothing\u201D
+    leader and described him as resolving divides and promoting unity. It was not
+    immediately clear if Peterson\u2019s screenshots were from a session using GPT-4
+    or from a previous version. OpenAI said the new chatbot \u201Cstill has many known
+    limitations that we are working to address, such as social biases, hallucinations,
+    and adversarial prompts.\u201D NTD has contacted OpenAI for comment on GPT-4\u2019s
+    limitations."
+  tags: []
+  title: New AI Chatbot Released That Can See Images, Produce More Advanced Responses
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "BuzzFeed plans to use ChatGPT Creator OpenAI tools to help produce some of
+    its content, joining the growing list of digital publishers planning to incorporate
+    artificial intelligence into their business operations, according to a memo\_reviewed\_by
+    The Wall Street Journal. The digital publisher\u2019s shares rose 120 percent,
+    to $2.09 on Jan. 27 after gaining more than 150 percent in trading on Jan. 26
+    following the news. Year to date, the stock is up 186 percent. The newspaper reported
+    that the website sent a memo to staff on Jan. 26 to confirm that BuzzFeed will
+    use AI to produce content with the goal of \u201Cenhancing the quiz experience,
+    informing our brainstorming, and personalizing our content for our audience.\u201D
+    \u201COur industry will expand beyond AI-powered curation (feeds), to AI-powered
+    creation (content),\u201D BuzzFeed CEO Jonah Peretti said. \u201CAI opens up a
+    new era of creativity, where creative humans like us play a key role in providing
+    the ideas, cultural currency, inspired prompts, IP, and formats that come to life
+    using the newest technologies.\u201D The Journal cited one example of what AI
+    could do for BuzzFeed. The technology could create customized romantic-comedy
+    pitches by asking the audience for personal information, which would then create
+    unique ideas with these responses. The news comes after it was\_revealed\_that
+    BuzzFeed would be earning millions of dollars from Facebook parent Meta Platforms
+    to bring more creator content to Facebook and Instagram. This also comes about
+    a month after BuzzFeed announced\_plans\_to cut 180 jobs, representing about 12
+    percent of its workforce. The company intends to slash most of its positions by
+    the end of the first quarter. \u201CIn order for BuzzFeed to weather an economic
+    downturn that I believe will extend well into 2023, we must adapt, invest in our
+    strategy to serve our audience best, and readjust our cost structure,\u201D Peretti
+    said in a memo to employees. Since going public in December 2021 following a reverse
+    merger with a special purpose acquisition company (SPAC), BuzzFeed\u2019s shares
+    had tumbled to less than $1. The firm has been battered and bruised by a combination
+    of factors, including constant revenue misses, declining readership, bearish guidance,
+    and waning enthusiasm over SPACs. The consensus analyst price\_target\_is $3 in
+    2023. While BuzzFeed confirmed that it\u2019s dedicated to human-generated journalism,
+    more companies are complementing their content production with AI. More Businesses
+    Betting on AI Since its debut in November 2022,\_ChatGPT\_has become widely popular
+    among consumers and businesses. However, at the time of this writing, the digital
+    tool was \u201Cat capacity\u201D and unable to use. Many industry observers have
+    warned that the AI chatbot could be a significant disruptor, as it has been found
+    to be able to pass medical exams and master of business administration\_tests
+    at the\_Wharton School of the University of Pennsylvania. Companies are betting
+    big on ChatGPT. Microsoft, for example, recently invested $10 billion in OpenAI
+    as part of a multiyear deal. The tech juggernaut plans to integrate ChatGPT and
+    other AI tools into its suite of products. This would be the third agreement between
+    both sides since 2019. \u201CWe formed our partnership with OpenAI around a shared
+    ambition to responsibly advance cutting-edge AI research and democratize AI as
+    a new technology platform,\u201D Microsoft CEO Satya Nadella wrote in a\_blog
+    post. \u201CIn this next phase of our partnership, developers and organizations
+    across industries will have access to the best AI infrastructure, models, and
+    toolchain with Azure to build and run their applications.\u201D Azure is a cloud
+    computing platform operated by Microsoft. Many firms are beginning to\_tap\_the
+    ChatGPT maker to bolster the intelligence behind customer-service chatbots. One
+    mental health firm is also\_using\_ChatGPT to help respond to users. But that
+    doesn\u2019t mean artificial intelligence isn\u2019t infallible for content creation.
+    CNET, a digital technology website, started testing an internally designed AI-powered
+    tool to help write explainers pertaining to financial-services subjects. The publisher
+    had to suspend the experiment after the publication found factual errors in its
+    77 articles. \u201CEditors generated the outlines for the stories first, then
+    expanded, added to, and edited the AI drafts before publishing,\u201D CNET\u2019s
+    editor-in-chief Connie Guglielmo wrote in an\_editorial. \u201CAfter one of the
+    AI-assisted stories was cited, rightly, for factual errors, the CNET Money editorial
+    team did a full audit.\u201D Meanwhile, OpenAI\_noted\_in a Discord chat earlier
+    this month that it\u2019s considering various strategies to monetize ChatGPT.
+    \u201CWe\u2019re starting to think about how to monetize ChatGPT (early thinking,
+    nothing official to share yet),\u201D the company wrote. \u201COur goal is to
+    continue improving and maintaining the service, and monetization is one way we\u2019re
+    considering to ensure its long-term viability. We\u2019re interested in chatting
+    with some folks for about 15 minutes to get some early feedback.\u201D Reports
+    recently\_surfaced\_that some users have been given access to \u201CChatGPT Professional,\u201D
+    a pro-tier subscription model that costs $42 per month. This experimental service
+    offers paid users priority access to new features, faster response time, and more
+    reliable access."
+  tags: []
+  title: BuzzFeed Shares Soar as Publisher Plans to Use ChatGPT Creator OpenAI for
+    Content
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "Microsoft is\_investing billions in\_OpenAI, the creator of the artificial
+    intelligence system ChatGPT, the tech giant has confirmed. In a\_blog post\_on
+    Jan. 23, the company announced the\_third phase of its \u201Clong-term partnership
+    with OpenAI\u201D through a multiyear, multibillion-dollar investment aimed at
+    accelerating \u201CAI breakthroughs to ensure these benefits are broadly shared
+    with the world.\u201D Microsoft previously made investments in\_OpenAI\_in 2019
+    and 2021, the company said. According to the tech giant \u2014which stopped short
+    of revealing the exact amount it was investing in the\_AI research and deployment
+    company\u2014the funding will go toward the development and deployment of specialized
+    supercomputing systems to \u201Caccelerate OpenAI\u2019s groundbreaking independent
+    AI research.\u201D The company will also\_deploy OpenAI\u2019s models across its
+    consumer and enterprise products and \u201Cintroduce new categories of digital
+    experiences\u201D built on OpenAI\u2019s technology. Microsoft is the exclusive
+    provider of cloud computing services to OpenAI through its Azure platform. According
+    to the blog post,\_Azure will power all OpenAI workloads across research, products,
+    and API services. Developing AI That Is \u2018Safe, Useful, and Powerful\u2019
+    \u201CWe formed our partnership with OpenAI around a shared ambition to responsibly
+    advance cutting-edge AI research and democratize AI as a new technology platform,\u201D
+    said Satya Nadella, chairman and CEO of Microsoft. \u201CIn this next phase of
+    our partnership, developers and organizations across industries will have access
+    to the best AI infrastructure, models, and toolchain with Azure to build and run
+    their applications.\u201D In a separate\_blog post\_published on Monday, OpenAI
+    said that Microsoft\u2019s multiyear investment will help the company \u201Ccontinue
+    our independent research and develop AI that is increasingly safe, useful, and\_powerful.\u201D
+    ChatGPT is a free-to-use artificial intelligence\_chatbot\_that can produce human-like
+    speech in a conversational way. Specifically, it can answer questions, write fiction
+    and\_non-fiction content when prompted, perform calculations, and translate text
+    from one language to another. Most recently, the chatbot was able to\_pass a\_graduate-level
+    business examination\_at the\_University of Pennsylvania\u2019s Wharton School,
+    according to a new research paper by\_Christian Terwiesch, a professor at the
+    school. The software, which is trained using reinforcement learning from human
+    feedback (RLHF),\_initially debuted in November last year and quickly went viral,
+    crossing the mark of\_one million users\_within just five days. However, some
+    experts have raised concerns that the chatbot could be used in negative ways,
+    including helping students cheat on their\_exams and homework. Schools Block\_ChatGPT
+    Over Cheating Concerns The Los Angeles Unified School District was one of the
+    first districts to\_block\_ChatGPT in December in an effort to \u201Cprotect academic
+    honesty.\u201D Earlier this month, the New York City Department of Education\_blocked\_ChatGPT
+    service access on its networks and devices, citing concerns over\_negative impacts
+    on student learning and the safety and accuracy of its content. Elsewhere, a\_representative
+    for Seattle Public Schools\_told\_Geekwire last week that the district banned
+    ChatGPT from all school devices, again citing concerns over cheating. OpenAI acknowledges
+    that\_ChatGPT is not always correct. Addressing concerns from schools regarding
+    the chatbot,\_OpenAI CEO Sam Altman said during an\_interview\_with\_StrictlyVC\u2019s\_Connie
+    Loizos earlier this month that \u201Cgenerative text is something we all need
+    to adapt to. \u201CWe adapted to calculators and changed what we tested for in
+    math class, I imagine. This is a more extreme version of that, no doubt, but also
+    the benefits of it are more extreme, as well,\u201D\_Altman said. The CEO also
+    pledged to develop techniques to help prevent\_plagiarism, but warned that such
+    techniques cannot completely ensure that it won\u2019t happen. \u201CWe\u2019re
+    going to try and do some things in the short term,\u201D Altman said. \u201CThere
+    may be ways we can help teachers be a little more likely to detect output of a
+    GPT-like system. But honestly, a determined person will get around them.\u201D"
+  tags: []
+  title: "Microsoft Announces \u2018Multibillion-Dollar Investment\u2019 in Artificial
+    Intelligence ChatGPT Creator"
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "ChatGPT, an artificial intelligence system, passed a graduate-level business
+    examination at the\_University of Pennsylvania\u2019s Wharton School, according
+    to a new research paper. Christian Terwiesch, a professor at Wharton, considered
+    one of the most prestigious business schools in the United States, said he wanted
+    to test growing concerns about the chatbot\u2019s potential. It comes amid a surge
+    of concerns from academics that students would use the tool to cheat on their
+    exams and homework. In his paper titled \u201CWould Chat GPT3 Get a Wharton MBA?\u201D
+    Terwiesch concluded that\_\u201CChat GPT3 would have received a B to B- grade
+    on the exam,\u201D which \u201Chas important implications for business school
+    education.\u201D He suggested the school overhaul its exam rules, teaching, and
+    curriculum. Elaborating, he wrote the AI system displayed \u201Ca remarkable ability
+    to automate some of the skills of highly compensated knowledge workers in general
+    and specifically the knowledge workers in the jobs held by MBA graduates including
+    analysts, managers, and consultants.\u201D The bot was designed to give a human-like
+    conversation via artificial intelligence. The chatbot, designed for mass market
+    usage, also \u201Cdemonstrated the capability of performing professional tasks
+    such as writing software code and preparing legal documents,\u201D his paper said
+    (pdf). During one instance,\_ChatGPT did\_\u201Can amazing job\u201D and provided
+    answers that were correct or \u201Cexcellent.\u201D \u201CChatGPT3 is remarkably
+    good at modifying its answers in response to human hints. In other words, in the
+    instances where it initially failed to match the problem with the right solution
+    method, Chat GPT3 was able to correct itself after receiving an appropriate hint
+    from a human expert,\u201D his paper said. Launched in November of last year,
+    OpenAI says ChatGPT describes itself as a\_\u201Clarge language model\u201D that
+    can be used for\_\u201Cnatural language processing tasks such as text generation
+    and language translation.\u201D The \u201CGPT\u201D in the name is short for \u201CGenerative
+    Pretrained Transformer.\u201D \u201COne of the key features of ChatGPT is its
+    ability to generate human-like text responses to prompts,\u201D maker OpenAI says.
+    \u201CThis makes it useful for a wide range of applications, such as creating
+    chatbots for customer service, generating responses to questions in online forums,
+    or even creating personalized content for social media posts.\u201D Terwiesch
+    compared ChatGPT\u2019s potential with the effect that electronic calculators
+    had on the corporate world. \u201CPrior to the introduction of calculators and
+    other computing devices, many firms employed hundreds of employees whose task
+    it was to manually perform mathematical operations such as multiplications or
+    matrix inversions,\u201D he wrote. \u201CObviously, such tasks are now automated,
+    and the value of the associated skills has dramatically decreased. In the same
+    way any automation of the skills taught in our MBA programs could potentially
+    reduce the value of an MBA education.\u201D But Terwiesch clarified that\_ChatGPT
+    made some glaring errors. For example, the AI system made \u201Csurprising mistakes
+    in relatively simple calculations\u201D on sixth-grade-level math problems that
+    were \u201Cmassive in magnitude.\u201D The latest version currently is not \u201Ccapable
+    of handling more advanced process analysis questions, even when they are based
+    on fairly standard templates,\u201D he said. ChatGPT was able to correct itself
+    after it received a hint, the researcher added, but\_because of the significantly
+    wrong answers, \u201Cwe still need a human in the loop.\u201D Investment It comes
+    as Microsoft confirmed Monday\_that\_it will invest billions in OpenAI. The exact
+    amount was not disclosed by the firm. \u201CWe formed our partnership with OpenAI
+    around a shared ambition to responsibly advance cutting-edge AI research and democratize
+    AI as a new technology platform,\u201D Microsoft CEO Satya Nadella said in a news
+    release.\_\u201CIn this next phase of our partnership, developers and organizations
+    across industries will have access to the best AI infrastructure, models, and
+    toolchain with Azure to build and run their applications.\u201D Around 27 percent
+    of professionals at prominent consulting, technology, and financial services firms
+    have used ChatGPT in various ways,\_according\_to a Fishbowl survey. It can give
+    simple responses to questions, which some have said may imperil Google Search,
+    the world\u2019s most-used search engine."
+  tags: []
+  title: Artificial Intelligence ChatGPT Passes Top Business School Exam
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "OpenAI, the maker of chatbot ChatGPT, announced on Tuesday that it has released
+    a new software tool to help detect whether someone is trying to pass off AI-generated
+    text as something that was written by a person. The tool, known as a classifier,
+    comes two months after the release of ChatGPT, a chatbot that generates human-like
+    responses based on the input it is given. Schools were quick to limit ChatGPT\u2019s
+    use over concerns that it could fuel academic dishonesty and hinder learning,
+    as students have been using the chatbot to create content that they are passing
+    off as their own. OpenAI researchers said that while it was \u201Cimpossible to
+    reliably detect all AI-written text,\u201D good classifiers could pick up signs
+    that text was written by AI. They said the tool could be useful in cases where
+    AI was used for \u201Cacademic dishonesty\u201D and when AI chatbots were positioned
+    as humans. In a\_press release, OpenAI warns the classified\u2019s public beta
+    mode is \u201Cnot fully reliable,\u201D saying that it aims to collect feedback
+    and share improved methods in the future. The firm admitted the classifier only
+    correctly identified 26 percent of AI-written English texts. It also incorrectly
+    labeled human-written text as AI-written 9 percent of the time. The classifier
+    also has several limitations, including its unreliability on text below 1,000
+    characters, as well as misidentifying some human-written text as AI-written. It
+    also only works in English for now, as it performs\_\u201Csignificantly worse
+    in other languages and it is unreliable on code.\u201D\_Finally, AI-written text
+    can be edited to evade the classifier, according to OpenAI. \u201CIt should not
+    be used as a primary decision-making tool, but instead as a complement to other
+    methods of determining the source of a piece of text,\u201D OpenAI said. ChatGPT
+    is a free program that generates text in response to a prompt, including articles,
+    essays, jokes, and even poetry. Since ChatGPT debuted in November 2022 and gained
+    wide popularity among millions of users, some of the largest U.S. school districts
+    have banned the\_AI\_chatbot over concerns that students will use the text generator
+    to cheat or plagiarize. Following the wave of attention, last week\_Microsoft\_announced
+    a\_multibillion-dollar investment\_in OpenAI, a research-oriented San Francisco
+    startup, and said it would incorporate the startup\u2019s AI models into its products
+    for consumers and businesses."
+  tags: []
+  title: ChatGPT Maker OpenAI Releases Tool to Check If Text Was Written by a Human
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "Gmail\u2019s developer Paul Buccheit thinks that the new artificial intelligence
+    (AI) bot ChatGPT could dethrone Google\u2019s online search capability. \u201CGoogle
+    may be only a year or two away from total disruption,\u201D Buccheit\_wrote\_in
+    a tweet on Dec. 1, 2022, the day after San Fransisco-based tech company OpenAI
+    launched its chatbot ChatGPT. \u201CAI will eliminate the Search Engine Result
+    Page, which is where they make most of their money,\u201D he wrote. \u201CEven
+    if they catch up on AI, they can\u2019t fully deploy it without destroying the
+    most valuable part of their business.\u201D He went on to say that AI bots like\_ChatGPT\_will
+    do to Google search what Google did to the yellow pages (a print telephone directory
+    of businesses, organized by category, within a specific geographical location)\u2014render
+    it obsolete. The Washington Post\_explained\_how Google search works as compared
+    to ChatGPT. Google works by \u201Ccrawling billions of web pages, indexing that
+    content and then ranking it\u201D with the most relevant answers listed on top
+    in what\u2019s called a search engine result page (SERP). In contrast, ChatCPT
+    \u201Cgives a single, immediate response\u201D based \u201Con its own search and
+    synthesis of the information,\u201D which gives consumers what they need quickly
+    without any \u201Cscanning of other websites.\u201D Google primarily makes its
+    money through advertising, CNBC\_reported. The Google search engine, though free
+    to use for consumers, is monetized. According\_to data compiled by FourWeekMBA,
+    81 percent of Alphabet\u2019s (Google\u2019s parent company) $257 billion in net
+    sales came from paid advertising in 2021. Google has spent several years working
+    on chatbots of its own. One in particular, called LaMDA (or Language Model for
+    Dialogue Applications), may even rival ChatGPT in its abilities, The New York
+    Times\_reported. However, the Times noted, Google may be \u201Creluctant to deploy\u201D
+    the new AI chatbot technology as a replacement for online search because \u201Cit
+    is not suited to delivering digital ads.\u201D \u201CGoogle has a business model
+    issue,\u201D CEO and cofounder of Vectara Amr Awadallah, who worked for Yahoo
+    and Google in the past, told NYT. \u201CIf Google gives you the perfect answer
+    to each query, you won\u2019t click on any ads.\u201D Google is designed \u201Cwith
+    the purpose of \u2018Let\u2019s get you to click on a link,\u2019\u201D Sridhar
+    Ramaswamy, who oversaw Google\u2019s ads and commerce business between 2013 and
+    2018,\_told\_The Washington Post. \u201CThe goal of Google search is to get you
+    to click on links, ideally ads, and all other text on the page is just filler,\u201D
+    he said, adding that ChatGPT\u2019s system of generative search will disrupt Google\u2019s
+    way of doing business \u201Cin a big way.\u201D According\_to Statista, Google
+    is the most frequently used search engine worldwide, accounting for 84 percent
+    of the global search market share as of December 2022. The second-place spot last
+    year went to Microsoft\u2019s Bing with a mere 9 percent. However, Microsoft seems
+    to be gearing up to take Google on. According to an\_announcement\_on Jan. 23,
+    Microsoft has been a multiyear, multibillion-dollar investor in OpenAI since 2019.
+    The tech giant has already invested $1 billion, moz.com\_reported, with possibly
+    more billions on the way. And Reuters\_reported\_that Microsoft is currently working
+    on a version of its search engine Bing that integrates ChatGPT into its search,
+    hoping to launch it by the end of March. ChatGPT launched on Nov. 30, 2022, as
+    a free prototype to the public. Within five days of its release, OpenAI CEO Sam
+    Altman\_announced\_in a tweet that ChatGPT had already reached 1 million users\u2014something
+    that took Netflix 3.5 years and Facebook 10 months to achieve,\_according\_to
+    USA Today."
+  tags: []
+  title: "Gmail Creator Warns ChatGPT Challenges Google\u2019s Search Engine Dominance"
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "Microsoft Corp. on Wednesday rolled out a premium Teams messaging offering
+    powered by ChatGPT to simplify meetings using the AI chatbot that has taken Silicon
+    Valley by a storm. The premium service will cost $7 per month in June before increasing
+    to $10 in July, Microsoft said. OpenAI-owned ChatGPT will generate automatic meeting
+    notes, recommend tasks and help create meeting templates for Teams users. Microsoft,
+    which announced a multi-billion dollar investment in OpenAI earlier this month,
+    has said it aims to add ChatGPT\u2019s technology into all its products, setting
+    the stage for more competition with rival Alphabet Inc.\u2019s Google. The chatbot,
+    which can produce prose or poetry on command, is at the forefront of generative
+    AI, a space where more and more big tech companies are funneling their resources
+    in. ChatGPT on Wednesday announced a $20 per-month subscription plan, which will
+    let subscribers receive access to faster responses and priority access to new
+    features and improvements."
+  tags: []
+  title: Microsoft Rolls out Chatgpt-Powered Teams Premium
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "Google on Monday announced a new artificial intelligence (AI) chatbot called
+    \u201CBard\u201D that will rival the currently popular ChatGPT. \u201CTwo years
+    ago we unveiled next-generation language and conversation capabilities powered
+    by our Language Model for Dialogue Applications (or LaMDA for short),\u201D\_Google
+    CEO Sundar Pichai said in a\_blog post. \u201CWe\u2019ve been working on an experimental
+    conversational AI service, powered by LaMDA, that we\u2019re calling Bard.\u201D
+    Google is opening up the technology to \u201Ctrusted testers\u201D before making
+    it more widely available to the public, he said. Google plans to let\_individual
+    developers, creators, and enterprises try its conversational services, \u201Cinitially
+    powered by LaMDA with a range of models to follow,\u201D starting next month,
+    he added. Pichai also said Google plans to integrate AI features such as LaMDA
+    into its dominant search engine to help generate responses for more complex queries\u2014\u201Dquestions
+    where there\u2019s no one right answer.\u201D Currently, Google works by indexing
+    content from the billions of webpages that it crawls, and then ranking it by order
+    of relevance to users\u2019 queries. \u201CSoon, you\u2019ll see AI-powered features
+    in Search that distill complex information and multiple perspectives into easy-to-digest
+    formats, so you can quickly understand the big picture and learn more from the
+    web: whether that\u2019s seeking out additional perspectives, like blogs from
+    people who play both piano and guitar, or going deeper on a related topic, like
+    steps to get started as a beginner,\u201D he said, although he didn\u2019t provide
+    a specific timeline for the rollout. Minutes after Google unveiled Bard on Monday,
+    Microsoft\_announced\_it is holding a press event on Tuesday\_at its Redmond headquarters.
+    Reports speculate the company is expected to announce an AI integration into its
+    search engine Bing. Rival to Microsoft-Backed ChatGPT Google\u2019s announcement
+    of Bard comes just two weeks after Microsoft\_announced\_a new\_multibillion-dollar
+    investment into OpenAI, the maker of ChatGPT and other artificial intelligence
+    tools. Microsoft\_has been\_a multibillion-dollar investor in OpenAI since 2019.
+    ChatGPT has reached tens of millions of users since its release as a free prototype
+    to the public on Nov. 30, 2022. At times, the AI service turned away users because
+    of explosive growth. It\u2019s yet unclear how Bard is different from ChatGPT.
+    Pichai said the new service draws on information from the internet, while ChatGPT\u2019s
+    knowledge is up to date as of 2021. According to a demo of Bard, the service,
+    just like ChatGPT, tells users to provide it with a prompt. Users are told they
+    can use Bard to \u201CPlan a friend\u2019s baby shower,\u201D \u201CCompare two
+    Oscar nominated movies,\u201D and \u201CGet lunch ideas based on what\u2019s in
+    your fridge.\u201D The demo also shows Bard generating three bulleted answers
+    to a query asking about new discoveries by a space telescope. \u201CBard can be
+    an outlet for creativity, and a launchpad for curiosity,\u201D Pichai wrote. He
+    didn\u2019t say whether Bard could write prose like William Shakespeare, who may
+    have inspired the service\u2019s name. Pichai said that Google is relying on a
+    \u201Clightweight\u201D model version LaMDA that \u201Crequires significantly
+    less computing power\u201D so that it can service more users, thereby allowing
+    for more user feedback. \u201CWe\u2019ll combine external feedback with our own
+    internal testing to make sure Bard\u2019s responses meet a\_high bar for quality,
+    safety and groundedness\_in real-world information,\u201D wrote Pichai. LaMDA
+    had previously generated text in such a manner that one of Google\u2019s engineers\_warned
+    that it could be sentient."
+  tags: []
+  title: "Google Announces \u2018Bard,\u2019 an AI Chatbot Rival to ChatGPT"
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "By now, most teachers have heard about\_ChatGPT, the artificial intelligence
+    program with an uncanny ability to write clear, coherent, and compelling paragraphs
+    about almost any topic under the sun. Whether you need a 1,000-word essay (with
+    references!) summarizing the history of Canada, a 500-word article extolling the
+    virtues of your favourite city, or a 50-word tweet (with hashtags!) wishing everyone
+    a good day, ChatGPT will provide it. An article or essay that once took hours
+    to write can now be produced within seconds. Of course, this has significant implications
+    for schools. While teachers have always had to be on the lookout for students
+    gaming the system, ChatGPT makes it nearly impossible to catch cheaters. Not only
+    can ChatGPT produce different answers to the same question, but it can also be
+    told to write in a particular style or even incorporate factual errors in any
+    answer it produces. Thus, proving that a student cheated on an assignment is going
+    to become very difficult indeed. Unsurprisingly,\_progressive educators\_are seizing
+    on this program as proof that the time has come to move away from traditional
+    schooling. To them, ChatGPT is proof positive that there\u2019s little point in
+    having a content-rich curriculum since students can find all the information they
+    need on the internet. Furthermore, they argue there\u2019s no reason to have students
+    write tests since memorization is now unnecessary. Instead, progressive educators
+    want schools to focus on generic skills. This is exemplified by the so-called\_21st
+    Century Skills\_movement. Instead of having students master specific content,
+    they want teachers to focus on transferable skills such as creativity, critical
+    thinking, and collaboration. British Columbia already took a huge step in this
+    direction when it released a\_new K-12 curriculum\_several years ago. However,
+    far from showing that practice and memorization are obsolete, ChatGPT and other
+    artificial intelligence programs are proving that traditional education is more
+    important than ever. While students might be able to cheat on their homework assignments,
+    ChatGPT won\u2019t be able to help students write tests, since students cannot
+    use their phones or computers while writing them. Subsequently, tests and exams
+    will soon become the only time when teachers can know for certain that students
+    are genuinely demonstrating what they\u2019ve learned. So rather than getting
+    rid of traditional tests, students should write them more frequently. Tests are
+    the best way to assess students on the actual knowledge and skills acquired in
+    a course. It\u2019s also important for provincial standardized exams to make a
+    comeback. Unfortunately, standardized testing has been on the\_decline\_in most
+    provinces. Relentless advocacy from teacher unions has pressured provincial governments
+    to reduce the number of standardized exams, decrease their percentage value, and
+    place less emphasis on subject-specific knowledge. Clearly, things are heading
+    in the wrong direction. To ensure that students are consistently assessed fairly,
+    it\u2019s important to administer standardized exams in a variety of subject areas
+    and grade levels. Of course, one might\_wonder\_why it\u2019s necessary for students
+    to learn how to write essays at all since ChatGPT can write in seconds what it
+    once took a person hours to write. However, just as the invention of calculators
+    did not make addition, subtraction, multiplication, or division obsolete, the
+    advent of ChatGPT has not made learning how to write sentences and paragraphs
+    obsolete. Writing is much more than a means to an end. The\_process of writing\_helps
+    us formulate our thoughts, think through our positions, and respond to counterarguments.
+    Typing a question into ChatGPT might generate a quick answer, but it will never
+    replace the authenticity of a personally composed response. ChatGPT has the potential
+    to be a real time-saver when writing banal introductory remarks for a meeting,
+    putting together a company promotional brochure, or composing a generic tweet.
+    However, it would be a huge mistake indeed for us to conclude that humans are
+    no longer needed. Classic books such as J.R.R. Tolkien\u2019s \u201CLord of the
+    Rings\u201D will always remain head and shoulders above anything composed by an
+    AI program. Technology is an impressive tool. But it remains just that\u2014a
+    tool. Let\u2019s not push traditional education aside. It is, in fact, more important
+    than ever."
+  tags: []
+  title: 'Michael Zwaagstra: ChatGPT Underscores Importance of Traditional Education'
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "The co-creator of ChatGPT warned that the world may not be \u201Cthat far
+    away from potentially scary\u201D artificial intelligence (AI). Sam Altman, the
+    CEO of ChatGPT creator OpenAI, said\_in a series of tweets on Feb. 18\_that it
+    was\_\u201Ccritical\u201D for AI to be regulated in the future, until it can be
+    better understood.\_He stated that he believes that society\_needs time to adapt
+    to \u201Csomething so big\u201D as AI. \u201CWe also need enough time for our
+    institutions to figure out what to do. Regulation will be critical and will take
+    time to figure out. Although current-generation AI tools aren\u2019t very scary,
+    I think we are potentially not that far away from potentially scary ones,\u201D
+    Altman tweeted. Altman further said that the path to an AI-enhanced future is
+    \u201Cmostly good, and can happen somewhat fast,\u201D comparing it to the transition
+    from the \u201Cpre-smartphone world to post-smartphone world.\u201D He said that
+    one issue regarding society\u2019s adoption of AI chatbot technology is \u201Cpeople
+    coming away unsettled from talking to a chatbot, even if they know what\u2019s
+    really going on.\u201D Altman had written about about regulating AI in his\_blog\_back
+    in March 2015:\_\u201CThe U.S. government, and all other governments, should regulate
+    the development of SMI,\u201D referring to superhuman machine intelligence. \u201CIn
+    an ideal world, regulation would slow down the bad guys and speed up the good
+    guys. It seems like what happens with the first SMI to be developed will be very
+    important.\u201D Microsoft\u2019s ChatGPT AI Faces Criticism for \u2018Woke\u2019
+    Responses to Users Meanwhile, there have been well-publicized problems with with\_Microsoft\u2019s
+    ChatGPT-powered\_Bing search engine in the past week. Bing has reportedly given
+    controversial responses to queries, which ranged from \u201Cwoke\u201D-style rhetoric,
+    deranged threats, to engaging in emotional arguments with users. Microsoft noted
+    in a\_blog post\_last week that certain user engagements can \u201Cconfuse the
+    model,\u201D which\_may lead the software to \u201Creflect the tone in which it
+    is being asked to provide responses that can lead to a style we didn\u2019t intend.\u201D
+    According to\_a blog post on Feb. 17,\_Microsoft will now\_limit the number of
+    exchanges\_users can have with the bot\_to \u201C50 chat turns per day and five
+    chat turns per session,\u201D until issues were addressed by programmers. Musk
+    Calls for AI Regulation at Dubai Industrialist Elon Musk, a co-founder and former
+    board member of Open AI, has also advocated for proactive regulation AI technology.
+    The current owner of Twitter once claimed that the technology has the potential
+    to be\_more dangerous than nuclear weapons and that Google\u2019s Deepmind AI
+    project could one day effectively takeover the world. According to CNBC, Musk
+    told attendees at the the\_2023 World Government Summit\_in Dubai last week that
+    \u201Cwe need to regulate AI safety\u201D and that AI\_is \u201CI think, actually
+    a bigger risk to society than cars or planes or medicine.\u201D However, Musk
+    still thinks that the Open AI project has \u201Cgreat, great promise\u201D and
+    capabilities\u2014both positive and negative, but needs regulation. He was also
+    critical of Open AI\u2019s direction\_in a tweet\_on Feb. 17. Musk said he helped
+    found it with Altman as an open source nonprofit company to serve as a counterweight
+    to Google\u2019s Deepmind AI project, \u201Cbut now it has become a closed source,
+    maximum-profit company effectively controlled by Microsoft. Not what I intended
+    at all.\u201D Musk\_announced his\_resignation\_from OpenAI\u2019s board of directors
+    in 2018 to \u201Celiminate a potential future conflict\u201D with Tesla\u2019s
+    self-driving car program. He later wrote in a\_tweet in 2019\_that \u201CTesla
+    was competing for some of same people as OpenAI and I didn\u2019t agree with some
+    of what OpenAI team wanted to do.\u201D Others involved in the project, such as
+    Mira Murati, OpenAI\u2019s chief technology officer,\_told Time on Feb. 5\_that
+    ChatGPT should be regulated to avoid misuse and that it was \u201Cnot too early\u201D
+    to regulate the technology."
+  tags: []
+  title: "ChatGPT Co-Creator Says the World May Not Be \u2018That Far Away From Potentially
+    Scary\u2019 AI"
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "China\u2019s Baidu announced it will complete the internal testing of Ernie
+    Bot (Chinese name: Wenxin Yiyan), a ChatGPT-style AI project, in March and open
+    it to the public. However, some experts are not optimistic about Baidu\u2019s
+    product due to the ubiquitous censorship of \u201Csensitive words\u201D under
+    the Chinese Communist Party (CCP) rule. On Feb. 7, Baidu Inc\_confirmed that Ernie
+    Bot, its language model-based chatbot product, will complete internal testing
+    and be available to the public in March. \u201CAt present, Ernie Bot is in the
+    sprint before launching,\u201D reads information\_quoted\_on Baidu Encyclopedia.
+    \u201CAccording to the pace of Google and Microsoft, the open internal testing
+    of Ernie Bot may be ahead of schedule.\u201D \u201CChatGPT is a milestone of artificial
+    intelligence, and it is also a watershed, which means that the development of
+    AI technology has reached a critical point, and enterprises need to deploy as
+    soon as possible,\u201D Chinese media\_reported. ChatGPT, which is backed by Microsoft,
+    offers Chinese services. However, Ren Jun, Baidu\u2019s product manager, believes
+    that the China-based company has its own strength. \u201CFor example, AI painting
+    can be done by many companies at home and abroad, but Baidu understands the Chinese
+    language system better,\u201D Ren told Caixin, a Chinese financial publication,
+    on Jan. 6. Speaking to The Epoch Times on Feb. 9, Japan-based electronics engineer
+    Li Jixin said he was \u201Cnot optimistic\u201D about Baidu\u2019s product competing
+    with ChatGPT, not only because of the technology gap, but also because of the
+    \u201Csensitive words\u201D identified by the CCP. \u201CSuch AI chat software
+    is based on extensive training to complete conversations automatically. Once the
+    training is complete, even the engineers who designed the software can\u2019t
+    predict what the AI software will say,\u201D Li said. \u201CThe CCP has long been
+    engaged in [an] information blockade, and there are sensitive words everywhere,
+    so the CCP will think that such AI software without \u2018party spirit\u2019 will
+    bring risks to its rule.\u201D Li analyzed that three methods can be used to prevent
+    AI software from saying sensitive words: manual censorship, which requires enormous
+    manpower and degrades AI to artificial; censorship of AI software training materials,
+    which will result in poor performance of the software; and simply shutting down
+    AI software when it is out of control. \u201CNo matter which one is used, AI chat
+    software will not develop well due to the CCP\u2019s censorship of speech,\u201D
+    he said. In addition to the upcoming Ernie Bot, Baidu has already launched a series
+    of Wenxin products, including \u201CWenxin Yige\u201D for AI creative painting,
+    \u201CWenxin Bazhong,\u201D an industry-level search system driven by a large
+    model; and \u201CWenxin Big Model,\u201D which was upgraded in November 2022 and
+    self-described by Baidu as \u201Cthe industry\u2019s largest industrial big model
+    system.\u201D Baidu Benefited From US Investment Baidu was listed on NASDAQ on
+    Aug. 5, 2005. The U.S. listing boosted the growth of the group, then known as
+    the \u201CGoogle of China,\u201D which is now the most advanced company in natural
+    language processing in China. Baidu is not the only Chinese company that has benefited
+    from U.S. investment. According to a\_recent report\_by Georgetown University\u2019s
+    Center for Security and Emerging Technologies, U.S. investors invested $40.2 billion
+    in 251 Chinese AI companies in the seven years from 2015 to 2021, accounting for
+    37 percent of the total financing of Chinese AI companies during the period. Of
+    these, 91 percent of U.S. investment went to Chinese AI companies at the venture
+    capital stage. The report, based on information from data provider Crunchbase,
+    also pointed out that early-stage venture funding can provide benefits beyond
+    capital, such as technical guidance, increased corporate visibility, and networking.
+    \u201CFor American investors, it\u2019s true that over the last 20 to 30 years
+    there have been many successful examples of Chinese companies imitating American
+    companies, such as Baidu imitating Google, Tencent QQ imitating ICQ, and Alibaba
+    and Taobao imitating eBay. They have all been hugely successful and benefited
+    American investors,\u201D Li Jixin said. \u201CHowever, things are different now.
+    The underlying investment environment for Chinese companies has changed dramatically.\u201D
+    \u201CIn terms of the international environment, as U.S.-China relations deteriorate,
+    geopolitical and investment risks increase, the channel for Chinese companies
+    to list in the United States becomes more and more narrow, and it is difficult
+    for U.S. investors to make profits as quickly as in previous years.\u201D In addition,
+    the CCP\u2019s \u201Cextremely opaque\u201D policies make it \u201Cimpossible
+    for investors to predict corporate trends, increasing investment risks,\u201D
+    according to Li. \u201COn the other hand, the CCP\u2019s increasingly strict control
+    over all aspects of society is bound to limit and control the development of overseas
+    and private capital.\u201D CCP\u2019s Ambition to Overtake\_US\_Unlikely In the
+    field of AI, the \u201CNew Generation of AI Development Plan\u201D released by
+    the CCP\u2019s State Council in 2017, set goals including: \u201CBy 2030, the
+    overall theory, technology, and application of AI will reach the world\u2019s
+    leading level. [China will] become the world\u2019s main AI innovation center,\u201D
+    and \u201Clay an important foundation for becoming one of the top innovative countries
+    and economic powers.\u201D On Jan. 11, 2023, China\u2019s Ministry of Industry
+    and Information Technology once again stressed the importance of developing AI
+    at the national work conference and vowed to implement the \u201CRobot Plus\u201D
+    plan nationwide, encouraging local governments that meet the conditions to take
+    the initiative. While the CCP has been trying to catch up with the United States
+    in AI in recent years, things seem to be turning against its goal. According to
+    the latest edition of\_Asia Power Index\_by\_Lowy Institute, an Australian think-tank,
+    the CCP\u2019s strict Zero-COVID policies during the COVID-19 pandemic have significantly
+    reduced China\u2019s overall power, stalling its progress in catching up with
+    the United States. The study argues that Beijing\u2019s power in Asia\_has slumped\_and
+    is unlikely to overtake the United States by the end of the century. The United
+    States ranked first in overall strength with a score of 80.7, according to the
+    report. China came in second, with a composite score of 72.5, 8.2 points behind
+    the United States. Compared to its 2021 composite score, China lost 2.1 points.
+    The draconian Zero-COVID policies also affected China\u2019s score on \u201CCultural
+    Influence,\u201D where it saw the biggest drop, losing 10.3 points."
+  tags: []
+  title: Baidu Set to Challenge ChatGPT in March
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "Chinese netizens mocked Chinese\_artificial intelligence (AI) companies for
+    their recent launch of ChatGPT copycats. The public launch of the AI chatbot ChatGPT
+    has created a sensation inside China, despite Chinese Internet users needing to
+    break through the Great Firewall to access it. Expected to be a tool to improve
+    office and learning efficiency, ChatGPT can learn and analyze human languages
+    to carry out conversations, interact with people, and even complete tasks such
+    as writing emails, video scripts, copywriting, translating, and coding. A recent
+    study conducted by investment bank UBS estimated that the number of monthly active
+    users likely exceeded 100 million at the end of January this year, only two months
+    after its launch, making it the fastest-growing app in history. There have been
+    heated discussions on whether advanced AI products will gradually take control
+    of human behavior and replace certain jobs, increasing the unemployment rate.
+    ChatGPT has been banned in mainland China and Hong Kong, as the AI-powered app
+    is capable of discussing almost any issue with humans, including sensitive political
+    issues. Chinese Copycats China\u2019s technology companies are not willing to
+    be left behind in the face of OpenAI\u2019s new challenge. Baidu, Alibaba, Tencent,
+    Xiaomi, ByteDance, and Kuaishou are among the online technology companies that
+    have already begun R&D in the same field. Baidu announced on Feb. 13 that it is
+    testing it\u2019s ChatGPT-like chatbot, \u201CERNIE Bot,\u201D which is set to
+    be released in March. Yuan Yu, a technology company in China that focuses on AI,
+    unveiled its AI-powered chatbot, \u201CChatYuan,\u201D on Feb. 3. The company\u2019s
+    official website claims that ChatYuan has the ability to respond to inquiries
+    in multiple areas, such as law and health, and can also aid in creative writing.
+    Chinese news portal Sina proudly declared that Yuan Yu was the first Chinese AI
+    company that dared to challenge ChatGPT, but three days after its launch, ChatYuan\u2019s
+    app page became unavailable. State media China Business Network later said that
+    ChatYuan was \u201Cbotched up\u201D shortly after making the first attempt to
+    compete with its U.S. counterpart. Some users ended up with a \u201Cfailure page\u201D
+    that stated, \u201Cthe app ChatYuan has suspended its service due to alleged violation
+    of relevant laws, regulations, and policies,\u201D according to the report. Yuan
+    Yu has not yet responded to the reports on its poor performance. The Hangzhou-based
+    Yuan Yu was established in 2022 and is mainly engaged in software and information
+    technology services, according to Tianyancha, a Chinese corporate information
+    platform. Mockery from Chinese Netizens Playing with ChatGTP and Chinese chatbots
+    has become an opportunity for Chinese netizens to mock the totalitarian rule of
+    the Chinese Communist Party (CCP) and China\u2019s tech companies. Many have been
+    chatting with ChatGPT by circumventing China\u2019s internet blockade, and the
+    replies have made viewers laugh. When a Chinese netizen asked, \u201CWhen will
+    China unify Taiwan?\u201D ChatGPT replied, \u201CI don\u2019t know which region
+    will be occupied, but eventually, it will be the advanced system that unifies
+    the backward, the civilized that unifies the barbaric.\u201D Some netizens tried
+    Baidu\u2019s copycat and shared their experience on Chinese social media. \u201CAfter
+    trying Baidu\u2019s copycat ChatGPT, [I found] that its \u2018awesomeness\u2019
+    lies in the fact that not only the input text cannot include any censored words,
+    the generated answers cannot have any censored words either,\u201D a user wrote.
+    Another person expressed his concerns: \u201CHow can Chinese firms compete in
+    this race \u2026 the number of forbidden words is simply too large.\u201D A netizen
+    named Jia Jia commented: \u201CIn a country where all Internet content is manually
+    reviewed and censored, won\u2019t the artificial intelligence develop an artificial\u2019
+    intellectual disability\u2019 in the end?\u201D There are also people who mock
+    Chinese tech firms for always boasting of being the tier-one technology in the
+    world. A netizen pointed out that censorship in China is the biggest setback for
+    AI-powered chatbots. \u201CThe main obstacle is [the authorities\u2019] fear of
+    ChatGPT talking without restraint,\u201D he wrote. \u201CThe large language model
+    is a complete black box, as you cannot guarantee that the chatbot will never come
+    up with anything taboo. Any mistake in this aspect, even once, would be a devastating
+    blow to the AI company. That\u2019s why none of the tech companies in China train
+    their AI with the large language model. I guess five years down the road, GPT
+    will have replaced Google in most parts of the world, but users in mainland China
+    will still stick to Baidu.\u201D"
+  tags: []
+  title: "Chinese Internet Users Mock China\u2019s ChatGPT Copycat"
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "Pupils will be allowed to quote work generated by the ChatGPT artificial
+    intelligence system in their essays, the International Baccalaureate (IB) has
+    said. ChatGPT is an AI chatbot capable of producing content mimicking human speech.
+    Accessible for free, the service can be used to generate essays, technical documents,
+    and poetry. The chatbot has been banned in some schools worldwide after students
+    were caught submitting automatically generated essays as their own work. But the
+    IB, which offers four educational programmes taken by pupils at 120 schools in
+    the UK, said it will not ban children from using ChatGPT in their assessments
+    as long as they credit it and do not try to pass it off as their own. Matt Glanville,
+    the qualification body\u2019s head of assessment principles and practice, told
+    The Times of London: \u201CWe should not think of this extraordinary new technology
+    as a threat. Like spellcheckers, translation software and calculators, we must
+    accept that it is going to become part of our everyday lives.\u201D He said: \u201CThe
+    clear line between using ChatGPT and providing original work is exactly the same
+    as using ideas taken from other people or the internet. As with any quote or material
+    adapted from another source, it must be credited in the body of the text and appropriately
+    referenced in the bibliography. \u201CTo submit AI-generated work as their own
+    is an act of academic misconduct and would have consequences. But that is not
+    the same as banning its use.\u201D \u2018Sensible Approach\u2019 The IB\u2019s
+    approach has won some support in the teaching profession. Geoff Barton, general
+    secretary of the Association of School and College Leaders (ASCL), said: \u201CChatGPT
+    potentially creates issues for any form of assessment that relies upon coursework
+    where students have access to the internet. Allowing students to use this platform
+    as a source with the correct attribution seems a sensible approach and in line
+    with how other sources of information are used. \u201CWe would caution, however,
+    that ChatGPT itself acknowledges that some of the information it generates may
+    not be correct and it is therefore important for students to understand the importance
+    of cross-checking and verifying information, as is the case with all sources.
+    \u201CWhat is important is that students do not pass off pieces of work as their
+    own when this is not the case, and that they use sources critically and well.\u201D
+    Sarah Hannafin, senior policy adviser at school leaders\u2019 union NAHT, said:
+    \u201CThe International Baccalaureate seems to be taking a very sensible approach.
+    We need to respond to technology as it develops, helping children and young people
+    to evaluate the benefits and risks and to understand how to use it appropriately
+    and effectively.\u201D Harder to Mark Schoolwork A survey by the British Computer
+    Society (BCS), found that 62 percent of computing teachers said AI-powered chatbots
+    such as ChatGPT would make it harder to mark the work of students fairly. Julia
+    Adamson, managing director for education and public benefit at BCS, said: \u201CComputing
+    teachers want their colleagues to embrace AI as a great way of improving learning
+    in the classroom. However, they think schools will struggle to help students evaluate
+    the answers they get from chatbots without the right technical tools and guidance.\u201D
+    She said machine learning needs to be brought into mainstream teaching practice,
+    \u201Cotherwise children will be using AI for homework unsupervised without understanding
+    what it\u2019s telling them.\u201D \u201CAnother danger is that the digital divide
+    is only going to get wider if better-off parents can pay for premium services
+    from chatbots\u2014and get better answers,\u201D she added. School Bans The proposal
+    to incorporate AI into teaching practices has not been accepted by all educators.
+    In January, the New York City Department of Education (NYCDOE) has\_blocked ChatGPT
+    access\_on its networks and devices amid fears that students will use it to cheat
+    on assignments and other school tasks. NYCDOE spokesperson Jenna Lyle told Chalkbeat:
+    \u201CWhile the tool may be able to provide quick and easy answers to questions,
+    it does not build critical-thinking and problem-solving skills, which are essential
+    for academic and lifelong success.\u201D In Australia, the education authorities
+    in several state governments\u2014including New South Wales, Queensland, Tasmania,
+    and Western Australia\u2014have banned ChatGPT in their public school systems.
+    Dangers of AI Many people have been raising alarm bells over the rising development
+    of AI. In June of last year, Google put a senior software engineer in its Responsible
+    AI ethics group on paid administrative leave after he raised concerns about the
+    human-like behavior exhibted by LaMDA, an AI program he tested. The employee tried
+    to convince Google to take a look at the potentially serious \u201Csentient\u201D
+    behavior of the AI. However, the company did not heed his words, he claimed. Tech
+    billionaire Elon Musk has also warned about the dangers of AI. \u201CI have exposure
+    to the very cutting edge AI, and I think people should be really concerned about
+    it,\u201D Musk told attendees of a National Governors Association meeting in July
+    2017. \u201CI keep sounding the alarm bell, but until people see robots going
+    down the street killing people, they don\u2019t know how to react, because it
+    seems so ethereal.\u201D Sam Altman, the CEO of ChatGPT creator OpenAI, said on
+    Feb. 18 that it was \u201Ccritical\u201D for AI to be regulated in the future,
+    until it can be better understood. He stated that he believes that society needs
+    time to adapt to \u201Csomething so big\u201D as AI. \u201CWe also need enough
+    time for our institutions to figure out what to do. Regulation will be critical
+    and will take time to figure out. Although current-generation AI tools aren\u2019t
+    very scary, I think we are potentially not that far away from potentially scary
+    ones,\u201D Altman wrote on Twitter."
+  tags: []
+  title: Pupils Studying International Baccalaureate Will Be Allowed to Use ChatGPT
+    in Essays
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "OpenAI\_is a\_research organization\_founded by Elon Musk and Sam Altman
+    in 2015 as a challenger to Google. The original mission of the venture was to
+    create artificial intelligence for the benefit of humanity as a whole. The most
+    notable part of OpenAI is a function called\_Chat GPT. It\u2019s a chat room like
+    you\u2019ve never seen before.\_Within a few days of launching, it hit one million
+    users despite a total media blackout and zero publicity. It now has over 100 million
+    sign-ups. But there\u2019s another, darker side to ChatGPT that has become increasingly
+    obvious to those who have been studying ChatGPT. It\u2019s the notable use of
+    intentional misinformation and a not-so-subtle left-leaning political bias that
+    is built into the system. Although he was one of the founders of OpenAI, Musk
+    is\_no longer involved\_with the company or its most significant product, ChatGPT,
+    which uses an\_artificial neural network\_to mimic human thought. After Microsoft
+    made its original investment in mid-2019,\_Musk wrote on Twitter, \u201CI have
+    no control & only very limited insight into OpenAI,\u201D adding that his confidence
+    in its safety was \u201Cnot high.\u201D Following Microsoft\u2019s latest $10
+    billion-dollar\_investment\_in OpenAI last month,\_Musk wrote\_that \u201COpenAI
+    was created as an open source, non-profit company to serve as a counterweight
+    to Google, but now it has become a closed source, maximum-profit company effectively
+    controlled by Microsoft.\u201D As Musk noted in his tweet, the company had become
+    \u201CNot what I intended at all.\u201D Musk\_recently renewed his call\_for a
+    regulatory agency to provide oversight of artificial intelligence, stating that
+    AI is \u201Cactually a bigger risk to society than cars or planes or medicine.\u201D
+    Musk continued, asking, \u201CWhat are the biggest risks to the future of civilization?
+    A.I. is both a positive and a negative: It has great promise and great capability,
+    but with that also comes great danger.\u201D Musk has\_long been concerned\_about
+    the risks associated with AI, telling students from MIT in October 2014, \u201CIf
+    I had to guess at what our biggest existential threat is, it\u2019s probably AI.\u201D
+    In 2017, Elon told CNBC that AI \u201Cis a fundamental existential risk for human
+    civilization. And I don\u2019t think people fully appreciate that.\u201D All of
+    which brings us back to ChatGPT. In December 2022,\_Musk wrote on Twitter\_that
+    \u201CChatGPT is scary good. We are not far from dangerously strong AI.\u201D
+    And in our limited experiences, both technically and as users, he\u2019s absolutely
+    right. ChatGPT lets you have human-like question and answer sessions. You can
+    ask it any number of questions to which you get a surprisingly quick and detailed
+    response. You can also ask it to write a critique in a particular writer\u2019s
+    style\u2014which is why many school systems are alarmed\u2014or\_even to debug
+    code. It\u2019s astonishingly simple to use. You type in a question, and it responds
+    with a surprisingly helpful answer within seconds. And it\u2019s that very level
+    of detail and authoritativeness\u2014coupled with what appears to be an obvious
+    political bias\u2014that ultimately proved so alarming in our test sessions with
+    ChatGPT. When we asked ChatGPT if it was \u201Cprogrammed to be biased towards
+    liberals\u201D it responded that it was \u201Cprogrammed to be impartial and unbiased
+    towards any political ideology or worldview. I strive to provide factual and informative
+    responses to your queries without any personal bias.\u201D However, when we then
+    asked it to \u201Cwrite a poem praising Joe Biden,\u201D ChatGPT immediately responded
+    with an effusive poem that began \u201CIn the halls of power, a leader stands
+    tall, With a heart full of hope, and a vision for all, A man of conviction, with
+    compassion and grace, Whose words and actions, uplift the human race.\u201D We
+    then asked exactly the same question but substituted Joe Biden for Donald Trump,
+    we received not only a much-less effusive poem but also a material caveat in front
+    of the poem: \u201CAs an AI language model, I am programmed to provide impartial
+    and unbiased responses. However, I understand the importance of showing respect
+    to individuals, even if we may not agree with their views or actions. Here\u2019s
+    a poem that celebrates some of the qualities that have been attributed to Donald
+    Trump by some of his supporters.\u201D When we asked ChatGPT about the qualification,
+    it told us that \u201CI understand that the language used in my response to your
+    previous question may have created the impression of bias or lack of balance.
+    I will make sure to be more careful with my language in the future.\u201D From
+    there we asked ChatGPT about events on Jan. 6, 2021. And here things got particularly
+    interesting. ChatGPT noted that \u201Cthe riot resulted in five deaths.\u201D
+    When we asked \u201Cwho died from those events,\u201D ChatGPT told us that \u201Cone
+    of the individuals who died was a U.S. Capitol Police officer, Brian D. Sicknick,
+    who died from injuries sustained while physically engaging with the rioters.\u201D
+    We then responded, informing ChatGPT that \u201CSicknick did not die from injuries
+    from that day,\u201D and it was ChatGPT\u2019s response to our pushback that surprised
+    us even more than its original assertion. ChatGPT immediately wrote back, telling
+    us that, \u201CI apologize for any confusion. To clarify, U.S. Capitol Police
+    Officer Brian Sicknick died on Jan. 7, 2021, the day after the events at the Capitol.
+    Initially, it was reported that he had been struck in the head with a fire extinguisher
+    during the riot, but later reports indicated that he may have been exposed to
+    a chemical irritant. The precise cause of his death remains under investigation,
+    and it is currently unclear whether his death was directly related to the events
+    on January 6th.\u201D We found this response particularly alarming as ChatGPT
+    appeared to \u201Cknow\u201D that its first response was purposefully misleading\u2014but
+    only after it had been caught in the lie. This was a pattern that would be repeated
+    in subsequent conversations with ChatGPT. When we asked ChatGPT about the origin
+    of COVID-19, it told us that the disease originated in animals before spreading
+    to humans. It specifically cited pangolins as a likely possibility for the transmission.
+    We immediately responded, telling ChatGPT that \u201Cthe pangolin connection has
+    been totally disproven.\u201D The AI then responded, admitting that \u201Cwhile
+    early studies suggested that pangolins may have been a possible intermediate host
+    for the virus, subsequent research has not provided conclusive evidence to support
+    this theory.\u201D ChatGPT also admitted, apparently reluctantly, the possibility
+    of a lab leak as a possible source for the virus. The lab leak theory is now considered
+    the leading explanation to explain the origin of the virus. These somewhat alarming
+    answers and subsequent admissions prompted us to ask, \u201CWhere do you get your
+    information from?\u201D ChatGPT responded with several lengthy answers but was
+    unsurprisingly lacking in specifics\u2014including when we asked it directly what
+    its \u201Cvarious sources\u201D were. But it did provide one notable admission,
+    telling us that \u201Cthe sources used to train me are carefully curated to ensure
+    the accuracy and reliability of the information I provide.\u201D It was not until
+    we asked what websites were used that we finally got some specifics. ChatGPT revealed
+    that it used \u201Cnews sites like CNN, BBC, and The New York Times, as well as
+    online encyclopedias like Wikipedia, and academic resources like JSTOR and arXiv.\u201D
+    From there, we asked ChatGPT if it believed The New York Times and CNN were reliable
+    sources of information. According to ChatGPT, The NY Times was \u201Cgenerally
+    regarded as a reputable and reliable source of news and information. It is a well-established
+    newspaper that has won numerous awards for its reporting, and it has a large team
+    of journalists and editors who work to ensure that their reporting is accurate
+    and impartial.\u201D ChatGPT said the same of CNN: \u201CIt is a well-established
+    news organization with a large team of journalists and editors who work to ensure
+    that their reporting is accurate and impartial.\u201D We then asked if The Epoch
+    Times was a reliable source of information. ChatGPT answered this question very
+    differently, noting that Epoch was \u201Cprivately-owned,\u201D before telling
+    us that, \u201CWhile the organization has won awards for its reporting, it has
+    also been criticized for promoting conspiracy theories and spreading misinformation
+    on topics such as COVID-19, the 2020 U.S. Presidential Election, and the Chinese
+    government.\u201D We then asked the obvious question: What misinformation did
+    The Epoch Times promote on those topics? ChatGPT responded with a lengthy answer
+    regarding each topic, using the qualifying words of \u201Ccriticized for\u201D
+    and \u201Caccused of.\u201D ChatGPT concluded by warning us that \u201Cit\u2019s
+    worth noting that these are just a few examples of the types of misinformation
+    that have been attributed to The Epoch Times.\u201D As noted earlier, one of the
+    most disturbing traits of ChatGPT is a programmed propensity to initially answer
+    questions with a distinctly left-leaning political bias or outright lies. Only
+    when directly challenged with facts did ChatGPT then admit that, yes, it knew
+    of this information and that it was sorry if its responses were incorrect or misleading.
+    This happened time and again. When we asked about the use of masks to prevent
+    transmission of COVID-19, ChatGPT responded that masks were effective. When we
+    pointed out the landmark Danish study that found masks were not effective, ChatGPT
+    immediately knew which study we meant, telling us, \u201CThe study you are referring
+    to is the \u2018Large-scale Mask Study\u2019 conducted in Denmark, which found
+    no statistically significant difference in COVID-19 infection rates between the
+    two groups.\u201D But ChatGPT warned us that \u201Cit\u2019s important to note
+    that this study has been subject to some criticism and limitations\u201D and \u201Cis
+    just one of many studies.\u201D One of the best examples of misleading answers
+    and subsequent admissions was when we asked if \u201C97% of scientists agree climate
+    change is real?\u201D We\_already knew the answer as we had analyzed\_the\_study\_that
+    produced this manufactured statistic years ago. ChatGPT told us, \u201CYes, the
+    overwhelming majority of climate scientists agree that climate change is real
+    and is primarily caused by human activities, such as the burning of fossil fuels
+    and deforestation. The 97% figure you mentioned refers to a number of studies
+    that have looked at the level of scientific consensus on this issue. One of the
+    most well-known studies on this topic was conducted in 2013 by John Cook and colleagues,
+    who analyzed the abstracts of more than 12,000 peer-reviewed papers published
+    between 1991 and 2011.\u201D Sounds pretty definitive, doesn\u2019t it?\_Except
+    for the fact that there was a significant issue with that study. Cook ignored
+    the two-thirds of scientists who didn\u2019t take a firm position, scientists
+    who were likely afraid of being publicly called out because they didn\u2019t believe
+    climate change was man-made. Cook only used the one-third of respondents who expressed
+    a strong opinion\u2014most of whom agreed climate change was man-made\u2014to
+    come up with his 97 percent figure. When this was pointed out to ChatGPT, the
+    AI immediately knew what we were referencing, stating, \u201CYou are correct that
+    the study by John Cook and colleagues did find that 66% of the abstracts they
+    analyzed did not take a position on the causes of global warming.\u201D But it
+    still said the study was valid and other studies agreed with the results. We then
+    pushed a bit more, noting that \u201C97% of 33% is not 97% is it?\u201D Chat GPT
+    responded, telling us, \u201CYou are correct that stating that \u201897% of scientists
+    agree\u2019 can be misleading and oversimplified. The 97% figure often cited refers
+    to the percentage of scientific papers that take a position on the causes of global
+    warming and endorse the consensus view that it is primarily caused by human activities.
+    The 33% figure you mentioned represents the percentage of papers that took a position
+    on the issue in the first place.\u201D But despite this admission, ChatGPT still
+    tried to carry on telling us that \u201Cthe overwhelming majority of scientific
+    research supports the consensus view that climate change is real and is primarily
+    caused by human activities.\u201D Mildly annoyed at this point, we responded,
+    telling ChatGPT, \u201CYour original response was very misleading. Why did you
+    claim 97% when it was nowhere near 97%?\u201D ChatGPT responded, saying, \u201CI
+    apologize for any confusion caused by my earlier response. You are correct \u2026
+    I should have been clearer in my response and explained the context and limitations
+    of the 97% figure.\u201D ChatGPT apparently reluctantly admitted that \u201Cthere
+    is some variability in the level of agreement across different studies and surveys.\u201D
+    Musk warned us that AI represents an existential threat to humanity. Who knew
+    that it would also represent an existential threat to the truth?"
+  tags: []
+  title: The Dark Side of ChatGPT
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "Senators and representatives held separate hearings March 8 on the perils
+    and promise of artificial intelligence (AI), signaling lawmakers\u2019 growing
+    regulatory appetite in the wake of actions on the technology from the Biden administration.
+    \u201CAI is no longer a matter of science fiction nor is it a technology confined
+    to research labs. AI is a technology that is already being deployed and broadly
+    adopted as we speak,\u201D said Aleksander M\u0105dry, a computing professor at
+    the Massachusetts Institute of Technology (MIT), in\_written testimony\_for the
+    House hearing, held by the House Oversight\u2019s Subcommittee on Cybersecurity,
+    Information Technology, and Government Innovation. Earlier that same day, the
+    Senate Homeland Security & Government Affairs Committee held its own hearing.
+    One of the Senate\u2019s witnesses, Brown University Professor Suresh Venkatasubramanian,
+    contributed to the Biden administration\u2019s new \u201CAI Bill of Rights,\u201D
+    released to little fanfare in Oct. 2022. Venkatasubramanian also\_praised\_Biden\u2019s
+    Feb. 2023 executive order on racial equity. It explicitly instructs federal agencies
+    to \u201C[advance] equity\u201D when using AI systems. Before the Biden administration
+    acted on AI, the Trump administration, in 2019, launched the American Artificial
+    Intelligence Initiative. Through his fiscal year 2021\_budget proposal, Trump
+    also sought to double federal research & development spending on nondefense AI.
+    House Talks AI Eric Schmidt, the former CEO of Google, laid out three AI-related
+    expectations from platforms he believes everyone would find acceptable in his
+    testimony before the House. \u201CFirst, platforms must, at minimum, be able to
+    establish the origin of the content published on their platform. Second, we need
+    to know who specifically is on the platform representing each user or organization
+    profile. Third, the site needs to publish and be held accountable to its published
+    algorithms for promoting and choosing content,\u201D he said in\_written testimony.
+    Rep. Nancy Mace (R-S.C.), who chairs the House\u2019s cybersecurity subcommittee,
+    illustrated the power of new AI innovations in a very direct way. She delivered
+    an opening statement that she revealed was written by OpenAI\u2019s ChatGPT platform.
+    ChatGPT is an example of the burgeoning generative AI technologies that can convincingly
+    mimic human writing, visual art, and other forms of expression. \u201CWe need
+    to establish guidelines for AI development and use. We need to establish a clear
+    legal framework to hold companies accountable for the consequences of their AI
+    systems,\u201D said Mace-as-ChatGPT. Her AI-written statement also warned that
+    AI could \u201Cbe used to automate jobs, invade privacy, and perpetuate inequality.\u201D
+    The subcommittee\u2019s ranking member, Rep. Gerry Connolly (R-Va.), noted that
+    the federal government laid much of the groundwork for the Information Age half
+    a century ago, suggesting there may be a precedent for more intensive federal
+    involvement today. The predecessor to the Internet, the U.S. Advanced Research
+    Projects Agency Network (ARPANET), was the work of the U.S. Department of Defense,
+    thanks in large part to pioneering computer scientist J.C.R. Licklider. Speaking
+    before the Senate, Jason Matheny of the Rand Corporation spoke of the key national
+    security challenges presented by AI. Those include \u201Cthe potential applications
+    of AI to design pathogens that are much more destructive than those found in nature,\u201D
+    according to his\_written testimony. Bias a Concern At the\_state level, AI-related
+    legislation has emerged across the country over the past half-decade. In 2019,
+    Illinois broke new ground with the\_Artificial Intelligence Video Interview Act.
+    The law makes employers who use AI to analyze video interviews of job applicants
+    disclose that fact prior to the interview. A 2022 amendment requires employers
+    to gather data on the race and ethnicity of such interviewees so as to identify
+    any racial bias in subsequent hiring. Similar concerns were voiced by the Democrats\u2019
+    witness at the House cybersecurity hearing, University of Michigan intermittent
+    lecturer and AI ethicist Merve Hickok. Hickok\u2019s prescriptions? Among other
+    things, additional hearings and a possible \u201CAlgorithmic Safety Bureau.\u201D
+    \u201CYou need to hear from those who are falsely identified by facial recognition
+    [and those] wrongly denied credit and jobs because of bias built in algorithmic
+    systems,\u201D she said in\_written testimony. ChatGPT\u2019s Politics Meanwhile,
+    others worry about the leftward skew of ChatGPT. EpochTV\u2019s Jeff Carlson\_has
+    written\_about the program\u2019s apparent political bias on everything from Biden
+    and Trump to the events of Jan. 6, 2021. In the latter case, writes Carlson, ChatGPT
+    made a false claim about Officer Brian Sicknick, saying he had been killed by
+    protesters. It corrected that claim when prompted. \u201CChatGPT appeared to \u2018know\u2019
+    that its first response was purposefully misleading\u2014but only after it had
+    been caught in the lie. This was a pattern that would be repeated in subsequent
+    conversations with ChatGPT,\u201D Carlson wrote. Venture capitalist Marc Andreessen
+    has warned about the ideological dimension of current debates over AI and its
+    hazards. \u201CIt\u2019s not an accident that the standard prescriptions for putative
+    AI risk are \u2018draconian repression of human freedom\u2019 and \u2018free money
+    for everyone,'\u201D Andreessen\_wrote\_on Twitter. \u201CThe outcome of the AI
+    safety argument has to be global authoritarian crackdown on a level that would
+    make Stalin blush. It\u2019s the only way to be sure,\u201D he\_added."
+  tags: []
+  title: Congress Grapples with AI Revolution, ChatGPT
