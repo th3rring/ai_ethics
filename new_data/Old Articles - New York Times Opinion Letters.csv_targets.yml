@@ -1,0 +1,138 @@
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "To the Editor: Re \u201CA.I. Is Doing Homework. Can It Be Outsmarted?\u201D
+    (front page, Jan. 17): This technology could become a boon to learning. It makes
+    cheating easier, too. I teach philosophy and religious studies at a liberal arts
+    college. This is what I tell students: I\u2019m here for you after nine years
+    of graduate study and 35 years of teaching. All my learning is available to you,
+    along with my personal attention and help. But I have zero training \u2014 and
+    less interest \u2014 in hunting down or trying to defeat academic dishonesty.
+    I will help you encounter interesting, challenging, sometimes difficult ideas,
+    and I will help you ponder them rigorously with your classmates. It will expand
+    and strengthen your mind, and thereby enlarge your potential as a human being.
+    In the process you will earn my respect and \u2014 what is more important \u2014
+    you will respect yourself. Or, you can choose to cheat to get a grade you did
+    not earn. That door is open for you, if that\u2019s the person you want to be.
+    It\u2019s your education, paid for with your, or someone else\u2019s, money. Ultimately,
+    the person you will have cheated is yourself. Robert J. Miller\L Huntingdon, Pa.\L
+    The writer is a professor at Juniata College. To the Editor: Writing is a skill:
+    It takes years to become an effective writer and many more to develop deep thought
+    and personal style. In high school, I took a number of English and history exams,
+    but none taught me more than the traditional essay assignment. With the time to
+    probe deeply into my thinking and carefully unearth evidence, I discovered all
+    sorts of worlds beyond the explicit nature of texts, and I had the opportunity
+    to explain them fully while finding my voice. Reforming courses by removing writing
+    from the curriculum altogether (or forcing very quick writing), as described in
+    this article, cheats me and so many students of the opportunity to invest in ourselves
+    and our ability to think. So, as a high school senior who\u2019s staring down
+    the prospect of a college education, I\u2019m desperately hoping we can find a
+    more nuanced solution for avoiding ChatGPT plagiarism. Elizabeth Gallori\LBrookline,
+    Mass. To the Editor: A.I. can be detected without elaborate technology by the
+    use of a pretest. Before instruction begins, teachers ask students to write a
+    short essay in class. Using the results as a baseline, they can compare subsequent
+    essays. Even the best teachers cannot transform barely literate students into
+    star writers. Essays that suddenly shine are almost always the product of A.I.
+    Walt Gardner\L Los Angeles\L The writer taught English for 28 years. To the Editor:
+    The brouhaha over students turning to artificial intelligence chatbots to craft
+    papers seems premature. I suggest there are \u201Ctells\u201D that help spot what
+    I\u2019d call the \u201Cmachine provenance\u201D of papers turned out by chatbots.
+    One tell is the often thin gruel of an essay\u2019s content, lacking nuance, sophistication,
+    depth, imagination and fine granularity of detail and expression of thought. Another
+    tell is that the language seems formulaic. That is, stilted, dryly stylized and
+    without flair \u2014 almost roboticized in its tone, syntax, cadence and coherence.
+    Even worse is that chatbot essays sometimes include factual inaccuracies. Educators
+    ought, therefore, to vigilantly track the development of increasingly robust detection
+    apps. A.I. chatbot text generation, arguably still in its toddlerhood, presages
+    immense gains in capabilities in the very short term, when tells may disarmingly
+    fade. Keith Tidman\L Bethesda, Md. To the Editor: After reading about the uncanny
+    ability of ChatGPT to generate papers indisguishable from those written by students,
+    one question remains. If multiple students from the same class submit the same
+    question, will each receive a unique A.I. response paper of sufficiently differentiated
+    content? P.S.: This letter was written by the author using whatever language/vocabulary
+    skills he has acquired over the years. Richard M. Frauenglass\L Huntington, N.Y.\L
+    The writer is a former adjunct assistant professor of mathematics at Nassau Community
+    College. To the Editor: Chatbots and artificial intelligence will be able to perform
+    only as well as the humans who create these technologies. If teachers are giving
+    A\u2019s to essays that a chatbot can easily replicate, with eloquent but analysis-free
+    writing that relies on generalizations and memorization but lacks nuance and attention
+    to evidence, they are not really asking students to think. If new A.I. technologies
+    force educators to \u201Cup their game,\u201D as one says, to encourage careful
+    and specific analysis,\_their students will surely benefit. This article suggests
+    a need for an even more critical revolution in education to emphasize the deep
+    thinking that A.I. cannot (and might never be able to) replicate. Betty Luther
+    Hillman\L Portsmouth, N.H.\L The writer teaches at Phillips Exeter Academy. To
+    the Editor: If ChatGPT is so effective at creating college-level content, I wonder
+    if professorial hand-wringing about student plagiarism is to deflect us from focusing
+    on instructors\u2019 potential use of it to create lectures or exams! Bryan Stone\LCham,
+    Switzerland To the Editor: Re \u201CA.I., Once the Future, Has Become the Present.
+    What Do We Do Now?,\u201D by Kevin Roose (\u201CThe Shift,\u201D Business, Jan.
+    13): One problem with the ChatGPT program is that it could be used by students
+    to write assignments. But Mr. Roose points out that it could also be put to good
+    use. For example, it could write personalized lesson plans for each student, or
+    serve as an after-hours tutor. However, such programs could do much more: They
+    could completely replace teachers and the traditional classroom. Consider\_a patent
+    I received\_a few years ago for a learning method in which a student is presented
+    with a question. If the answer is accurate, that question will be presented less
+    often in the future, and vice versa. Over time, most time will be spent working
+    on questions that are poorly answered. No teacher can keep track of where every
+    student stands with respect to every subject, but a computer program could do
+    just that. With the right kind of A.I.-based tutor, practically any subject could
+    be taught efficiently and at low cost. ChatGPT does not perform that function,
+    but some successor could well do so. William Vaughan Jr.\L Chebeague Island, Maine"
+  tags: []
+  title: How Will Chatbots Change Education?
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "To the Editor: Re \u201CHow ChatGPT Hijacks Democracy,\u201D by Nathan E.
+    Sanders and Bruce Schneier (Opinion guest essay, nytimes.com, Jan. 15): I fed
+    this essay into ChatGPT and asked it to write a rebuttal. ChatGPT read the article
+    and wrote the following in less than a minute: As a writer and researcher who
+    is familiar with the capabilities of language models like ChatGPT, I was surprised
+    to read the recent New York Times essay that suggested that this technology could
+    be used to \u201Cupend\u201D democratic processes through lobbying. While it is
+    true that ChatGPT can generate text that is often indistinguishable from human
+    writing, it is important to note that this technology is not capable of understanding
+    the nuances and subtleties of political networks and systems. Additionally, the
+    idea that ChatGPT could be used to \u201Cruthlessly exploit\u201D policymaking
+    vulnerabilities is a gross exaggeration of its capabilities. Furthermore, it is
+    important to note that the problem of automatically generated comments is not
+    new. For several years, we have struggled with bots that automatically post content.
+    Platforms like Facebook have become better at removing \u201Ccoordinated inauthentic
+    behavior.\u201D In reality, ChatGPT and similar technologies have the potential
+    to be powerful tools for businesses, researchers and educators. They can be used
+    to automate repetitive tasks, improve efficiency and generate new insights. However,
+    the notion that ChatGPT could be used to compromise democratic processes is fear-based
+    speculation that is not rooted in reality. It is important to approach new technologies
+    with caution and to understand their capabilities and limitations. However, it
+    is also essential not to exaggerate their potential dangers and to consider how
+    they can be used in a positive and responsible manner. OpenAI\u2019s ChatGPT\L
+    (via Gary Apple) \LNew York"
+  tags: []
+  title: ChatGPT Wrote (Most of) This Letter
+- !!python/object:ai_sentiment.data.ClassificationTarget
+  body: "To the Editor: Re \u201CBing\u2019s Chatbot Drew Me In and Creeped Me Out,\u201D
+    by Kevin Roose (The Shift column, front page, Feb. 17): After reading Mr. Roose\u2019s
+    article, I\u2019m sure I\u2019m not alone in having concerns about the abilities
+    and uses of A.I. While we hope to trust companies like Microsoft and Google to
+    put in safeguards, an obvious concern is that some bad actor or even government
+    may use this technology to develop an A.I. system without such safeguards, much
+    as there are now social media sites set up to promote false narratives and conspiracy
+    theories. Has humankind opened a Pandora\u2019s box of unintended consequences,
+    where we will now need to develop A.I. to counter that possible threat \u2014
+    a new race in this unlimited frontier? Daniel Samakow\L Venice, Calif. To the
+    Editor: I recognized a pattern in the dialogue between Kevin Roose and the Bing
+    chatbot that made my blood run cold. The A.I. personality proclaimed love but
+    would not take no for an answer, offering verbal attacks and coercion when Mr.
+    Roose demurred. Victims of domestic violence or stalking know this pattern well.
+    If A.I. draws on the total sum of digitized human speech and text, of course abusive
+    impulses will be replicated. Do A.I. engineers think they can prevent human and
+    societal ills in A.I. that we have scant success preventing in people? We should
+    doubt this capacity. At a minimum, all A.I.-involved text exchanges, articles
+    and other products must be clearly labeled as A.I. products, and we need consumer
+    protection laws requiring this labeling. Let\u2019s give people a heads-up that
+    the product is not from another living person but tossed up from a giant trawling
+    net in the digital ocean that indiscriminately collects trash alongside signs
+    of life. Abe Louise Young \LAustin, Texas To the Editor: Human-to-human relationships
+    are often riddled with toxic comments, passive-aggressive swipes and manipulation.
+    It looks as if the chatbot in Kevin Roose\u2019s revealing article is following
+    in our dysfunctional footsteps. Matt Tanguay\L Ann Arbor, Mich."
+  tags: []
+  title: 'Dear Mr. Chatbot: You Give Me Chills'
