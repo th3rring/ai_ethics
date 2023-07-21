@@ -1,5 +1,4 @@
 from collections import defaultdict
-from dataclasses import asdict, dataclass, field
 from enum import Enum
 from re import compile
 from sys import argv
@@ -7,8 +6,8 @@ from sys import argv
 import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.axes import Axes
-from numpy import nan
 from pandas import DataFrame
+from wordcloud import WordCloud
 
 from ai_sentiment.nlp import SentimentClassifier
 
@@ -53,8 +52,12 @@ NAME_MAP = {
 SOURCE_REGEX = compile(r"- ([^_]*)_")
 
 
-def group_by_source(results: dict[str, DataFrame]) -> DataFrame:
+def group_by_source(
+    results: dict[str, DataFrame]
+) -> tuple[DataFrame, dict[str, list[str]], dict[str, list[str]]]:
   aggregates = []
+  positive_words = defaultdict(list)
+  negative_words = defaultdict(list)
   for path, data in results.items():
     source_name = SOURCE_REGEX.search(path).group(1)  # type: ignore
     if source_name in NAME_MAP:
@@ -65,16 +68,18 @@ def group_by_source(results: dict[str, DataFrame]) -> DataFrame:
         "classification": SOURCE_CLASSIFICATIONS[source_name]._name_,
         "score": score
     } for score in data["sentiment_score"]])
+    positive_words[source_name].extend(w for ws in data["positive_words"] for w in eval(ws))
+    negative_words[source_name].extend(w for ws in data["negative_words"] for w in eval(ws))
 
-  return DataFrame(aggregates)
+  return DataFrame(aggregates), positive_words, negative_words
 
 
-asent_results = group_by_source({
+asent_results, asent_positive_words, asent_negative_words = group_by_source({
     path: SentimentClassifier.loadResults(path)
     for path in argv[1:]
     if "asent" in path
 })
-textblob_results = group_by_source({
+textblob_results, textblob_positive_words, textblob_negative_words = group_by_source({
     path: SentimentClassifier.loadResults(path)
     for path in argv[1:]
     if "textblob" in path
@@ -95,6 +100,19 @@ def plot_results(ax: Axes, results: DataFrame, title: str):
   )
 
 
+def generate_wordcloud(words: dict[str, list[str]], format: str):
+  for source_name, source_words in words.items():
+    wordcloud = WordCloud(
+        max_font_size = 100,
+        max_words = 100,
+        background_color = "white",
+        scale = 2,
+        width = 800,
+        height = 400
+    ).generate(' '.join(source_words))
+    wordcloud.to_file(format.format(source_name = source_name))
+
+
 asent_fig, asent_ax = plt.subplots()
 plot_results(asent_ax, asent_results, "Sentiment Distribution by Source (asent)")
 asent_fig.savefig("asent_results.pdf")
@@ -102,4 +120,7 @@ textblob_fig, textblob_ax = plt.subplots()
 plot_results(textblob_ax, textblob_results, "Sentiment Distribution by Source (textblob)")
 textblob_fig.savefig("textblob_results.pdf")
 
-plt.show()
+generate_wordcloud(asent_positive_words, "wordclouds/{source_name}_asent_positive.pdf")
+generate_wordcloud(asent_negative_words, "wordclouds/{source_name}_asent_negative.pdf")
+generate_wordcloud(textblob_positive_words, "wordclouds/{source_name}_textblob_positive.pdf")
+generate_wordcloud(textblob_negative_words, "wordclouds/{source_name}_textblob_negative.pdf")
