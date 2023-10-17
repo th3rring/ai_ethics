@@ -1,4 +1,5 @@
 from typing import List
+from transformers import AutoTokenizer
 from pathlib import Path
 from abc import ABC, abstractmethod
 from collections import deque, namedtuple
@@ -29,6 +30,12 @@ import requests
 # Imports for pdf scraper
 from PyPDF2 import PdfReader
 
+tokenizer = AutoTokenizer.from_pretrained('lxyuan/distilbert-base-multilingual-cased-sentiments-student')
+tokenizer.unk_token = None
+tokenizer.sep_token = None 
+tokenizer.pad_token = None
+tokenizer.cls_token = None 
+tokenizer.do_lower_case = False
 
 class Scraper(ABC):
 
@@ -235,8 +242,9 @@ CSVQueueElement = namedtuple("CSVQueueElement", ["title", "url", "body", "tags"]
 
 class CSVScraper(Scraper):
 
-    def __init__(self):
+    def __init__(self, truncate: int | None = None):
         """Init for web scraper"""
+        self.truncate = truncate
 
     def queueCSV(self, path: Path):
         """Process a CSV of article data and add them to the queue.
@@ -254,6 +262,9 @@ class CSVScraper(Scraper):
 
         # Append entries to queue
         for title, url, body in zip(titles, urls, bodies):
+            if self.truncate is not None:
+                tokens = body.split()
+                body = ' '.join(tokens[:512])
             self.queue.append(CSVQueueElement(title, url, body, []))
     
     def scrapeNext(self) -> ClassificationTarget:

@@ -115,12 +115,12 @@ def generate_wordcloud(words: dict[str, list[str]], format: str):
 
 asent_fig, asent_ax = plt.subplots()
 plot_results(asent_ax, asent_results, "Sentiment Distribution by Source (asent)")
-asent_fig.savefig("asent_results.pdf")
+asent_fig.savefig("truncated_asent_results.pdf")
 textblob_fig, textblob_ax = plt.subplots()
 plot_results(textblob_ax, textblob_results, "Sentiment Distribution by Source (textblob)")
-textblob_fig.savefig("textblob_results.pdf")
+textblob_fig.savefig("truncated_textblob_results.pdf")
 
-generate_wordcloud(asent_positive_words, "wordclouds/{source_name}_asent_positive.pdf")
-generate_wordcloud(asent_negative_words, "wordclouds/{source_name}_asent_negative.pdf")
-generate_wordcloud(textblob_positive_words, "wordclouds/{source_name}_textblob_positive.pdf")
-generate_wordcloud(textblob_negative_words, "wordclouds/{source_name}_textblob_negative.pdf")
+generate_wordcloud(asent_positive_words, "wordclouds/{source_name}_asent_positive_truncated.pdf")
+generate_wordcloud(asent_negative_words, "wordclouds/{source_name}_asent_negative_truncated.pdf")
+generate_wordcloud(textblob_positive_words, "wordclouds/{source_name}_textblob_positive_truncated.pdf")
+generate_wordcloud(textblob_negative_words, "wordclouds/{source_name}_textblob_negative_truncated.pdf")

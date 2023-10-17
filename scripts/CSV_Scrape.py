@@ -13,7 +13,7 @@ for data_path in argv[1:]:
     project_dir = Path(__file__).parents[1]
 
     print(f"Loading data from {project_dir / csv_path}")
-    csv_scraper = CSVScraper()
+    csv_scraper = CSVScraper(truncate=512)
     csv_scraper.queueCSV(project_dir / csv_path)
 
     # Extract text articles
@@ -21,13 +21,13 @@ for data_path in argv[1:]:
     target_path = Path(f"{csv_path}_targets.yml")
     csv_scraper.dumpTargets(project_dir / target_path, targets)
 
-    asent_results_file = f"{project_dir / 'new_data_results' / csv_path.stem}_asent.csv"
+    asent_results_file = f"{project_dir / 'truncated_data_results' / csv_path.stem}_asent.csv"
     asent_nlp = AsentSentimentClassifier()
     results = asent_nlp.processList(targets)
     print(f"Dumping asent results to {asent_results_file}")
     asent_nlp.dumpResults(asent_results_file, results)
 
-    textblob_results_file = f"{project_dir / 'new_data_results' / csv_path.stem}_textblob.csv"
+    textblob_results_file = f"{project_dir / 'truncated_data_results' / csv_path.stem}_textblob.csv"
     textblob_nlp = SentimentClassifier()
     results = textblob_nlp.processList(targets)
     print(f"Dumping textblob results to {textblob_results_file}")
