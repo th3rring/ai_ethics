@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from collections import defaultdict
 from dataclasses import dataclass
 from enum import Enum
@@ -82,7 +83,9 @@ def group_by_source(
     } for score in data["sentiment_score"]])
     positive_words[source_name].extend(w for ws in data["positive_words"] for w in eval(ws))
     negative_words[source_name].extend(w for ws in data["negative_words"] for w in eval(ws))
-    counts[source_name] += Counts(len(data["titles"]), sum(len(b) for b in data["body_contents"]))
+    counts[source_name] += Counts(
+        len(data["titles"]), sum(len(re.findall(r'\w+', b)) for b in data["body_contents"])
+    )
 
   return DataFrame(aggregates), positive_words, negative_words, counts
 
@@ -134,47 +137,63 @@ def plot_stats(counts: dict[str, Counts], alignment_path_format: str, aggregate_
 
   label_locs = np.arange(len(aggregate_counts))
   width = 0.25
-  multiplier = 0
   fig, ax = plt.subplots(layout = 'constrained')
-  for alignment, a_counts in aggregate_counts.items():
-    offset = width * multiplier
-    rects = ax.bar(label_locs + offset, a_counts.articles, width, label = "Articles")
-    rects = ax.bar(label_locs + offset, a_counts.words, width, label = "Words")
-    ax.bar_label(rects, padding = 3)
-    multiplier += 1
+  alignments = []
+  article_counts = []
+  word_counts = []
 
-  ax.set_ylabel('Number of articles/words per alignment')
+  for alignment in Classification:
+    a_counts = aggregate_counts[alignment]
+    alignments.append(alignment.name.lower())
+    article_counts.append(a_counts.articles)
+    word_counts.append(a_counts.words / 1000)
+
+  article_rects = ax.bar(label_locs, article_counts, width = width, align = 'edge', label = "Articles")
+  word_rects = ax.bar(
+      label_locs + width + 0.1, word_counts, width = width, align = 'edge', label = "1k Words"
+  )
+  ax.bar_label(article_rects, padding = 3)
+  ax.bar_label(word_rects, padding = 3)
+
+  ax.set_ylabel('Number of articles/thousands of words per alignment')
   ax.set_title('Article and word counts by political alignment')
-  ax.set_xticks(label_locs + width, aggregate_counts.keys())
+  ax.set_xticks(label_locs + width, alignments)
   ax.legend(loc = 'upper left', ncols = 2)
-  ax.set_ylim(0, 250)
   plt.savefig(aggregate_path)
+  plt.close()
 
   for alignment, source_counts in alignment_counts.items():
     label_locs = np.arange(len(source_counts))
     width = 0.25
-    multiplier = 0
     fig, ax = plt.subplots(layout = 'constrained')
     sources = []
+    article_counts = []
+    word_counts = []
+
     for source, s_counts in source_counts:
       sources.append(source)
-      offset = width * multiplier
-      rects = ax.bar(label_locs + offset, s_counts.articles, width, label = "Articles")
-      rects = ax.bar(label_locs + offset, s_counts.words, width, label = "Words")
-      ax.bar_label(rects, padding = 3)
-      multiplier += 1
+      article_counts.append(s_counts.articles)
+      word_counts.append(s_counts.words / 1000)
 
-    ax.set_ylabel('Number of articles/words per source')
-    ax.set_title(f'Article and word counts by {alignment} source')
+    article_rects = ax.bar(label_locs, article_counts, width = width, align = 'edge', label = "Articles")
+    word_rects = ax.bar(
+        label_locs + width + 0.1, word_counts, width = width, align = 'edge', label = "1k Words"
+    )
+    ax.bar_label(article_rects, padding = 3)
+    ax.bar_label(word_rects, padding = 3)
+
+    ax.set_ylabel(f'Number of articles/thousands of words per {alignment.name.lower()} source')
+    ax.set_title(f'Article and word counts by {alignment.name.lower()} source')
     ax.set_xticks(label_locs + width, sources)
     ax.legend(loc = 'upper left', ncols = 2)
-    ax.set_ylim(0, 250)
-    plt.savefig(alignment_path_format.format({ 'alignment': alignment}))
+
+    plt.savefig(alignment_path_format.format(alignment = alignment.name.lower()))
+    plt.close()
 
 
 for alignment in set(SOURCE_CLASSIFICATIONS.values()):
   Path(f"wordclouds/{alignment.name.lower()}").mkdir(parents = True, exist_ok = True)
-  Path(f"stats/{alignment.name.lower()}").mkdir(parents = True, exist_ok = True)
+  Path("stats").mkdir(parents = True, exist_ok = True)
 
 # TODO: Word scatter plots
 plot_stats(textblob_counts, "stats/{alignment}_stats.pdf", "stats/aggregate_stats.pdf")
