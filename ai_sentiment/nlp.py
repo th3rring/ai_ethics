@@ -44,6 +44,7 @@ class SentimentClassifier:
     # Get classified words
     positive_words = []
     negative_words = []
+    word_scores = []
 
     for x in doc._.blob.sentiment_assessments.assessments:
       if x[1] > 0:
@@ -53,8 +54,10 @@ class SentimentClassifier:
       else:
         pass
 
+      word_scores.append((x[0][0], round(x[1], 2)))
+
     # Return classification
-    return ClassificationResult(target, sentiment, positive_words, negative_words)
+    return ClassificationResult(target, sentiment, positive_words, negative_words, word_scores)
 
   def processList(self, targets: List[ClassificationTarget]) -> List[ClassificationResult]:
     """Calls NLP pipeline on a list of targets.

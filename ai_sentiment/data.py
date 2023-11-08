@@ -29,3 +29,4 @@ class ClassificationResult:
     sentiment_score: float
     positive_words: List[str]
     negative_words: List[str]
+    word_scores: List[tuple]
