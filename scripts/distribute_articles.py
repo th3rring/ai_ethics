@@ -1,19 +1,20 @@
 from __future__ import annotations
 
-import re
-from re import compile
-import numpy as np
 from csv import DictReader, DictWriter
-from dataclasses import dataclass
-from json import dump
+from dataclasses import dataclass, field
 from enum import Enum
+from itertools import chain, cycle
+from json import dump
 from pathlib import Path
 from random import shuffle
+from re import compile
 from shutil import move
 from subprocess import run
 from tempfile import NamedTemporaryFile
 
 from fire import Fire
+from more_itertools import batched, windowed
+
 
 class Classification(Enum):
   LEFT = "#2e65a1"
@@ -52,25 +53,38 @@ NAME_MAP = {
     "Washington Post Opinion Letters": "Washington Post Opinion"
 }
 
-SOURCE_REGEX = compile(r"- ([^_]*)_")
+SOURCE_REGEX = compile(r"- ([^_]*).csv")
 
 
 @dataclass(slots = True)
 class Article:
-  id: int
   source: str
   title: str
   body: str
+  ids: list[int] = field(default_factory = list)
+  coders: list[int] = field(default_factory = list)
+
+  def __hash__(self) -> int:
+    return hash(self.body)
+
+  def __repr__(self) -> str:
+    return f"Article(id={self.ids}, source={self.source}, title={self.title}, coders={self.coders})"
 
 
 def latex_escape(text: str) -> str:
-  return text.replace("%", "\\%").replace("$", "\\$").replace("&", "\\&")
+  # Strip unicode linebreaks
+  # text = "\n\n".join(text.splitlines())
+  # There's a more efficient way to do this, but I'm lazy
+  problem_characters = (("%", "\\%"), ("$", "\\$"), ("&", "\\&"), ("#", "\\#"), ("@", "\\@"))
+  for c, r in problem_characters:
+    text = text.replace(c, r)
+
+  return text
 
 
 def generate_document(articles: list[Article], output_path: Path):
   bodies = [
-      f"\\section{{``{latex_escape(article.title)}''}}\n{latex_escape(article.body)}"
-      for article in articles
+      f"\\section{{``{latex_escape(article.title)}''}}\n{latex_escape(article.body)}" for article in articles
   ]
   pages_string = "\n\\newpage\n".join(bodies)
   document = f"""\\documentclass[a4paper,10pt]{{article}}
@@ -83,10 +97,10 @@ def generate_document(articles: list[Article], output_path: Path):
 \\end{{document}}
 """
 
-  with NamedTemporaryFile(suffix = ".tex", delete=False) as tf:
-    tf.write(document.encode())
+  with NamedTemporaryFile(suffix = ".tex", delete = False) as tf:
+    tf.write(document.encode("ascii", "ignore"))
     tf.seek(0)
-    run(["latexmk", "-pdf", "-xelatex", "-interaction=nonstopmode", tf.name], cwd = "/tmp")
+    run(["latexmk", "-pdf", "-interaction=nonstopmode", tf.name], cwd = "/tmp")
     run(["latexmk", "-c"], cwd = "/tmp")
     move(Path(tf.name).with_suffix(".pdf"), output_path)
 
@@ -94,23 +108,73 @@ def generate_document(articles: list[Article], output_path: Path):
 def load_articles(source: str, csv_path: Path) -> list[Article]:
   with open(csv_path) as csv_file:
     rows = DictReader(csv_file)
-    return [Article(0, source, row["Title"], row["Body"]) for row in rows]
+    return [Article(source, row["Title"], row["Body"]) for row in rows]
+
 
 def load_sources(source_csv_paths: list[Path]) -> dict[str, list[Article]]:
   source_articles = {}
   for path in source_csv_paths:
-    source_name = SOURCE_REGEX.search(path).group(1)  # type: ignore
+    source_name = SOURCE_REGEX.search(str(path)).group(1)  # type: ignore
     if source_name in NAME_MAP:
       source_name = NAME_MAP[source_name]
       assert source_name not in source_articles, f"{source_name} already processed before {path}!"
-      source_articles[source_name] = load_articles(source_name, path)
-  
+
+    source_articles[source_name] = load_articles(source_name, path)
+
   return source_articles
 
 
-def main(num_coders: int, output_prefix: Path, *csv_paths, num_coders_per_article: int = 2,):
-  articles = load_sources(csv_paths)
-  article_count = sum(len(source_articles) for source_articles in articles.values())
+def main(num_coders: int, output_prefix: Path, csv_dir: Path, num_coders_per_article: int = 2):
+  output_prefix = Path(output_prefix)
+  output_prefix.mkdir(parents = True, exist_ok = True)
+  csv_dir = Path(csv_dir)
+  csv_paths = list(csv_dir.glob("*.csv"))
+  articles = list(chain.from_iterable(load_sources(csv_paths).values()))
+  shuffle(articles)
+  chunk_size = len(articles) // num_coders
+  article_batches = windowed(cycle(batched(articles, chunk_size)), num_coders_per_article)
+  coder_articles = []
+  article_idx = 1
+  for i in range(1, num_coders + 1):
+    flattened_batch = list(set(chain.from_iterable(next(article_batches))))  # type: ignore
+    for article in flattened_batch:
+      article.ids.append(article_idx)
+      article_idx += 1
+      article.coders.append(i)
+
+    coder_articles.append(flattened_batch)
+
+  for i, batch in enumerate(coder_articles):
+    generate_document(batch, output_prefix / f"coder_{i+1}.pdf")
+
+  flattened_articles = []
+  for article in articles:
+    for ID, coder in zip(article.ids, article.coders, strict = True):
+      flattened_articles.append({ "id": ID, "coder": coder, "title": article.title, "source": article.source})
+
+  flattened_articles.sort(key = lambda a: a["id"])
+  with open(output_prefix / "article_map.json", "w") as article_map_file:
+    dump(flattened_articles, article_map_file)
+
+  with open(output_prefix / "coding_data.csv", "w") as coding_data_file:
+    coding_data_writer = DictWriter(
+        coding_data_file,
+        fieldnames = [
+            "ID", "Valence", "Hopes", "Fears", "Frame", "Application Domains", "Credibility", "Detail"
+        ]
+    )
+    coding_data_writer.writeheader()
+    for article in flattened_articles:
+      coding_data_writer.writerow({
+          "ID": article["id"],
+          "Valence": "",
+          "Hopes": "",
+          "Fears": "",
+          "Frame": "",
+          "Application Domains": "",
+          "Credibility": "",
+          "Detail": ""
+      })
 
 
 if __name__ == "__main__":
