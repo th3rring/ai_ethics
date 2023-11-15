@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from collections import defaultdict
 from csv import DictReader, DictWriter
 from dataclasses import dataclass, field
 from enum import Enum
@@ -9,11 +10,11 @@ from pathlib import Path
 from random import shuffle
 from re import compile
 from shutil import move
-from subprocess import run
+from subprocess import DEVNULL, check_call
 from tempfile import NamedTemporaryFile
 
 from fire import Fire
-from more_itertools import batched, windowed
+from more_itertools import batched, random_permutation, windowed
 
 
 class Classification(Enum):
@@ -75,22 +76,29 @@ def latex_escape(text: str) -> str:
   # Strip unicode linebreaks
   # text = "\n\n".join(text.splitlines())
   # There's a more efficient way to do this, but I'm lazy
-  problem_characters = (("%", "\\%"), ("$", "\\$"), ("&", "\\&"), ("#", "\\#"), ("@", "\\@"))
+  problem_characters = (("%", "\\%"), ("$", "\\$"), ("&", "\\&"), ("#", "\\#"), ("@", "\\@"), ("_", "\\_"))
   for c, r in problem_characters:
     text = text.replace(c, r)
 
   return text
 
 
-def generate_document(articles: list[Article], output_path: Path):
+def generate_document(coder_id: int, articles: list[dict[str, str]], output_path: Path):
+  for article in articles:
+    if article["title"] == "" or article["body"] == "":
+      raise RuntimeError(f"Empty article: {article}")
+
+  first_idx = int(articles[0]["id"])
   bodies = [
-      f"\\section{{``{latex_escape(article.title)}''}}\n{latex_escape(article.body)}" for article in articles
+      f"\\section{{``{latex_escape(article['title'])}''}}\n{latex_escape(article['body'])}"
+      for article in articles
   ]
   pages_string = "\n\\newpage\n".join(bodies)
   document = f"""\\documentclass[a4paper,10pt]{{article}}
 \\usepackage[top=1in, bottom=1in, left=1in, right=1in, footskip = 1.0cm]{{geometry}}
-\\title{{Manual Coding Articles}}
+\\title{{Manual Coding Articles - Coder {coder_id}}}
 \\author{{}}
+\\setcounter{{section}}{{{first_idx - 1}}}
 \\begin{{document}}
 \\maketitle
 {pages_string}
@@ -100,8 +108,8 @@ def generate_document(articles: list[Article], output_path: Path):
   with NamedTemporaryFile(suffix = ".tex", delete = False) as tf:
     tf.write(document.encode("ascii", "ignore"))
     tf.seek(0)
-    run(["latexmk", "-pdf", "-interaction=nonstopmode", tf.name], cwd = "/tmp")
-    run(["latexmk", "-c"], cwd = "/tmp")
+    check_call(["latexmk", "-pdf", "-interaction=nonstopmode", tf.name], cwd = "/tmp", stdout = DEVNULL)
+    check_call(["latexmk", "-c"], cwd = "/tmp", stdout = DEVNULL)
     move(Path(tf.name).with_suffix(".pdf"), output_path)
 
 
@@ -114,7 +122,7 @@ def load_articles(source: str, csv_path: Path) -> list[Article]:
 def load_sources(source_csv_paths: list[Path]) -> dict[str, list[Article]]:
   source_articles = {}
   for path in source_csv_paths:
-    source_name = SOURCE_REGEX.search(str(path)).group(1)  # type: ignore
+    source_name = path.stem
     if source_name in NAME_MAP:
       source_name = NAME_MAP[source_name]
       assert source_name not in source_articles, f"{source_name} already processed before {path}!"
@@ -131,49 +139,58 @@ def main(num_coders: int, output_prefix: Path, csv_dir: Path, num_coders_per_art
   csv_paths = list(csv_dir.glob("*.csv"))
   articles = list(chain.from_iterable(load_sources(csv_paths).values()))
   shuffle(articles)
-  chunk_size = len(articles) // num_coders
-  article_batches = windowed(cycle(batched(articles, chunk_size)), num_coders_per_article)
-  coder_articles = []
+  # Handling indivisibility:
+  remainder = len(articles) % num_coders
+  batches = [list(b) for b in batched(articles[:-remainder], len(articles) // num_coders)]
+  residue = articles[-remainder:]
+  for article, idx in zip(residue, random_permutation(range(num_coders)), strict=False):
+    batches[idx].append(article)
+
+  article_batches = windowed(cycle(batches), num_coders_per_article)
   article_idx = 1
   for i in range(1, num_coders + 1):
-    flattened_batch = list(set(chain.from_iterable(next(article_batches))))  # type: ignore
+    coder_batch = next(article_batches)
+    flattened_batch = list(set(chain.from_iterable(coder_batch)))  # type: ignore
     for article in flattened_batch:
       article.ids.append(article_idx)
       article_idx += 1
       article.coders.append(i)
 
-    coder_articles.append(flattened_batch)
-
-  for i, batch in enumerate(coder_articles):
-    generate_document(batch, output_prefix / f"coder_{i+1}.pdf")
-
   flattened_articles = []
+  coder_articles = defaultdict(list)
+  print(f"{len(articles)} articles")
   for article in articles:
-    for ID, coder in zip(article.ids, article.coders, strict = True):
-      flattened_articles.append({ "id": ID, "coder": coder, "title": article.title, "source": article.source})
+    if len(article.coders) != num_coders_per_article:
+      print(f"Warning: expected {num_coders_per_article} coders but got {len(article.coders)} for {article}")
 
+    for ID, coder in zip(article.ids, article.coders, strict = True):
+      article_metadata = { "id": ID, "coder": coder, "title": article.title, "source": article.source}
+      flattened_articles.append(article_metadata)
+      flattened_article = {
+          "id": ID, "coder": coder, "title": article.title, "body": article.body, "source": article.source
+      }
+      coder_articles[coder].append(flattened_article)
+
+  print(f"{len(flattened_articles)} coder articles")
   flattened_articles.sort(key = lambda a: a["id"])
+
+  for coder, coder_batch in coder_articles.items():
+    coder_batch.sort(key = lambda a: a["id"])
+    print(f"Generating PDF for coder {coder}...")
+    generate_document(coder, coder_batch, output_prefix / f"coder_{coder}.pdf")
+
+
   with open(output_prefix / "article_map.json", "w") as article_map_file:
     dump(flattened_articles, article_map_file)
 
   with open(output_prefix / "coding_data.csv", "w") as coding_data_file:
     coding_data_writer = DictWriter(
-        coding_data_file,
-        fieldnames = [
-            "ID", "Valence", "Hopes", "Fears", "Frame", "Application Domains", "Credibility", "Detail"
-        ]
+        coding_data_file, fieldnames = ["Valence", "Hopes", "Fears", "Frame", "Credibility", "Detail"]
     )
     coding_data_writer.writeheader()
     for article in flattened_articles:
       coding_data_writer.writerow({
-          "ID": article["id"],
-          "Valence": "",
-          "Hopes": "",
-          "Fears": "",
-          "Frame": "",
-          "Application Domains": "",
-          "Credibility": "",
-          "Detail": ""
+          "Valence": "", "Hopes": "", "Fears": "", "Frame": "", "Credibility": "", "Detail": ""
       })
 
 
