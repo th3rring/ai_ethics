@@ -13,6 +13,7 @@ from shutil import move
 from subprocess import DEVNULL, check_call
 from tempfile import NamedTemporaryFile
 
+from anyascii import anyascii
 from fire import Fire
 from more_itertools import batched, random_permutation, windowed
 
@@ -116,7 +117,7 @@ def generate_document(coder_id: int, articles: list[dict[str, str]], output_path
 def load_articles(source: str, csv_path: Path) -> list[Article]:
   with open(csv_path) as csv_file:
     rows = DictReader(csv_file)
-    return [Article(source, row["Title"], row["Body"]) for row in rows]
+    return [Article(anyascii(source), anyascii(row["Title"]), anyascii(row["Body"])) for row in rows]
 
 
 def load_sources(source_csv_paths: list[Path]) -> dict[str, list[Article]]:
@@ -132,18 +133,37 @@ def load_sources(source_csv_paths: list[Path]) -> dict[str, list[Article]]:
   return source_articles
 
 
-def main(num_coders: int, output_prefix: Path, csv_dir: Path, num_coders_per_article: int = 2):
+def main(
+    num_coders: int,
+    output_prefix: Path,
+    csv_dir: Path,
+    num_coders_per_article: int = 2,
+    titles_list_file: Path | None = None
+):
   output_prefix = Path(output_prefix)
   output_prefix.mkdir(parents = True, exist_ok = True)
   csv_dir = Path(csv_dir)
   csv_paths = list(csv_dir.glob("*.csv"))
-  articles = list(chain.from_iterable(load_sources(csv_paths).values()))
+  if titles_list_file:
+    titles_list_file = Path(titles_list_file)
+    with open(titles_list_file) as title_data:
+      titles = {anyascii(l).strip() for l in title_data.readlines()}
+    articles = [a for a in chain.from_iterable(load_sources(csv_paths).values()) if a.title in titles]
+    print(len(articles))
+  else:
+    articles = list(chain.from_iterable(load_sources(csv_paths).values()))
+
   shuffle(articles)
   # Handling indivisibility:
   remainder = len(articles) % num_coders
-  batches = [list(b) for b in batched(articles[:-remainder], len(articles) // num_coders)]
+  if remainder == 0:
+    divisible_articles = articles
+  else:
+    divisible_articles = articles[:-remainder]
+
+  batches = [list(b) for b in batched(divisible_articles, len(articles) // num_coders)]
   residue = articles[-remainder:]
-  for article, idx in zip(residue, random_permutation(range(num_coders)), strict=False):
+  for article, idx in zip(residue, random_permutation(range(num_coders)), strict = False):
     batches[idx].append(article)
 
   article_batches = windowed(cycle(batches), num_coders_per_article)
@@ -178,7 +198,6 @@ def main(num_coders: int, output_prefix: Path, csv_dir: Path, num_coders_per_art
     coder_batch.sort(key = lambda a: a["id"])
     print(f"Generating PDF for coder {coder}...")
     generate_document(coder, coder_batch, output_prefix / f"coder_{coder}.pdf")
-
 
   with open(output_prefix / "article_map.json", "w") as article_map_file:
     dump(flattened_articles, article_map_file)

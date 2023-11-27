@@ -4,8 +4,9 @@ from collections import defaultdict
 from csv import DictReader
 from dataclasses import dataclass
 from itertools import groupby
-from json import dump, load
+from json import load
 from pathlib import Path
+from random import sample
 
 from fire import Fire
 from rich import print
@@ -45,13 +46,13 @@ def already_coded(row) -> bool:
   return any((row["Valence"], row["Hopes"], row["Fears"], row["Frame"], row["Credibility"], row["Detail"]))
 
 
-def load_coding_progress(coding_csv_path: Path) -> list[int]:
+def load_coding_progress(coding_csv_path: Path) -> set[int]:
   with open(coding_csv_path) as coding_csv_file:
     reader = DictReader(coding_csv_file)
-    return [int(r["Article #"]) for r in reader if already_coded(r)]
+    return {int(r["Article #"]) for r in reader if already_coded(r)}
 
 
-def main(coding_csv_path: Path, article_map_path: Path, total_num_articles: int):
+def main(coding_csv_path: Path, article_map_path: Path, threshold: int = 12):
   coding_csv_path = Path(coding_csv_path)
   article_map_path = Path(article_map_path)
   articles = load_articles(article_map_path)
@@ -59,7 +60,11 @@ def main(coding_csv_path: Path, article_map_path: Path, total_num_articles: int)
   print(f"{len(coded_article_ids)} / {len(articles)} articles already coded")
   coded_articles = {articles[idx] for idx in coded_article_ids}
   print(f"{len(coded_articles)} unique articles already coded")
-  source_articles = { s: list(a) for s, a in groupby(sorted(articles.values(), key=lambda a: a.source), key = lambda a: a.source) }
+  source_articles = {
+      s: set(a)
+      for s,
+      a in groupby(sorted(articles.values(), key = lambda a: a.source), key = lambda a: a.source)
+  }
   source_counts = { s: len(a) for s, a in source_articles.items() }
   coded_source_counts = defaultdict(lambda: 0)
   for article in coded_articles:
@@ -67,6 +72,23 @@ def main(coding_csv_path: Path, article_map_path: Path, total_num_articles: int)
 
   for source in source_counts:
     print(f"Coded {coded_source_counts[source]} / {source_counts[source]} for {source}")
+
+  remaining_articles = {
+      s: [a for a in ars if all(idx not in coded_article_ids for idx in a.ids)]
+      for s,
+      ars in source_articles.items()
+  }
+  article_sample = []
+  for s, ars in remaining_articles.items():
+    if len(ars) <= threshold:
+      article_sample.extend(ars)
+    else:
+      article_sample.extend(sample(ars, threshold))
+
+  with open("title_list.txt", "w") as title_file:
+    for a in article_sample:
+      title_file.write(f"{a.title}\n")
+
 
 if __name__ == "__main__":
   Fire(main)
