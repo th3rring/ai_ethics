@@ -1,0 +1,255 @@
+Timestamp,What is the article's ID?,What's the overall valence/sentiment of the article toward LLMs?,Does the author present their own opinions/the opinions of others or only report facts?,What sources does the article cite?,"What hopes (i.e., real or hypothesized positive impacts) does the article express about LLMs, if any?","What fears (i.e., real or hypothesized negative impacts) does the article express about LLMs, if any?",What is the article discussing? Which of these frames/questions does it answer? Only select more than one if absolutely necessary
+11/29/2023 4:46:11,1,2,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,Education,"Limitations of LLMs, LLMs in education"
+11/29/2023 4:48:32,2,3,Opinions,No citations,Education,"Existential, Education, Professional, Bias, Ethical","LLMs in education, LLMs in content creation"
+11/29/2023 4:50:38,3,4,Only facts,No citations,"Creativity, Entertainment, Personal utility",,"""First contact"" with LLMs"
+11/29/2023 4:52:16,4,4,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)","Business, Technology",Influence,"Limitations of LLMs, LLMs as products"
+11/29/2023 4:53:51,5,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Education,"Education, Professional, Ethical","Explanations of LLMs, Limitations of LLMs, Existing issues with LLMs, LLMs in education"
+11/29/2023 4:55:54,6,2,Opinions,No citations,"Creativity, Entertainment, Personal utility",Existential,"Explanations of LLMs, ""First contact"" with LLMs"
+11/29/2023 4:58:11,7,2,Opinions,No citations,"Creativity, Entertainment","Education, Disinformation","""First contact"" with LLMs, LLMs in content creation"
+11/29/2023 4:59:27,8,3,Opinions,No citations,,Cybersecurity,Explanations of LLMs
+11/29/2023 5:00:51,9,1,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,"Existential, Education",LLMs in education
+11/29/2023 5:02:26,10,4,Only facts,Cites academic researchers in relevant fields,health,,Future of LLMs
+11/29/2023 5:04:20,11,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Education,Education,LLMs in education
+11/29/2023 5:05:43,12,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,Disinformation,Limitations of LLMs
+11/29/2023 5:07:21,13,3,Only facts,"Cites popular opinion (e.g., random Twitter, Reddit, etc.), Cites academic researchers in relevant fields",,Politics,"China, International Politics, and Competition"
+11/29/2023 5:08:33,14,2,Opinions,No citations,,Politics,Existing issues with LLMs
+11/29/2023 5:09:41,15,3,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Business, Technology",,LLMs as products
+11/29/2023 5:12:39,16,2,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Creativity, Technology",Business,LLMs in business
+11/29/2023 5:14:35,17,2,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",Business,Bias,LLMs as products
+11/29/2023 5:15:45,18,3,Only facts,"Cites popular opinion (e.g., random Twitter, Reddit, etc.), Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,,LLMs as products
+11/29/2023 5:16:33,19,3,Only facts,No citations,,,LLMs as products
+11/29/2023 5:19:07,20,2,Opinions,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Business, Efficiency","Existential, Creativity",LLMs in the workplace
+11/29/2023 5:21:01,21,4,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Creativity, Business",,"LLMs as products, Automation of labor"
+11/29/2023 5:22:56,22,2,Only facts,"Cites politicians, Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",,"Business, Bias, Cybersecurity, Privacy, Influence",Regulation of AI/LLMs
+11/29/2023 5:25:45,23,3,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",,,LLMs in business
+11/29/2023 5:27:17,24,3,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",,,"China, International Politics, and Competition"
+11/29/2023 5:28:58,25,3,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Education,"Education, Creativity, Ethical",Explanations of LLMs
+11/29/2023 5:30:58,26,2,Opinions,"Cites popular opinion (e.g., random Twitter, Reddit, etc.)",Education,"Education, Bias, Ethical",LLMs in education
+11/29/2023 5:32:25,27,4,Only facts,Cites academic researchers in relevant fields,"Education, Efficiency",Education,LLMs in education
+11/29/2023 5:33:02,28,,,,,,did not qualify / letter to an editor
+11/29/2023 5:34:35,29,1,Opinions,Cites academic researchers in relevant fields,,"Existential, Creativity","Limitations of LLMs, LLMs in content creation"
+11/29/2023 5:36:16,30,1,Opinions,No citations,,"Education, Professional, Employment",Automation of labor
+11/29/2023 5:41:44,31,1,Opinions,Cites academic researchers in relevant fields,,Employment,Automation of labor
+11/29/2023 5:42:20,32,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,Education,LLMs in education
+11/29/2023 5:43:53,33,2,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,Creativity,LLMs in content creation
+11/29/2023 5:45:13,34,1,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,Creativity,LLMs in content creation
+11/29/2023 5:46:49,35,2,Opinions,"Cites popular opinion (e.g., random Twitter, Reddit, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Business, Efficiency","Existential, Creativity, Cybersecurity",LLMs in business
+11/29/2023 5:47:58,36,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,Education,LLMs in education
+11/29/2023 5:48:58,37,3,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,,"China, International Politics, and Competition"
+11/29/2023 5:49:39,38,3,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",Business,,"LLMs combined with other technologies, LLMs as products"
+11/29/2023 5:50:49,39,1,Opinions,"Cites popular opinion (e.g., random Twitter, Reddit, etc.), Cites celebrities",,"Existential, Employment",Automation of labor
+11/29/2023 5:51:17,40,3,Only facts,No citations,,,"China, International Politics, and Competition"
+11/29/2023 5:52:17,41,3,,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",,,"LLMs as products, LLMs in business"
+11/29/2023 5:53:32,42,1,Opinions,"Cites popular opinion (e.g., random Twitter, Reddit, etc.), Cites academic researchers in irrelevant/tangential fields",,"Disinformation, Cybersecurity",Limitations of LLMs
+11/29/2023 5:54:53,43,3,Only facts,Cites academic researchers in relevant fields,Efficiency,Disinformation,health
+11/29/2023 5:55:04,44,,,,,,No content
+11/29/2023 5:55:53,45,2,,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites academic researchers in relevant fields",Education,Education,LLMs in education
+11/29/2023 18:01:52,46,1,Opinions,"Cites popular opinion (e.g., random Twitter, Reddit, etc.)",,"Politics, Bias, Disinformation, Influence",Existing issues with LLMs
+11/29/2023 18:02:51,47,4,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",Business,,"LLMs as products, LLMs in business"
+11/29/2023 18:04:36,48,3,Only facts,"Cites politicians, Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Science, Technology","Politics, Cybersecurity","China, International Politics, and Competition"
+11/29/2023 18:05:24,49,2,Opinions,No citations,,"Existential, Creativity","""First contact"" with LLMs"
+11/29/2023 18:06:39,50,1,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",,"Politics, Bias, Disinformation",Existing issues with LLMs
+11/29/2023 18:08:19,51,2,,,,Bias,"Limitations of LLMs, satire"
+11/29/2023 18:09:40,52,3,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,"Existential, Creativity, Ethical",LLMs in content creation
+11/29/2023 18:10:48,53,1,Opinions,No citations,,Disinformation,"""First contact"" with LLMs"
+11/29/2023 18:12:26,54,4,Opinions,No citations,"Education, Technology, Personal utility",,Future of LLMs
+11/29/2023 18:14:25,55,2,Opinions,Cites academic researchers in relevant fields,,"Existential, Ethical","Future of LLMs, Existing issues with LLMs"
+11/29/2023 18:15:39,56,3,Only facts,Cites academic researchers in relevant fields,Creativity,"Creativity, Disinformation",Explanations of LLMs
+11/29/2023 18:17:03,57,3,Opinions,Cites academic researchers in relevant fields,,Disinformation,"""First contact"" with LLMs"
+11/29/2023 18:18:59,58,1,Opinions,No citations,,"Politics, Disinformation",Existing issues with LLMs
+11/29/2023 18:20:00,59,1,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,"Bias, Disinformation",Existing issues with LLMs
+11/29/2023 18:21:08,60,3,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Education,Education,LLMs in education
+11/29/2023 20:26:49,63,2,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,"Education, Creativity",LLMs in education
+11/29/2023 20:28:39,64,3,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites academic researchers in irrelevant/tangential fields",Education,Creativity,"LLMs in education, LLMs in content creation"
+11/29/2023 20:31:49,65,4,Opinions,"Cites popular opinion (e.g., random Twitter, Reddit, etc.)",,Disinformation,"Limitations of LLMs, Existing issues with LLMs, Regulation of AI/LLMs"
+11/29/2023 20:33:29,66,4,Only facts,No citations,"Education, Technology, Efficiency",,"LLMs as products, LLMs in the workplace"
+11/29/2023 20:33:35,127,3,Only facts,No citations,"Business, Technology",,"LLMs as products, LLMs in business"
+11/29/2023 20:34:59,67,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,Education,LLMs in education
+11/29/2023 20:35:39,128,2,Opinions,Cites academic researchers in irrelevant/tangential fields,"Creativity, Education, Efficiency, Personal utility","Education, Creativity, Disinformation",LLMs in education
+11/29/2023 20:36:12,68,,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Education,,"Future of LLMs, LLMs in education, LLMs as products"
+11/29/2023 20:38:41,69,3,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",Business,"Legal, Cybersecurity","Limitations of LLMs, Future of LLMs, Existing issues with LLMs"
+11/29/2023 20:40:07,70,3,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Education,"Professional, Accuracy","Limitations of LLMs, Future of LLMs"
+11/29/2023 20:40:43,129,1,Opinions,Cites academic researchers in irrelevant/tangential fields,,"Bias, Discrimination, Disinformation","Limitations of LLMs, Existing issues with LLMs"
+11/29/2023 20:41:59,72,4,Only facts,No citations,"Technology, Efficiency",,Future of LLMs
+11/29/2023 20:42:26,130,1,Opinions,No citations,,"Business, Legal",LLMs in the workplace
+11/29/2023 20:42:57,,1,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,"Education, Creativity","LLMs in education, LLMs in content creation"
+11/29/2023 20:44:10,131,4,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Technology, Efficiency, Personal utility","Existential, Disinformation","""First contact"" with LLMs, Future of LLMs"
+11/29/2023 20:45:11,132,4,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Education, Technology, Efficiency, Personal utility",,LLMs as products
+11/29/2023 20:46:03,133,3,Only facts,No citations,"Creativity, Efficiency, Personal utility",,LLMs as products
+11/29/2023 20:46:03,77,2,Only facts,"Cites politicians, Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Business,"Politics, Legal","Future of LLMs, Existing issues with LLMs"
+11/29/2023 20:47:28,134,4,Opinions,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.), Cites academic researchers in irrelevant/tangential fields","Business, Programming, Technology, Efficiency",Business,"LLMs as products, LLMs in business"
+11/29/2023 20:48:08,79,2,Opinions,"Cites popular opinion (e.g., random Twitter, Reddit, etc.), Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Efficiency,"Existential, Influence","Future of LLMs, Existing issues with LLMs"
+11/29/2023 20:48:32,135,3,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Business, Technology, Efficiency","Business, Legal",LLMs in business
+11/29/2023 20:48:54,80,4,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)","Business, Efficiency",,Future of LLMs
+11/29/2023 20:50:19,82,4,,Cites academic researchers in irrelevant/tangential fields,Business,Business,LLMs in business
+11/29/2023 20:51:12,83,4,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Education,,LLMs in education
+11/29/2023 20:52:01,136,4,Only facts,Cites academic researchers in irrelevant/tangential fields,"Sentience, Technology","Education, Professional","Future of LLMs, LLMs in education, LLMs in the workplace"
+11/29/2023 20:52:19,84,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites academic researchers in irrelevant/tangential fields",Efficiency,Education,"LLMs in education, Automation of labor"
+11/29/2023 20:52:27,137,3,Only facts,No citations,"Technology, Efficiency, Personal utility",,LLMs as products
+11/29/2023 20:54:27,85,3,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites academic researchers in irrelevant/tangential fields",Business,,"China, International Politics, and Competition"
+11/29/2023 20:54:38,138,2,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites academic researchers in irrelevant/tangential fields","Sentience, Technology",Existential,Limitations of LLMs
+11/29/2023 20:55:21,86,3,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Business,,LLMs in business
+11/29/2023 20:57:49,88,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Efficiency,"Education, Disinformation",Existing issues with LLMs
+11/29/2023 20:58:23,139,4,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites academic researchers in relevant fields","Science, Technology, Efficiency, Personal utility","Existential, Programming, Employment, Bias, Discrimination, Disinformation","Limitations of LLMs, Existing issues with LLMs, LLMs as products, LLMs in business"
+11/29/2023 20:58:50,140,3,Only facts,No citations,"Efficiency, Personal utility",,LLMs as products
+11/29/2023 21:00:02,89,2,Opinions,"Cites celebrities, Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",,"Education, Business, Disinformation","Existing issues with LLMs, LLMs in business"
+11/29/2023 21:01:08,90,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,Education,LLMs in education
+11/29/2023 21:01:09,141,,,Cites academic researchers in irrelevant/tangential fields,"Creativity, Education","Education, Creativity, Professional, Employment",LLMs in education
+11/29/2023 21:02:44,93,3,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,"Education, Creativity","Future of LLMs, LLMs in education"
+11/29/2023 21:04:25,95,1,Only facts,"Cites popular opinion (e.g., random Twitter, Reddit, etc.)",,"Existential, Influence, Ethical",Existing issues with LLMs
+11/29/2023 21:06:19,96,2,Only facts,"Cites celebrities, Cites politicians",,"Education, Employment, Influence","LLMs in education, LLMs in the workplace"
+11/29/2023 21:07:23,97,3,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)","Business, Technology",,"China, International Politics, and Competition, LLMs combined with other technologies"
+11/29/2023 21:09:07,98,2,Only facts,Cites academic researchers in irrelevant/tangential fields,,"Bias, Influence",Existing issues with LLMs
+11/29/2023 21:10:36,99,4,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Technology, Efficiency",Employment,LLMs as products
+11/29/2023 21:11:55,100,3,Only facts,No citations,"Business, Technology",Employment,LLMs as products
+11/29/2023 21:13:03,101,5,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,"Education, Creativity",LLMs in education
+11/29/2023 21:13:54,102,3,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Education,Creativity,LLMs in education
+11/29/2023 21:17:43,104,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,"Creativity, Legal",Regulation of AI/LLMs
+11/29/2023 21:19:13,106,2,Only facts,Cites celebrities,,"Bias, Influence",Existing issues with LLMs
+11/29/2023 21:20:04,107,2,Only facts,"Cites celebrities, Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Education,"Education, Creativity",LLMs in education
+11/29/2023 21:21:29,108,1,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,"Bias, Disinformation, Cybersecurity, Influence",LLMs in education
+11/29/2023 21:22:33,109,4,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Business, Efficiency",,LLMs as products
+11/29/2023 21:24:33,110,5,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Business, Efficiency",,LLMs as products
+11/29/2023 21:25:40,111,3,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Education,Creativity,LLMs in education
+11/29/2023 21:26:49,112,2,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",,"Existential, Bias, Disinformation",Existing issues with LLMs
+11/29/2023 21:28:16,113,2,Opinions,"Cites celebrities, Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Personal utility,Bias,Existing issues with LLMs
+11/29/2023 21:29:52,114,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,"Education, Creativity, Influence, Ethical",LLMs in education
+11/29/2023 21:31:21,115,1,Opinions,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",,"Bias, Disinformation",Existing issues with LLMs
+11/29/2023 21:32:34,116,4,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)","Business, Efficiency, Personal utility",Influence,LLMs as products
+11/29/2023 21:34:07,118,4,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)","Education, Technology",,LLMs in education
+11/29/2023 21:34:16,142,1,Opinions,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",,"Existential, Discrimination, Disinformation, Ethical","Future of LLMs, Regulation of AI/LLMs"
+11/29/2023 21:35:23,119,4,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Business, Technology",,LLMs in business
+11/29/2023 21:35:58,143,4,Opinions,Cites academic researchers in relevant fields,"Business, Efficiency","Business, Creativity",LLMs in business
+11/29/2023 21:36:52,144,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Employment,"Education, Creativity, Bias, Discrimination, Disinformation",LLMs in education
+11/29/2023 21:37:02,120,2,Opinions,No citations,,"Creativity, Disinformation",LLMs in content creation
+11/29/2023 21:39:24,145,3,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites academic researchers in relevant fields",Business,"Business, Privacy","China, International Politics, and Competition"
+11/29/2023 21:39:40,121,4,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)","Creativity, Business, Sentience",Disinformation,Future of LLMs
+11/29/2023 21:40:32,146,1,,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,"Cybersecurity, Privacy","Future of LLMs, Existing issues with LLMs"
+11/29/2023 21:41:29,147,4,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Business,,"LLMs as products, LLMs in business"
+11/29/2023 21:41:51,122,1,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",Business,"Existential, Legal",LLMs in business
+11/29/2023 21:42:56,123,4,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)","Technology, Efficiency, Personal utility",Disinformation,LLMs in content creation
+11/29/2023 21:43:43,148,4,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)","Business, Technology, Efficiency","Bias, Discrimination, Disinformation, Influence",LLMs in business
+11/29/2023 21:45:41,124,4,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)","Creativity, Business, Technology",,LLMs in content creation
+11/29/2023 21:46:42,125,1,Only facts,Cites celebrities,,"Existential, Employment",Automation of labor
+11/29/2023 21:47:12,149,2,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)","Creativity, Technology","Bias, Discrimination, Disinformation",Limitations of LLMs
+11/29/2023 21:47:42,126,4,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)","Technology, Efficiency","Education, Creativity",LLMs as products
+11/29/2023 21:48:11,150,3,Only facts,Cites academic researchers in relevant fields,"Creativity, Sentience, Technology","Education, Professional, Discrimination, Disinformation",Limitations of LLMs
+11/29/2023 21:49:51,71,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,"Employment, Disinformation, Ethical",Existing issues with LLMs
+11/29/2023 21:50:32,74,5,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Technology,,Future of LLMs
+11/29/2023 21:50:35,151,1,Only facts,No citations,,"Existential, Discrimination, Disinformation, Influence, Ethical","""First contact"" with LLMs, Limitations of LLMs"
+11/29/2023 21:52:36,152,2,Opinions,No citations,"Creativity, Technology","Education, Disinformation","""First contact"" with LLMs, Existing issues with LLMs"
+11/29/2023 21:53:44,153,,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",Education,"Education, Bias, Disinformation",LLMs in education
+11/29/2023 21:56:02,154,1,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites academic researchers in relevant fields","Business, Technology, Personal utility","Bias, Discrimination, Disinformation, Privacy, Ethical","Limitations of LLMs, Existing issues with LLMs"
+11/29/2023 21:59:23,155,4,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)","Creativity, Tedium, Technology, Efficiency, Personal utility","Education, Creativity","LLMs in content creation, LLMs in the workplace"
+11/29/2023 22:01:38,75,3,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Business,Disinformation,"China, International Politics, and Competition"
+11/29/2023 22:03:24,76,4,Opinions,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Technology, Efficiency","Business, Legal",Future of LLMs
+11/29/2023 22:07:06,156,4,Only facts,Cites academic researchers in relevant fields,"Creativity, Science, Technology","Existential, Ethical","Explanations of LLMs, Future of LLMs"
+11/29/2023 22:10:01,157,4,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Creativity, Business, Education, Personal utility","Politics, Bias, Discrimination, Disinformation, Influence, Ethical","Existing issues with LLMs, LLMs as products"
+11/29/2023 22:11:50,158,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Education,"Education, Disinformation, Ethical","Existing issues with LLMs, LLMs in education"
+11/29/2023 22:13:36,78,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Employment,Effectiveness,"Future of LLMs, LLMs in business"
+11/29/2023 22:14:47,159,4,,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Creativity, Tedium, Technology, Efficiency, Personal utility","Existential, Business, Bias, Discrimination, Disinformation, Ethical","LLMs as products, LLMs in business"
+11/29/2023 22:16:10,160,1,Only facts,No citations,,"Bias, Disinformation, Cybersecurity, Influence, Ethical",LLMs as products
+11/29/2023 22:19:09,161,2,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.), Cites academic researchers in relevant fields",Technology,"Bias, Discrimination, Disinformation","Future of LLMs, Existing issues with LLMs"
+11/29/2023 22:22:16,162,2,Only facts,"Cites celebrities, Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)","Efficiency, Personal utility","Creativity, Disinformation","Limitations of LLMs, LLMs as products, LLMs in business"
+11/29/2023 22:24:29,163,3,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Tedium, Technology, Personal utility","Bias, Disinformation",LLMs in business
+11/29/2023 22:26:32,164,2,Opinions,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Tedium, Technology, Personal utility","Business, Legal, Professional, Bias, Disinformation, Influence","Limitations of LLMs, LLMs in business"
+11/29/2023 22:27:36,81,3,Only facts,Cites academic researchers in relevant fields,Technology,"Politics, Disinformation","China, International Politics, and Competition"
+11/29/2023 22:31:39,87,3,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Business, Technology",Ethical,Future of LLMs
+11/29/2023 22:39:03,165,2,Only facts,"Cites popular opinion (e.g., random Twitter, Reddit, etc.)","Technology, Personal utility","Politics, Cybersecurity, Influence, Ethical","Limitations of LLMs, China, International Politics, and Competition"
+11/29/2023 22:46:01,166,4,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Creativity, Programming, Technology, Personal utility","Programming, Bias, Disinformation","Future of LLMs, Existing issues with LLMs, LLMs as products"
+11/29/2023 22:46:16,91,,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Education,"Education, Creativity",LLMs in education
+11/29/2023 22:48:46,92,3,Only facts,No citations,"Creativity, Efficiency","Employment, Bias, Disinformation",Limitations of LLMs
+11/29/2023 22:50:17,167,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)","Creativity, Education","Education, Bias, Discrimination, Disinformation, Ethical","LLMs in education, LLMs in the workplace"
+11/29/2023 22:50:58,168,1,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,"Education, Bias, Disinformation",LLMs in education
+11/29/2023 22:53:12,169,3,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,"Politics, Ethical",Limitations of LLMs
+11/29/2023 22:54:46,170,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,"Politics, Business, Legal, Privacy, Ethical","China, International Politics, and Competition, LLMs as products, LLMs in business"
+11/29/2023 22:55:47,94,4,Opinions,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Business, Technology, Efficiency, Personal utility",Professional,Future of LLMs
+11/29/2023 22:56:20,171,2,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)","Creativity, Technology, Efficiency","Education, Legal, Professional, Disinformation, Ethical","Limitations of LLMs, Future of LLMs"
+11/29/2023 22:57:38,103,4,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",Creativity,Innappropriate Content,LLMs in content creation
+11/29/2023 22:57:53,172,2,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)","Creativity, Education, Programming","Education, Bias, Discrimination, Disinformation","Limitations of LLMs, LLMs in education"
+11/29/2023 22:58:38,173,2,Only facts,Cites politicians,,"Education, Professional",LLMs in education
+11/29/2023 22:59:05,105,1,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,"Education, Creativity, Influence",LLMs in education
+11/29/2023 23:01:06,174,2,Opinions,No citations,,"Politics, Bias, Disinformation",Existing issues with LLMs
+11/29/2023 23:02:02,117,2,Opinions,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",Technology,"Existential, Creativity, Discrimination",Existing issues with LLMs
+11/29/2023 23:04:32,175,1,Opinions,"Cites popular opinion (e.g., random Twitter, Reddit, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.), Cites academic researchers in irrelevant/tangential fields",,"Politics, Bias, Disinformation","Limitations of LLMs, Existing issues with LLMs"
+11/29/2023 23:06:20,176,1,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,"Bias, Disinformation, Ethical","LLMs in content creation, LLMs as products, LLMs in the workplace"
+11/29/2023 23:07:58,177,3,Opinions,No citations,,,LLMs in content creation
+11/29/2023 23:11:18,178,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,"Creativity, Discrimination, Ethical",Existing issues with LLMs
+11/29/2023 23:19:58,179,2,Opinions,No citations,"Creativity, Education","Education, Bias, Disinformation",LLMs in education
+11/29/2023 23:21:16,180,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,Education,"Existing issues with LLMs, LLMs in education"
+11/29/2023 23:23:01,181,4,Only facts,Cites academic researchers in relevant fields,"Science, Technology, Efficiency",,"LLMs combined with other technologies, LLMs as products"
+11/30/2023 8:54:57,182,4,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)","Employment, Business",,"LLMs as products, LLMs in business"
+11/30/2023 8:56:38,183,4,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Employment, Business, Technology, Personal utility",Disinformation,"Future of LLMs, LLMs as products"
+11/30/2023 8:58:10,184,2,Opinions,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",,"Existential, Business, Ethical","Future of LLMs, Regulation of AI/LLMs"
+11/30/2023 9:00:19,185,2,Opinions,"Cites popular opinion (e.g., random Twitter, Reddit, etc.), Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites academic researchers in relevant fields",Personal utility,"Disinformation, Influence, Ethical","Limitations of LLMs, Future of LLMs, Existing issues with LLMs"
+11/30/2023 9:01:24,186,3,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Business, Technology",,"Future of LLMs, LLMs as products, LLMs in business"
+11/30/2023 9:02:44,187,3,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Creativity, Education, Technology, Efficiency, Personal utility","Education, Bias, Disinformation","Limitations of LLMs, Future of LLMs, LLMs as products"
+11/30/2023 9:03:42,188,4,Only facts,No citations,"Technology, Efficiency, Personal utility",,LLMs as products
+11/30/2023 9:05:25,189,1,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,"Existential, Creativity, Professional, Employment, Ethical","Future of LLMs, Existing issues with LLMs, LLMs in the workplace, Automation of labor"
+11/30/2023 9:07:19,190,1,Opinions,No citations,,"Existential, Professional, Bias, Discrimination, Influence, Ethical","Future of LLMs, LLMs as products"
+11/30/2023 14:40:38,191,3,Only facts,Cites company spokesperson,,"Education, Ethical",LLMs in education
+11/30/2023 14:44:03,192,2,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.), Cites company spokesperson",Efficiency,"Disinformation, Creepiness",Existing issues with LLMs
+11/30/2023 14:47:17,193,3,Only facts,Cites company spokesperson,,,LLMs as products
+11/30/2023 14:50:20,194,3,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.), Cites company spokesperson",Technology,,LLMs combined with other technologies
+11/30/2023 14:51:20,195,1,Opinions,No citations,,"Legal, Disinformation, Ethical",LLMs in the workplace
+11/30/2023 14:59:38,196,4,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",Creativity,,Future of LLMs
+11/30/2023 15:06:09,197,3,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Education, Technology","Professional, Bias, Influence",Future of LLMs
+11/30/2023 15:11:37,198,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.), Cites academic researchers in relevant fields, Cites company spokesperson",,"Existential, Bias, Disinformation, Influence",Existing issues with LLMs
+11/30/2023 15:16:30,199,2,Only facts,"Cites popular opinion (e.g., random Twitter, Reddit, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",,"Bias, Discrimination, Disinformation",Future of LLMs
+11/30/2023 15:22:32,200,2,Opinions,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.), Cites academic researchers in relevant fields","Creativity, Education, Science","Education, Creativity, Legal, Disinformation",LLMs in education
+11/30/2023 15:24:33,201,1,Opinions,Cites ChatGPT,,"Bias, Discrimination, Disinformation",Existing issues with LLMs
+11/30/2023 15:26:18,202,3,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.), Cites company spokesperson","Creativity, Personal utility","Bias, Disinformation",Future of LLMs
+11/30/2023 15:39:51,203,3,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",Creativity,"Creativity, Professional",LLMs in business
+11/30/2023 15:44:41,204,1,Only facts,"Cites company spokesperson, cites ChatGPT",,"Existential, Creepiness","""First contact"" with LLMs"
+11/30/2023 15:53:27,205,3,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.), Cites academic researchers in relevant fields",,"Bias, Discrimination, Disinformation, Ethical",Future of LLMs
+11/30/2023 15:57:19,206,3,Opinions,"Cites academic researchers in relevant fields, Cites Plato",Education,"Education, Disinformation, Equity",LLMs in education
+11/30/2023 16:00:56,207,2,Opinions,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",,"Existential, Bias",Future of LLMs
+11/30/2023 16:03:28,208,3,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",Efficiency,,Future of LLMs
+11/30/2023 16:04:54,209,2,Only facts,"Cites politicians, Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.), Cites company spokesperson",Efficiency,Education,"LLMs in education, Regulation of AI/LLMs"
+11/30/2023 16:09:53,210,,,,,,just random questions for chatgpt 
+11/30/2023 16:12:02,211,2,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",Education,"Education, Creativity",LLMs in education
+11/30/2023 16:18:26,212,3,Opinions,Cites ChatGPT,Creativity,"Creativity, Employment",LLMs in content creation
+11/30/2023 16:21:00,213,3,Only facts,Cites academic researchers in relevant fields,Efficiency,Employment,LLMs in education
+11/30/2023 16:24:02,214,1,Only facts,"Cites popular opinion (e.g., random Twitter, Reddit, etc.), Cites company spokesperson",,"Existential, Disinformation, Creepiness","""First contact"" with LLMs"
+11/30/2023 16:26:32,215,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",Education,"Education, Creativity, Disinformation, Equity",LLMs in education
+11/30/2023 16:29:19,216,3,Opinions,"Cites popular opinion (e.g., random Twitter, Reddit, etc.), Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites academic researchers in relevant fields","Education, Programming",Employment,"""First contact"" with LLMs"
+11/30/2023 16:32:32,217,3,Opinions,"Cites popular opinion (e.g., random Twitter, Reddit, etc.), Cites academic researchers in relevant fields","Education, Efficiency",Education,Limitations of LLMs
+11/30/2023 16:36:07,218,4,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)","Creativity, Tedium, Efficiency",,LLMs in the workplace
+11/30/2023 16:49:40,219,2,Opinions,Cites academic researchers in relevant fields,,"Existential, Influence",Limitations of LLMs
+11/30/2023 16:56:54,220,3,Opinions,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.), Cites academic researchers in relevant fields","Entertainment, Personal utility","Creativity, Disinformation, Copyright","""First contact"" with LLMs"
+11/30/2023 18:37:28,255,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)","Creativity, Entertainment","Education, Disinformation, Copyright","Existing issues with LLMs, LLMs as products"
+11/30/2023 18:48:07,256,1,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",Technology,"Disinformation, Antagonistic AI","Existing issues with LLMs, LLMs as products"
+12/1/2023 19:09:35,221,2,Only facts,"Cites popular opinion (e.g., random Twitter, Reddit, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",,Disinformation,LLMs as products
+12/1/2023 19:15:29,222,4,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.), Cites academic researchers in relevant fields",Education,Disinformation,"""First contact"" with LLMs, LLMs in education"
+12/2/2023 18:52:42,223,3,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Business, Entertainment, Personal utility","Existential, Bias, Ethical",LLMs as products
+12/2/2023 18:58:29,224,1,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,"Creativity, Employment, Ethical",LLMs in content creation
+12/3/2023 2:28:14,225,3,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,Business,"China, International Politics, and Competition"
+12/3/2023 2:39:53,226,2,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites academic researchers in irrelevant/tangential fields","Employment, Business, Tedium",Employment,Automation of labor
+12/3/2023 2:43:35,227,3,Only facts,"Cites politicians, Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Education, Programming, Science","Education, Disinformation",LLMs as products
+12/3/2023 2:49:29,228,3,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites academic researchers in relevant fields","Technology, Efficiency, Personal utility","Bias, Discrimination, Disinformation",LLMs as products
+12/3/2023 2:50:52,229,2,Only facts,Cites politicians,,,Regulation of AI/LLMs
+12/3/2023 2:57:35,230,3,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)","Business, Tedium, Personal utility",Disinformation,LLMs in business
+12/3/2023 3:00:49,231,2,Opinions,"Cites celebrities, Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",Efficiency,"Bias, Discrimination, Influence",Existing issues with LLMs
+12/3/2023 3:04:38,232,2,Only facts,"Cites popular opinion (e.g., random Twitter, Reddit, etc.)",Efficiency,"Politics, Employment, Influence","China, International Politics, and Competition"
+12/3/2023 3:08:12,233,2,Opinions,Cites academic researchers in relevant fields,Business,"Employment, Disinformation","LLMs in the workplace, Automation of labor"
+12/3/2023 3:15:18,234,3,Opinions,No citations,,Influence,"China, International Politics, and Competition"
+12/3/2023 3:25:49,235,3,Opinions,No citations,,Ethical,Limitations of LLMs
+12/3/2023 3:41:11,236,4,Opinions,No citations,"Education, Science, Entertainment","Existential, Politics, Education, Creativity, Employment, Bias, Disinformation, Influence",Future of LLMs
+12/3/2023 3:45:26,237,1,Opinions,Cites academic researchers in relevant fields,,"Education, Creativity",LLMs in education
+12/3/2023 3:49:11,238,1,Only facts,No citations,,"Bias, Discrimination, Disinformation",Existing issues with LLMs
+12/3/2023 3:51:10,239,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,Ethical,"LLMs in content creation, LLMs in the workplace"
+12/3/2023 3:59:03,240,2,Only facts,No citations,,"Disinformation, Influence",LLMs as products
+12/3/2023 4:02:34,241,3,Opinions,No citations,,,
+12/3/2023 4:08:56,242,2,Opinions,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.), Cites academic researchers in relevant fields",Education,"Education, Disinformation",LLMs in education
+12/3/2023 4:10:06,243,3,Only facts,"Cites popular opinion (e.g., random Twitter, Reddit, etc.), Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",,,LLMs in education
+12/3/2023 4:11:43,244,3,Only facts,"Cites politicians, Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",,,"China, International Politics, and Competition"
+12/3/2023 4:12:51,245,5,Only facts,Cites academic researchers in relevant fields,Science,,Future of LLMs
+12/3/2023 4:22:13,246,2,Opinions,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.), Cites academic researchers in relevant fields",,"Bias, Discrimination, Influence","""First contact"" with LLMs"
+12/3/2023 4:27:03,247,3,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",Technology,"Bias, Discrimination, Disinformation","Future of LLMs, LLMs as products"
+12/3/2023 4:28:28,248,3,Only facts,No citations,"Business, Efficiency",,"China, International Politics, and Competition"
+12/3/2023 4:30:36,249,5,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)","Business, Tedium, Efficiency",,"LLMs in the workplace, LLMs in business"
+12/3/2023 4:36:18,250,2,Only facts,"Cites industry professionals (e.g., AI engineers, teachers in an article about education, etc.)",,Cybersecurity,Existing issues with LLMs
+12/3/2023 4:38:43,251,4,Opinions,No citations,"Tedium, Technology, Efficiency, Personal utility",Disinformation,LLMs as products
+12/3/2023 4:40:43,252,3,Only facts,"Cites politicians, Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.)",,Education,LLMs as products
+12/3/2023 4:44:14,253,2,Only facts,"Cites industry leaders (e.g., Elon Musk, Sam Altman, etc.), Cites academic researchers in relevant fields",,Bias,Existing issues with LLMs
+12/3/2023 4:46:10,254,1,Opinions,No citations,,,"Limitations of LLMs, LLMs as products"
